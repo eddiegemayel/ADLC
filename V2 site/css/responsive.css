@@ -62,6 +62,23 @@
 	}
 }
 
+@media (min-width: 1000px) and (max-width: 1100px){
+	#l2{
+  		width: 990px;
+	}
+	#l3{
+ 	 width: 990px;
+	}
+}
+
+@media (min-width: 900px) and (max-width: 1000px){
+	#l2{
+  		width: 910px;
+	}
+	#l3{
+ 	 width: 910px;
+	}
+}
 
 /*----------------------------------------------------------------------------------------------------For average screens*/
 @media (min-width: 1080px) and (max-width: 1600px){
