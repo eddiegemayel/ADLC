@@ -120,6 +120,23 @@ form
 {
   color: #1C97CA;
 }
+
+#l2{
+  width: 1400px;
+}
+
+#l3{
+  width: 1400px;
+}
+
+.l2{
+  text-align: right;
+}
+
+.l3{
+  text-align: right;
+}
+
 .banner
 {
   /*background: url(images/picjumbo-bg5.png) no-repeat fixed 30% 0%/cover;*/
@@ -143,11 +160,11 @@ form
     }
       .banner .bloco-destaque .l1 span { color: #00ccea }
     .banner .bloco-destaque .l2 {
-      font-size: 60px;
+      font-size: 50px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
     }
     .banner .bloco-destaque .l3 {
-      font-size: 30px;
+      font-size: 25px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
     }
     .p1 {
@@ -175,48 +192,31 @@ form
  
     }
 
-    /*diagnol div*/
-   /* .line1{
-      width: 920px;
-      height: 650px;
-      background-color:#00ccea;
-      border-bottom:1px solid #00ccea;
-      -webkit-transform: translateY(20px) translateX(785px) rotate(135deg);
-      position: absolute;
-      top: -5px;
-      left: -13px;
-      z-index: -1;
-    }*/
-
     #want-a-discount--button{
       color: #00ccea;
     }
 
     #want-a-discount--button:hover{
-       color: #ffffff;
+      color: #ffffff;
+      border: 1px solid #f2f2f2;
     }
 
     a.button.full{
       padding: 16px 72px !important;
       font-size: 16px;
       background-color: #f2f2f2;
-      border: 1px solid #00ccea;
+      border: 1px solid #FF9735;
       transition-duration: 0.1s;
       transition: all 0.2s, color 0.2s;
       animation: all spinAround 2s linear infinite;
-
-
-
     }
 
     a.button.full:hover {
-      background-color: #00d5f4;
+      background-color: #FF9735;
       color: #ffffff;
       text-shadow: 1px 1px 1px rgba(0,0,0,.5);
       box-shadow:inset 0px 0px 0px 2px #00ccea;
-
-
-
+      border: 1px solid #f2f2f2;
     }
 
 .banner2
