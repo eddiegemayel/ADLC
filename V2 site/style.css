@@ -122,25 +122,25 @@ form
 }
 
 #l2{
-  width: 1400px;
+  width: 620px;
 }
 
 #l3{
-  width: 1400px;
+  width: 620px;
 }
 
 .l2{
-  text-align: right;
+  text-align: left;
 }
 
 .l3{
-  text-align: right;
+  text-align: left;
 }
 
 .banner
 {
   /*background: url(images/picjumbo-bg5.png) no-repeat fixed 30% 0%/cover;*/
-  background: url(images/happyman-1.jpg) no-repeat fixed 30% 0%/cover;
+  background: url(images/happyman-2.jpg) no-repeat fixed 30% 0%/cover;
   padding: 90px 0px;
   cursor: default;
 
