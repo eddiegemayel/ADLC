@@ -166,6 +166,10 @@ and (orientation : landscape)
 			padding: 140px 0px;
 			background-position: 90% 0%;
 		}
+
+		.banner2{
+			background-position:40% 0%;
+		}
 		.big-text {
     		font-size: 20px;
 		}
@@ -235,6 +239,11 @@ and (orientation : landscape)
 			background-position: 92% 0%;
 
 		}
+
+		.banner2{
+			background-position:50% 0%;
+		}
+
 		.big-text {
     		font-size: 20px;
 		}
@@ -305,6 +314,11 @@ and (orientation : landscape)
 			padding: 140px 0px 60px;
 			background-position: 87% 0%;
 		}
+
+		.banner2{
+			background-position:50% 0%;
+		}
+
 		.big-text {
     		font-size: 15px;
 		}
