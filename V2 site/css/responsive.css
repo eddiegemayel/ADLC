@@ -41,8 +41,13 @@
 		width: 304px;
 		height: 195px;
 	}
+
 }
 @media (min-width: 768px) and (max-width: 1080px){
+	.banner{
+		background-position: -350px/cover;
+		padding: 100px 0px;
+	}
 
 	.button.full {
 	}
@@ -61,10 +66,7 @@
 		width: 728px;
 		margin: 0 auto;
 	}
-	.banner
-	{
-		padding: 100px 0px;
-	}
+
 	.big-text
 	{
 		font-size: 22px;
@@ -114,6 +116,7 @@ and (orientation : landscape)
 	.banner
 	{
 		padding: 140px 0px;
+/*		background-position: -190px -20px/cover ;*/
 	}
 	.big-text
 	{
