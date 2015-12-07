@@ -920,7 +920,7 @@ button.enviar:hover
 
 
 form.discount {
-      background-color: rgba( 0,0,0,0.2);
+    background-color: rgba( 0,0,0,0.2);
     padding: 8px;
     border-radius: 5px;
     font-size: 16px;
@@ -933,8 +933,9 @@ form.discount {
     -o-transition: all 0.5s ease-in;
     -ms-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in;
-        padding-top: 25px;
+    padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 20px;
 
 }
 form.discount{ 
