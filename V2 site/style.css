@@ -130,11 +130,9 @@ form
   width: 620px;
   margin-left: 23px;
 }
-
 .l2{
   text-align: left;
 }
-
 .l3{
   text-align: left;
 }
@@ -226,7 +224,6 @@ form
 {
   background: url(images/bg2.png) no-repeat fixed 30% 10%/cover;
   cursor: default;
-
 }
 
 .header-text
@@ -241,10 +238,9 @@ form
   text-align:center;
   color: #fff;
   font-size: 40px;
-    font-weight: 600;
-    font-family: 'Open Sans', 'Raleway', sans-serif;
-    line-height: 60px;
-    
+  font-weight: 600;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  line-height: 60px;  
 }
 
 
@@ -275,7 +271,7 @@ form
     padding: 17px 40px 0px 0px;
     width: 400px;
 }
-}
+
 .small-text a
 {
   color: #fff;
@@ -291,8 +287,6 @@ form
 a.button.button-left {
     border: 1px solid #fff;
     padding: 16px 72px !important;
-
-
 }
 
 a.button.button-right {
@@ -310,19 +304,16 @@ a.button.button-left:hover{
      background-color: #1d3c70;
      border: 1px solid #1d3c70;
      box-shadow:inset 0px 0px 0px 1px# 1d3c70;
-
 }
 
 .top-button
 {
-
   text-decoration: none;
   border-radius: 25px;
   font-family: 'Open Sans', 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 12px;
   text-transform: uppercase;
-
 }
 
 .green
@@ -345,7 +336,6 @@ a.button.button-left:hover{
 }
 .green:hover
 {
-
   box-shadow: 0 0 0 3px white inset;
   background-color: rgba(0,0,0,0.0);
 }
@@ -558,16 +548,13 @@ a.button.button-left:hover{
     color: #ffffff;
 }
 
-}
-.features
-{
+.features{
   padding: 60px 0px;
   background-color: #1d3c70;
   float: left;
   width: 100%;
 }
-.features-section
-{
+.features-section{
   text-align: center;
 }
 .features2
@@ -595,8 +582,8 @@ p.box-desc
   line-height: 60px;
   text-align: center;
 }
-.features-section ul
-{
+
+.features-section ul{
   margin: 30px 0px;
 }
 .features-section ul li
@@ -803,8 +790,7 @@ form input
 
 .clear { clear:both}
 
-form textarea
-{
+form textarea{
   width: 100%;
     border-radius: 5px;
     box-shadow: none;
@@ -1052,6 +1038,7 @@ display: none;
 
 
 /*--------------------------------------------------------WHY IS THIS NOT ON THE RESPONSIVE.CSS DOCUMENT?????????*/
+/*--------------------------------------------------------EVER HEARD OF COMMENTS?? K THANKS!!!!*/
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
