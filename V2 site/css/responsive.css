@@ -1,11 +1,11 @@
 /*-------------------------------------------------------------------------------------------For Larger screens*/
 @media (min-width: 1740px) and (max-width: 1780px){
 	#l2{
-  		width: 1375px;
+  		width: 1000px;
 	}
 
 	#l3{
- 	 width: 1375px;
+ 	 width: 1000px;
 	}
 }
 
@@ -219,6 +219,16 @@ and (orientation : landscape)
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+
+	#l2{
+		width: 480px;
+	}
+
+	#l3{
+		width:480px;
+	}
+
+
 	.banner
 		{
 			padding: 140px 0px;
@@ -279,6 +289,17 @@ and (orientation : landscape)
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+
+	#l2{
+  		width: 100%;
+  		margin-left: -55px;
+	}
+
+	#l3{
+  		width: 100%;
+  		margin-left: -58px;
+	}
+
 	.banner
 		{
 			padding: 140px 0px 60px;
