@@ -1,5 +1,4 @@
-
-
+/*css reset*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1024,9 +1023,8 @@ display: none;
 }
 
 
-/*--------------------------------------------------------WHY IS THIS NOT ON THE RESPONSIVE.CSS DOCUMENT?*/
-/*--------------------------------------------------------WHY IS THERE NO COMMENTS EXPLAINING ANYTHING?*/
-/*--------------------------------------------------------EVER HEARD OF COMMENTS? KKKKKK THANKS*/
+/*--------------------------------------------------------why is this not in the responsive.css document?*/
+/*--------------------------------------------------------i need comments. COMMENTS TO EXPLAIN. k thx*/
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
