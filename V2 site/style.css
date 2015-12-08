@@ -1018,7 +1018,7 @@ display: none;
     transition: all 0.5s ease-in !important;
     -moz-transition: all 0.5s ease-in !important;
     -o-transition: all 0.5s ease-in !important;
-    -ms-transition: all 0.5s ease-in
+    -ms-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in !important;
 }
 
