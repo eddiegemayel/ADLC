@@ -89,8 +89,8 @@ form
   display: block;
   letter-spacing: 4px;
   text-transform: uppercase;
-
 }
+
 .menu
 {
   float: right;
@@ -125,7 +125,6 @@ form
   width: 620px;
   margin-left: 20px;
 }
-
 #l3{
   width: 620px;
   margin-left: 23px;
@@ -462,9 +461,8 @@ a.button.button-left:hover{
   background-position: center top;
   background-color: #cccccc;
   margin-top: 400px;
-
-
 }
+
 .desc3 h2
 {
   font-size: 30px;
@@ -472,6 +470,7 @@ a.button.button-left:hover{
   color: #00aeef;
       margin-top: -100px;
 }
+
 .desc3 p {
     text-align: center;
     font-size: 18px;
@@ -745,26 +744,22 @@ p.box-desc
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
     float: left;
-      }
+}
 
 .contact-text p
 {
-
     color: #888;
     font-size: 17px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 .contact-text strong
 {
-
     color: #4b4a4a;
     font-size: 17px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
-
 }
 
 form input
@@ -784,8 +779,6 @@ form input
   -o-transition: all 0.5s ease-in;
   -ms-transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
-
-
 }
 
 .clear { clear:both}
@@ -809,7 +802,6 @@ form textarea{
   -ms-transition: all 0.5s ease-in;
   -o-transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
-
 }
 
 
@@ -850,7 +842,6 @@ form textarea:focus
 }
 
 
-
 div#want-a-discount--form, div#want-a-discount--form2, div#want-a-discount--form3{
     width: 75%;
     float: right;
@@ -865,12 +856,10 @@ div#want-a-discount--form, div#want-a-discount--form2, div#want-a-discount--form
     font: inherit;
     vertical-align: baseline;
     margin: 0 auto;
-
 }
 
 input.discount{
     width: 85%;
-
 }
 
 button.enviar{
@@ -922,10 +911,10 @@ form.discount {
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 20px;
-
 }
 form.discount{ 
-background-color: #85C65;}
+background-color: #85C65;
+}
 
 .footer
 {
@@ -959,7 +948,6 @@ ul.socialmedia li {
     font-size: 26px;
 }
 ul.socialmedia li a {
-
     color: #585c65;
     font-size: 26px;
 }
@@ -1036,9 +1024,9 @@ display: none;
 }
 
 
-
-/*--------------------------------------------------------WHY IS THIS NOT ON THE RESPONSIVE.CSS DOCUMENT?????????*/
-/*--------------------------------------------------------EVER HEARD OF COMMENTS?? K THANKS!!!!*/
+/*--------------------------------------------------------WHY IS THIS NOT ON THE RESPONSIVE.CSS DOCUMENT?*/
+/*--------------------------------------------------------WHY IS THERE NO COMMENTS EXPLAINING ANYTHING?*/
+/*--------------------------------------------------------EVER HEARD OF COMMENTS? KKKKKK THANKS*/
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
