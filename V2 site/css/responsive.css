@@ -12,8 +12,6 @@
 /*----------------------------------------------------------------------------------------------------For average screens*/
 @media (min-width: 1080px) and (max-width: 1600px){
 
-	.button.full {
-	}
 /*	#l2{
   		width: 1250px;
 	}
@@ -43,6 +41,7 @@
 	}
 
 }
+/*----------------------------------------------------------------------------------------------------For smaller screens*/
 @media (min-width: 768px) and (max-width: 1080px){
 	.banner{
 		background-position: 80% 0%;
@@ -60,9 +59,7 @@
 		padding: 10px 20px !important;
 	}
 
-
-	.container
-	{
+	.container{
 		width: 728px;
 		margin: 0 auto;
 	}
@@ -76,8 +73,7 @@
     	font-size: 34px;
     	z-index: 0
 	}
-	.small-text 
-	{
+	.small-text {
     	width: 85%;
     	margin: 0px auto;
     	font-size: 16px;
@@ -217,8 +213,7 @@ and (orientation : landscape)
 }
 @media (min-width: 480px) and (max-width: 640px)
 {
-	.container
-	{
+	.container{
 		width: 440px;
 		margin: 0 auto;
 		padding: 0px 20px;
@@ -231,19 +226,15 @@ and (orientation : landscape)
 	#l3{
 		width:100%;
 	}
-
-
 	.banner
 		{
 			padding: 140px 0px;
 			background-position: 92% 0%;
-
 		}
 
 		.banner2{
 			background-position:50% 0%;
 		}
-
 		.big-text {
     		font-size: 20px;
 		}
@@ -298,12 +289,10 @@ and (orientation : landscape)
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
-
 	#l2{
   		width: 100%;
   		margin-left: -55px;
 	}
-
 	#l3{
   		width: 100%;
   		margin-left: -58px;
@@ -405,7 +394,6 @@ and (orientation : landscape)
  }
 }
 
-
 @media only screen and (max-width: 767px){
 
 	.banner .bloco-destaque { width: 100% !important; float: none; }
@@ -499,6 +487,6 @@ button.enviar {
 .banner .bloco-destaque .l3 {
     font-size: 40px;
     font-family: 'Open Sans', 'Raleway', sans-serif;
+}
 
-
-}}
+}
