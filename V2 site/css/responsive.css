@@ -1,11 +1,15 @@
 /*-------------------------------------------------------------------------------------------For Larger screens*/
-@media (min-width: 1740px) and (max-width: 1780px){
+@media (min-width: 1601px) and (max-width: 1920px){
 	#l2{
   		width: 1000px;
 	}
 
 	#l3{
  	 width: 1000px;
+	}
+
+	.banner{
+		padding: 130px 0px;
 	}
 }
 
