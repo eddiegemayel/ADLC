@@ -195,6 +195,7 @@ form
       float: left;
     }
 
+
     #want-a-discount--button:hover{
       color: #ffffff;
       /*border: 1px solid #f2f2f2;*/
@@ -301,7 +302,7 @@ a.button.button-right:hover {
 a.button.button-left:hover{
      background-color: #1d3c70;
      border: 1px solid #1d3c70;
-     box-shadow:inset 0px 0px 0px 1px# 1d3c70;
+     box-shadow:inset 0px 0px 0px 1px  #1d3c70;
 }
 
 .top-button

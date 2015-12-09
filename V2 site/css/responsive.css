@@ -3,11 +3,17 @@
 @media (min-width: 1601px) and (max-width: 1920px){
 	#l2{
   		width: 1000px;
+  		margin-left: -112px;
 	}
 
 	#l3{
  		width: 1000px;
+ 		margin-left: -110px;
 	}
+
+	#buttons{
+      margin-left: -110px;
+    }
 
 	.banner{
 		padding: 130px 0px;
@@ -16,8 +22,7 @@
 
 /*----------------------------------------------------------------------------------------------------For average screens*/
 @media (min-width: 1080px) and (max-width: 1600px){
-	.container
-	{
+	.container{
 		width: 1040px;
 		margin: 0 auto;
 		padding: 0px 20px;
@@ -35,7 +40,6 @@
 		width: 304px;
 		height: 195px;
 	}
-
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
 @media (min-width: 768px) and (max-width: 1080px){
