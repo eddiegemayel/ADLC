@@ -67,8 +67,13 @@ form
 .header .logo img{
   width:500px;
   height:100px;
-
 }
+
+.slick{
+  width: 100%;
+  margin: 0 auto;
+}
+
 .container
 {
   width: 1080px;
@@ -219,6 +224,200 @@ form
       /*box-shadow:inset 0px 0px 0px 2px #00ccea;*/
       /*border: 1px solid #f2f2f2;*/
     }
+.banner-2
+{
+  /*background: url(images/picjumbo-bg5.png) no-repeat fixed 30% 0%/cover;*/
+  background: url(images/happyman-2.jpg) no-repeat fixed 30% 0%/cover;
+  padding: 90px 0px;
+  cursor: default;
+
+}
+  .banner-2 .bloco-destaque {
+    width: 100%;
+    color: #fff;
+    padding-top: 200px;
+    text-align: center;
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+
+  }
+    .banner-2 .bloco-destaque .l1 {
+      font-size: 32px;
+
+    }
+      .banner-2 .bloco-destaque .l1 span { color: #00ccea }
+    .banner-2 .bloco-destaque .l2 {
+      font-size: 50px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+    }
+    .banner-2 .bloco-destaque .l3 {
+      font-size: 25px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+    }
+    .p1 {
+          font-size: 20px;
+          padding: 16px 0px 0px 0px;
+    }
+    .banner-2 .bloco-destaque .botoes {
+      margin: 20px;
+      font-family:  'Open Sans', 'Raleway', sans-serif;
+      overflow: hidden;
+    }
+
+    .banner-2 .bloco-destaque a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 16px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+      color: white;
+      width: 30%;
+      margin: 20px 0px 0px 0px;
+      float: none;
+      transition: background 0.2s, color 0.2s;
+ 
+    }
+
+    #want-a-discount--button{
+      color: #00ccea;
+      float: left;
+    }
+
+
+    #want-a-discount--button:hover{
+      color: #ffffff;
+      /*border: 1px solid #f2f2f2;*/
+    }
+
+    a.button.full{
+      padding: 16px 72px !important;
+      font-size: 16px;
+      background-color: #f2f2f2;
+      border: 1px solid #FF9735;
+      transition-duration: 0.1s;
+      transition: all 0.2s, color 0.2s;
+      animation: all spinAround 2s linear infinite;
+    }
+
+    a.button.full:hover {
+      background-color: #FF9735;
+      color: #ffffff;
+      /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+      /*box-shadow:inset 0px 0px 0px 2px #00ccea;*/
+      /*border: 1px solid #f2f2f2;*/
+    }
+
+.banner-3
+{
+  /*background: url(images/picjumbo-bg5.png) no-repeat fixed 30% 0%/cover;*/
+  background: url(images/happyman-3.jpg) no-repeat fixed 30% 0%/cover;
+  padding: 90px 0px;
+  cursor: default;
+
+}
+  .banner-3 .bloco-destaque {
+    width: 100%;
+    color: #fff;
+    padding-top: 200px;
+    text-align: center;
+    /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+    font-family: 'Open Sans', 'Raleway', sans-serif;
+
+  }
+    .banner-3 .bloco-destaque .l1 {
+      font-size: 32px;
+
+    }
+      .banner-3 .bloco-destaque .l1 span { color: #00ccea }
+    .banner-3 .bloco-destaque .l2 {
+      font-size: 50px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+    }
+    .banner-3 .bloco-destaque .l3 {
+      font-size: 25px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+    }
+    .p1 {
+          font-size: 20px;
+          padding: 16px 0px 0px 0px;
+    }
+    .banner-3 .bloco-destaque .botoes {
+      margin: 20px;
+      font-family:  'Open Sans', 'Raleway', sans-serif;
+      overflow: hidden;
+    }
+
+    .banner-3 .bloco-destaque a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 16px;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+      color: white;
+      width: 30%;
+      margin: 20px 0px 0px 0px;
+      float: none;
+      transition: background 0.2s, color 0.2s;
+ 
+    }
+
+    #want-a-discount--button{
+      color: #00ccea;
+      float: left;
+    }
+
+
+    #want-a-discount--button:hover{
+      color: #ffffff;
+      /*border: 1px solid #f2f2f2;*/
+    }
+
+    a.button.full{
+      padding: 16px 72px !important;
+      font-size: 16px;
+      background-color: #f2f2f2;
+      border: 1px solid #FF9735;
+      transition-duration: 0.1s;
+      transition: all 0.2s, color 0.2s;
+      animation: all spinAround 2s linear infinite;
+    }
+
+    a.button.full:hover {
+      background-color: #FF9735;
+      color: #ffffff;
+      /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
+      /*box-shadow:inset 0px 0px 0px 2px #00ccea;*/
+      /*border: 1px solid #f2f2f2;*/
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .banner2
 {

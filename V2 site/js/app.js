@@ -4,10 +4,10 @@ $(document).ready(function() {
     $('.bloco-destaque').toggleClass('is-visible')
   });
 
-  $('.banner').slick({
-    cssEase:ease,
-    dots:true,
-    lazyLoad:ondemand
+  $('.slick').slick({
+    dots:true, 
+    lazyLoad:'ondemand',
+    rtl:true
   });
 
   $('#want-a-discount--button2').on('click', function () {
