@@ -305,12 +305,12 @@ form input{
 
 form textarea{
   width: 100%;
-    border-radius: 5px;
-    box-shadow: none;
-    background: none repeat scroll 0% 0% #F7F6F6;
-    padding: 15px;
-    font-size: 16px;
-    font-weight: 400;
+  border-radius: 5px;
+  box-shadow: none;
+  background: none repeat scroll 0% 0% #F7F6F6;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 400;
   height: 180px;
   margin-top: 30px;
   font-family: inherit;
@@ -345,7 +345,7 @@ margin: 50px auto 0px;
 border-radius : 25px;
 }
 button.submit:hover{
-  background:#888;
+  background:#00ccea;
 }
 form input:focus{
   border: 2px solid #888;
@@ -395,13 +395,50 @@ display: none;
    left: 150px; 
    width: 100%;
 }
-.banner1 h2{
+.banner2 h1{
+  position: absolute; 
+   top: 255px; 
+   left: 150px; 
+   width: 100%;
+}
+.banner3 h1{
   position: absolute; 
    top: 255px; 
    left: 150px; 
    width: 100%;
 }
     .banner1 a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+      border-radius: 9px;
+      margin-bottom: 16px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+      color: white;
+      width: 170px;
+      margin: 20px 0px 0px 0px;
+      float: none;
+      transition: background 0.2s, color 0.2s;
+ 
+    }
+
+      .banner2 a.button {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+      border-radius: 9px;
+      margin-bottom: 16px;
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+      color: white;
+      width: 170px;
+      margin: 20px 0px 0px 0px;
+      float: none;
+      transition: background 0.2s, color 0.2s;
+ 
+    }
+      .banner3 a.button {
       display: inline-block;
       text-decoration: none;
       padding: 10px;
@@ -473,6 +510,24 @@ display: none;
 
 .banner1 span{
 	color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.banner2 span{
+  color: white; 
+   font: bold 24px/45px Helvetica, Sans-Serif; 
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px; 
+}
+
+.banner3 span{
+  color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
