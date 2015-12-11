@@ -400,11 +400,11 @@ display: none;
       text-decoration: none;
       padding: 10px;
       text-align: center;
-      border-radius: 20px;
+      border-radius: 9px;
       margin-bottom: 16px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
       color: white;
-      width: 150px;
+      width: 170px;
       margin: 20px 0px 0px 0px;
       float: none;
       transition: background 0.2s, color 0.2s;
@@ -439,7 +439,7 @@ display: none;
 
 .banner1 a{
   position: absolute; 
-   top: 200px; 
+   top: 350px; 
    left: 150px; 
    width: 120px;
 }
