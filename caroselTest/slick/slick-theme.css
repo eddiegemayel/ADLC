@@ -123,7 +123,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -45px;
+    bottom: -135px;
 
     display: block;
 
@@ -133,6 +133,7 @@
     list-style: none;
 
     text-align: center;
+    color:#FF9735;
 }
 .slick-dots li
 {
@@ -156,11 +157,12 @@
 
     width: 20px;
     height: 20px;
-    padding: 35px;
+    padding: 0px;
 
     cursor: pointer;
 
     color: transparent;
+    /*color:#FF9735;*/
     border: 0;
     outline: none;
     background: transparent;

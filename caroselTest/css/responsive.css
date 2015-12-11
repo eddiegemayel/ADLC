@@ -1,22 +1,28 @@
 /*Stylesheet for media queries that help the page maintain responsiveness*/
 /*-------------------------------------------------------------------------------------------For Larger screens*/
-@media (min-width: 1601px) and (max-width: 1980px){
+@media (min-width: 1601px) and (max-width: 2000px){
 	#l2{
   		width: 1000px;
   		margin-left: -112px;
 	}
-
 	#l3{
  		width: 1000px;
  		margin-left: -110px;
 	}
-
 	#buttons{
       margin-left: -110px;
     }
-
 	.banner{
 		padding: 140px 0px;
+	}
+	.banner1 img{
+  		height:700px; 
+	}
+	.banner2 img{
+  		height:700px; 
+	}
+	.banner3 img{
+  		height:700px; 
 	}
 }
 
@@ -27,18 +33,27 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
-	.features-section ul li
-	{
+	.features-section ul li{
 		width: 346px;
 	}
-	.stories-section ul li
-	{
+	.stories-section ul li{
 		width: 304px;
 	}
-	.story-img img
-	{
+	.story-img img{
 		width: 304px;
 		height: 195px;
+	}
+	.banner1 img{
+  		height:680px; 
+	}
+	.banner2 img{
+  		height:680px; 
+	}
+	.banner3 img{
+  		height:680px; 
+	}
+	.slick-dots{
+    bottom: -100px !important;
 	}
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
@@ -71,6 +86,9 @@
     	margin: 0px auto;
     	font-size: 16px;
 	}
+	.desc{
+		margin-top: -60px !important;
+	}
 	.desc h2{
     	font-size: 25px;
 	}
@@ -89,7 +107,13 @@
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
 	}
+	.slick-dots{
+    bottom: 100px !important;
+	}
 }
+
+
+
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
@@ -114,6 +138,9 @@ and (orientation : landscape)
     	margin: 0px auto;
     	font-size: 16px;
 	}
+	.desc{
+		margin-top: -120px !important;
+	}
 	.desc h2 {
     	font-size: 25px;
 	}
@@ -134,6 +161,8 @@ and (orientation : landscape)
 	font-family: 'Open Sans', sans-serif;
 	}
 }
+
+/*tablet media query*/
 @media (min-width: 640px) and (max-width: 768px)
 {
 	.container{
@@ -164,6 +193,9 @@ and (orientation : landscape)
 		.desc {
     		padding: 60px 0px;
 		}
+		.desc{
+		margin-top: -180px !important;
+	}
 		.desc h2 {
     		font-size: 22px;
 		}
@@ -191,6 +223,9 @@ and (orientation : landscape)
 		}
 		.contact {
     		padding: 140px 0px;
+		}
+		.slick-dots{
+    		bottom: 170px !important;
 		}
 }
 @media (min-width: 480px) and (max-width: 640px)
@@ -230,6 +265,9 @@ and (orientation : landscape)
 		.desc {
     		padding: 60px 0px;
 		}
+		.desc{
+		margin-top: -190px !important;
+	}
 		.desc h2 {
     		font-size: 22px;
 		}
@@ -258,6 +296,9 @@ and (orientation : landscape)
 		}
 		.contact {
     		padding: 140px 0px;
+		}
+		.slick-dots{
+    		bottom: 260px !important;
 		}
 }
 
@@ -305,6 +346,9 @@ and (orientation : landscape)
 		.desc {
     		padding: 60px 0px;
 		}
+		.desc{
+			margin-top: -250px !important;
+		}	
 		.desc h2 {
     		font-size: 22px;
 		}
@@ -364,6 +408,9 @@ and (orientation : landscape)
 		.button.submit {
  			padding: 15px 70px; 
  		}		
+ 		.slick-dots{
+    		bottom: 280px !important;
+		}
 }
 
 /*---------------------- Mobile media queries*/
@@ -474,5 +521,39 @@ button.enviar {
 
   .badge {
     display: none;
+  }
+}
+
+
+@media(max-width: 768px) {
+  .banner {
+    padding: 0 0 20px 0 !important;
+  }
+
+  .banner .bloco-destaque .l2 {
+    font-size: 2em;
+  }
+
+  .banner .bloco-destaque .l3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px !important;
+  }
+
+  .banner .bloco-destaque .botoes {
+    width: 100%;
+  }
+
+  .desc2 {
+    background-size: cover;
+  }
+
+  .desc3 h2 {
+    margin-top: 40px;
+    display: inline-block;
+  }
+
+  .form.discount {
+    margin-top: 120px !important;
   }
 }
