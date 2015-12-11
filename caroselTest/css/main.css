@@ -242,6 +242,38 @@ p.box-desc
   color: #aab1bf;
 }
 
+.desc2
+{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-align: center;
+  padding: 49px 0px 70px 0px;
+  background-image: url("images/bgbadge.png");
+  background-color: #cccccc;
+}
+.desc2 h2
+{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0px 0px 15px 400px;
+  color: #00aeef;
+}
+.desc2 p {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 50%;
+    margin: 25px 43px 0px 493px;
+    font-family: 'Open Sans', sans-serif;
+    color: #aab1bf;
+  }
+
+  img.badge{
+    float:left;
+    margin-top: -50px;
+  }
+
+
 /*------------------------------------------------------------------------------------------------------------------Contact*/
 .contact
 {

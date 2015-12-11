@@ -489,5 +489,24 @@ button.enviar {
     font-size: 40px;
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
+}
 
+
+
+/*Real life experiences section*/
+@media(max-width: 1000px) {
+  .desc2 p {
+    margin: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .desc2 h2 {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+
+  .badge {
+    display: none;
+  }
 }
