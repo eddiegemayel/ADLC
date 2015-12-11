@@ -389,12 +389,18 @@ display: none;
 	/*background: url(../images/happyman-1.jpg) no-repeat fixed 30% 0%/cover;*/
 }
 
-/*.banner1 h1{
+.banner1 h1{
 	position: absolute; 
    top: 200px; 
-   left: 50px; 
+   left: 150px; 
    width: 100%;
-}*/
+}
+.banner1 h2{
+  position: absolute; 
+   top: 255px; 
+   left: 150px; 
+   width: 100%;
+}
     .banner1 a.button {
       display: inline-block;
       text-decoration: none;
