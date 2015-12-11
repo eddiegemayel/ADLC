@@ -47,9 +47,6 @@
 		background-position: 80% 0%;
 		padding: 100px 0px;
 	}
-
-	.button.full {
-	}
 	.button.button-left {
 		float: left;
 		padding: 10px 20px !important;
@@ -58,20 +55,59 @@
 		float: right;
 		padding: 10px 20px !important;
 	}
-
 	.container{
 		width: 728px;
 		margin: 0 auto;
 	}
-
-	.big-text
-	{
+	.big-text{
 		font-size: 22px;
 	}
-	.header-text h2 
-	{
+	.header-text h2{
     	font-size: 34px;
     	z-index: 0
+	}
+	.small-text{
+    	width: 85%;
+    	margin: 0px auto;
+    	font-size: 16px;
+	}
+	.desc h2{
+    	font-size: 25px;
+	}
+	.desc p{
+    	font-size: 16px;
+	}
+	.features-section ul li {
+    	width: 242px;
+	}
+	.features-section ul li p {
+    	font-size: 14px;
+    	width: 95%;
+	}
+	.contact-section{
+	width: 80%;
+	margin: 0 auto;
+	font-family: 'Open Sans', sans-serif;
+	}
+}
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) 
+{
+	.container{
+		width: 728px;
+		margin: 0 auto;
+	}
+	.banner{
+		padding: 140px 0px;
+/*		background-position: -190px -20px/cover ;*/
+	}
+	.big-text{
+		font-size: 22px;
+	}
+	.header-text h2 {
+    	font-size: 34px;
 	}
 	.small-text {
     	width: 85%;
@@ -92,58 +128,7 @@
     	font-size: 14px;
     	width: 95%;
 	}
-	.contact-section
-	{
-	width: 80%;
-	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
-	}
-}
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) 
-{
-	.container
-	{
-		width: 728px;
-		margin: 0 auto;
-	}
-	.banner
-	{
-		padding: 140px 0px;
-/*		background-position: -190px -20px/cover ;*/
-	}
-	.big-text
-	{
-		font-size: 22px;
-	}
-	.header-text h2 
-	{
-    	font-size: 34px;
-	}
-	.small-text 
-	{
-    	width: 85%;
-    	margin: 0px auto;
-    	font-size: 16px;
-	}
-	.desc h2 {
-    	font-size: 25px;
-	}
-	.desc p {
-    	font-size: 16px;
-	}
-	.features-section ul li {
-    	width: 242px;
-	}
-	.features-section ul li p {
-   
-    	font-size: 14px;
-    	width: 95%;
-	}
-	.contact-section
-	{
+	.contact-section{
 	width: 80%;
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
@@ -151,14 +136,12 @@ and (orientation : landscape)
 }
 @media (min-width: 640px) and (max-width: 768px)
 {
-	.container
-	{
+	.container{
 		width: 600px;
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
-	.banner
-		{
+	.banner{
 			padding: 140px 0px;
 			background-position: 90% 0%;
 		}
@@ -208,7 +191,6 @@ and (orientation : landscape)
 		}
 		.contact {
     		padding: 140px 0px;
-    
 		}
 }
 @media (min-width: 480px) and (max-width: 640px)
@@ -226,12 +208,10 @@ and (orientation : landscape)
 	#l3{
 		width:100%;
 	}
-	.banner
-		{
+	.banner{
 			padding: 140px 0px;
 			background-position: 92% 0%;
 		}
-
 		.banner2{
 			background-position:50% 0%;
 		}
@@ -278,14 +258,12 @@ and (orientation : landscape)
 		}
 		.contact {
     		padding: 140px 0px;
-    
 		}
 }
 
 @media (min-width: 20px) and (max-width: 480px)
 {
-	.container
-	{
+	.container{
 		width: 280px;
 		margin: 0 auto;
 		padding: 0px 20px;
@@ -298,13 +276,10 @@ and (orientation : landscape)
   		width: 100%;
   		margin-left: -40px;
 	}
-
-	.banner
-		{
+	.banner{
 			padding: 140px 0px 60px;
 			background-position: 87% 0%;
 		}
-
 		.banner2{
 			background-position:50% 0%;
 		}
@@ -337,8 +312,7 @@ and (orientation : landscape)
     		font-size: 14px;
 			width: 100%;
 		}
-		.features
-		{
+		.features{
 			padding: 140px 0px;
 		}
 		.features-section ul li {
@@ -347,16 +321,14 @@ and (orientation : landscape)
     		width: 90%;
     		margin: 40px auto;
 		}
-		.features-section ul li p
-		{
+		.features-section ul li p{
 			width: 100%;
 		}
 		p.box-desc {
    	 		line-height: 30px;
 			font-size: 14px;
 		}
-		.stories
-		{
+		.stories{
 			padding: 140px 0px;
 		}
 		.stories-section ul li {
@@ -413,16 +385,14 @@ button.submit {
 		margin-bottom: 10px;
 	}
 
-
-
 #mobile-header {
 display: block;
 }
-.header
-{
+
+.header{
 	width: 100%;
-	margin-bottom: -108px;
-	position: fixed;
+	/*margin-bottom: -108px;*/
+	/*position: fixed;*/
 }
 .header .logo img{
 	width: 100%;
@@ -431,13 +401,11 @@ display: block;
 .banner {
     padding: 160px 0px 80px;
 }
-.menu
-{
+.menu{
 	display: none;
 }
 
-.contact-text
-{ 
+.contact-text{ 
 	width: 100%;
 	margin: 50px auto;
 	padding: 0px 0px 0px 0px;
@@ -448,8 +416,7 @@ display: block;
     float: left;
     	}
 
- form
-{
+ form{
 	margin: 0;
 	padding: 25px 0px 0px 0px;
 	border: 0;
@@ -462,8 +429,7 @@ display: block;
 }
 
 
- form.discount
-{
+ form.discount{
 	margin: 0;
 	padding: 25px;
 	border: 0;
