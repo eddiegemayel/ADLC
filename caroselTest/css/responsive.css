@@ -56,45 +56,45 @@
     	bottom: -70px !important;
 	}
 	.banner1 span{
-   		font-size: 29px;
+   		font-size: 38px;
 	}
 	.banner2 span{
-   		font-size: 29px;
+   		font-size: 38px;
 	}
 	.banner3 span{
-   		font-size: 23px;
+   		font-size: 38px;
 	}
 	.banner1 h1{
 		position: absolute; 
-  		top: 280px; 
-  		left: 110px; 
+  		top: 140px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner2 h1{
 		position: absolute; 
-  		top: 280px; 
-  		left: 110px; 
+  		top: 140px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner3 h1{
 		position: absolute; 
-  		top: 280px; 
-  		left: 110px; 
+  		top: 140px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner1 a{
-    	top: 350px; 
-    	left: 110px; 
+    	top: 210px; 
+    	left: 60px; 
     	width: 120px;
 	}
 	.banner2 a{
-    	top: 350px; 
-    	left: 110px; 
+    	top: 210px; 
+    	left: 60px; 
     	width: 120px;
 	}
 	.banner3 a{
-    	top: 350px; 
-    	left: 110px; 
+    	top: 210px; 
+    	left: 60px; 
     	width: 120px;
 	}
 	.desc{
@@ -156,50 +156,48 @@
     	visibility: hidden;
 	}
 	.banner1 span{
-   		font-size: 26px;
+   		font-size: 29px;
 	}
 	.banner2 span{
-   		font-size: 26px;
+   		font-size: 29px;
 	}
 	.banner3 span{
-   		font-size: 20px;
+   		font-size: 29px;
 	}
 	.banner1 h1{
 		position: absolute; 
   		top: 160px; 
-  		left: 70px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner2 h1{
 		position: absolute; 
   		top: 160px; 
-  		left: 70px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner3 h1{
 		position: absolute; 
   		top: 160px; 
-  		left: 70px; 
+  		left: 55px; 
   		width: 100%;
 	}
 	.banner1 a{
     	top: 230px; 
-    	left: 70px; 
+    	left: 60px; 
     	width: 120px;
 	}
 	.banner2 a{
     	top: 230px; 
-    	left: 70px; 
+    	left: 60px; 
     	width: 120px;
 	}
 	.banner3 a{
     	top: 230px; 
-    	left: 70px; 
+    	left: 60px; 
     	width: 120px;
 	}
 }
-
-
 
 @media only screen 
 and (min-device-width : 768px) 
@@ -315,13 +313,13 @@ and (orientation : landscape)
     		visibility: hidden;
 		}
 		.banner1 span{
-   		font-size: 23px;
+   		font-size: 28px;
 	}
 	.banner2 span{
-   		font-size: 23px;
+   		font-size: 28px;
 	}
 	.banner3 span{
-   		font-size: 15px;
+   		font-size: 28px;
 	}
 	.banner1 h1{
 		position: absolute; 
@@ -430,13 +428,13 @@ and (orientation : landscape)
     		visibility: hidden;
 		}
 		.banner1 span{
-   		font-size: 23px;
+   		font-size: 28px;
 	}
 	.banner2 span{
-   		font-size: 23px;
+   		font-size: 28px;
 	}
 	.banner3 span{
-   		font-size: 15px;
+   		font-size: 28px;
 	}
 	.banner1 h1{
 		position: absolute; 
@@ -584,15 +582,13 @@ and (orientation : landscape)
     		visibility: hidden;
 		}
 		.banner1 span{
-		background: rgb(0, 0, 0); 
-   		background: rgba(0, 0, 0, 0.7);
    		font-size: 20px;
 	}
 	.banner2 span{
-   		font-size: 16px;
+   		font-size: 20px;
 	}
 	.banner3 span{
-   		font-size: 11px;
+   		font-size: 20px;
 	}
 	.banner1 h1{
 		position: absolute; 

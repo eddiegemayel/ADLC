@@ -393,39 +393,39 @@ display: none;
 }*/
 .banner1 h1{
 	position: absolute; 
-  top: 240px; 
-  left: 150px; 
+  top: 200px; 
+  left: 55px; 
   width: 100%;
 }
 .banner2 h1{
   position: absolute; 
-  top: 240px; 
-  left: 150px; 
+  top: 200px; 
+  left: 55px; 
   width: 100%;
 }
 .banner3 h1{
   position: absolute; 
-  top: 240px; 
-  left: 150px; 
+  top: 200px; 
+  left: 55px; 
   width: 100%;
 }
 
 .banner1 a{
   position: absolute; 
-  top: 350px; 
-  left: 150px; 
+  top: 250px; 
+  left: 60px; 
   width: 120px;
 }
 .banner2 a{
   position: absolute; 
-  top: 350px; 
-  left: 150px; 
+  top: 250px; 
+  left: 60px; 
   width: 120px;
 }
 .banner3 a{
   position: absolute; 
-  top: 350px; 
-  left: 150px; 
+  top: 250px; 
+  left: 60px; 
   width: 120px;
 }
 
@@ -535,10 +535,8 @@ display: none;
   color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
    padding: 10px;
-   font-size: 30px;
+   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
@@ -546,10 +544,8 @@ display: none;
   color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
    padding: 10px;
-   font-size: 30px;
+   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
