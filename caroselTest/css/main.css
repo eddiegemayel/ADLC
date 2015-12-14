@@ -247,7 +247,7 @@ p.box-desc{
     }
 
 
-/*------------------------------------------------------------------------------------------------------------------Contact*/
+/*------------------------------------------------------------------------------------------------------------------Contact section*/
 .contact{
   padding: 60px 0px;
   width: 100%;
@@ -386,25 +386,49 @@ display: none;
 	position: relative;
 	/*background: url(../images/happyman-1.jpg) no-repeat fixed 30% 0%/cover;*/
 }
-
+/*.banner1 h1{
+  width: 620px;
+  margin-left: 20px;
+  text-align: left;
+}*/
 .banner1 h1{
 	position: absolute; 
-   top: 200px; 
-   left: 150px; 
-   width: 100%;
+  top: 240px; 
+  left: 150px; 
+  width: 100%;
 }
 .banner2 h1{
   position: absolute; 
-   top: 255px; 
-   left: 150px; 
-   width: 100%;
+  top: 240px; 
+  left: 150px; 
+  width: 100%;
 }
 .banner3 h1{
   position: absolute; 
-   top: 255px; 
-   left: 150px; 
-   width: 100%;
+  top: 240px; 
+  left: 150px; 
+  width: 100%;
 }
+
+.banner1 a{
+  position: absolute; 
+  top: 350px; 
+  left: 150px; 
+  width: 120px;
+}
+.banner2 a{
+  position: absolute; 
+  top: 350px; 
+  left: 150px; 
+  width: 120px;
+}
+.banner3 a{
+  position: absolute; 
+  top: 350px; 
+  left: 150px; 
+  width: 120px;
+}
+
     .banner1 a.button {
       display: inline-block;
       text-decoration: none;
@@ -475,25 +499,6 @@ display: none;
       /*border: 1px solid #f2f2f2;*/
     }
 
-.banner1 a{
-  position: absolute; 
-   top: 350px; 
-   left: 150px; 
-   width: 120px;
-}
-.banner2 a{
-  position: absolute; 
-   top: 350px; 
-   left: 150px; 
-   width: 120px;
-}
-.banner3 a{
-  position: absolute; 
-   top: 350px; 
-   left: 150px; 
-   width: 120px;
-}
-
 .banner1 img{
 	float: right;
 	clear:none;
@@ -519,9 +524,11 @@ display: none;
 	color: white; 
    font: bold 24px/45px Helvetica, Sans-Serif; 
    letter-spacing: -1px;  
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   /*background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.7);*/
+   padding: 10px;
+   font-size: 45px;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
 .banner2 span{
@@ -530,7 +537,9 @@ display: none;
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   padding: 10px;
+   font-size: 30px;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
 .banner3 span{
@@ -539,7 +548,9 @@ display: none;
    letter-spacing: -1px;  
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-   padding: 10px; 
+   padding: 10px;
+   font-size: 30px;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
 .banner2{

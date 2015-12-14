@@ -53,7 +53,49 @@
   		height:680px; 
 	}
 	.slick-dots{
-    bottom: -100px !important;
+    	bottom: -100px !important;
+	}
+	.banner1 span{
+   		font-size: 29px;
+	}
+	.banner2 span{
+   		font-size: 29px;
+	}
+	.banner3 span{
+   		font-size: 23px;
+	}
+	.banner1 h1{
+		position: absolute; 
+  		top: 280px; 
+  		left: 110px; 
+  		width: 100%;
+	}
+	.banner2 h1{
+		position: absolute; 
+  		top: 280px; 
+  		left: 110px; 
+  		width: 100%;
+	}
+	.banner3 h1{
+		position: absolute; 
+  		top: 280px; 
+  		left: 110px; 
+  		width: 100%;
+	}
+	.banner1 a{
+    	top: 350px; 
+    	left: 110px; 
+    	width: 120px;
+	}
+	.banner2 a{
+    	top: 350px; 
+    	left: 110px; 
+    	width: 120px;
+	}
+	.banner3 a{
+    	top: 350px; 
+    	left: 110px; 
+    	width: 120px;
 	}
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
@@ -87,7 +129,7 @@
     	font-size: 16px;
 	}
 	.desc{
-		margin-top: -60px !important;
+		margin-top: -80px !important;
 	}
 	.desc h2{
     	font-size: 25px;
@@ -108,7 +150,49 @@
 	font-family: 'Open Sans', sans-serif;
 	}
 	.slick-dots{
-    bottom: 100px !important;
+    	visibility: hidden;
+	}
+	.banner1 span{
+   		font-size: 26px;
+	}
+	.banner2 span{
+   		font-size: 26px;
+	}
+	.banner3 span{
+   		font-size: 20px;
+	}
+	.banner1 h1{
+		position: absolute; 
+  		top: 160px; 
+  		left: 70px; 
+  		width: 100%;
+	}
+	.banner2 h1{
+		position: absolute; 
+  		top: 160px; 
+  		left: 70px; 
+  		width: 100%;
+	}
+	.banner3 h1{
+		position: absolute; 
+  		top: 160px; 
+  		left: 70px; 
+  		width: 100%;
+	}
+	.banner1 a{
+    	top: 230px; 
+    	left: 70px; 
+    	width: 120px;
+	}
+	.banner2 a{
+    	top: 230px; 
+    	left: 70px; 
+    	width: 120px;
+	}
+	.banner3 a{
+    	top: 230px; 
+    	left: 70px; 
+    	width: 120px;
 	}
 }
 
@@ -225,8 +309,50 @@ and (orientation : landscape)
     		padding: 140px 0px;
 		}
 		.slick-dots{
-    		bottom: 170px !important;
+    		visibility: hidden;
 		}
+		.banner1 span{
+   		font-size: 23px;
+	}
+	.banner2 span{
+   		font-size: 23px;
+	}
+	.banner3 span{
+   		font-size: 15px;
+	}
+	.banner1 h1{
+		position: absolute; 
+  		top: 130px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner2 h1{
+		position: absolute; 
+  		top: 130px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner3 h1{
+		position: absolute; 
+  		top: 130px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner1 a{
+    	top: 200px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+	.banner2 a{
+    	top: 200px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+	.banner3 a{
+    	top: 200px; 
+    	left: 30px; 
+    	width: 120px;
+	}
 }
 @media (min-width: 480px) and (max-width: 640px)
 {
@@ -298,10 +424,53 @@ and (orientation : landscape)
     		padding: 140px 0px;
 		}
 		.slick-dots{
-    		bottom: 260px !important;
+    		visibility: hidden;
 		}
+		.banner1 span{
+   		font-size: 23px;
+	}
+	.banner2 span{
+   		font-size: 23px;
+	}
+	.banner3 span{
+   		font-size: 15px;
+	}
+	.banner1 h1{
+		position: absolute; 
+  		top: 90px; 
+  		left: 15px; 
+  		width: 100%;
+	}
+	.banner2 h1{
+		position: absolute; 
+  		top: 90px; 
+  		left: 15px; 
+  		width: 100%;
+	}
+	.banner3 h1{
+		position: absolute; 
+  		top: 90px; 
+  		left: 15px; 
+  		width: 100%;
+	}
+	.banner1 a{
+    	top: 160px; 
+    	left: 15px; 
+    	width: 120px;
+	}
+	.banner2 a{
+    	top: 160px; 
+    	left: 15px; 
+    	width: 120px;
+	}
+	.banner3 a{
+    	top: 160px; 
+    	left: 15px; 
+    	width: 120px;
+	}
 }
 
+/*mobile*/
 @media (min-width: 20px) and (max-width: 480px)
 {
 	.container{
@@ -347,7 +516,7 @@ and (orientation : landscape)
     		padding: 60px 0px;
 		}
 		.desc{
-			margin-top: -250px !important;
+			margin-top: -300px !important;
 		}	
 		.desc h2 {
     		font-size: 22px;
@@ -409,8 +578,55 @@ and (orientation : landscape)
  			padding: 15px 70px; 
  		}		
  		.slick-dots{
-    		bottom: 280px !important;
+    		visibility: hidden;
 		}
+		.banner1 span{
+		background: rgb(0, 0, 0); 
+   		background: rgba(0, 0, 0, 0.7);
+   		font-size: 20px;
+	}
+	.banner2 span{
+   		font-size: 16px;
+	}
+	.banner3 span{
+   		font-size: 11px;
+	}
+	.banner1 h1{
+		position: absolute; 
+  		top: 50px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner2 h1{
+		position: absolute; 
+  		top: 50px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner3 h1{
+		position: absolute; 
+  		top: 50px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner1 a{
+    	top: 110px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+	.banner2 a{
+    	top: 110px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+	.banner3 a{
+    	top: 110px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+	#want-a-discount--button{
+      width: 50%;
+    }
 }
 
 /*---------------------- Mobile media queries*/
