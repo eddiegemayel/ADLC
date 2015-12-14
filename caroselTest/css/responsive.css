@@ -44,16 +44,16 @@
 		height: 195px;
 	}
 	.banner1 img{
-  		height:650px; 
+  		height:640px; 
 	}
 	.banner2 img{
-  		height:650px; 
+  		height:640px; 
 	}
 	.banner3 img{
-  		height:650px; 
+  		height:640px; 
 	}
 	.slick-dots{
-    	bottom: -100px !important;
+    	bottom: -70px !important;
 	}
 	.banner1 span{
    		font-size: 29px;
@@ -96,6 +96,9 @@
     	top: 350px; 
     	left: 110px; 
     	width: 120px;
+	}
+	.desc{
+		margin-top: 10px;
 	}
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
