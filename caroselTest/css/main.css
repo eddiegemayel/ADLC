@@ -369,7 +369,7 @@ form textarea:focus{
 display: none;
 }
 
-/*------------------------------------------------------------------------------------------------------------------Wrapper & Carosel*/
+/*------------------------------------------------------------------------------------------------------------------Wrapper & Carosel / Header text and CTA button*/
 .wrapper{
 	width: 100%;
 	height: 550px;
@@ -409,7 +409,6 @@ display: none;
   left: 55px; 
   width: 100%;
 }
-
 .banner1 a{
   position: absolute; 
   top: 250px; 
@@ -437,7 +436,7 @@ display: none;
       border-radius: 9px;
       margin-bottom: 16px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: white;
+      color: #ffffff;
       width: 170px;
       margin: 20px 0px 0px 0px;
       float: none;
@@ -452,7 +451,7 @@ display: none;
       border-radius: 9px;
       margin-bottom: 16px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: white;
+      color: #ffffff;
       width: 170px;
       margin: 20px 0px 0px 0px;
       float: none;
@@ -466,25 +465,49 @@ display: none;
       border-radius: 9px;
       margin-bottom: 16px;
       font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: white;
+      color: #ffffff;
       width: 170px;
       margin: 20px 0px 0px 0px;
       float: none;
       transition: background 0.2s, color 0.2s;
     }
 
-    #want-a-discount--button{
+      #stickyBtn {
+      display: inline-block;
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+      /*border-radius: 9px;  color: #00ccea;*/
+      font-family: 'Open Sans', 'Raleway', sans-serif;
+      color: #ffffff;
+      width: 70%;
+      margin: 20px 0px 0px 0px;
+      float: none;
+      transition: background 0.2s, color 0.2s;
+      position: fixed;
+      bottom: 0;
+    }
+
+    #stickyBtn:hover{
       color: #00ccea;
+    }
+
+    #stickyBtn{
+      visibility: hidden;
+    }
+
+    #want-a-discount--button{
+      /*color: #00ccea;*/
       float: left;
     }
     #want-a-discount--button:hover{
-      color: #ffffff;
+      color: #00ccea;
       /*border: 1px solid #f2f2f2;*/
     }
       a.button.full{
       padding: 16px 72px !important;
       font-size: 16px;
-      background-color: #f2f2f2;
+      background-color: #FF9735;
       border: 1px solid #FF9735;
       transition-duration: 0.1s;
       transition: all 0.2s, color 0.2s;
@@ -492,7 +515,7 @@ display: none;
     }
 
     a.button.full:hover {
-      background-color: #FF9735;
+      background-color: #f2f2f2;
       color: #ffffff;
       /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
       /*box-shadow:inset 0px 0px 0px 2px #00ccea;*/

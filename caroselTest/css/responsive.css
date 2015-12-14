@@ -354,6 +354,11 @@ and (orientation : landscape)
     	left: 30px; 
     	width: 120px;
 	}
+	/*#want-a-discount--button{
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }*/
 }
 @media (min-width: 480px) and (max-width: 640px)
 {
@@ -582,13 +587,13 @@ and (orientation : landscape)
     		visibility: hidden;
 		}
 		.banner1 span{
-   		font-size: 20px;
+   		font-size: 30px;
 	}
 	.banner2 span{
-   		font-size: 20px;
+   		font-size: 30px;
 	}
 	.banner3 span{
-   		font-size: 20px;
+   		font-size: 30px;
 	}
 	.banner1 h1{
 		position: absolute; 
@@ -625,6 +630,10 @@ and (orientation : landscape)
 	}
 	#want-a-discount--button{
       width: 50%;
+      visibility: hidden;
+    }
+    #stickyBtn{
+      visibility: visible;
     }
 }
 
