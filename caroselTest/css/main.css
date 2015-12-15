@@ -234,17 +234,17 @@ p.box-desc{
     color: #aab1bf;
   }
 
-  img.badge{
-    float:left;
-    margin-top: -50px;
-  }
+img.badge{
+  float:left;
+  margin-top: -50px;
+}
 
 
- .banner .bloco-destaque .botoes {
-      margin: 20px;
-      font-family:  'Open Sans', 'Raleway', sans-serif;
-      overflow: hidden;
-    }
+.banner .bloco-destaque .botoes {
+  margin: 20px;
+  font-family:  'Open Sans', 'Raleway', sans-serif;
+  overflow: hidden;
+}
 
 
 /*------------------------------------------------------------------------------------------------------------------Contact section*/
@@ -264,11 +264,11 @@ p.box-desc{
   width: 44%;
   margin: 50px auto;
   padding: 0px 0px 0px 0px;
-    color: #888;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
-    float: left;
+  color: #888;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
 }
 .contact-text p{
     color: #888;
@@ -282,7 +282,6 @@ p.box-desc{
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
-
 form input{
   background: none repeat scroll 0% 0% #F7F6F6;
   padding: 15px;
@@ -300,9 +299,7 @@ form input{
   -ms-transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
 }
-
 .clear { clear:both}
-
 form textarea{
   width: 100%;
   border-radius: 5px;
@@ -323,7 +320,6 @@ form textarea{
   -o-transition: all 0.5s ease-in;
   -webkit-transition: all 0.5s ease-in;
 }
-
 button.submit{
 background: #1C97CA;
 border: medium none;
