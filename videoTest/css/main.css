@@ -62,10 +62,6 @@ form{
 }
 
 /*----------------------------------------------------------------------------------------------------------------Nav*/
-.menu{
-	/*float: right;*/
-	/*clear:both !important;*/
-}
 .menu ul li{
   display: inline-block;
   padding: 30px 15px;
@@ -187,7 +183,6 @@ p.box-desc{
   margin: 0 auto;
   font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-
 }
 .desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -234,19 +229,15 @@ p.box-desc{
     font-family: 'Open Sans', sans-serif;
     color: #aab1bf;
   }
-
 img.badge{
   float:left;
   margin-top: -50px;
 }
-
-
 .banner .bloco-destaque .botoes {
   margin: 20px;
   font-family:  'Open Sans', 'Raleway', sans-serif;
   overflow: hidden;
 }
-
 
 /*------------------------------------------------------------------------------------------------------------------Contact section*/
 .contact{
@@ -418,7 +409,6 @@ display: none;
   left: 60px; 
   width: 120px;
 }
-
     .banner1 a.button {
       display: inline-block;
       text-decoration: none;
@@ -479,39 +469,34 @@ display: none;
       bottom: 0;
     }
 
-    #stickyBtn:hover{
-      color: #00ccea;
-    }
+#stickyBtn:hover{
+  color: #00ccea;
+}
+#stickyBtn{
+  visibility: hidden;
+}
 
-    #stickyBtn{
-      visibility: hidden;
-    }
-
-    #want-a-discount--button{
-      /*color: #00ccea;*/
-      float: left;
-    }
-    #want-a-discount--button:hover{
-      color: #00ccea;
-      /*border: 1px solid #f2f2f2;*/
-    }
-      a.button.full{
-      padding: 16px 72px !important;
-      font-size: 16px;
-      background-color: #FF9735;
-      border: 1px solid #FF9735;
-      transition-duration: 0.1s;
-      transition: all 0.2s, color 0.2s;
-      animation: all spinAround 2s linear infinite;
-    }
-
-    a.button.full:hover {
-      background-color: #f2f2f2;
-      color: #ffffff;
-      /*text-shadow: 1px 1px 1px rgba(0,0,0,.5);*/
-      /*box-shadow:inset 0px 0px 0px 2px #00ccea;*/
-      /*border: 1px solid #f2f2f2;*/
-    }
+#want-a-discount--button{
+  /*color: #00ccea;*/
+  float: left;
+}
+#want-a-discount--button:hover{
+  color: #00ccea;
+  /*border: 1px solid #f2f2f2;*/
+}
+a.button.full{
+  padding: 16px 72px !important;
+  font-size: 16px;
+  background-color: #FF9735;
+  border: 1px solid #FF9735;
+  transition-duration: 0.1s;
+  transition: all 0.2s, color 0.2s;
+  animation: all spinAround 2s linear infinite;
+}
+a.button.full:hover {
+  background-color: #f2f2f2;
+  color: #ffffff;
+}
 
 .banner1 img{
 	float: right;
@@ -547,19 +532,19 @@ display: none;
 
 .banner2 span{
   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   padding: 10px;
-   font-size: 45px;
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px;
+  font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
 .banner3 span{
   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   padding: 10px;
-   font-size: 45px;
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px;
+  font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 
