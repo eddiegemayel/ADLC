@@ -17,11 +17,14 @@ $(document).ready(function() {
 	});
   //slide out menu
   $(function () {
+    //once area is clicked
     $("#clickme").click(function () {
       if($(this).parent().css("right") == "-420px"){
-        $(this).parent().animate({right:'0px'}, {queue: false, duration: 500});
-      }else {
-        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 500});}
+        //animate it out
+        $(this).parent().animate({right:'0px'}, {queue: false, duration: 800});
+      }else{
+        //animate it back in
+        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 950});}
     });
   });
 });

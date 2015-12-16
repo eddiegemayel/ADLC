@@ -562,27 +562,39 @@ a.button.full:hover {
 
 /* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
 #slideout {
-    /*background: #666;*/
-    /*background: rgb(0, 0, 0); */
-    background: rgba(0, 174, 215, 0.87);
+    /*background: rgba(0, 174, 215, 0.87);*/
+    background: rgba(214, 214, 214, 0.8);
     position: absolute;
-    width: 420px;
+    width: 450px;
     height: 700px;
     top: 80px;
     right:-420px;
     padding-left: 20px;
+    overflow-y: scroll;
 }  
 #clickme {
     position: absolute;
-    top: 0; left: 0;
+    top: 0; 
+    left: 0;
     height: 50px;
-    width: 20px;
-    background: rgb(0, 0, 0); 
-    background: rgba(255, 151, 53, 0.87);
+    width: 50px;
+    /*background: rgb(0, 0, 0); 
+    background: rgba(255, 151, 53, 0.87);*/
+    /*background-image:url(../images/iconmonstr-menu-icon.svg);*/
+}
+#slideout img{
+   position: absolute;
+    top: 0; 
+    left: 0;
+    height: 50px;
+    width: 50px;
 }
 #slidecontent {
     float:left;
-    overflow: scroll;
+}
+#slideout #slidecontent p{
+  padding-left: 40px;
+  line-height: 1.5;
 }
 
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
