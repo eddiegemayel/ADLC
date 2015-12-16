@@ -577,20 +577,23 @@ display: none;
 
 /* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
 #slideout {
-    background: #666;
+    /*background: #666;*/
+    /*background: rgb(0, 0, 0); */
+    background: rgba(0, 174, 215, 0.87);
     position: absolute;
     width: 420px;
     height: 700px;
     top: 80px;
     right:-420px;
-    padding-left: 20px
+    padding-left: 20px;
 }  
 #clickme {
     position: absolute;
     top: 0; left: 0;
-    height: 20px;
+    height: 50px;
     width: 20px;
-    background: #fff;
+    background: rgb(0, 0, 0); 
+    background: rgba(255, 151, 53, 0.87);
 }
 #slidecontent {
     float:left;
@@ -598,8 +601,7 @@ display: none;
 }
 
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
-.footer
-{
+.footer{
   width: 100%;
   background-color: #373A42;
   float: left;
@@ -633,7 +635,6 @@ ul.socialmedia li a {
   color: #585c65;
   font-size: 26px;
 }
-
 i.icon-twitter {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -674,7 +675,6 @@ i.icon-instagram {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-
 }
 i.icon-instagram:hover {
   height: 100%;
