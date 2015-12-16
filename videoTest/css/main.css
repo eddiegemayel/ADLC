@@ -343,7 +343,6 @@ form textarea:focus{
   border: 2px solid #888;
   background-color: #fff;
 }
-
 /*Is Visible*/
 .is-visible { display: block !important; 
     transition: all 0.5s ease-in !important;
@@ -352,7 +351,6 @@ form textarea:focus{
     -ms-transition: all 0.5s ease-in;
     -webkit-transition: all 0.5s ease-in !important;
 }
-
 #mobile-header {
 display: none;
 }
@@ -362,12 +360,10 @@ display: none;
 	width: 100%;
 	height: 550px;
 }
-
 .container_slick{
 	width: 100%;
 	height: 550px;
 }
-
 .banner1{
 	width: 100%;
 	height: 550px;
@@ -559,6 +555,7 @@ a.button.full:hover {
     position: absolute;
     width: 450px;
     height: 700px;
+    /*height: auto;*/
     top: 80px;
     right:-420px;
     padding-left: 20px;
@@ -575,14 +572,14 @@ a.button.full:hover {
     /*background-image:url(../images/iconmonstr-menu-icon.svg);*/
 }
 #slideout img{
-   position: absolute;
-    top: 0; 
-    left: 0;
-    height: 50px;
-    width: 50px;
+  position: absolute;
+  top: 0; 
+  left: 0;
+  height: 50px;
+  width: 50px;
 }
 #slidecontent {
-    float:left;
+  float:left;
 }
 #slideout #slidecontent p{
   padding-left: 40px;
