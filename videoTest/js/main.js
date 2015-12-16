@@ -18,10 +18,10 @@ $(document).ready(function() {
   //slide out menu
   $(function () {
     $("#clickme").click(function () {
-      if($(this).parent().css("right") == "-380px"){
+      if($(this).parent().css("right") == "-420px"){
         $(this).parent().animate({right:'0px'}, {queue: false, duration: 500});
       }else {
-        $(this).parent().animate({right:'-380px'}, {queue: false, duration: 500});}
+        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 500});}
     });
   });
 });

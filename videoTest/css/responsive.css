@@ -247,8 +247,7 @@ and (orientation : landscape){
 }
 
 /*tablet media query*/
-@media (min-width: 640px) and (max-width: 768px)
-{
+@media (min-width: 640px) and (max-width: 768px){
 	.container{
 		width: 600px;
 		margin: 0 auto;
@@ -359,8 +358,8 @@ and (orientation : landscape){
       width: 100%;
     }*/
 }
-@media (min-width: 480px) and (max-width: 640px)
-{
+/**/
+@media (min-width: 480px) and (max-width: 640px){
 	.container{
 		width: 440px;
 		margin: 0 auto;
@@ -470,6 +469,9 @@ and (orientation : landscape){
     	top: 160px; 
     	left: 15px; 
     	width: 120px;
+	}
+	#slideout{
+		visibility: hidden;
 	}
 }
 
@@ -630,6 +632,9 @@ and (orientation : landscape){
     }
     #stickyBtn{
       visibility: visible;
+    }
+    #slideout{
+    	visibility: hidden;
     }
 }
 
