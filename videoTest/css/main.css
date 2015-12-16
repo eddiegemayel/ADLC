@@ -497,39 +497,34 @@ a.button.full:hover {
   background-color: #f2f2f2;
   color: #ffffff;
 }
-
 .banner1 img{
 	float: right;
 	clear:none;
   height:auto; 
   width:100%;
 }
-
 .banner2 img{
   float: right;
   clear:none;
   height:auto; 
   width:100%;
 }
-
 .banner3 img{
   float: right;
   clear:none;
   height:auto; 
   width:100%;
 }
-
 .banner1 span{
 	color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
-   /*background: rgb(0, 0, 0); 
-   background: rgba(0, 0, 0, 0.7);*/
-   padding: 10px;
-   font-size: 45px;
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  /*background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.7);*/
+  padding: 10px;
+  font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
-
 .banner2 span{
   color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
@@ -538,7 +533,6 @@ a.button.full:hover {
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
-
 .banner3 span{
   color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
@@ -547,13 +541,11 @@ a.button.full:hover {
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
-
 .banner2{
 	width: 100%;
 	height: 100px;
   position: relative;
 }
-
 .banner3{
 	width: 100%;
 	height: 100px;
@@ -610,8 +602,7 @@ a.button.full:hover {
     font-weight: 300;
     font-size: 14px;
 }
-.footer p.copyright a
-{
+.footer p.copyright a{
   color: #585C65;
   text-decoration: none;
   border-bottom: 1px dotted #585c65;
