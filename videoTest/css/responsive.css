@@ -476,6 +476,9 @@ and (orientation : landscape){
 	#slideout{
 		visibility: hidden;
 	}
+	.info{
+		visibility: hidden;
+	}
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------Mobile media queries*/
@@ -637,6 +640,9 @@ and (orientation : landscape){
       visibility: visible;
     }
     #slideout{
+    	visibility: hidden;
+    }
+    .info{
     	visibility: hidden;
     }
 }

@@ -16,7 +16,7 @@ $(document).ready(function() {
   		});
 	});
   //slide out menu
-  $(function () {
+  $(function(){
     //once area is clicked
     $("#clickme").click(function () {
       if($(this).parent().css("right") == "-420px"){
@@ -24,7 +24,18 @@ $(document).ready(function() {
         $(this).parent().animate({right:'0px'}, {queue: false, duration: 800});
       }else{
         //animate it back in
-        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 950});}
+        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 950});
+      }
+    });
+  });
+
+  $(function(){
+    $("#clickme").click(function(){
+      if($(".info").css("right") == "50px"){
+        $(".info").animate({right:'470px'}, {queue: false, duration: 800});
+      }else{
+        $(".info").animate({right:'50px'}, {queue: false, duration: 950});
+      }
     });
   });
 });

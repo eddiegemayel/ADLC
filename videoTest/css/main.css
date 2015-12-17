@@ -547,6 +547,18 @@ a.button.full:hover {
 	height: 100px;
   position: relative;
 }
+.info{
+  /*border: 1px solid black;*/
+  position: absolute;
+  top: 479px;
+  right: 50px;
+  /*right:-220px;*/
+  /*float: right;*/
+  width: 450px;
+  height: 300px;
+  display: block;
+  clear: both;
+}
 
 /* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
 #slideout {
@@ -555,11 +567,13 @@ a.button.full:hover {
     position: absolute;
     width: 450px;
     height: 700px;
-    /*height: auto;*/
     top: 80px;
     right:-420px;
     padding-left: 20px;
     overflow-y: scroll;
+    /*height: auto;*/
+    /*left: 1800px;*/
+    /*bottom: 700px;*/
 }  
 #clickme {
     position: absolute;
