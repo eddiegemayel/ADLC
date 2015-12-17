@@ -66,6 +66,9 @@
     .info{
     	visibility: hidden;
     }
+    #watchBtn{
+    	visibility: hidden;
+    }
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
 @media (min-width: 768px) and (max-width: 1080px){
@@ -141,6 +144,9 @@
     .info{
     	visibility: hidden;
     }
+    #watchBtn{
+    	visibility: hidden;
+    }
 }
 
 @media only screen 
@@ -192,6 +198,9 @@ and (orientation : landscape){
     	visibility: hidden;
     }
     .info{
+    	visibility: hidden;
+    }
+    #watchBtn{
     	visibility: hidden;
     }
 }
@@ -288,6 +297,9 @@ and (orientation : landscape){
     .info{
     	visibility: hidden;
     }
+    #watchBtn{
+    	visibility: hidden;
+    }
 }
 /**/
 @media (min-width: 480px) and (max-width: 640px){
@@ -379,6 +391,9 @@ and (orientation : landscape){
 	.info{
 		visibility: hidden;
 	}
+	 #watchBtn{
+    	visibility: hidden;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------Mobile media queries*/
@@ -514,6 +529,9 @@ and (orientation : landscape){
     	visibility: hidden;
     }
     .info{
+    	visibility: hidden;
+    }
+    #watchBtn{
     	visibility: hidden;
     }
 }
