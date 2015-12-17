@@ -484,7 +484,6 @@ a.button.full{
   padding: 16px 72px !important;
   font-size: 16px;
   background-color: #FF9735;
-  border: 1px solid #FF9735;
   transition-duration: 0.1s;
   transition: all 0.2s, color 0.2s;
   animation: all spinAround 2s linear infinite;
@@ -607,6 +606,19 @@ a.button.full:hover {
   width:420px;
   left: 30px;
   /*top: 5px;*/
+}
+.info button{
+  padding: 16px 72px !important;
+  font-size: 16px;
+  /*background-color: #FF9735;*/
+  background: rgba(222, 222, 218, 0.85);
+  transition-duration: 0.1s;
+  transition: all 0.2s, color 0.2s;
+  animation: all spinAround 2s linear infinite;
+}
+.info button:hover {
+  background-color: #f2f2f2;
+  color: black;
 }
 
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
