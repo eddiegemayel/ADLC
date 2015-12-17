@@ -40,16 +40,44 @@ $(document).ready(function() {
     });
   });
 
-  //section click, change button
-  $(function(){
-    $(".section").click(function(){
-      if($("#watchBtn").css("visibility") == "visible"){
-        $("#watchBtn").css("visibility", "hidden");
-        console.log("hide");
-      }else{
-        $("#watchBtn").css("visibility", "visible");
-        console.log("show");
-      }
+  //section click, hide/show button
+  // $(function(){
+  //   $(".section").click(function(){
+  //     if($("#watchBtn").css("visibility") == "visible"){
+  //       $("#watchBtn").css("visibility", "hidden");
+  //       console.log("hide");
+  //     }else{
+  //       $("#watchBtn").css("visibility", "visible");
+  //       console.log("show");
+  //     }
+  //   });
+  // });
+  
+  //change button text
+   $(function(){
+    $("#video1").click(function(){
+      $("#watchBtn").html("Video 1");
+    });
+    $("#video2").click(function(){
+      $("#watchBtn").html("Video 2");
+    });
+    $("#video3").click(function(){
+      $("#watchBtn").html("Video 3");
+    });
+    $("#video4").click(function(){
+      $("#watchBtn").html("Video 4");
+    });
+    $("#video5").click(function(){
+      $("#watchBtn").html("Video 5");
+    });
+    $("#video6").click(function(){
+      $("#watchBtn").html("Video 6");
+    });
+    $("#video7").click(function(){
+      $("#watchBtn").html("Video 7");
+    });
+    $("#video8").click(function(){
+      $("#watchBtn").html("Video 8");
     });
   });
 
