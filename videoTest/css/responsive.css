@@ -18,12 +18,6 @@
 	.banner1 img{
   		height:700px; 
 	}
-	.banner2 img{
-  		height:700px; 
-	}
-	.banner3 img{
-  		height:700px; 
-	}
 }
 
 /*----------------------------------------------------------------------------------------------------For average screens*/
@@ -46,37 +40,13 @@
 	.banner1 img{
   		height:640px; 
 	}
-	.banner2 img{
-  		height:640px; 
-	}
-	.banner3 img{
-  		height:640px; 
-	}
 	.slick-dots{
     	bottom: -70px !important;
 	}
 	.banner1 span{
    		font-size: 38px;
 	}
-	.banner2 span{
-   		font-size: 38px;
-	}
-	.banner3 span{
-   		font-size: 38px;
-	}
 	.banner1 h1{
-		position: absolute; 
-  		top: 140px; 
-  		left: 55px; 
-  		width: 100%;
-	}
-	.banner2 h1{
-		position: absolute; 
-  		top: 140px; 
-  		left: 55px; 
-  		width: 100%;
-	}
-	.banner3 h1{
 		position: absolute; 
   		top: 140px; 
   		left: 55px; 
@@ -87,19 +57,15 @@
     	left: 60px; 
     	width: 120px;
 	}
-	.banner2 a{
-    	top: 210px; 
-    	left: 60px; 
-    	width: 120px;
-	}
-	.banner3 a{
-    	top: 210px; 
-    	left: 60px; 
-    	width: 120px;
-	}
 	.desc{
 		margin-top: 14px;
 	}
+	#slideout{
+    	visibility: hidden;
+    }
+    .info{
+    	visibility: hidden;
+    }
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
 @media (min-width: 768px) and (max-width: 1080px){
@@ -158,25 +124,7 @@
 	.banner1 span{
    		font-size: 29px;
 	}
-	.banner2 span{
-   		font-size: 29px;
-	}
-	.banner3 span{
-   		font-size: 29px;
-	}
 	.banner1 h1{
-		position: absolute; 
-  		top: 160px; 
-  		left: 55px; 
-  		width: 100%;
-	}
-	.banner2 h1{
-		position: absolute; 
-  		top: 160px; 
-  		left: 55px; 
-  		width: 100%;
-	}
-	.banner3 h1{
 		position: absolute; 
   		top: 160px; 
   		left: 55px; 
@@ -187,16 +135,12 @@
     	left: 60px; 
     	width: 120px;
 	}
-	.banner2 a{
-    	top: 230px; 
-    	left: 60px; 
-    	width: 120px;
-	}
-	.banner3 a{
-    	top: 230px; 
-    	left: 60px; 
-    	width: 120px;
-	}
+	#slideout{
+    	visibility: hidden;
+    }
+    .info{
+    	visibility: hidden;
+    }
 }
 
 @media only screen 
@@ -244,6 +188,12 @@ and (orientation : landscape){
 	margin: 0 auto;
 	font-family: 'Open Sans', sans-serif;
 	}
+	#slideout{
+    	visibility: hidden;
+    }
+    .info{
+    	visibility: hidden;
+    }
 }
 
 /*tablet media query*/
@@ -313,41 +263,13 @@ and (orientation : landscape){
 	.banner1 span{
    		font-size: 28px;
 	}
-	.banner2 span{
-   		font-size: 28px;
-	}
-	.banner3 span{
-   		font-size: 28px;
-	}
 	.banner1 h1{
 		position: absolute; 
   		top: 130px; 
   		left: 30px; 
   		width: 100%;
 	}
-	.banner2 h1{
-		position: absolute; 
-  		top: 130px; 
-  		left: 30px; 
-  		width: 100%;
-	}
-	.banner3 h1{
-		position: absolute; 
-  		top: 130px; 
-  		left: 30px; 
-  		width: 100%;
-	}
 	.banner1 a{
-    	top: 200px; 
-    	left: 30px; 
-    	width: 120px;
-	}
-	.banner2 a{
-    	top: 200px; 
-    	left: 30px; 
-    	width: 120px;
-	}
-	.banner3 a{
     	top: 200px; 
     	left: 30px; 
     	width: 120px;
@@ -359,6 +281,12 @@ and (orientation : landscape){
     }*/
     #slideout{
     	height: 370px;
+    }
+    #slideout{
+    	visibility: hidden;
+    }
+    .info{
+    	visibility: hidden;
     }
 }
 /**/
@@ -434,41 +362,13 @@ and (orientation : landscape){
 	.banner1 span{
    		font-size: 28px;
 	}
-	.banner2 span{
-   		font-size: 28px;
-	}
-	.banner3 span{
-   		font-size: 28px;
-	}
 	.banner1 h1{
 		position: absolute; 
   		top: 90px; 
   		left: 15px; 
   		width: 100%;
 	}
-	.banner2 h1{
-		position: absolute; 
-  		top: 90px; 
-  		left: 15px; 
-  		width: 100%;
-	}
-	.banner3 h1{
-		position: absolute; 
-  		top: 90px; 
-  		left: 15px; 
-  		width: 100%;
-	}
 	.banner1 a{
-    	top: 160px; 
-    	left: 15px; 
-    	width: 120px;
-	}
-	.banner2 a{
-    	top: 160px; 
-    	left: 15px; 
-    	width: 120px;
-	}
-	.banner3 a{
     	top: 160px; 
     	left: 15px; 
     	width: 120px;
@@ -503,7 +403,6 @@ and (orientation : landscape){
 	.banner2{
 		background-position:50% 0%;
 	}
-
 	.big-text {
     	font-size: 15px;
 	}
@@ -593,41 +492,13 @@ and (orientation : landscape){
 	.banner1 span{
    		font-size: 30px;
 	}
-	.banner2 span{
-   		font-size: 30px;
-	}
-	.banner3 span{
-   		font-size: 30px;
-	}
 	.banner1 h1{
 		position: absolute; 
   		top: 50px; 
   		left: 30px; 
   		width: 100%;
 	}
-	.banner2 h1{
-		position: absolute; 
-  		top: 50px; 
-  		left: 30px; 
-  		width: 100%;
-	}
-	.banner3 h1{
-		position: absolute; 
-  		top: 50px; 
-  		left: 30px; 
-  		width: 100%;
-	}
 	.banner1 a{
-    	top: 110px; 
-    	left: 30px; 
-    	width: 120px;
-	}
-	.banner2 a{
-    	top: 110px; 
-    	left: 30px; 
-    	width: 120px;
-	}
-	.banner3 a{
     	top: 110px; 
     	left: 30px; 
     	width: 120px;
@@ -742,7 +613,6 @@ and (orientation : landscape){
   }
 }
 
-
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
@@ -765,7 +635,6 @@ and (orientation : landscape){
     margin-top: 40px;
     display: inline-block;
   }
-
   .form.discount {
     margin-top: 120px !important;
   }

@@ -21,7 +21,7 @@ $(document).ready(function() {
     $("#clickme").click(function () {
       if($(this).parent().css("right") == "-420px"){
         //animate it out
-        $(this).parent().animate({right:'0px'}, {queue: false, duration: 800});
+        $(this).parent().animate({right:'0px'}, {queue: false, duration: 825});
       }else{
         //animate it back in
         $(this).parent().animate({right:'-420px'}, {queue: false, duration: 950});
@@ -29,13 +29,28 @@ $(document).ready(function() {
     });
   });
 
+  //info slide out div
   $(function(){
     $("#clickme").click(function(){
       if($(".info").css("right") == "50px"){
-        $(".info").animate({right:'470px'}, {queue: false, duration: 800});
+        $(".info").animate({right:'470px'}, {queue: false, duration: 825});
       }else{
         $(".info").animate({right:'50px'}, {queue: false, duration: 950});
       }
     });
   });
+
+  //section click, change button
+  $(function(){
+    $(".section").click(function(){
+      if($("#watchBtn").css("visibility") == "visible"){
+        $("#watchBtn").css("visibility", "hidden");
+        console.log("hide");
+      }else{
+        $("#watchBtn").css("visibility", "visible");
+        console.log("show");
+      }
+    });
+  });
+
 });
