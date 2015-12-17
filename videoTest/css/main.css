@@ -585,6 +585,15 @@ a.button.full:hover {
   padding-left: 40px;
   line-height: 1.5;
 }
+.section{
+  position: relative;
+  border-left: 1px black solid;
+  border-bottom: 1px black solid;
+  height: 200px;
+  width:420px;
+  left: 30px;
+  /*top: 5px;*/
+}
 
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
 .footer{
