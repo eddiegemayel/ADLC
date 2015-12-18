@@ -1,20 +1,22 @@
 //wait for document to be ready
 $(document).ready(function() {
-  	//Smooth Scroll jQuery implemented from CSS Tricks
-  	$(function() {
-  		$('a[href*=#]:not([href=#])').click(function() {
-    		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      		var target = $(this.hash);
-      		target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      		if (target.length) {
-        		$('html,body').animate({
-          		scrollTop: target.offset().top
+
+  //Smooth Scroll jQuery implemented from CSS Tricks
+  $(function() {
+  	$('a[href*=#]:not([href=#])').click(function() {
+    	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      	var target = $(this.hash);
+      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      	if (target.length) {
+        	$('html,body').animate({
+          	scrollTop: target.offset().top
         	}, 1000);
         		return false;
-      			}
-    		}
-  		});
+      		}
+    	}
+  	});
 	});
+
   //slide out menu
   $(function(){
     //once area is clicked
@@ -39,23 +41,10 @@ $(document).ready(function() {
       }
     });
   });
-
-  //section click, hide/show button
-  // $(function(){
-  //   $(".section").click(function(){
-  //     if($("#watchBtn").css("visibility") == "visible"){
-  //       $("#watchBtn").css("visibility", "hidden");
-  //       console.log("hide");
-  //     }else{
-  //       $("#watchBtn").css("visibility", "visible");
-  //       console.log("show");
-  //     }
-  //   });
-  // });
   
   //change info div text
   //depending on which video is selected
-   $(function(){
+  $(function(){
     $("#video1").click(function(){
       $("#dynamicInfo").html("Going to the Doctor!");
     });
