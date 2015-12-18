@@ -57,28 +57,28 @@ $(document).ready(function() {
   //depending on which video is selected
    $(function(){
     $("#video1").click(function(){
-      $("#dynamicInfo").html("Video 1");
+      $("#dynamicInfo").html("Going to the Doctor!");
     });
     $("#video2").click(function(){
-      $("#dynamicInfo").html("Video 2");
+      $("#dynamicInfo").html("Flirting at the Bar");
     });
     $("#video3").click(function(){
-      $("#dynamicInfo").html("Video 3");
+      $("#dynamicInfo").html("The essence of Grammar");
     });
     $("#video4").click(function(){
-      $("#dynamicInfo").html("Video 4");
+      $("#dynamicInfo").html("Talking about Sports!");
     });
     $("#video5").click(function(){
-      $("#dynamicInfo").html("Video 5");
+      $("#dynamicInfo").html("Watch Video 5!");
     });
     $("#video6").click(function(){
-      $("#dynamicInfo").html("Video 6");
+      $("#dynamicInfo").html("Watch Video 6!");
     });
     $("#video7").click(function(){
-      $("#dynamicInfo").html("Video 7");
+      $("#dynamicInfo").html("Watch Video 7!");
     });
     $("#video8").click(function(){
-      $("#dynamicInfo").html("Video 8");
+      $("#dynamicInfo").html("Watch Video 8!");
     });
   });
 

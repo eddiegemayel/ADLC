@@ -523,8 +523,11 @@ a.button.full:hover {
   display: block;
   clear: both;
 }
-.info p{
+.info h2{
   text-align:center;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  color: white;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
@@ -571,6 +574,11 @@ a.button.full:hover {
   width:420px;
   left: 30px;
   /*top: 5px;*/
+}
+.section p{
+  position: relative;
+  /*padding-top: 50%;*/
+  top: 45%;
 }
 #watchBtn{
   padding: 16px 72px !important;
