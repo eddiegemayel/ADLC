@@ -61,13 +61,13 @@
 		margin-top: 14px;
 	}
 	#slideout{
-    	visibility: hidden;
+    	height: 640px;
     }
     .info{
-    	visibility: hidden;
+    	height: 640px;
     }
     #watchBtn{
-    	visibility: hidden;
+    	 bottom:150px;
     }
 }
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
