@@ -362,7 +362,7 @@ form textarea:focus{
 display: none;
 }
 
-/*------------------------------------------------------------------------------------------------------------------Wrapper & Carosel / Header text and CTA button*/
+/*------------------------------------------------------------------------------------------------------------------Wrapper Header text and CTA button*/
 .wrapper{
 	width: 100%;
 	height: 550px;
@@ -530,7 +530,7 @@ a.button.full:hover {
   color: white;
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
+/* ------------------------------------------------------------------------------------------------------------------------------slideout and information area */
 #slideout {
   background: rgba(214, 214, 214, 0.8);
   position: absolute;
@@ -579,6 +579,22 @@ a.button.full:hover {
   position: relative;
   /*padding-top: 50%;*/
   top: 45%;
+}
+.headingSection{
+  position: relative;
+  border-left: 1px black solid;
+  border-bottom: 1px black solid;
+  height: 50px;
+  width:420px;
+  left: 30px;
+}
+.headingSection h2 {
+  position: relative;
+  top:30%;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
 }
 #watchBtn{
   padding: 16px 72px !important;
