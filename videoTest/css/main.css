@@ -382,65 +382,13 @@ display: none;
   top: 200px; 
   left: 55px; 
 }
-.banner2 h1{
-  position: absolute; 
-  top: 200px; 
-  left: 55px; 
-  width: 100%;
-}
-.banner3 h1{
-  position: absolute; 
-  top: 200px; 
-  left: 55px; 
-  width: 100%;
-}
 .banner1 a{
   position: absolute; 
   top: 250px; 
   left: 60px; 
   width: 120px;
 }
-.banner2 a{
-  position: absolute; 
-  top: 250px; 
-  left: 60px; 
-  width: 120px;
-}
-.banner3 a{
-  position: absolute; 
-  top: 250px; 
-  left: 60px; 
-  width: 120px;
-}
     .banner1 a.button {
-      display: inline-block;
-      text-decoration: none;
-      padding: 10px;
-      text-align: center;
-      border-radius: 9px;
-      margin-bottom: 16px;
-      font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: #ffffff;
-      width: 170px;
-      margin: 20px 0px 0px 0px;
-      float: none;
-      transition: background 0.2s, color 0.2s;
-    }
-      .banner2 a.button {
-      display: inline-block;
-      text-decoration: none;
-      padding: 10px;
-      text-align: center;
-      border-radius: 9px;
-      margin-bottom: 16px;
-      font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: #ffffff;
-      width: 170px;
-      margin: 20px 0px 0px 0px;
-      float: none;
-      transition: background 0.2s, color 0.2s;
-    }
-      .banner3 a.button {
       display: inline-block;
       text-decoration: none;
       padding: 10px;
