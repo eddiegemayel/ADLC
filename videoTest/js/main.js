@@ -53,31 +53,32 @@ $(document).ready(function() {
   //   });
   // });
   
-  //change button text
+  //change info div text
+  //depending on which video is selected
    $(function(){
     $("#video1").click(function(){
-      $("#watchBtn").html("Video 1");
+      $("#dynamicInfo").html("Video 1");
     });
     $("#video2").click(function(){
-      $("#watchBtn").html("Video 2");
+      $("#dynamicInfo").html("Video 2");
     });
     $("#video3").click(function(){
-      $("#watchBtn").html("Video 3");
+      $("#dynamicInfo").html("Video 3");
     });
     $("#video4").click(function(){
-      $("#watchBtn").html("Video 4");
+      $("#dynamicInfo").html("Video 4");
     });
     $("#video5").click(function(){
-      $("#watchBtn").html("Video 5");
+      $("#dynamicInfo").html("Video 5");
     });
     $("#video6").click(function(){
-      $("#watchBtn").html("Video 6");
+      $("#dynamicInfo").html("Video 6");
     });
     $("#video7").click(function(){
-      $("#watchBtn").html("Video 7");
+      $("#dynamicInfo").html("Video 7");
     });
     $("#video8").click(function(){
-      $("#watchBtn").html("Video 8");
+      $("#dynamicInfo").html("Video 8");
     });
   });
 

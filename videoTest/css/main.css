@@ -426,7 +426,6 @@ display: none;
       float: none;
       transition: background 0.2s, color 0.2s;
     }
-
       .banner2 a.button {
       display: inline-block;
       text-decoration: none;
@@ -455,7 +454,6 @@ display: none;
       float: none;
       transition: background 0.2s, color 0.2s;
     }
-
       #stickyBtn {
       display: inline-block;
       text-decoration: none;
@@ -471,14 +469,12 @@ display: none;
       position: fixed;
       bottom: 0;
     }
-
 #stickyBtn:hover{
   color: #00ccea;
 }
 #stickyBtn{
   visibility: hidden;
 }
-
 #want-a-discount--button{
   /*color: #00ccea;*/
   float: left;
@@ -505,7 +501,6 @@ a.button.full:hover {
   height:auto; 
   width:100%;
 }
-
 .banner1 span{
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
@@ -516,18 +511,20 @@ a.button.full:hover {
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
-
 .info{
   /*border: 1px solid black;*/
   position: absolute;
-  top: 479px;
+  top: 129px;
   right: 50px;
   /*right:-220px;*/
   /*float: right;*/
-  width: 450px;
-  height: 300px;
+  width: 530px;
+  height: 650px;
   display: block;
   clear: both;
+}
+.info p{
+  text-align:center;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------Navigation Menu - Background */
@@ -562,7 +559,8 @@ a.button.full:hover {
   float:left;
 }
 #slideout #slidecontent p{
-  padding-left: 40px;
+  text-align: center;
+  vertical-align:middle;
   line-height: 1.5;
 }
 .section{
@@ -583,6 +581,10 @@ a.button.full:hover {
   transition: all 0.2s, color 0.2s;
   animation: all spinAround 2s linear infinite;
   visibility: visible;
+  position: absolute;
+  bottom:50px;
+  left: 150px;
+  border: none !important;
 }
 #watchBtn:hover {
   background-color: #f2f2f2;
