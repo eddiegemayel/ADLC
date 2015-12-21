@@ -46,57 +46,97 @@ $(document).ready(function() {
     });
   });
   
-  $(document).on('click', function(event) {
-    if (!$(event.target).closest('.section').length) {
-      $(this).toggleClass("selected");
+  //toggle function
+  //once user clicks on a new video
+  //this function checks to see which video is selected, then de-selects it
+  var toggle = function(){
+    if($('#video1').hasClass("selected")){
+      $('#video1').toggleClass("selected");
+      console.log("Turn off 1");
     }
-  });
+    else if($('#video2').hasClass("selected")){
+      $('#video2').toggleClass("selected");
+      console.log("Turn off 2");
+    }
+    else if($('#video3').hasClass("selected")){
+      $('#video3').toggleClass("selected");
+      console.log("Turn off 3");
+    }
+    else if($('#video4').hasClass("selected")){
+      $('#video4').toggleClass("selected");
+      console.log("Turn off 4");
+    }
+    else if($('#video5').hasClass("selected")){
+      $('#video5').toggleClass("selected");
+      console.log("Turn off 5");
+    }
+    else if($('#video6').hasClass("selected")){
+      $('#video6').toggleClass("selected");
+      console.log("Turn off 6");
+    }
+    else if($('#video7').hasClass("selected")){
+      $('#video7').toggleClass("selected");
+      console.log("Turn off 7");
+    }
+    else if($('#video8').hasClass("selected")){
+      $('#video8').toggleClass("selected");
+      console.log("Turn off 8");
+    }
+};
 
   //change info div text
   //depending on which video is selected
-  //increases font as well
+  //increases font too
   $(function(){
+
+    //when any video section is clicked
+    //turn off all others
+    $(".section").on("click", toggle);
+
+    //if video is clicked, display corresponding text and also toggle the class to "selected"
     $(".headingSection").click(function(){
       $("#dynamicInfo").html("Information about the selected Video");
       $("#dynamicInfo").css("font-size", "150%");
-      // $(".headingSection").toggleClass("selected");
     });
     $("#video1").click(function(){
       $("#dynamicInfo").html("Going to the Doctor!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video1").off("click", "p", foo);
-      // $("#video1").toggleClass("selected");
+      $(this).toggleClass("selected");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video2").toggleClass("selected");
+      $(this).toggleClass("selected");
     });
     $("#video3").click(function(){
       $("#dynamicInfo").html("The essence of Grammar");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video3").toggleClass("selected");
+      $(this).toggleClass("selected");
     });
     $("#video4").click(function(){
       $("#dynamicInfo").html("Talking about Sports!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video4").toggleClass("selected");
+      $(this).toggleClass("selected");
     });
     $("#video5").click(function(){
       $("#dynamicInfo").html("Watch Video 5!");
       $("#dynamicInfo").css("font-size", "200%");
+      $(this).toggleClass("selected");
     });
     $("#video6").click(function(){
       $("#dynamicInfo").html("Watch Video 6!");
       $("#dynamicInfo").css("font-size", "200%");
+      $(this).toggleClass("selected");
     });
     $("#video7").click(function(){
       $("#dynamicInfo").html("Watch Video 7!");
       $("#dynamicInfo").css("font-size", "200%");
+      $(this).toggleClass("selected");
     });
     $("#video8").click(function(){
       $("#dynamicInfo").html("Watch Video 8!");
       $("#dynamicInfo").css("font-size", "200%");
+      $(this).toggleClass("selected");
     });
   });
 });
