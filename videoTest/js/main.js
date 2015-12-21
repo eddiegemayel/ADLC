@@ -85,22 +85,18 @@ $(document).ready(function() {
     $("#video5").click(function(){
       $("#dynamicInfo").html("Watch Video 5!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video5").toggleClass("selected");
     });
     $("#video6").click(function(){
       $("#dynamicInfo").html("Watch Video 6!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video6").toggleClass("selected");
     });
     $("#video7").click(function(){
       $("#dynamicInfo").html("Watch Video 7!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video7").toggleClass("selected");
     });
     $("#video8").click(function(){
       $("#dynamicInfo").html("Watch Video 8!");
       $("#dynamicInfo").css("font-size", "200%");
-      // $("#video8").toggleClass("selected");
     });
   });
 });
