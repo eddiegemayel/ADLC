@@ -41,7 +41,6 @@ form{
   width: 50%;
   float: right;
 }
-
 .hide{
   visibility: hidden;
 }
@@ -476,6 +475,7 @@ a.button.full:hover {
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-decoration: none;
   color: white;
+  /*font-size: 230%;*/
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------slideout and information area */
@@ -527,6 +527,7 @@ a.button.full:hover {
   position: relative;
   /*padding-top: 50%;*/
   top: 45%;
+  font-size: 120%;
 }
 .headingSection{
   position: relative;
