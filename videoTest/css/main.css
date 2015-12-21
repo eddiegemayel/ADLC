@@ -480,7 +480,9 @@ a.button.full:hover {
 
 /* ------------------------------------------------------------------------------------------------------------------------------slideout and information area */
 #slideout {
-  background: rgba(214, 214, 214, 0.8);
+  /*background: rgba(214, 214, 214, 0.8);*/
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   width: 450px;
   height: 700px;
@@ -523,11 +525,15 @@ a.button.full:hover {
   left: 30px;
   /*top: 5px;*/
 }
+.section:hover{
+  background-color:rgba(255,151,53, 0.7);
+}
 .section p{
   position: relative;
   /*padding-top: 50%;*/
   top: 45%;
-  font-size: 120%;
+  font-size: 115%;
+  color: white;
 }
 .headingSection{
   position: relative;
@@ -544,7 +550,14 @@ a.button.full:hover {
   text-decoration: none;
   text-align: center;
   color: white;
+  font-size: 170%;
 }
+
+.selected{
+  /*background-color: #FF9735;*/
+  background-color: rgba(255,151,53, 0.7);
+}
+
 #watchBtn{
   padding: 16px 72px !important;
   font-size: 16px;
