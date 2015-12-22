@@ -53,10 +53,12 @@ $(document).ready(function() {
     if($('#video1').hasClass("selected")){
       $('#video1').toggleClass("selected");
       console.log("Turn off 1");
+      $("#vid1").css("visibility", "hidden");
     }
     else if($('#video2').hasClass("selected")){
       $('#video2').toggleClass("selected");
       console.log("Turn off 2");
+      $("#vid2").css("visibility", "hidden");
     }
     else if($('#video3').hasClass("selected")){
       $('#video3').toggleClass("selected");
@@ -102,11 +104,13 @@ $(document).ready(function() {
       $("#dynamicInfo").html("Going to the Doctor!");
       $("#dynamicInfo").css("font-size", "200%");
       $(this).toggleClass("selected");
+      $("#vid1").css("visibility", "visible");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
       $("#dynamicInfo").css("font-size", "200%");
       $(this).toggleClass("selected");
+      $("#vid2").css("visibility", "visible");
     });
     $("#video3").click(function(){
       $("#dynamicInfo").html("The essence of Grammar");
