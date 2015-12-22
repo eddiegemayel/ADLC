@@ -82,9 +82,9 @@ $(document).ready(function() {
     }
 };
 
-  //change info div text
-  //depending on which video is selected
-  //increases font too
+  //change info div text depending on which video is selected
+  //increases font size too when a video is selected
+  //this 
   $(function(){
 
     //when any video section is clicked
