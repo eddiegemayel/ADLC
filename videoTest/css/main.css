@@ -519,7 +519,7 @@ a.button.full:hover {
 .section{
   position: relative;
   border-left: 1px black solid;
-  height: 200px;
+  height: 175px;
   width:380px;
   left: 30px;
 }

@@ -104,13 +104,13 @@ $(document).ready(function() {
       $("#dynamicInfo").html("Going to the Doctor!");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
-      $("#vid1").css("visibility", "visible");
+      // $("#vid1").css("visibility", "visible");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
-      $("#vid2").css("visibility", "visible");
+      // $("#vid2").css("visibility", "visible");
       // $("#bannerImg").css("visibility", "hidden");
     });
     $("#video3").click(function(){
@@ -140,7 +140,7 @@ $(document).ready(function() {
     });
     $("#video8").click(function(){
       $("#dynamicInfo").html("Watch Video 8!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
   });
