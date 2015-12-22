@@ -27,6 +27,8 @@ $(document).ready(function() {
       }else{
         //animate it back in
         $(this).parent().animate({right:'-380px'}, {queue: false, duration: 950});
+        //hide any video when slideout goes away
+        $(".video").css("visibility", "hidden");
       }
     });
   });
@@ -104,13 +106,13 @@ $(document).ready(function() {
       $("#dynamicInfo").html("Going to the Doctor!");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
-      // $("#vid1").css("visibility", "visible");
+      $("#vid1").css("visibility", "visible");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
       $("#dynamicInfo").css("font-size", "180%");
-      $(this).toggleClass("selected");
-      // $("#vid2").css("visibility", "visible");
+      $(this).toggleClass("selected");   
+      $("#vid2").css("visibility", "visible");
       // $("#bannerImg").css("visibility", "hidden");
     });
     $("#video3").click(function(){
