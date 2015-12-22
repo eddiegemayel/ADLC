@@ -78,9 +78,8 @@
     .banner1 a.button{
     	/*width: 70px;*/
     }
-    /*doesnt work :/ */
     video{
-    	visibility: hidden;
+    	display: none;
     }
 }
 
@@ -161,9 +160,8 @@
     #watchBtn{
     	visibility: hidden;
     }
-     /*doesnt work :/ */
     video{
-    	visibility: hidden;
+    	display: none;
     }
 }
 
@@ -221,8 +219,8 @@ and (orientation : landscape){
     #watchBtn{
     	visibility: hidden;
     }
-    .video{
-    	visibility: hidden;
+    video{
+    	display: none;
     }
 }
 
@@ -316,8 +314,8 @@ and (orientation : landscape){
     #watchBtn{
     	visibility: hidden;
     }
-    .video{
-    	visibility: hidden;
+    video{
+    	display: none;
     }
 }
 /**/
@@ -413,8 +411,8 @@ and (orientation : landscape){
 	 #watchBtn{
     	visibility: hidden;
     }
-    .video{
-    	visibility: hidden;
+    video{
+    	display: none;
     }
 }
 
@@ -556,8 +554,8 @@ and (orientation : landscape){
     #watchBtn{
     	visibility: hidden;
     }
-    .video{
-    	visibility: hidden;
+    video{
+    	display: none;
     }
 }
 
@@ -638,8 +636,8 @@ and (orientation : landscape){
     	font-size: 40px;
     	font-family: 'Open Sans', 'Raleway', sans-serif;
 	}
-	.video{
-    	visibility: hidden;
+	video{
+    	display: none;
     }
 }
 /*----------------------------------------------------------------------------------------Real life experiences section*/
