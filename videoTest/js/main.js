@@ -54,38 +54,31 @@ $(document).ready(function() {
   var toggle = function(){
     if($('#video1').hasClass("selected")){
       $('#video1').toggleClass("selected");
-      console.log("Turn off 1");
       $("#vid1").css("visibility", "hidden");
+      // console.log("Turn off 1");
     }
     else if($('#video2').hasClass("selected")){
       $('#video2').toggleClass("selected");
-      console.log("Turn off 2");
       $("#vid2").css("visibility", "hidden");
     }
     else if($('#video3').hasClass("selected")){
       $('#video3').toggleClass("selected");
-      console.log("Turn off 3");
       $("#vid3").css("visibility", "hidden");
     }
     else if($('#video4').hasClass("selected")){
       $('#video4').toggleClass("selected");
-      console.log("Turn off 4");
     }
     else if($('#video5').hasClass("selected")){
       $('#video5').toggleClass("selected");
-      console.log("Turn off 5");
     }
     else if($('#video6').hasClass("selected")){
       $('#video6').toggleClass("selected");
-      console.log("Turn off 6");
     }
     else if($('#video7').hasClass("selected")){
       $('#video7').toggleClass("selected");
-      console.log("Turn off 7");
     }
     else if($('#video8').hasClass("selected")){
       $('#video8').toggleClass("selected");
-      console.log("Turn off 8");
     }
 };
 
