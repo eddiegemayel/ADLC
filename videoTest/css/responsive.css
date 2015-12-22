@@ -78,6 +78,10 @@
     .banner1 a.button{
     	/*width: 70px;*/
     }
+    /*doesnt work :/ */
+    video{
+    	visibility: hidden;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
@@ -157,7 +161,8 @@
     #watchBtn{
     	visibility: hidden;
     }
-    .video{
+     /*doesnt work :/ */
+    video{
     	visibility: hidden;
     }
 }

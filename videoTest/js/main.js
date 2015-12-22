@@ -65,6 +65,7 @@ $(document).ready(function() {
     else if($('#video3').hasClass("selected")){
       $('#video3').toggleClass("selected");
       console.log("Turn off 3");
+      $("#vid3").css("visibility", "hidden");
     }
     else if($('#video4').hasClass("selected")){
       $('#video4').toggleClass("selected");
@@ -119,6 +120,7 @@ $(document).ready(function() {
       $("#dynamicInfo").html("The essence of Grammar");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
+      $("#vid3").css("visibility", "visible");
     });
     $("#video4").click(function(){
       $("#dynamicInfo").html("Talking about Sports!");

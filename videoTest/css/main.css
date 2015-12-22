@@ -574,13 +574,18 @@ a.button.full:hover {
 }
 #vid1{
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 75px;
+  left: 165px;
 }
 #vid2{
   position: absolute;
-  top: 70px;
-  left: 50px;
+  top: 75px;
+  left: 205px;
+}
+#vid3{
+  position: absolute;
+  top: 75px;
+  left: 165px;
 }
 .video{
   visibility: hidden;
