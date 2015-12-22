@@ -484,10 +484,10 @@ a.button.full:hover {
   background: rgb(0, 0, 0); 
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
-  width: 450px;
+  width: 410px;
   height: 700px;
   top: 80px;
-  right:-420px;
+  right:-380px;
   padding-left: 20px;
   overflow-y: scroll;
   /*height: auto;*/
@@ -520,7 +520,7 @@ a.button.full:hover {
   position: relative;
   border-left: 1px black solid;
   height: 200px;
-  width:420px;
+  width:380px;
   left: 30px;
 }
 .section:hover{
@@ -537,7 +537,7 @@ a.button.full:hover {
   border-left: 1px black solid;
   border-bottom: 1px black solid;
   height: 50px;
-  width:420px;
+  width:380px;
   left: 30px;
 }
 .headingSection h2 {
@@ -571,7 +571,17 @@ a.button.full:hover {
   background-color: #f2f2f2;
   color: black;
 }
-video{
+#vid1{
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+#vid2{
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+.video{
   visibility: hidden;
 }
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/

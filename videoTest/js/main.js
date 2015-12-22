@@ -21,12 +21,12 @@ $(document).ready(function() {
   $(function(){
     //once area is clicked
     $("#clickme").click(function () {
-      if($(this).parent().css("right") == "-420px"){
+      if($(this).parent().css("right") == "-380px"){
         //animate it out
         $(this).parent().animate({right:'0px'}, {queue: false, duration: 825});
       }else{
         //animate it back in
-        $(this).parent().animate({right:'-420px'}, {queue: false, duration: 950});
+        $(this).parent().animate({right:'-380px'}, {queue: false, duration: 950});
       }
     });
   });
@@ -102,39 +102,40 @@ $(document).ready(function() {
     });
     $("#video1").click(function(){
       $("#dynamicInfo").html("Going to the Doctor!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
       $("#vid1").css("visibility", "visible");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
       $("#vid2").css("visibility", "visible");
+      // $("#bannerImg").css("visibility", "hidden");
     });
     $("#video3").click(function(){
       $("#dynamicInfo").html("The essence of Grammar");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
     $("#video4").click(function(){
       $("#dynamicInfo").html("Talking about Sports!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
     $("#video5").click(function(){
       $("#dynamicInfo").html("Watch Video 5!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
     $("#video6").click(function(){
       $("#dynamicInfo").html("Watch Video 6!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
     $("#video7").click(function(){
       $("#dynamicInfo").html("Watch Video 7!");
-      $("#dynamicInfo").css("font-size", "200%");
+      $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
     });
     $("#video8").click(function(){

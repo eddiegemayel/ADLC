@@ -49,12 +49,12 @@
 	.banner1 h1{
 		position: absolute; 
   		top: 140px; 
-  		left: 55px; 
+  		left: 20px; 
   		width: 100%;
 	}
 	.banner1 a{
     	top: 210px; 
-    	left: 60px; 
+    	left: 25px; 
     	width: 120px;
 	}
 	.desc{
@@ -67,11 +67,16 @@
     	height: 640px;
     }
     #watchBtn{
-    	 bottom:150px;
-    	 left: 200px;
+    	 /*bottom:150px;*/
+    	 /*left: 200px;*/
+    	 visibility: hidden;
     }
     #dynamicInfo{
-    	visibility: hidden;
+    	/*visibility: hidden;*/
+    	font-size:150%;
+    }
+    .banner1 a.button{
+    	width: 70px;
     }
 }
 
@@ -152,6 +157,9 @@
     #watchBtn{
     	visibility: hidden;
     }
+    .video{
+    	visibility: hidden;
+    }
 }
 
 @media only screen 
@@ -206,6 +214,9 @@ and (orientation : landscape){
     	visibility: hidden;
     }
     #watchBtn{
+    	visibility: hidden;
+    }
+    .video{
     	visibility: hidden;
     }
 }
@@ -288,11 +299,6 @@ and (orientation : landscape){
     	left: 30px; 
     	width: 120px;
 	}
-	/*#want-a-discount--button{
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-    }*/
     #slideout{
     	height: 370px;
     }
@@ -303,6 +309,9 @@ and (orientation : landscape){
     	visibility: hidden;
     }
     #watchBtn{
+    	visibility: hidden;
+    }
+    .video{
     	visibility: hidden;
     }
 }
@@ -397,6 +406,9 @@ and (orientation : landscape){
 		visibility: hidden;
 	}
 	 #watchBtn{
+    	visibility: hidden;
+    }
+    .video{
     	visibility: hidden;
     }
 }
@@ -539,6 +551,9 @@ and (orientation : landscape){
     #watchBtn{
     	visibility: hidden;
     }
+    .video{
+    	visibility: hidden;
+    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -560,7 +575,6 @@ and (orientation : landscape){
 	#mobile-header {
 		display: block;
 	}
-
 	.header{
 		width: 100%;
 		/*margin-bottom: -108px;*/
@@ -619,6 +633,9 @@ and (orientation : landscape){
     	font-size: 40px;
     	font-family: 'Open Sans', 'Raleway', sans-serif;
 	}
+	.video{
+    	visibility: hidden;
+    }
 }
 /*----------------------------------------------------------------------------------------Real life experiences section*/
 @media(max-width: 1000px) {
