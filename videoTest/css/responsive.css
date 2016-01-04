@@ -69,7 +69,7 @@
     #watchBtn{
     	 /*bottom:150px;*/
     	 /*left: 200px;*/
-    	 visibility: hidden;
+    	 /*visibility: hidden;*/
     }
     #dynamicInfo{
     	/*visibility: hidden;*/
@@ -114,7 +114,7 @@
     	font-size: 16px;
 	}
 	.desc{
-		margin-top: -100px !important;
+		margin-top: -90px !important;
 	}
 	.desc h2{
     	font-size: 25px;
@@ -138,31 +138,47 @@
     	visibility: hidden;
 	}
 	.banner1 span{
-   		font-size: 29px;
+   		font-size: 35px;
 	}
 	.banner1 h1{
 		position: absolute; 
-  		top: 160px; 
-  		left: 55px; 
+  		top: 140px; 
+  		left: 20px; 
   		width: 100%;
 	}
 	.banner1 a{
-    	top: 230px; 
-    	left: 60px; 
+    	top: 210px; 
+    	left: 25px;
     	width: 120px;
 	}
-	#slideout{
+	/*#slideout{
     	visibility: hidden;
     }
     .info{
     	visibility: hidden;
     }
+    
+    video{
+    	display: none;
+    }*/
+    #slideout{
+    	min-height: 100px;
+    	/*overflow:scroll;*/
+    	height: 560px;
+    	/*height: auto;*/
+    }
+    #clickme2{
+    	visibility: visible;
+    	/*position: absolute;*/
+  		/*top: 0 !important; 
+  		left: 0 !important;*/
+  		height: 50px !important;
+  		width: 50px !important;
+    }
     #watchBtn{
     	visibility: hidden;
     }
-    video{
-    	display: none;
-    }
+    #dynamicInfo{visibility: hidden;}
 }
 
 @media only screen 
@@ -201,14 +217,13 @@ and (orientation : landscape){
     	width: 242px;
 	}
 	.features-section ul li p {
-   
     	font-size: 14px;
     	width: 95%;
 	}
 	.contact-section{
-	width: 80%;
-	margin: 0 auto;
-	font-family: 'Open Sans', sans-serif;
+		width: 80%;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
 	}
 	#slideout{
     	visibility: hidden;
@@ -305,18 +320,6 @@ and (orientation : landscape){
     #slideout{
     	height: 370px;
     }
-    #slideout{
-    	visibility: hidden;
-    }
-    .info{
-    	visibility: hidden;
-    }
-    #watchBtn{
-    	visibility: hidden;
-    }
-    video{
-    	display: none;
-    }
 }
 /**/
 @media (min-width: 480px) and (max-width: 640px){
@@ -402,18 +405,6 @@ and (orientation : landscape){
     	left: 15px; 
     	width: 120px;
 	}
-	#slideout{
-		visibility: hidden;
-	}
-	.info{
-		visibility: hidden;
-	}
-	 #watchBtn{
-    	visibility: hidden;
-    }
-    video{
-    	display: none;
-    }
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------------------Mobile media queries*/
@@ -542,21 +533,6 @@ and (orientation : landscape){
       width: 50%;
       visibility: hidden;
     }
-    #stickyBtn{
-      visibility: visible;
-    }
-    #slideout{
-    	visibility: hidden;
-    }
-    .info{
-    	visibility: hidden;
-    }
-    #watchBtn{
-    	visibility: hidden;
-    }
-    video{
-    	display: none;
-    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -681,4 +657,55 @@ and (orientation : landscape){
   .form.discount {
     margin-top: 120px !important;
   }
+}
+
+
+/*----------------------------------------------------------------------------------------slideout responsive code*/
+@media (min-width: 980px) and (max-width: 1000px){
+	#slideout{height: 525px; margin-bottom: auto;}
+}
+@media (min-width: 970px) and (max-width: 980px){
+	#slideout{height: 520px;}
+}
+@media (min-width: 960px) and (max-width: 970px){
+	#slideout{height: 515px;}
+}
+@media (min-width: 950px) and (max-width: 960px){
+	#slideout{height: 510px;}
+}
+@media (min-width: 940px) and (max-width: 950px){
+	#slideout{height: 505px;}
+}
+@media (min-width: 930px) and (max-width: 940px){
+	#slideout{height: 500px;}
+}
+@media (min-width: 920px) and (max-width: 930px){
+	#slideout{height: 495px;}
+}
+@media (min-width: 910px) and (max-width: 920px){
+	#slideout{height: 490px;}
+}
+@media (min-width: 900px) and (max-width: 910px){
+	#slideout{height: 485px;}
+}
+@media (min-width: 890px) and (max-width: 900px){
+	#slideout{height: 480px;}
+}
+@media (min-width: 880px) and (max-width: 890px){
+	#slideout{height: 475px;}
+}
+@media (min-width: 870px) and (max-width: 880px){
+	#slideout{height: 470px;}
+}
+@media (min-width: 860px) and (max-width: 870px){
+	#slideout{height: 465px;}
+}
+@media (min-width: 850px) and (max-width: 860px){
+	#slideout{height: 460px;}
+}
+@media (min-width: 20px) and (max-width: 850px){
+	#slideout{visibility: hidden;}
+	.info{visibility: hidden;}
+    video{display: none;}
+    #watchBtn{visibility: hidden;}
 }

@@ -502,6 +502,9 @@ a.button.full:hover {
   height: 50px;
   width: 50px;
 }
+#clickme2{
+  visibility: hidden;
+}
 #slideout img{
   position: absolute;
   top: 0; 
