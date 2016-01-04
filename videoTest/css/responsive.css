@@ -664,6 +664,12 @@ and (orientation : landscape){
 
 
 /*----------------------------------------------------------------------------------------slideout responsive code*/
+/*@media (min-width: 1070px) and (max-width: 1079px){
+	#slideout{height: 585px;}
+}
+@media (min-width: 1050px) and (max-width: 1070px){
+	#slideout{height: 565px;}
+}
 @media (min-width: 980px) and (max-width: 1000px){
 	#slideout{height: 525px;}
 }
@@ -705,7 +711,7 @@ and (orientation : landscape){
 }
 @media (min-width: 850px) and (max-width: 860px){
 	#slideout{height: 460px;}
-}
+}*/
 @media (min-width: 20px) and (max-width: 850px){
 	#slideout{visibility: hidden;}
 	.info{visibility: hidden;}

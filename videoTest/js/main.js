@@ -142,4 +142,15 @@ $(document).ready(function() {
     });
   });
 
+  //resize div
+  var height = $('#bannerImg').css("height");
+  console.log(height);
+   $(window).on("resize", function() {
+       height = $('#bannerImg').css("height");
+       $('#slideout').css("height", height);
+       console.log(height);
+    });
+
+
+
 });
