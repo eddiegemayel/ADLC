@@ -533,6 +533,9 @@ and (orientation : landscape){
       width: 50%;
       visibility: hidden;
     }
+    #stickyBtn{
+       visibility: visible;
+    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -662,7 +665,7 @@ and (orientation : landscape){
 
 /*----------------------------------------------------------------------------------------slideout responsive code*/
 @media (min-width: 980px) and (max-width: 1000px){
-	#slideout{height: 525px; margin-bottom: auto;}
+	#slideout{height: 525px;}
 }
 @media (min-width: 970px) and (max-width: 980px){
 	#slideout{height: 520px;}
