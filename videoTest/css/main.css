@@ -594,6 +594,9 @@ a.button.full:hover {
 .video{
   visibility: hidden;
 }
+#vidModal{
+  width: 900px;
+}
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
 .footer{
   width: 100%;

@@ -619,6 +619,7 @@ and (orientation : landscape){
     	display: none;
     }
 }
+
 /*----------------------------------------------------------------------------------------Real life experiences section*/
 @media(max-width: 1000px) {
   .desc2 p {
@@ -662,56 +663,7 @@ and (orientation : landscape){
   }
 }
 
-
-/*----------------------------------------------------------------------------------------slideout responsive code*/
-/*@media (min-width: 1070px) and (max-width: 1079px){
-	#slideout{height: 585px;}
-}
-@media (min-width: 1050px) and (max-width: 1070px){
-	#slideout{height: 565px;}
-}
-@media (min-width: 980px) and (max-width: 1000px){
-	#slideout{height: 525px;}
-}
-@media (min-width: 970px) and (max-width: 980px){
-	#slideout{height: 520px;}
-}
-@media (min-width: 960px) and (max-width: 970px){
-	#slideout{height: 515px;}
-}
-@media (min-width: 950px) and (max-width: 960px){
-	#slideout{height: 510px;}
-}
-@media (min-width: 940px) and (max-width: 950px){
-	#slideout{height: 505px;}
-}
-@media (min-width: 930px) and (max-width: 940px){
-	#slideout{height: 500px;}
-}
-@media (min-width: 920px) and (max-width: 930px){
-	#slideout{height: 495px;}
-}
-@media (min-width: 910px) and (max-width: 920px){
-	#slideout{height: 490px;}
-}
-@media (min-width: 900px) and (max-width: 910px){
-	#slideout{height: 485px;}
-}
-@media (min-width: 890px) and (max-width: 900px){
-	#slideout{height: 480px;}
-}
-@media (min-width: 880px) and (max-width: 890px){
-	#slideout{height: 475px;}
-}
-@media (min-width: 870px) and (max-width: 880px){
-	#slideout{height: 470px;}
-}
-@media (min-width: 860px) and (max-width: 870px){
-	#slideout{height: 465px;}
-}
-@media (min-width: 850px) and (max-width: 860px){
-	#slideout{height: 460px;}
-}*/
+/*----------------------------------------------------------------------------------------slideout responsive code....hide everything once it gets to mobile size*/
 @media (min-width: 20px) and (max-width: 850px){
 	#slideout{visibility: hidden;}
 	.info{visibility: hidden;}
