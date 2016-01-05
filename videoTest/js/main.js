@@ -142,16 +142,31 @@ $(document).ready(function() {
     });
   });
 
+  var bannerHeight = $('#bannerImg').css("height");
+  var windowHeight ;
+  var windowWidth ;
+  var modalHeight ;
+
   //resize slideout div
   //when window is resized
   //grab height of banner image
-  var height = $('#bannerImg').css("height");
-  // console.log(height);
    $(window).on("resize", function() {
       //apply banner image height to slideout div
-       height = $('#bannerImg').css("height");
-       $('#slideout').css("height", height);
+       bannerHeight = $('#bannerImg').css("height");
+       $('#slideout').css("height", bannerHeight);
        // console.log(height);
     });
+
+   //change modal height
+   //when the right button is clicked
+   $("#watchBtn").click(function(){
+      //grab window height and width
+      windowHeight = $(window).height();
+      windowWidth = $(window).width();
+
+      //apply new width and height to the modal
+      $('.remodal').css("height", windowHeight - 100);
+      $('.remodal').css("max-width", windowWidth - 150);
+   });
 
 });

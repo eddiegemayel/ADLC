@@ -57,7 +57,7 @@
   width: 100%;
   margin-bottom: 10px;
   padding: 35px;
-  height: 780px;
+  height: 700px;
 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -297,7 +297,7 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 1600px;
+    max-width: 1200px;
   }
 }
 
