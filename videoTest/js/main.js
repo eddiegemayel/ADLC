@@ -81,7 +81,7 @@ $(document).ready(function() {
       $('#video8').toggleClass("selected");
     }
 };
-
+  
   //change info div text depending on which video is selected
   //increases font size too when a video is selected
   //this 
@@ -141,32 +141,31 @@ $(document).ready(function() {
       $(this).toggleClass("selected");
     });
   });
-
+  
+  //height variables to be used below
   var bannerHeight = $('#bannerImg').css("height");
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
 
   //resize slideout div
-  //when window is resized
-  //grab height of banner image
-   $(window).on("resize", function() {
-      //apply banner image height to slideout div
-       bannerHeight = $('#bannerImg').css("height");
-       $('#slideout').css("height", bannerHeight);
-       // console.log(height);
-    });
+  //when window is resized grab height of banner image
+  $(window).on("resize", function() {
+    //apply banner image height to slideout div
+    bannerHeight = $('#bannerImg').css("height");
+    $('#slideout').css("height", bannerHeight);
+    // console.log(height);
+  });
 
-   //change modal height
-   //when the right button is clicked
-   $("#watchBtn").click(function(){
-      //grab window height and width
-      windowHeight = $(window).height();
-      windowWidth = $(window).width();
-
-      //apply new width and height to the modal
-      $('.remodal').css("height", windowHeight - 100);
-      $('.remodal').css("max-width", windowWidth - 150);
-   });
+  //change modal height
+  //when the right button is clicked
+  $("#watchBtn").click(function(){
+    //grab window height and width
+    windowHeight = $(window).height();
+    windowWidth = $(window).width();
+    //apply new width and height to the modal
+    $('.remodal').css("height", windowHeight - 100);
+    $('.remodal').css("max-width", windowWidth - 150);
+  });
 
 });
