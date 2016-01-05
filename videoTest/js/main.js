@@ -142,15 +142,16 @@ $(document).ready(function() {
     });
   });
 
-  //resize div
+  //resize slideout div
+  //when window is resized
+  //grab height of banner image
   var height = $('#bannerImg').css("height");
-  console.log(height);
+  // console.log(height);
    $(window).on("resize", function() {
+      //apply banner image height to slideout div
        height = $('#bannerImg').css("height");
        $('#slideout').css("height", height);
-       console.log(height);
+       // console.log(height);
     });
-
-
 
 });

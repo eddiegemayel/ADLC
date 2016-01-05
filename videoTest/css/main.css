@@ -578,8 +578,8 @@ a.button.full:hover {
 }
 #vid1{
   position: absolute;
-  top: 75px;
-  left: 165px;
+  top: -25px;
+  /*left: 165px;*/
 }
 #vid2{
   position: absolute;
