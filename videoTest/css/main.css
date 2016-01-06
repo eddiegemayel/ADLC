@@ -594,22 +594,21 @@ a.button.full:hover {
 
 /*-------------------------------------------------------------------------------------------------Video and Modal*/
 #vid1{
-  position: absolute;
-  top: -25px;
-  /*left: 165px;*/
+  position: relative;
+  left: 0;
+  /*float: left;*/
+  /*clear: none;*/
 }
 #vid2{
-  position: absolute;
-  top: 75px;
-  left: 205px;
+  /*position: relative;*/
+
 }
 #vid3{
-  position: absolute;
-  top: 75px;
-  left: 165px;
+  /*position: relative;*/
 }
 .video{
   visibility: hidden;
+  display: none;
 }
 #vidModal{
   width: 900px;

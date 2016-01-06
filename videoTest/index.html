@@ -62,17 +62,7 @@
       </div>
     </div>
     <div class="info">
-        <h2 id="dynamicInfo">Select a Video</h2>
-        
-        <!-- test videos -->
-         <!-- <video id="vid2" class="video" autoplay loop muted height="200" width="420"> 
-            <source src="sampleVid.mp4" type="video/mp4">
-         </video>
-         <video id="vid3" class="video" autoplay loop muted height="200" width="420"> 
-            <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"> 
-            <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
-            <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-         </video> -->
+        <h2>Select a Video</h2>
         <!-- <a id="watchBtn" style="text-decoration:none; color:inherit;" href="#modal">Assista ao video</a> -->
     </div>
 
@@ -106,12 +96,12 @@
           <a id="video6" href="#modal" class="section">
             <p>Video 6</p>
           </a>
-          <a id="video7" href="#modal" class="section">
+         <!--  <a id="video7" href="#modal" class="section">
             <p>Video 7</p>
           </a>
           <a id="video8" href="#modal" class="section">
             <p>Video 8</p>
-          </a>
+          </a> -->
      </div>
 
       <!-- click trigger -->
@@ -122,16 +112,20 @@
     </div> <!-- end of slideout -->
   </div><!-- end of wrapper -->
 
-    <!-- Hidden Modal  height="200" width="420"-->
+    <!-- height="200" width="420" -->
+    <!-- width="560" height="315" iframe -->
+    <!-- Hidden Modal  -->
     <div class="remodal" data-remodal-id="modal">
       <button data-remodal-action="close" class="remodal-close"></button>
       <div class="left">
         <h1>Join ADLC for free!</h1>
-        <video class="modalVideo" autoplay loop controls muted > 
-          <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"> 
-          <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
-          <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-        </video>
+        <!-- <h2 id="dynamicInfo">Select a Video</h2> -->
+        <iframe id="vid1" class="modalVideo video" src="https://www.youtube.com/embed/p7gJMFaRdfM" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid2" class="modalVideo video" src="https://www.youtube.com/embed/A3MxMDbBNHQ" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid3" class="modalVideo video" src="https://www.youtube.com/embed/H4LwK1fFH08" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid4" class="modalVideo video" src="https://www.youtube.com/embed/TdXdSvzKWb0" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid5" class="modalVideo video" src="https://www.youtube.com/embed/0GmLcQ91uzA" frameborder="0" allowfullscreen></iframe>
+        <iframe id="vid6" class="modalVideo video" src="https://www.youtube.com/embed/PN0p6biHV_Y" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="right">
         <form id="modalForm">

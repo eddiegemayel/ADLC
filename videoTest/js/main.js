@@ -55,31 +55,44 @@ $(document).ready(function() {
     if($('#video1').hasClass("selected")){
       $('#video1').toggleClass("selected");
       $("#vid1").css("visibility", "hidden");
+      $("#vid1").css("display", "none");
       // console.log("Turn off 1");
     }
     else if($('#video2').hasClass("selected")){
       $('#video2').toggleClass("selected");
       $("#vid2").css("visibility", "hidden");
+      $("#vid2").css("display", "none");
     }
     else if($('#video3').hasClass("selected")){
       $('#video3').toggleClass("selected");
       $("#vid3").css("visibility", "hidden");
+      $("#vid3").css("display", "none");
     }
     else if($('#video4').hasClass("selected")){
       $('#video4').toggleClass("selected");
+      $("#vid4").css("visibility", "hidden");
+      $("#vid4").css("display", "none");
     }
     else if($('#video5').hasClass("selected")){
       $('#video5').toggleClass("selected");
+      $("#vid5").css("visibility", "hidden");
+      $("#vid5").css("display", "none");
     }
     else if($('#video6').hasClass("selected")){
       $('#video6').toggleClass("selected");
+      $("#vid6").css("visibility", "hidden");
+      $("#vid6").css("display", "none");
     }
-    else if($('#video7').hasClass("selected")){
-      $('#video7').toggleClass("selected");
-    }
-    else if($('#video8').hasClass("selected")){
-      $('#video8').toggleClass("selected");
-    }
+    // else if($('#video7').hasClass("selected")){
+    //   $('#video7').toggleClass("selected");
+    //   $("#vid7").css("visibility", "hidden");
+    //   $("#vid7").css("display", "none");
+    // }
+    // else if($('#video8').hasClass("selected")){
+    //   $('#video8').toggleClass("selected");
+    //   $("#vid8").css("visibility", "hidden");
+    //   $("#vid8").css("display", "none");
+    // }
 };
   
   //change info div text depending on which video is selected
@@ -101,12 +114,14 @@ $(document).ready(function() {
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
       $("#vid1").css("visibility", "visible");
+      $("#vid1").css("display", "block");
     });
     $("#video2").click(function(){
       $("#dynamicInfo").html("Flirting at the Bar");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");   
       $("#vid2").css("visibility", "visible");
+      $("#vid2").css("display", "block");
       // $("#bannerImg").css("visibility", "hidden");
     });
     $("#video3").click(function(){
@@ -114,32 +129,43 @@ $(document).ready(function() {
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
       $("#vid3").css("visibility", "visible");
+      $("#vid3").css("display", "block");
     });
     $("#video4").click(function(){
       $("#dynamicInfo").html("Talking about Sports!");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
+      $("#vid4").css("visibility", "visible");
+      $("#vid4").css("display", "block");
     });
     $("#video5").click(function(){
       $("#dynamicInfo").html("Watch Video 5!");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
+      $("#vid5").css("visibility", "visible");
+      $("#vid5").css("display", "block");
     });
     $("#video6").click(function(){
       $("#dynamicInfo").html("Watch Video 6!");
       $("#dynamicInfo").css("font-size", "180%");
       $(this).toggleClass("selected");
+      $("#vid6").css("visibility", "visible");
+      $("#vid6").css("display", "block");
     });
-    $("#video7").click(function(){
-      $("#dynamicInfo").html("Watch Video 7!");
-      $("#dynamicInfo").css("font-size", "180%");
-      $(this).toggleClass("selected");
-    });
-    $("#video8").click(function(){
-      $("#dynamicInfo").html("Watch Video 8!");
-      $("#dynamicInfo").css("font-size", "180%");
-      $(this).toggleClass("selected");
-    });
+    // $("#video7").click(function(){
+    //   $("#dynamicInfo").html("Watch Video 7!");
+    //   $("#dynamicInfo").css("font-size", "180%");
+    //   $(this).toggleClass("selected");
+    //   $("#vid7").css("visibility", "visible");
+    //   $("#vid7").css("display", "block");
+    // });
+    // $("#video8").click(function(){
+    //   $("#dynamicInfo").html("Watch Video 8!");
+    //   $("#dynamicInfo").css("font-size", "180%");
+    //   $(this).toggleClass("selected");
+    //   $("#vid8").css("visibility", "visible");
+    //   $("#vid8").css("display", "block");
+    // });
   });
   
   //height variables to be used below
