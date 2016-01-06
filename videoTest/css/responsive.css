@@ -78,9 +78,9 @@
     .banner1 a.button{
     	/*width: 70px;*/
     }
-    video{
+  /*  video{
     	display: none;
-    }
+    }*/
 }
 
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
@@ -234,7 +234,7 @@ and (orientation : landscape){
     #watchBtn{
     	visibility: hidden;
     }
-    video{
+    .video{
     	display: none;
     }
 }

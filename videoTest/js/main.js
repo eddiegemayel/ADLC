@@ -166,6 +166,9 @@ $(document).ready(function() {
     //apply new width and height to the modal
     $('.remodal').css("height", windowHeight - 100);
     $('.remodal').css("max-width", windowWidth - 150);
+    $('.modalVideo').css("height", windowHeight / 2);
+    $('.modalVideo').css("width", windowWidth / 2);
+    console.log();
   });
 
 });

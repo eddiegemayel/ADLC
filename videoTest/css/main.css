@@ -576,6 +576,8 @@ a.button.full:hover {
   background-color: #f2f2f2;
   color: black;
 }
+
+/*-------------------------------------------------------------------------------------------------Video and Modal*/
 #vid1{
   position: absolute;
   top: -25px;
@@ -596,6 +598,27 @@ a.button.full:hover {
 }
 #vidModal{
   width: 900px;
+}
+.modalVideo{
+  height:0;
+  width:0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.left{
+  float: left;
+  clear: none;
+}
+.right{
+  float: right;
+  clear: none;
+}
+#modalForm{
+  float:none;
+  width: 70%;
+}
+.remodal{
+  overflow-y: scroll;
 }
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
 .footer{

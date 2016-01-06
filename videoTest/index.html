@@ -122,18 +122,27 @@
     </div> <!-- end of slideout -->
   </div><!-- end of wrapper -->
 
-    <!-- Hidden Modal -->
+    <!-- Hidden Modal  height="200" width="420"-->
     <div class="remodal" data-remodal-id="modal">
       <button data-remodal-action="close" class="remodal-close"></button>
-      <h1>Join ADLC for free!</h1>
-      <!-- <video id="vid1" class="video" autoplay loop controls muted height="200" width="420"> 
-        <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"> 
-        <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
-        <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
-      </video> -->
-      <p>Thanks for watching this video!</p><br>
-      <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-      <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
+      <div class="left">
+        <h1>Join ADLC for free!</h1>
+        <video class="modalVideo" autoplay loop controls muted > 
+          <source src="http://techslides.com/demos/sample-videos/small.webm" type="video/webm"> 
+          <source src="http://techslides.com/demos/sample-videos/small.ogv" type="video/ogg"> 
+          <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="right">
+        <form id="modalForm">
+          <input type="text" name="Name" placeholder="Name" />
+          <input type="email" name="email" placeholder="Email"/>
+          <textarea placeholder="Message" rows="6"></textarea>
+          <button type="submit" class="submit">Send Message</button>
+        </form>
+        <!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button> -->
+        <!-- <button data-remodal-action="confirm" class="remodal-confirm">OK</button> -->
+      </div>
     </div><!-- end of modal -->
 
 
