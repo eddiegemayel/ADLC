@@ -20,9 +20,10 @@
 	}
 }
 
+/*----------------------------------------------------------------------------------------------Modal responsiveness*/
 @media (min-width:1000px) and ( max-width:1674px){
 	#modalForm{
-		width: 95%;
+		width: 97%;
 	}
 	.right{
 		float: none;
@@ -31,10 +32,9 @@
 		float:none;
 	}
 }
-
 @media (min-width:20px) and ( max-width:1000px){
 	#modalForm{
-		width: 95%;
+		width: 97%;
 	}
 	.right{
 		float: none;
@@ -90,11 +90,6 @@
     .info{
     	height: 640px;
     }
-    #watchBtn{
-    	 /*bottom:150px;*/
-    	 /*left: 200px;*/
-    	 /*visibility: hidden;*/
-    }
     #dynamicInfo{
     	/*visibility: hidden;*/
     	font-size:150%;
@@ -102,9 +97,6 @@
     .banner1 a.button{
     	/*width: 70px;*/
     }
-  /*  video{
-    	display: none;
-    }*/
 }
 
 /*----------------------------------------------------------------------------------------------------For smaller screens*/
@@ -175,16 +167,6 @@
     	left: 25px;
     	width: 120px;
 	}
-	/*#slideout{
-    	visibility: hidden;
-    }
-    .info{
-    	visibility: hidden;
-    }
-    
-    video{
-    	display: none;
-    }*/
     #slideout{
     	min-height: 100px;
     	/*overflow:scroll;*/

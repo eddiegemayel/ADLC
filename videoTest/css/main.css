@@ -378,12 +378,25 @@ display: none;
 }
 .banner1 h1{
 	position: absolute; 
-  top: 200px; 
+  top: 190px; 
   left: 55px; 
+}
+.banner1 h4{
+  position: absolute; 
+  top: 220px; 
+  left: 55px; 
+  color: white; 
+  font: bold 24px/45px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  /*background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.7);*/
+  padding: 10px;
+  font-size: 25px;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 .banner1 a{
   position: absolute; 
-  top: 250px; 
+  top: 280px; 
   left: 60px; 
   width: 120px;
 }
