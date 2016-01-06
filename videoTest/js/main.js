@@ -159,7 +159,7 @@ $(document).ready(function() {
 
   //change modal height
   //when the right button is clicked
-  $("#watchBtn").click(function(){
+  $(".section").click(function(){
     //grab window height and width
     windowHeight = $(window).height();
     windowWidth = $(window).width();

@@ -20,6 +20,30 @@
 	}
 }
 
+@media (min-width:1000px) and ( max-width:1674px){
+	#modalForm{
+		width: 95%;
+	}
+	.right{
+		float: none;
+	}
+	.left{
+		float:none;
+	}
+}
+
+@media (min-width:20px) and ( max-width:1000px){
+	#modalForm{
+		width: 95%;
+	}
+	.right{
+		float: none;
+	}
+	.left{
+		float:none;
+	}
+}
+
 /*----------------------------------------------------------------------------------------------------For average screens*/
 @media (min-width: 1080px) and (max-width: 1600px){
 	.container{
@@ -615,7 +639,7 @@ and (orientation : landscape){
     	font-size: 40px;
     	font-family: 'Open Sans', 'Raleway', sans-serif;
 	}
-	video{
+	.video{
     	display: none;
     }
 }
@@ -667,6 +691,6 @@ and (orientation : landscape){
 @media (min-width: 20px) and (max-width: 850px){
 	#slideout{visibility: hidden;}
 	.info{visibility: hidden;}
-    video{display: none;}
+    .video{display: none;}
     #watchBtn{visibility: hidden;}
 }

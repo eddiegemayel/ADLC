@@ -521,6 +521,8 @@ a.button.full:hover {
   line-height: 1.5;
 }
 .section{
+  display: block;
+  text-decoration: none;
   position: relative;
   border-left: 1px black solid;
   height: 175px;
