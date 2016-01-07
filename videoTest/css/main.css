@@ -547,13 +547,15 @@ a.button.full:hover {
   height: 175px;
   width:380px;
   left: 30px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 1);
 }
 #thumbnail1{
   width: 380px;
   height: 175px;
+  top: -25px;
   opacity: 0.3;
-  z-index: -1;
+  position: relative;
+  transition:linear;
 }
 #thumbnail1:hover{
   opacity: 0.9;
@@ -561,10 +563,51 @@ a.button.full:hover {
 #thumbnail2{
   width: 380px;
   height: 175px;
+  top: -25px;
   opacity: 0.3;
-  z-index: -1;
+  position: relative;
 }
 #thumbnail2:hover{
+  opacity: 0.9;
+}
+#thumbnail3{
+  width: 380px;
+  height: 175px;
+  top: -25px;
+  opacity: 0.3;
+  position: relative;
+}
+#thumbnail3:hover{
+  opacity: 0.9;
+}
+#thumbnail4{
+  width: 380px;
+  height: 175px;
+  top: -25px;
+  opacity: 0.3;
+  position: relative;
+}
+#thumbnail4:hover{
+  opacity: 0.9;
+}
+#thumbnail5{
+  width: 380px;
+  height: 175px;
+  top: -25px;
+  opacity: 0.3;
+  position: relative;
+}
+#thumbnail5:hover{
+  opacity: 0.9;
+}
+#thumbnail6{
+  width: 380px;
+  height: 175px;
+  top: -25px;
+  opacity: 0.3;
+  position: relative;
+}
+#thumbnail6:hover{
   opacity: 0.9;
 }
 /*.section:hover{
@@ -575,6 +618,7 @@ a.button.full:hover {
   top: 45%;
   font-size: 115%;
   color: rgba(255,151,53, 1);
+  z-index: 1;
 }
 .headingSection{
   position: relative;
@@ -595,7 +639,7 @@ a.button.full:hover {
 }
 .selected{
   /*background-color: #FF9735;*/
-  background-color: rgba(255,151,53, 0.7);
+  /*background-color: rgba(255,151,53, 0.7);*/
 }
 #watchBtn{
   padding: 16px 72px !important;
