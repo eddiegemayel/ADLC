@@ -162,4 +162,10 @@ $(document).ready(function() {
     console.log();
   });
 
+  // var iframe           = $('iframe:first');
+  // var iframe_src       = iframe.attr('src');
+  // var youtube_video_id = iframe_src.match(/youtube\.com.*(\?v=|\/embed\/)(.{11})/).pop();
+  // var iframe1 = $('<img src="https://img.youtube.com/vi/p7gJMFaRdfM/0.jpg" class="thumbnail">');
+
+
 });

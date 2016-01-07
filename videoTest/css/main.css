@@ -494,8 +494,6 @@ a.button.full:hover {
 
 /* ------------------------------------------------------------------------------------------------------------------------------slideout and information area */
 #slideout {
-  /*background: rgba(214, 214, 214, 0.8);*/
-  /*background: rgb(0, 0, 0); */
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
   width: 410px;
@@ -518,7 +516,15 @@ a.button.full:hover {
 #clickme2{
   visibility: hidden;
 }
-#slideout img{
+.thumbnail{
+  position: relative;
+  top: 0;
+  height: 175px;
+  width: 380px;
+  z-index: -1;
+  opacity: 0.5;
+}
+#menu{
   position: absolute;
   top: 0; 
   left: 0;
@@ -541,16 +547,34 @@ a.button.full:hover {
   height: 175px;
   width:380px;
   left: 30px;
-  background: rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.9);
 }
-.section:hover{
+#thumbnail1{
+  width: 380px;
+  height: 175px;
+  opacity: 0.3;
+  z-index: -1;
+}
+#thumbnail1:hover{
+  opacity: 0.9;
+}
+#thumbnail2{
+  width: 380px;
+  height: 175px;
+  opacity: 0.3;
+  z-index: -1;
+}
+#thumbnail2:hover{
+  opacity: 0.9;
+}
+/*.section:hover{
   background-color:rgba(255,151,53, 0.7);
-}
+}*/
 .section p{
   position: relative;
   top: 45%;
   font-size: 115%;
-  color: white;
+  color: rgba(255,151,53, 1);
 }
 .headingSection{
   position: relative;
