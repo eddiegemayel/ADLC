@@ -24,6 +24,12 @@
 </head>
 
 <body>
+  <!-- Facebook Sharing -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
 	<!-- Header and Logo -->
   <div class="header">
       <div class="container">
@@ -48,7 +54,7 @@
         </div>
     </div>
 
-   <!-- Carousel -->
+   <!-- Main Banner Area -->
   <div class="wrapper" class="remodal-bg">
     <div class="container_slick">
       <div class="banner1">
@@ -111,14 +117,14 @@
 
 
     <!-- height="200" width="420" -->
-    <!-- width="560" height="315" iframe -->
+    <!-- width="560" height="315" iframe  data-url="https://www.youtube.com/channel/UCP6pg0jqwMct5jt-VWvedaA"-->
 
 
     <!-- Hidden Modal  -->
     <div class="remodal" data-remodal-id="modal">
       <button data-remodal-action="close" class="remodal-close"></button>
       <div class="left">
-        <h1>Join ADLC for free!</h1>
+        <h1>Watch this Video!</h1>
         <!-- <h2 id="dynamicInfo">Select a Video</h2> -->
         <iframe id="vid1" class="modalVideo video" src="https://www.youtube.com/embed/p7gJMFaRdfM" frameborder="0" allowfullscreen></iframe>
         <iframe id="vid2" class="modalVideo video" src="https://www.youtube.com/embed/A3MxMDbBNHQ" frameborder="0" allowfullscreen></iframe>
@@ -126,8 +132,16 @@
         <iframe id="vid4" class="modalVideo video" src="https://www.youtube.com/embed/TdXdSvzKWb0" frameborder="0" allowfullscreen></iframe>
         <iframe id="vid5" class="modalVideo video" src="https://www.youtube.com/embed/0GmLcQ91uzA" frameborder="0" allowfullscreen></iframe>
         <iframe id="vid6" class="modalVideo video" src="https://www.youtube.com/embed/PN0p6biHV_Y" frameborder="0" allowfullscreen></iframe>
+        <a id="" href="https://twitter.com/share" class="twitter-share-button"{count}  data-text="Check out American Dreams Learning Center TV!" data-hashtags="ADLC">Tweet</a>
+        <div class="fb-share-button" data-href="http://www.students.americandreamslc.com/index.php/login" data-layout="button"></div>
       </div>
       <div class="right">
+        <h2>Join ADLC for free!</h2>
+        <ul style="text-align:left; margin:0 auto;">
+          <li><strong>+ It's quick</strong></li>
+          <li><strong>+ It's free</strong></li>
+          <li><strong>+ Start Learning English!</strong></li>
+        </ul>
         <form id="modalForm">
           <input type="text" name="Name" placeholder="Name" />
           <input type="email" name="email" placeholder="Email"/>
@@ -225,4 +239,5 @@
 </body>
   <!-- javascript link -->
   <script src="js/main.js"></script>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </html>

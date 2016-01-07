@@ -661,19 +661,6 @@ a.button.full:hover {
 }
 
 /*-------------------------------------------------------------------------------------------------Video and Modal*/
-#vid1{
-  position: relative;
-  left: 0;
-  /*float: left;*/
-  /*clear: none;*/
-}
-#vid2{
-  /*position: relative;*/
-
-}
-#vid3{
-  /*position: relative;*/
-}
 .video{
   visibility: hidden;
   display: none;
