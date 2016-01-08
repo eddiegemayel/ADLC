@@ -1,11 +1,14 @@
+/*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------HTML Reset*/
+/*--------------------------------------------------------------------------------------------------------------*/
 *{
 	margin: 0;
 	padding: 0;
 	font-family: 'Open Sans', 'Raleway', sans-serif;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------ HTML5 display-role reset for older browsers */
+/*--------------------------------------------------------------------------------------------------------------*/
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -47,8 +50,9 @@ form{
 .show{
   visibility: visible;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------Header*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .header{
   width: 100%;
   background-color: #1d3c70;
@@ -66,8 +70,9 @@ form{
   float:left;
   clear: both !important;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------Nav*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .menu ul li{
   display: inline-block;
   padding: 30px 15px;
@@ -101,8 +106,9 @@ form{
   letter-spacing: 4px;
   text-transform: uppercase;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------------------Feature*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .features{
   padding: 60px 0px;
   background-color: #1d3c70;
@@ -244,8 +250,9 @@ img.badge{
   font-family:  'Open Sans', 'Raleway', sans-serif;
   overflow: hidden;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------Contact section*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .contact{
   padding: 60px 0px;
   width: 100%;
@@ -360,8 +367,9 @@ form textarea:focus{
 #mobile-header {
 display: none;
 }
-
-/*------------------------------------------------------------------------------------------------------------------Banner Header text and info area*/
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------Banner Header text and info area*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .wrapper{
 	width: 100%;
 	height: 550px;
@@ -400,35 +408,34 @@ display: none;
   left: 60px; 
   width: 120px;
 }
-    .banner1 a.button {
-      display: inline-block;
-      text-decoration: none;
-      padding: 10px;
-      text-align: center;
-      border-radius: 9px;
-      margin-bottom: 16px;
-      font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: #ffffff;
-      width: 170px;
-      margin: 20px 0px 0px 0px;
-      float: none;
-      transition: background 0.2s, color 0.2s;
-    }
-      #stickyBtn {
-      display: inline-block;
-      text-decoration: none;
-      padding: 10px;
-      text-align: center;
-      /*border-radius: 9px;  color: #00ccea;*/
-      font-family: 'Open Sans', 'Raleway', sans-serif;
-      color: #ffffff;
-      width: 70%;
-      margin: 20px 0px 0px 0px;
-      float: none;
-      transition: background 0.2s, color 0.2s;
-      position: fixed;
-      bottom: 0;
-    }
+.banner1 a.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 9px;
+  margin-bottom: 16px;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  color: #ffffff;
+  width: 170px;
+  margin: 20px 0px 0px 0px;
+  float: none;
+  transition: background 0.2s, color 0.2s;
+}
+#stickyBtn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+  /*border-radius: 9px;  color: #00ccea;*/
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  color: #ffffff;
+  width: 70%;
+  margin: 20px 0px 0px 0px;
+  float: none;
+  transition: background 0.2s, color 0.2s;
+  position: fixed;
+  bottom: 0;}
 #stickyBtn:hover{
   color: #00ccea;
 }
@@ -484,8 +491,9 @@ a.button.full:hover {
   padding-right: 10px;
   /*font-size: 230%;*/
 }
-
-/* ------------------------------------------------------------------------------------------------------------------------------slideout and video area */
+/*--------------------------------------------------------------------------------------------------------------*/
+/* ------------------------------------------------------------------------------------------------------------slideout and video area */
+/*--------------------------------------------------------------------------------------------------------------*/
 #slideout {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -539,66 +547,76 @@ a.button.full:hover {
   left: 30px;
   background: rgba(0, 0, 0, 1);
 }
+/*.section:hover{
+  color: rgba(189,112,76, 1);
+}*/
+.section p{
+  position: relative;
+  top: 45%;
+  font-size: 115%;
+  color: rgba(255,151,53, 1);
+  z-index: 1;
+}
 #thumbnail1{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
   transition:linear;
 }
 #thumbnail1:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 #thumbnail2{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
 }
 #thumbnail2:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 #thumbnail3{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
 }
 #thumbnail3:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 #thumbnail4{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
 }
 #thumbnail4:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 #thumbnail5{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
 }
 #thumbnail5:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 #thumbnail6{
   width: 380px;
   height: 175px;
   top: -25px;
-  opacity: 0.3;
+  opacity: 0.2;
   position: relative;
 }
 #thumbnail6:hover{
-  opacity: 0.9;
+  opacity: 0.69;
 }
 /*.section:hover{
   background-color:rgba(255,151,53, 0.7);
@@ -606,13 +624,6 @@ a.button.full:hover {
 iframe, object, embed {
     max-width: 100%;
     /*min-width:70%;*/
-}
-.section p{
-  position: relative;
-  top: 45%;
-  font-size: 115%;
-  color: rgba(255,151,53, 1);
-  z-index: 1;
 }
 .headingSection{
   position: relative;
@@ -653,8 +664,9 @@ iframe, object, embed {
   background-color: #f2f2f2;
   color: black;
 }
-
+/*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------Video and Modal*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .video{
   visibility: hidden;
   display: none;
@@ -698,7 +710,9 @@ iframe, object, embed {
   margin: 0 auto;
   text-align: center;
 }
+/*--------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
+/*--------------------------------------------------------------------------------------------------------------*/
 .footer{
   width: 100%;
   background-color: #373A42;

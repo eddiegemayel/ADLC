@@ -90,39 +90,34 @@ $(document).ready(function() {
     $(".section").on("click", toggle);
 
     //if video is clicked, display corresponding text and also toggle the class to "selected"
-    $(".headingSection").click(function(){
-      $("#dynamicInfo").html("Information about the selected Video");
-      $("#dynamicInfo").css("font-size", "150%");
-    });
+    // $(".headingSection").click(function(){
+    //   $("#dynamicInfo").html("Information about the selected Video");
+    //   $("#dynamicInfo").css("font-size", "150%");
+    // });
     $("#video1").click(function(){
       // $("#dynamicInfo").html("Going to the Doctor!");
       // $("#dynamicInfo").css("font-size", "180%");
-      $(this).toggleClass("selected");
+      // $(this).toggleClass("selected");
       $("#vid1").css("visibility", "visible");
       $("#vid1").css("display", "block");
     });
-    $("#video2").click(function(){
-      $(this).toggleClass("selected");   
+    $("#video2").click(function(){  
       $("#vid2").css("visibility", "visible");
       $("#vid2").css("display", "block");
     });
     $("#video3").click(function(){
-      $(this).toggleClass("selected");
       $("#vid3").css("visibility", "visible");
       $("#vid3").css("display", "block");
     });
     $("#video4").click(function(){
-      $(this).toggleClass("selected");
       $("#vid4").css("visibility", "visible");
       $("#vid4").css("display", "block");
     });
     $("#video5").click(function(){
-      $(this).toggleClass("selected");
       $("#vid5").css("visibility", "visible");
       $("#vid5").css("display", "block");
     });
     $("#video6").click(function(){
-      $(this).toggleClass("selected");
       $("#vid6").css("visibility", "visible");
       $("#vid6").css("display", "block");
     });
@@ -159,9 +154,12 @@ $(document).ready(function() {
   //Regular Expression for phone number input
   //Prevents any character to be entered except numbers
   $("#phone").bind("keypress", function(event){
+    //Regular Expression
     var regex = new RegExp("^[0-9]*$");
     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+    //if the input doesn't pass the regular expression test
     if(!regex.test(key)){
+      //prevent them from typing it
       event.preventDefault();
       return false;
     }
