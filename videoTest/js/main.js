@@ -56,7 +56,6 @@ $(document).ready(function() {
       $('#video1').toggleClass("selected");
       $("#vid1").css("visibility", "hidden");
       $("#vid1").css("display", "none");
-      // console.log("Turn off 1");
     }
     else if($('#video2').hasClass("selected")){
       $('#video2').toggleClass("selected");
@@ -109,7 +108,6 @@ $(document).ready(function() {
       $(this).toggleClass("selected");   
       $("#vid2").css("visibility", "visible");
       $("#vid2").css("display", "block");
-      // $("#bannerImg").css("visibility", "hidden");
     });
     $("#video3").click(function(){
       $(this).toggleClass("selected");
@@ -159,7 +157,6 @@ $(document).ready(function() {
     $('.remodal').css("max-width", windowWidth - 150);
     $('.modalVideo').css("height", windowHeight / 2);
     $('.modalVideo').css("width", windowWidth / 2);
-    console.log();
   });
 
   //Regular Expression for phone number input
@@ -173,7 +170,7 @@ $(document).ready(function() {
     }
   });
 
-  //stops video when clicked on
+  //stops video when 'X' on Modal is clicked on
   $(".remodal-close").click(function(){
      $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid2')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
@@ -183,11 +180,10 @@ $(document).ready(function() {
      $('#vid6')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
      // console.log("stop it");
   });
-  
-  // $('#stop').on('click', function() {
-  //   //$('#popup-youtube-player').stopVideo();
-  //   $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
-  //   console.log("stop it");
-  // });
 
+
+  //plays video when clicked
+  $("#play").click(function(){
+    $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+  });
 });
