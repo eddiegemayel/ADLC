@@ -24,10 +24,10 @@
 </head>
 
 <body>
-  <!-- Facebook Sharing -->
+  <!-- Facebook Sharing Script-->
   <div id="fb-root"></div>
   <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-
+  <!-- End of Facebook Ugly-ness -->
 
 
 	<!-- Header and Logo -->
@@ -107,7 +107,7 @@
           </a>
      </div>
 
-      <!-- click trigger -->
+      <!-- Hamburger Menu -->
       <div id="clickme">
         <img id="menu" src="images/menu-icon.svg" />
       </div>
@@ -115,20 +115,13 @@
     </div> <!-- end of slideout -->
   </div><!-- end of wrapper -->
 
-
-    <!-- height="200" width="420" -->
-    <!-- width="560" height="315" iframe  data-url="https://www.youtube.com/channel/UCP6pg0jqwMct5jt-VWvedaA"-->
-
-
     <!-- Hidden Modal  -->
     <div class="remodal" data-remodal-id="modal">
       <button data-remodal-action="close" class="remodal-close"></button>
 
-      <!-- <div class="modalWrapper"> -->
       <!-- left side -->
       <div class="left">
         <h1>Watch this Video!</h1>
-        <!-- <h2 id="dynamicInfo">Select a Video</h2> -->
         <iframe id="vid1" class="modalVideo video" src="https://www.youtube.com/embed/p7gJMFaRdfM?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
         <iframe id="vid2" class="modalVideo video" src="https://www.youtube.com/embed/A3MxMDbBNHQ?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
         <iframe id="vid3" class="modalVideo video" src="https://www.youtube.com/embed/H4LwK1fFH08?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
@@ -145,7 +138,7 @@
             </li>
           </ul>
         </div>
-        <a id="play" >Play</a>
+        <a id="play">Play</a>
       </div>
 
       <!-- right side -->
@@ -162,9 +155,6 @@
           <input id="phone" type="tel" name="phone" placeholder="Telephone" />
           <button type="submit" class="submit">Sign Up</button>
         </form>
-        <!-- <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button> -->
-        <!-- <button data-remodal-action="confirm" class="remodal-confirm">OK</button> -->
-      <!-- </div> -->
       </div>
     </div><!-- end of modal -->
 
@@ -254,5 +244,6 @@
 </body>
   <!-- javascript link -->
   <script src="js/main.js"></script>
+  <!-- Twitter share script -->
   <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 </html>

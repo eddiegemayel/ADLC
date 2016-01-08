@@ -19,7 +19,7 @@ $(document).ready(function() {
 
   //slide out menu
   $(function(){
-    //once area is clicked
+    //once hamburge menu area is clicked
     $("#clickme").click(function () {
       if($(this).parent().css("right") == "-380px"){
         //animate it out
@@ -42,8 +42,6 @@ $(document).ready(function() {
       }else{
         //animate back in
         $(".info").animate({right:'50px'}, {queue: false, duration: 950});
-        //return to normal font
-        $("#dynamicInfo").css("font-size", "150%");
       }
     });
   });
@@ -84,7 +82,6 @@ $(document).ready(function() {
     }
 };
   
-
   //brings up hidden MODAL when vid is selected
   $(function(){
 
@@ -131,13 +128,13 @@ $(document).ready(function() {
     });
   });
   
-  //height variables to be used below
+  //dimension variables to be used below
   var bannerHeight = $('#bannerImg').css("height");
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
 
-  //resize slideout div
+  //keep slideout div in line with banner
   //when window is resized grab height of banner image
   $(window).on("resize", function() {
     //apply banner image height to slideout div
@@ -181,8 +178,7 @@ $(document).ready(function() {
      // console.log("stop it");
   });
 
-
-  //plays video when clicked
+  //plays video when button is clicked
   $("#play").click(function(){
     $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
   });
