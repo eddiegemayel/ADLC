@@ -226,15 +226,15 @@ p.box-desc{
   color: #00aeef;
 }
 .desc2 p {
-    text-align: left;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 50%;
-    margin: 25px 43px 0px 493px;
-    font-family: 'Open Sans', sans-serif;
-    color: #aab1bf;
-  }
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 50%;
+  margin: 25px 43px 0px 493px;
+  font-family: 'Open Sans', sans-serif;
+  color: #aab1bf;
+}
 img.badge{
   float:left;
   margin-top: -50px;
@@ -269,16 +269,16 @@ img.badge{
   float: left;
 }
 .contact-text p{
-    color: #888;
-    font-size: 17px;
-    font-weight: 500;
-    font-family: 'Open Sans', sans-serif;
+  color: #888;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'Open Sans', sans-serif;
 }
 .contact-text strong{
-    color: #4b4a4a;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+  color: #4b4a4a;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 form input{
   background: none repeat scroll 0% 0% #F7F6F6;
@@ -361,7 +361,7 @@ form textarea:focus{
 display: none;
 }
 
-/*------------------------------------------------------------------------------------------------------------------Wrapper Header text and CTA button*/
+/*------------------------------------------------------------------------------------------------------------------Banner Header text and info area*/
 .wrapper{
 	width: 100%;
 	height: 550px;
@@ -436,12 +436,10 @@ display: none;
   visibility: hidden;
 }
 #want-a-discount--button{
-  /*color: #00ccea;*/
   float: left;
 }
 #want-a-discount--button:hover{
   color: #00ccea;
-  /*border: 1px solid #f2f2f2;*/
 }
 a.button.full{
   padding: 16px 72px !important;
@@ -465,19 +463,14 @@ a.button.full:hover {
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
-  /*background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.7);*/
   padding: 10px;
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 .info{
-  /*border: 1px solid black;*/
   position: absolute;
   top: 93px;
   right: 50px;
-  /*right:-220px;*/
-  /*float: right;*/
   width: 530px;
   height: 650px;
   display: block;
@@ -492,7 +485,7 @@ a.button.full:hover {
   /*font-size: 230%;*/
 }
 
-/* ------------------------------------------------------------------------------------------------------------------------------slideout and information area */
+/* ------------------------------------------------------------------------------------------------------------------------------slideout and video area */
 #slideout {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -502,9 +495,6 @@ a.button.full:hover {
   right:-380px;
   padding-left: 20px;
   overflow-y: scroll;
-  /*height: auto;*/
-  /*left: 1800px;*/
-  /*bottom: 700px;*/
 }  
 #clickme {
   position: absolute;
@@ -610,25 +600,13 @@ a.button.full:hover {
 #thumbnail6:hover{
   opacity: 0.9;
 }
-#twitter{
-  padding-top: -5px;
-}
-.socialMediaButtons{
-  float: left;
-  clear: none;
-  /*max-width: 200px;*/
-  overflow: hidden;
-}
-.socialMediaButtons li{
-  display: block;
-  float: left;
-  /*width: 33.3%;*/
-  margin: 0 auto;
-  text-align: center;
-}
 /*.section:hover{
   background-color:rgba(255,151,53, 0.7);
 }*/
+iframe, object, embed {
+    max-width: 100%;
+    /*min-width:70%;*/
+}
 .section p{
   position: relative;
   top: 45%;
@@ -697,13 +675,28 @@ a.button.full:hover {
 .right{
   float: right;
   clear: none;
+  /*display: inline-block;*/
 }
 #modalForm{
-  float:none;
-  width: 70%;
+  float: none;
+  width: 90%;
+  min-width: 85%;
+  padding: 0 1%;
 }
 .remodal{
   overflow-y: scroll;
+}
+#twitter{
+  padding-top: -5px;
+}
+.socialMediaButtons{
+  overflow: hidden;
+}
+.socialMediaButtons li{
+  display: block;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
 }
 /*------------------------------------------------------------------------------------------------------------------Footer and social media*/
 .footer{
