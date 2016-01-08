@@ -162,6 +162,8 @@ $(document).ready(function() {
     console.log();
   });
 
+  //Regular Expression for phone number input
+  //Prevents any character to be entered except numbers
   $("#phone").bind("keypress", function(event){
     var regex = new RegExp("^[0-9]*$");
     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
@@ -170,5 +172,22 @@ $(document).ready(function() {
       return false;
     }
   });
+
+  //stops video when clicked on
+  $(".remodal-close").click(function(){
+     $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+     $('#vid2')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+     $('#vid3')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+     $('#vid4')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+     $('#vid5')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
+     $('#vid6')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
+     // console.log("stop it");
+  });
+  
+  // $('#stop').on('click', function() {
+  //   //$('#popup-youtube-player').stopVideo();
+  //   $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
+  //   console.log("stop it");
+  // });
 
 });
