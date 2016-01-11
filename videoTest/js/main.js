@@ -190,11 +190,12 @@ $(document).ready(function() {
   //plays video when button is clicked
   // $("#play").click(function(){
   //   $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+      //do not delete this code yet!!!
   // });
 
   //when form is submitted, play the video
   $("#modalForm").submit(function(){
     $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
-    console.log("submitted");
+    // console.log("submitted");
   });
 });
