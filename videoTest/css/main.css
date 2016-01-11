@@ -574,6 +574,9 @@ a.button.full:hover {
   margin-right:75px; 
   margin-left:75px;
 }
+.selectedVideo{
+  
+}
 iframe, object, embed {
     max-width: 100%;
     /*min-width:70%;*/
@@ -640,7 +643,6 @@ iframe, object, embed {
 .right{
   float: right;
   clear: none;
-  /*display: inline-block;*/
 }
 #modalForm{
   float: none;

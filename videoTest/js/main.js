@@ -51,75 +51,67 @@ $(document).ready(function() {
   //this function checks to see which video is selected, then de-selects it
   var toggle = function(){
     if($('#video1').hasClass("selected")){
-      $('#video1').toggleClass("selected");
+      // $('#video1').toggleClass("selected");
       $("#vid1").css("visibility", "hidden");
       $("#vid1").css("display", "none");
     }
     else if($('#video2').hasClass("selected")){
-      $('#video2').toggleClass("selected");
       $("#vid2").css("visibility", "hidden");
       $("#vid2").css("display", "none");
     }
     else if($('#video3').hasClass("selected")){
-      $('#video3').toggleClass("selected");
       $("#vid3").css("visibility", "hidden");
       $("#vid3").css("display", "none");
     }
     else if($('#video4').hasClass("selected")){
-      $('#video4').toggleClass("selected");
       $("#vid4").css("visibility", "hidden");
       $("#vid4").css("display", "none");
     }
     else if($('#video5').hasClass("selected")){
-      $('#video5').toggleClass("selected");
       $("#vid5").css("visibility", "hidden");
       $("#vid5").css("display", "none");
     }
     else if($('#video6').hasClass("selected")){
-      $('#video6').toggleClass("selected");
       $("#vid6").css("visibility", "hidden");
       $("#vid6").css("display", "none");
     }
 };
   
   //brings up hidden MODAL when vid is selected
+  //adds 'selected' class to current video playing
   $(function(){
-
     //when any video section is clicked
     //turn off all others
     $(".section").on("click", toggle);
-
-    //if video is clicked, display corresponding text and also toggle the class to "selected"
-    // $(".headingSection").click(function(){
-    //   $("#dynamicInfo").html("Information about the selected Video");
-    //   $("#dynamicInfo").css("font-size", "150%");
-    // });
     $("#video1").click(function(){
-      // $("#dynamicInfo").html("Going to the Doctor!");
-      // $("#dynamicInfo").css("font-size", "180%");
-      // $(this).toggleClass("selected");
       $("#vid1").css("visibility", "visible");
       $("#vid1").css("display", "block");
+      $("#vid1").addClass("selectedVideo");
     });
     $("#video2").click(function(){  
       $("#vid2").css("visibility", "visible");
       $("#vid2").css("display", "block");
+      $("#vid2").addClass("selectedVideo");
     });
     $("#video3").click(function(){
       $("#vid3").css("visibility", "visible");
       $("#vid3").css("display", "block");
+      $("#vid3").addClass("selectedVideo");
     });
     $("#video4").click(function(){
       $("#vid4").css("visibility", "visible");
       $("#vid4").css("display", "block");
+      $("#vid4").addClass("selectedVideo");
     });
     $("#video5").click(function(){
       $("#vid5").css("visibility", "visible");
       $("#vid5").css("display", "block");
+      $("#vid5").addClass("selectedVideo");
     });
     $("#video6").click(function(){
       $("#vid6").css("visibility", "visible");
       $("#vid6").css("display", "block");
+      $("#vid6").addClass("selectedVideo");
     });
   });
   
@@ -165,7 +157,8 @@ $(document).ready(function() {
     }
   });
 
-  //stops video when 'X' on Modal is clicked on
+  //stops and hides any videos playing when 'X' on Modal is clicked on
+  //remove 'selected' class from any video playing
   $(".remodal-close").click(function(){
      $('#vid1')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid2')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
@@ -173,11 +166,35 @@ $(document).ready(function() {
      $('#vid4')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid5')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid6')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
+     $("#vid1").css("visibility", "hidden");
+     $("#vid1").css("display", "none");
+     $("#vid1").removeClass("selectedVideo");
+     $("#vid2").css("visibility", "hidden");
+     $("#vid2").css("display", "none");
+     $("#vid2").removeClass("selectedVideo");
+     $("#vid3").css("visibility", "hidden");
+     $("#vid3").css("display", "none");
+     $("#vid3").removeClass("selectedVideo");
+     $("#vid4").css("visibility", "hidden");
+     $("#vid4").css("display", "none");
+     $("#vid4").removeClass("selectedVideo");
+     $("#vid5").css("visibility", "hidden");
+     $("#vid5").css("display", "none");
+     $("#vid5").removeClass("selectedVideo");
+     $("#vid6").css("visibility", "hidden");
+     $("#vid6").css("display", "none");
+     $("#vid6").removeClass("selectedVideo");
      // console.log("stop it");
   });
 
   //plays video when button is clicked
-  $("#play").click(function(){
-    $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+  // $("#play").click(function(){
+  //   $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+  // });
+
+  //when form is submitted, play the video
+  $("#modalForm").submit(function(){
+    $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+    console.log("submitted");
   });
 });
