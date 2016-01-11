@@ -518,28 +518,23 @@ a.button.full:hover {
   width: 380px;
   height: 175px;
   top: -25px;
-  /*opacity: 0.48;*/
   position: relative;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
-  -webkit-transform: scale(0.97);
-  transform: scale(0.97);
-  -webkit-transition: .4s ease-in-out;
-  transition: .4s ease-in-out;
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-filter: grayscale(0%) blur(0px) !important;
+  filter: grayscale(0%) blur(0px) !important;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  /*  -webkit-transform: scale(0.97);
+  transform: scale(0.97);*/
 }
 .thumbnail:hover{
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-filter: blur(0);
-  filter: blur(0);
+  -webkit-filter: grayscale(60%) blur(3px) !important;
+  filter: grayscale(60%) blur(3px) !important;
+/*  -webkit-transform: scale(1);
+  transform: scale(1);*/
 }
 #menu{
   position: absolute;
