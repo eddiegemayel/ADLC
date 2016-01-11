@@ -531,8 +531,8 @@ a.button.full:hover {
   transform: scale(0.97);*/
 }
 .thumbnail:hover{
-  -webkit-filter: grayscale(60%) blur(3px) !important;
-  filter: grayscale(60%) blur(3px) !important;
+  -webkit-filter: grayscale(80%) blur(5px) !important;
+  filter: grayscale(80%) blur(5px)  !important;
 /*  -webkit-transform: scale(1);
   transform: scale(1);*/
 }
@@ -574,9 +574,8 @@ a.button.full:hover {
   margin-right:75px; 
   margin-left:75px;
 }
-.selectedVideo{
-  
-}
+/*empty class just to tell the jQuery which video is selected*/
+.selectedVideo{}
 iframe, object, embed {
     max-width: 100%;
     /*min-width:70%;*/

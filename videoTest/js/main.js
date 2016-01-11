@@ -50,28 +50,28 @@ $(document).ready(function() {
   //once user clicks on a new video
   //this function checks to see which video is selected, then de-selects it
   var toggle = function(){
-    if($('#video1').hasClass("selected")){
+    if($('#video1').hasClass("selectedVideo")){
       // $('#video1').toggleClass("selected");
       $("#vid1").css("visibility", "hidden");
       $("#vid1").css("display", "none");
     }
-    else if($('#video2').hasClass("selected")){
+    else if($('#video2').hasClass("selectedVideo")){
       $("#vid2").css("visibility", "hidden");
       $("#vid2").css("display", "none");
     }
-    else if($('#video3').hasClass("selected")){
+    else if($('#video3').hasClass("selectedVideo")){
       $("#vid3").css("visibility", "hidden");
       $("#vid3").css("display", "none");
     }
-    else if($('#video4').hasClass("selected")){
+    else if($('#video4').hasClass("selectedVideo")){
       $("#vid4").css("visibility", "hidden");
       $("#vid4").css("display", "none");
     }
-    else if($('#video5').hasClass("selected")){
+    else if($('#video5').hasClass("selectedVideo")){
       $("#vid5").css("visibility", "hidden");
       $("#vid5").css("display", "none");
     }
-    else if($('#video6').hasClass("selected")){
+    else if($('#video6').hasClass("selectedVideo")){
       $("#vid6").css("visibility", "hidden");
       $("#vid6").css("display", "none");
     }
