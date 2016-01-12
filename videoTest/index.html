@@ -63,7 +63,7 @@
       </div>
     </div>
     <div class="info">
-        <h2>Select a Video</h2>
+        <h2 id="dynamicInfo">Select a Video</h2>
         <!-- <a id="watchBtn" style="text-decoration:none; color:inherit;" href="#modal">Assista ao video</a> -->
     </div>
 
@@ -88,20 +88,20 @@
             <figure><img id="thumbnail2" class="thumbnail" src="https://img.youtube.com/vi/A3MxMDbBNHQ/0.jpg" /></figure>
           </a>
           <a id="video3" href="#modal" class="section">
-            <p><strong>Going to the Doctor</strong></p>
+            <p><strong>Going to the Doctor (1)</strong></p>
             <figure><img id="thumbnail3" class="thumbnail" src="https://img.youtube.com/vi/H4LwK1fFH08/0.jpg" /></figure>
           </a>
           <a id="video4" href="#modal" class="section">
-            <p><strong>Going to the Doctor 2</strong></p>
-            <figure><img id="thumbnail4" class="thumbnail" src="https://img.youtube.com/vi/TdXdSvzKWb0/0.jpg" /></figure>
+            <p><strong>Renting an Apartment</strong></p>
+            <figure><img id="thumbnail4" class="thumbnail" src="https://img.youtube.com/vi/PN0p6biHV_Y/0.jpg" /></figure>
           </a>
           <a id="video5" href="#modal" class="section">
             <p><strong>Iniviting People to the Party</strong></p>
             <figure><img id="thumbnail5" class="thumbnail" src="https://img.youtube.com/vi/0GmLcQ91uzA/0.jpg" /></figure>
           </a>
           <a id="video6" href="#modal" class="section">
-            <p><strong>Renting an Apartment</strong></p>
-            <figure><img id="thumbnail6" class="thumbnail" src="https://img.youtube.com/vi/PN0p6biHV_Y/0.jpg" /></figure>
+            <p><strong>Going to the Doctor (2)</strong></p>
+            <figure><img id="thumbnail6" class="thumbnail" src="https://img.youtube.com/vi/TdXdSvzKWb0/0.jpg" /></figure>
           </a>
      </div>
 
@@ -119,7 +119,7 @@
 
       <!-- left side -->
       <div class="left">
-        <h1>Watch this Video!</h1>
+        <!-- <h1>Watch this Video!</h1> -->
         <iframe id="vid1" class="modalVideo video" src="https://www.youtube.com/embed/p7gJMFaRdfM?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
         <iframe id="vid2" class="modalVideo video" src="https://www.youtube.com/embed/A3MxMDbBNHQ?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
         <iframe id="vid3" class="modalVideo video" src="https://www.youtube.com/embed/H4LwK1fFH08?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>
@@ -147,10 +147,10 @@
           <li><strong>+ It's free!</strong></li>
           <li><strong>+ Start Learning!</strong></li>
         </ul>
-        <form id="modalForm" method="" action="">
-          <input type="text" name="Name" placeholder="Name" />
-          <input type="email" name="email" placeholder="Email"/>
-          <input id="phone" type="tel" name="phone" placeholder="Telephone" />
+        <form id="modalForm" method="POST" action="">
+          <input type="text" name="Name" placeholder="Name" required/>
+          <input type="email" name="email" placeholder="Email" required/>
+          <input id="phone" type="tel" name="phone" placeholder="Telephone" required/>
           <button type="submit" class="submit">Sign Up</button>
         </form>
       </div>
@@ -210,10 +210,10 @@
                   <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p></br></br> <strong>  Lorem ipsum dolor sit amet, consectetuer
                   adipiscingdolor elit. </p><br> T: (202) 456-1111 </br> M: (202) 456-1212</br></br></strong> </p>
                   </div>
-                    <form>
-                        <input type="text" name="Name" placeholder="Name" />
-                        <input type="email" name="email" placeholder="Email"/>
-                        <input id="phone" type="tel" name="phone" placeholder="Telephone"/>
+                    <form method="POST" action="">
+                        <input type="text" name="Name" placeholder="Name" required />
+                        <input type="email" name="email" placeholder="Email" required/>
+                        <input id="phone" type="tel" name="phone" placeholder="Telephone" required/>
                         <!-- <textarea placeholder="Message" rows="6"></textarea> -->
                         <button type="submit" class="submit">Contact Us</button>
                      </form>

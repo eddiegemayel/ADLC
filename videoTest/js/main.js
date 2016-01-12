@@ -17,23 +17,27 @@ $(document).ready(function() {
   	});
 	});
 
+
   //slide out menu
+  //if someone clicks the HAMBURGER MENU 
   $(function(){
-    //once hamburge menu area is clicked
+    //once hamburger menu area is clicked
     $("#clickme").click(function () {
       if($(this).parent().css("right") == "-380px"){
         //animate it out
         $(this).parent().animate({right:'0px'}, {queue: false, duration: 825});
+        $("#dynamicInfo").html("Close");
       }else{
         //animate it back in
         $(this).parent().animate({right:'-380px'}, {queue: false, duration: 950});
         //hide any video when slideout goes away
         $(".video").css("visibility", "hidden");
+        $("#dynamicInfo").html("Select a Video");
       }
     });
   });
-
   //info slide out div
+  //if someone clicks the HAMBURGER MENU
   $(function(){
     $("#clickme").click(function(){
       if($(".info").css("right") == "50px"){
@@ -45,7 +49,39 @@ $(document).ready(function() {
       }
     });
   });
+   //slide out menu
+   //if someone clicks the TEXT
+  $(function(){
+    //once hamburge menu area is clicked
+    $("#dynamicInfo").click(function () {
+      if($("#clickme").parent().css("right") == "-380px"){
+        //animate it out
+        $("#clickme").parent().animate({right:'0px'}, {queue: false, duration: 825});
+        $("#dynamicInfo").html("Close");
+      }else{
+        //animate it back in
+        $("#clickme").parent().animate({right:'-380px'}, {queue: false, duration: 950});
+        //hide any video when slideout goes away
+        $(".video").css("visibility", "hidden");
+        $("#dynamicInfo").html("Select a Video");
+      }
+    });
+  });
+  //info slide out div
+  //if someone clicks the TEXT
+  $(function(){
+    $("#dynamicInfo").click(function(){
+      if($(".info").css("right") == "50px"){
+        //animate out
+        $(".info").animate({right:'470px'}, {queue: false, duration: 825});
+      }else{
+        //animate back in
+        $(".info").animate({right:'50px'}, {queue: false, duration: 950});
+      }
+    });
+  });
   
+
   //toggle function
   //once user clicks on a new video
   //this function checks to see which video is selected, then de-selects it
@@ -154,6 +190,7 @@ $(document).ready(function() {
       //prevent them from typing it
       event.preventDefault();
       return false;
+      console.log("fired");
     }
   });
 
@@ -184,13 +221,12 @@ $(document).ready(function() {
      $("#vid6").css("visibility", "hidden");
      $("#vid6").css("display", "none");
      $("#vid6").removeClass("selectedVideo");
-     // console.log("stop it");
+     // console.log("stop it"); this console log just syas to stop it
   });
 
   //plays video when button is clicked
   // $("#play").click(function(){
   //   $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
-      //do not delete this code yet!!!
   // });
 
   //when form is submitted, play the video
