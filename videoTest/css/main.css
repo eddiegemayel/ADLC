@@ -532,8 +532,11 @@ a.button.full:hover {
   transform: scale(0.97);*/
 }
 .thumbnail:hover{
-  -webkit-filter: grayscale(80%) blur(5px) !important;
-  filter: grayscale(80%) blur(5px)  !important;
+  -webkit-filter: grayscale(70%) blur(1.5px) !important;
+  filter: grayscale(70%) blur(1.5px)  !important;
+  /*
+    Animates the thumbnail to blur and grayscale when hovered
+  */
 }
 #menu{
   position: absolute;

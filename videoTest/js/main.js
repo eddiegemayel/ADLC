@@ -179,18 +179,18 @@ $(document).ready(function() {
     $('.modalVideo').css("width", windowWidth / 2);
   });
 
-  //Regular Expression for phone number input
+  //Regular Expression for phone number input(s)
   //Prevents any character to be entered except numbers
-  $("#phone").bind("keypress", function(event){
+  $("input[type='tel']").bind("keypress", function(event){
     //Regular Expression
     var regex = new RegExp("^[0-9]*$");
     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
     //if the input doesn't pass the regular expression test
     if(!regex.test(key)){
+      console.log("fired off");
       //prevent them from typing it
       event.preventDefault();
       return false;
-      console.log("fired");
     }
   });
 
@@ -228,10 +228,11 @@ $(document).ready(function() {
   // $("#play").click(function(){
   //   $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
   // });
+  //this code do not delete just yet 
 
   //when form is submitted, play the video
   $("#modalForm").submit(function(){
     $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
-    // console.log("submitted");
+    // console.log("this has now been submitted");
   });
 });
