@@ -73,7 +73,8 @@ form{
   clear: both !important;
 }
 #logo{
-  /*height: 70px;*/
+  height: 70px;
+  width: 350px;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------Nav*/
@@ -98,7 +99,7 @@ form{
   -ms-transition: color 0.3s ease-in;
 }
 .menu ul li a:hover{
-  color: #2E5FCC;
+  color: #37D9F5;
 }
 .logo h1 a{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -285,6 +286,7 @@ img.badge{
 }
 #map{
   /*height:100%;*/
+    transition: all 0.5s ease-in;
 }
 .contact-text p{
   color: #888;
