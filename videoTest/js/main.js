@@ -185,6 +185,7 @@ $(document).ready(function() {
     //Regular Expression
     var regex = new RegExp("^[0-9]*$");
     var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+     
     //if the input doesn't pass the regular expression test
     if(!regex.test(key)){
       console.log("fired off");
@@ -202,7 +203,7 @@ $(document).ready(function() {
      $('#vid3')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid4')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
      $('#vid5')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*'); 
-     $('#vid6')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');    
+     $('#vid6')[0].contentWindow.postMessage('{"event":"command","func":"' + 'stopVideo' + '","args":""}', '*');  
      $("#vid1").css("visibility", "hidden");
      $("#vid1").css("display", "none");
      $("#vid1").removeClass("selectedVideo");
@@ -235,4 +236,7 @@ $(document).ready(function() {
     $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
     // console.log("this has now been submitted");
   });
+
+
+
 });
