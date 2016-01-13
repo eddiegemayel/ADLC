@@ -380,7 +380,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background-position: 1% 0%
+		background: url(../images/desc2.png) 5% 5% no-repeat fixed;
 	}
 	.features-section ul li {
     	display: block;
