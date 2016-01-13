@@ -120,16 +120,19 @@ form{
 /*--------------------------------------------------------------------------------------------------------------*/
 .features{
   padding: 60px 0px;
-  background-color: #1d3c70;
+  /*background-color: #1d3c70;*/
   float: left;
   width: 100%;
 }
 .features-section{
   text-align: center;
+/*  background:url(../images/desc3.png) no-repeat 30% 0%/cover;*/
+  /*height: 550px;*/
 }
 .features2{
   padding: 7px 0px 62px 0px;
-  background-color: #00aeef;
+  background-color: #fff;
+  color:#4F4D4C;
   float: left;
   width: 100%;
   margin-top: -15px;
@@ -157,6 +160,7 @@ p.box-desc{
   display: block;
   text-align: center;
   float: left;
+  color:#4F4D4C;
 }
 .feature-icon{
   background:url(../images/feature-icons.png) no-repeat;
@@ -191,13 +195,13 @@ p.box-desc{
 .features-section ul li h4{
   font-size: 17px;
   font-weight: 600;
-  color: #FF9735;
+  color: #1C97CA;
   font-family: 'Open Sans', 'Raleway', sans-serif;
   line-height: 50px;
   margin-top: 20px;
 }
 .features-section ul li p{
-  color: #fff;
+  color: #4F4D4C;
   font-size: 15px;
   line-height: 20px;
   width: 90%;
@@ -233,9 +237,10 @@ p.box-desc{
   /*background-image: url(../images/bgbadge.png);  no-repeat fixed 30% 0%/cover*/
   background-color: #cccccc;
   margin-bottom: 0px;
-  background:url(../images/desc1.png) no-repeat fixed 30% 0%/cover;
+  /*background:url(../images/desc2.png) no-repeat fixed 30% 0%/cover;*/
+  background: url(../images/desc1.png) center center no-repeat fixed;
   /*background-repeat:no-repeat;*/
-  height: 878px;
+  height: 550px;
 }
 .desc2 h2{
   font-size: 30px;

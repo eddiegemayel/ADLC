@@ -379,6 +379,9 @@ and (orientation : landscape){
     	font-size: 14px;
 		width: 100%;
 	}
+	.desc2{
+		background-position: 1% 0%
+	}
 	.features-section ul li {
     	display: block;
     	float: none;
@@ -473,6 +476,9 @@ and (orientation : landscape){
 	.desc p {
     	font-size: 14px;
 		width: 100%;
+	}
+	.desc2{
+		display: none;
 	}
 	.features{
 		padding: 140px 0px;
