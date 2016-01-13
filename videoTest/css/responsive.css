@@ -479,7 +479,8 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		display: none;
+		background: url(../images/desc2.png) center center no-repeat fixed;
+		height: 280px;
 	}
 	.features{
 		padding: 140px 0px;
