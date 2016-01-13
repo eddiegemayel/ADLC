@@ -45,6 +45,9 @@ form{
   width: 50%;
   float: right;
 }
+.features-section ul li i{
+  color:#FF9735;
+}
 .hide{
   visibility: hidden;
 }
@@ -73,7 +76,7 @@ form{
   clear: both !important;
 }
 #logo{
-  height: 70px;
+  height: 78px;
   width: 350px;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -239,8 +242,7 @@ p.box-desc{
   margin-bottom: 0px;
   /*background:url(../images/desc2.png) no-repeat fixed 30% 0%/cover;*/
   background: url(../images/desc1.png) center center no-repeat fixed;
-  /*background-repeat:no-repeat;*/
-  height: 550px;
+  height: 590px;
 }
 .desc2 h2{
   font-size: 30px;
@@ -294,7 +296,9 @@ img.badge{
 }
 #map{
   /*height:100%;*/
-    transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  margin-right: 10px;
+  margin-top: 15px;
 }
 .contact-text p{
   color: #888;
