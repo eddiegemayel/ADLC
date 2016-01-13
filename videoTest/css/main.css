@@ -230,9 +230,11 @@ p.box-desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
   padding: 49px 0px 70px 0px;
-  background-image: url(../images/bgbadge.png);
+  /*background-image: url(../images/bgbadge.png);*/
   background-color: #cccccc;
   margin-bottom: 0px;
+  background-image:url(../images/desc1.png) ;
+  height: 878px;
 }
 .desc2 h2{
   font-size: 30px;
