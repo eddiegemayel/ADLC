@@ -191,6 +191,10 @@
     	visibility: hidden;
     }
     #dynamicInfo{visibility: hidden;}
+    .desc2{
+		background: url(../images/desc2.png) 7% 0% no-repeat fixed;
+		height: 380px;
+	}
 }
 
 @media only screen 
@@ -333,6 +337,10 @@ and (orientation : landscape){
     #slideout{
     	height: 370px;
     }
+    .desc2{
+		background: url(../images/desc2.png) 20% 0% no-repeat fixed;
+		height: 330px;
+	}
 }
 /**/
 @media (min-width: 480px) and (max-width: 640px){
@@ -380,7 +388,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc2.png) center center no-repeat fixed;
+		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
 		height: 300px;
 	}
 	.features-section ul li {
@@ -479,7 +487,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc2.png) center center no-repeat fixed;
+		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
 		height: 280px;
 	}
 	.features{

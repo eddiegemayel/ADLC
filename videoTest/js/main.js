@@ -237,6 +237,4 @@ $(document).ready(function() {
     // console.log("this has now been submitted");
   });
 
-
-
 });
