@@ -222,7 +222,7 @@ $(document).ready(function() {
      $("#vid6").css("visibility", "hidden");
      $("#vid6").css("display", "none");
      $("#vid6").removeClass("selectedVideo");
-     // console.log("stop it"); this console log just syas to stop it
+     // console.log("stop it"); 
   });
 
   //plays video when button is clicked
@@ -237,4 +237,27 @@ $(document).ready(function() {
     // console.log("this has now been submitted");
   });
 
+  //if the user begins to scroll
+  //my attempt to hide the discount button if scrolled to very bottom
+  //DOESNT work tho :(
+  $(window).scroll(function(){
+    //collect how much has been scrolled
+    var s = $(window).scrollTop();
+    //collect total window height plus document height
+    var  d = $(document).height();
+    var  c = $(window).height();
+    //calculate percent
+    var scrollPercent = (s / (d-c)) * 100;
+    //for dev purposes
+    console.log(scrollPercent + "% " + s, d, c);
+    if(scrollPercent=100){
+      $("#stickyBtn").removeClass("show");
+      $("#stickyBtn").addClass("hide");
+    }
+    else{
+      $("#stickyBtn").removeClass("hide");
+      $("#stickyBtn").addClass("show");
+    }
+  });
+  
 });

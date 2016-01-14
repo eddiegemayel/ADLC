@@ -193,7 +193,7 @@
     #dynamicInfo{visibility: hidden;}
     .desc2{
 		background: url(../images/desc2.png) 7% 0% no-repeat fixed;
-		height: 380px;
+		height: 260px;
 	}
 }
 
@@ -339,7 +339,7 @@ and (orientation : landscape){
     }
     .desc2{
 		background: url(../images/desc2.png) 20% 0% no-repeat fixed;
-		height: 330px;
+		height: 230px;
 	}
 }
 /**/
@@ -389,7 +389,7 @@ and (orientation : landscape){
 	}
 	.desc2{
 		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
-		height: 300px;
+		height: 210px;
 	}
 	.features-section ul li {
     	display: block;
@@ -488,7 +488,7 @@ and (orientation : landscape){
 	}
 	.desc2{
 		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
-		height: 280px;
+		height: 200px;
 	}
 	.features{
 		padding: 140px 0px;
@@ -721,4 +721,10 @@ and (orientation : landscape){
     vertical-align: middle;
     margin-left: 17%;
   }
+}
+@media (min-width:1080px) and (max-width:1242px){
+	.desc2{
+		background: url(../images/desc2.png) 0% 0% no-repeat fixed;
+		height: 260px;
+	}
 }
