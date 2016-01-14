@@ -250,6 +250,8 @@ $(document).ready(function() {
     var scrollPercent = (s / (d-c)) * 100;
     //for dev purposes
     console.log(scrollPercent + "% " + s, d, c);
+
+    //if user scrolled to bottom, hide discount button
     if(scrollPercent=100){
       $("#stickyBtn").removeClass("show");
       $("#stickyBtn").addClass("hide");
