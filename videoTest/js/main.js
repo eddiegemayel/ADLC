@@ -10,7 +10,7 @@ $(document).ready(function() {
       	if (target.length) {
         	$('html,body').animate({
           	scrollTop: target.offset().top
-        	}, 1000);
+        	}, 2200);
         		return false;
       		}
     	}
@@ -157,6 +157,10 @@ $(document).ready(function() {
   var windowWidth ;
   var modalHeight ;
 
+  //make sure slideout and banner height are the same
+  bannerHeight = $('#bannerImg').css("height");
+  $('#slideout').css("height", bannerHeight);
+
   //keep slideout div in line with banner
   //when window is resized grab height of banner image
   $(window).on("resize", function() {
@@ -188,7 +192,6 @@ $(document).ready(function() {
      
     //if the input doesn't pass the regular expression test
     if(!regex.test(key)){
-      console.log("fired off");
       //prevent them from typing it
       event.preventDefault();
       return false;
@@ -261,5 +264,5 @@ $(document).ready(function() {
       $("#stickyBtn").addClass("show");
     }
   });
-  
+
 });

@@ -137,12 +137,16 @@
 	}
 	.desc{
 		margin-top: -90px !important;
+		height: 180px;
 	}
 	.desc h2{
     	font-size: 25px;
 	}
 	.desc p{
     	font-size: 16px;
+	}
+	#desc_container{
+		margin-top: 20px;
 	}
 	.features-section ul li {
     	width: 242px;
@@ -152,7 +156,7 @@
     	width: 95%;
 	}
 	.contact-section{
-		width: 80%;
+		width: 100%;
 		margin: 0 auto;
 		font-family: 'Open Sans', sans-serif;
 	}
@@ -192,9 +196,12 @@
     }
     #dynamicInfo{visibility: hidden;}
     .desc2{
-		background: url(../images/desc2.png) 7% 0% no-repeat fixed;
-		height: 260px;
+		background: url(../images/desc2.png) 7% 20% no-repeat fixed;
+		height: 130px;
 	}
+	 .badge {
+    display: none;
+  }
 }
 
 @media only screen 
@@ -339,7 +346,7 @@ and (orientation : landscape){
     }
     .desc2{
 		background: url(../images/desc2.png) 20% 0% no-repeat fixed;
-		height: 230px;
+		height: 170px;
 	}
 }
 /**/
@@ -490,8 +497,8 @@ and (orientation : landscape){
 		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
 		height: 200px;
 	}
-	.features{
-		padding: 140px 0px;
+	#features{
+		padding: 10px 0px;
 	}
 	.features-section ul li {
     	display: block;
@@ -525,10 +532,7 @@ and (orientation : landscape){
     	padding: 60px 0px;
 	}
 	.contact {
-    	padding: 140px 0px;
-	}
-	.contact-section {
-    	width: 80%;
+    	padding: 100px 0px;
 	}
 	h3.text-head {
     	font-size: 20px;
@@ -578,6 +582,23 @@ and (orientation : landscape){
     .header{
     	background-color: #1d3c70;
     }
+    #map{ 
+		padding: 0px 0px 0px 0px;
+    	font-family: 'Open Sans', sans-serif;
+    	float: none;
+    	width:100%;
+    }
+    .contact-section form{
+    	/*margin-left: -10px;*/
+		/*padding: 25px 0px 0px 0px;*/
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 88%;
+		float: none;
+    }
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -614,7 +635,7 @@ and (orientation : landscape){
 	.menu{
 		display: none;
 	}
-	.contact-text{ 
+	#map{ 
 		width: 100%;
 		margin: 50px auto;
 		padding: 0px 0px 0px 0px;
@@ -722,9 +743,31 @@ and (orientation : landscape){
     margin-left: 17%;
   }
 }
+/*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
 		background: url(../images/desc2.png) 0% 0% no-repeat fixed;
 		height: 260px;
 	}
+}
+
+/*-----------------------------------------------------------------------------------Google Map and Form*/
+@media (min-width:769px) and (max-width:1080px){
+	#map{ 
+		padding: 0px 0px 0px 0px;
+    	font-family: 'Open Sans', sans-serif;
+    	float: none;
+    	width:100%;
+    }
+    .contact-section form{
+    	/*margin-left: -10px;*/
+		/*padding: 25px 0px 0px 0px;*/
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 88%;
+		float: none;
+    }
 }
