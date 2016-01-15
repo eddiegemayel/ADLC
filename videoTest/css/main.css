@@ -240,9 +240,7 @@ p.box-desc{
   text-align: center;
   padding: 49px 0px 70px 0px;
   /*background-image: url(../images/bgbadge.png);  no-repeat fixed 30% 0%/cover*/
-  background-color: #40C8F4;
   margin-bottom: 0px;
-  /*background:url(../images/desc2.png) no-repeat fixed 30% 0%/cover;*/
   background: url(../images/desc1.png) center center no-repeat fixed;
   height: 590px;
 }

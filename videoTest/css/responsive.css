@@ -196,8 +196,8 @@
     }
     #dynamicInfo{visibility: hidden;}
     .desc2{
-		background: url(../images/desc2.png) 7% 20% no-repeat fixed;
-		height: 130px;
+		background: url(../images/desc2.png) 7% -20% no-repeat fixed;
+		height: 185px;
 	}
 	 .badge {
     display: none;
@@ -494,8 +494,8 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc2.png) 25% 0% no-repeat fixed;
-		height: 200px;
+		background: url(../images/desc2.png) 25% -20% no-repeat fixed;
+		height: 120px;
 	}
 	#features{
 		padding: 10px 0px;
