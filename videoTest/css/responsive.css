@@ -21,32 +21,7 @@
   		height:700px; 
 	}
 }
-/*--------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------Modal responsiveness*/
-/*--------------------------------------------------------------------------------------------------------------*/
-@media (min-width:1050px) and (max-width:1683px){
-	.left{
-		width: 50%;
-	}
-	.right{
-		width: 50%;
-	}
-	iframe, object, embed {
-     max-width: 90%;
-     /*min-width:70%;*/
-	}
-}
-@media (min-width:20px) and ( max-width:1050px){
-	.left{
-		float: none;
-	}
-	.right{
-		float: none;
-	}
-	.socialMediaButtons li{
-		float: none;
-	}
-}
+
 /*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------------For average screens*/
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -136,8 +111,8 @@
     	font-size: 16px;
 	}
 	.desc{
-		margin-top: -90px !important;
-		height: 180px;
+		margin-top: -70px !important;
+		height: 170px;
 	}
 	.desc h2{
     	font-size: 25px;
@@ -194,14 +169,14 @@
     #watchBtn{
     	visibility: hidden;
     }
-    #dynamicInfo{visibility: hidden;}
+    /*#dynamicInfo{visibility: hidden;}*/
     .desc2{
 		background: url(../images/desc2_tablet.png) 7% 0% no-repeat fixed;
 		height: 185px;
 	}
-	 .badge {
-    display: none;
-  }
+	.badge {
+      display: none;
+    }
 }
 
 @media only screen 
@@ -550,13 +525,12 @@ and (orientation : landscape){
     	visibility: hidden;
 	}
 	.banner1 span{
-   		font-size: 30px;
+   		font-size: 25px;
 	}
 	.banner1 h1{
 		position: absolute; 
-  		top: 50px; 
-  		left: 30px; 
-  		width: 100%;
+  		top: 10px; 
+  		left: 0px; 
 	}
 	.banner1 a{
     	top: 110px; 
@@ -589,7 +563,6 @@ and (orientation : landscape){
     	width:100%;
     }
     .contact-section form{
-    	/*margin-left: -10px;*/
 		/*padding: 25px 0px 0px 0px;*/
 		border: 0;
 		font-size: 100%;
@@ -726,12 +699,48 @@ and (orientation : landscape){
     margin-top: 120px !important;
   }
 }
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------Modal responsiveness*/
+/*---------------------------------------------------------------------------------1683-----------------------------*/
+@media (min-width:1050px) and (max-width:2100px){
+	.left{
+		width: 50%;
+	}
+	.right{
+		width: 50%;
+	}
+	iframe, object, embed {
+     max-width: 90%;
+     /*min-width:70%;*/
+	}
+}
+@media (min-width:20px) and ( max-width:1050px){
+	.left{
+		float: none;
+	}
+	.right{
+		float: none;
+	}
+	.socialMediaButtons li{
+		float: none;
+	}
+}
+
 /*--------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------slideout responsive code....hide everything once it gets to mobile size*/
 /*--------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 20px) and (max-width: 850px){
-	#slideout{visibility: hidden;}
-	.info{visibility: hidden;}
+	/*#slideout{visibility: hidden;}
+	.info{visibility: hidden;}*/
+	.info h2{
+		font-size: 15px;
+		position: relative;
+		text-align: none;
+		float:none;
+		top:180px;
+		right: 0px;
+	}
     .video{display: none;}
     #watchBtn{visibility: hidden;}
 }

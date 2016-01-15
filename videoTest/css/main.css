@@ -533,12 +533,9 @@ a.button.full:hover {
   position: absolute;
   top: 0; 
   left: 0;
-  height: 50px;
+  height: 700px;
   width: 50px;
   transition:0.3s;
-}
-#clickme2{
-  visibility: hidden;
 }
 .thumbnail{
   width: 380px;
@@ -570,6 +567,7 @@ a.button.full:hover {
   height: 50px;
   width: 50px;
   transition:0.3s;
+  color: #FF9735;
 }
 #slidecontent {
   float:left;
@@ -589,9 +587,9 @@ a.button.full:hover {
   left: 30px;
   background: rgba(0, 0, 0, 1);
 }
-/*.section:hover{
-  color: rgba(189,112,76, 1);
-}*/
+#dynamicInfo{
+  transition:0.3s;
+}
 .section p{
   position: relative;
   top: 45%;

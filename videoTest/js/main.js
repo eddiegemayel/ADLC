@@ -18,7 +18,8 @@ $(document).ready(function() {
 	});
 
 
-  //slide out menu
+  //SLIDEOUT MENU TRIGGERS
+  //clicking 1 of 2 elements will cause the slideout with videos to animate 
   //if someone clicks the HAMBURGER MENU 
   $(function(){
     //once hamburger menu area is clicked
@@ -52,7 +53,6 @@ $(document).ready(function() {
    //slide out menu
    //if someone clicks the TEXT
   $(function(){
-    //once hamburge menu area is clicked
     $("#dynamicInfo").click(function () {
       if($("#clickme").parent().css("right") == "-380px"){
         //animate it out
@@ -177,10 +177,10 @@ $(document).ready(function() {
     windowHeight = $(window).height();
     windowWidth = $(window).width();
     //apply new width and height to the modal
-    $('.remodal').css("height", windowHeight - 150);
-    $('.remodal').css("max-width", windowWidth - 150);
+    $('.remodal').css("height", windowHeight - 130);
+    $('.remodal').css("max-width", windowWidth - 20);
     $('.modalVideo').css("height", windowHeight / 2);
-    $('.modalVideo').css("width", windowWidth / 2);
+    $('.modalVideo').css("width", windowWidth - 50);
   });
 
   //Regular Expression for phone number input(s)
