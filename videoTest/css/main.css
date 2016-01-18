@@ -57,7 +57,7 @@ form{
   display: block;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------------Header*/
+/*----------------------------------------------------------------------------------------------------------Header Area*/
 /*--------------------------------------------------------------------------------------------------------------*/
 .header{
   width: 100%;
@@ -74,7 +74,7 @@ form{
   position: relative;
   font-size:170%;
   bottom:33px;
-  right: -688px;
+  right: -328px;
   transition: 0.1s ease-in;
   -moz-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
@@ -399,11 +399,11 @@ form textarea:focus{
 }
 /*Is Visible*/
 .is-visible { display: block !important; 
-    transition: all 0.5s ease-in !important;
-    -moz-transition: all 0.5s ease-in !important;
-    -o-transition: all 0.5s ease-in !important;
-    -ms-transition: all 0.5s ease-in;
-    -webkit-transition: all 0.5s ease-in !important;
+  transition: all 0.5s ease-in !important;
+  -moz-transition: all 0.5s ease-in !important;
+  -o-transition: all 0.5s ease-in !important;
+  -ms-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in !important;
 }
 #mobile-header {
 display: none;
@@ -536,7 +536,7 @@ a.button.full:hover {
 /* ------------------------------------------------------------------------------------------------------------slideout and video area */
 /*--------------------------------------------------------------------------------------------------------------*/
 #slideout {
-  background: rgba(31, 168, 224, 0.78);
+  background: rgba(31, 168, 224, 0.72);
   position: absolute;
   width: 390px;
   height: 700px;
@@ -558,8 +558,8 @@ a.button.full:hover {
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(84%) !important;
-  filter: grayscale(84%) !important;
+  -webkit-filter: grayscale(90%) !important;
+  filter: grayscale(90%) !important;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
