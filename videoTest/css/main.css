@@ -74,7 +74,7 @@ form{
   position: relative;
   font-size:200%;
   bottom:36px;
-  right: -50px;
+  right: -678px;
   transition: 0.1s ease-in;
   -moz-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
@@ -538,11 +538,11 @@ a.button.full:hover {
 #slideout {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
-  width: 410px;
+  width: 390px;
   height: 700px;
   top: 80px;
-  right:-380px;
-  padding-left: 20px;
+  right:-361px;
+  padding-left: 5px;
   overflow-y: scroll;
 }  
 #clickme {
@@ -554,12 +554,12 @@ a.button.full:hover {
   transition:0.3s;
 }
 .thumbnail{
-  width: 380px;
+  width: 360px;
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(97%) !important;
-  filter: grayscale(97%) !important;
+  -webkit-filter: grayscale(94%) !important;
+  filter: grayscale(94%) !important;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -579,8 +579,8 @@ a.button.full:hover {
 }
 #menu{
   position: absolute;
-  top: 0; 
-  left: 0;
+  top: 10px; 
+  left: 5px;
   height: 50px;
   width: 50px;
   transition:0.3s;
@@ -600,7 +600,7 @@ a.button.full:hover {
   position: relative;
   border-left: 1px black solid;
   height: 175px;
-  width:380px;
+  width:360px;
   left: 30px;
   background: rgba(0, 0, 0, 1);
 }
@@ -632,7 +632,7 @@ iframe, object, embed {
   border-left: 1px black solid;
   border-bottom: 1px black solid;
   height: 50px;
-  width:380px;
+  width:360px;
   left: 30px;
   transition:0.3s;
 }

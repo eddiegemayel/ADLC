@@ -24,13 +24,13 @@ $(document).ready(function() {
   $(function(){
     //once hamburger menu area is clicked
     $("#clickme").click(function () {
-      if($(this).parent().css("right") == "-380px"){
+      if($(this).parent().css("right") == "-361px"){
         //animate it out
         $(this).parent().animate({right:'0px'}, {queue: false, duration: 825});
         $("#dynamicInfo").html("Close");
       }else{
         //animate it back in
-        $(this).parent().animate({right:'-380px'}, {queue: false, duration: 950});
+        $(this).parent().animate({right:'-361px'}, {queue: false, duration: 950});
         //hide any video when slideout goes away
         $(".video").css("visibility", "hidden");
         $("#dynamicInfo").html("Select a Video");
@@ -54,13 +54,13 @@ $(document).ready(function() {
    //if someone clicks the TEXT
   $(function(){
     $("#dynamicInfo").click(function () {
-      if($("#clickme").parent().css("right") == "-380px"){
+      if($("#clickme").parent().css("right") == "-361px"){
         //animate it out
         $("#clickme").parent().animate({right:'0px'}, {queue: false, duration: 825});
         $("#dynamicInfo").html("Close");
       }else{
         //animate it back in
-        $("#clickme").parent().animate({right:'-380px'}, {queue: false, duration: 950});
+        $("#clickme").parent().animate({right:'-361px'}, {queue: false, duration: 950});
         //hide any video when slideout goes away
         $(".video").css("visibility", "hidden");
         $("#dynamicInfo").html("Select a Video");
