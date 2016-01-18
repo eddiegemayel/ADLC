@@ -558,8 +558,8 @@ a.button.full:hover {
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(90%) !important;
-  filter: grayscale(90%) !important;
+  -webkit-filter: grayscale(90%) blur(1.2px) !important;
+  filter: grayscale(90%) blur(1.2px) !important;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -570,8 +570,8 @@ a.button.full:hover {
   transform: scale(0.97);*/
 }
 .thumbnail:hover{
-  -webkit-filter: grayscale(0%)  !important;
-  filter: grayscale(0%)  !important;
+  -webkit-filter: grayscale(0%) blur(0px) !important;
+  filter: grayscale(0%) blur(0px) !important;
   /*
     Animates the thumbnail to blur and grayscale when hovered
     blur(1.5px)
