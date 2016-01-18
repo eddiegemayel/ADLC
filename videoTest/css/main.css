@@ -536,7 +536,7 @@ a.button.full:hover {
 /* ------------------------------------------------------------------------------------------------------------slideout and video area */
 /*--------------------------------------------------------------------------------------------------------------*/
 #slideout {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(31, 168, 224, 0.78);
   position: absolute;
   width: 390px;
   height: 700px;
@@ -558,8 +558,8 @@ a.button.full:hover {
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(94%) !important;
-  filter: grayscale(94%) !important;
+  -webkit-filter: grayscale(84%) !important;
+  filter: grayscale(84%) !important;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -584,7 +584,7 @@ a.button.full:hover {
   height: 50px;
   width: 50px;
   transition:0.3s;
-  color: #FF9735;
+  color: #fff;
 }
 #slidecontent {
   float:left;
