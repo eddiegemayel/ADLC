@@ -242,7 +242,6 @@ $(document).ready(function() {
 
   //if the user begins to scroll
   //my attempt to hide the discount button if scrolled to very bottom
-  //DOESNT work tho :(
   $(window).scroll(function(){
     //collect how much has been scrolled
     var s = $(window).scrollTop();
