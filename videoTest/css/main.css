@@ -69,6 +69,22 @@ form{
   width:500px;
   height:70px;
 }
+#cart{
+  color:#1d3c70;
+  position: relative;
+  font-size:200%;
+  bottom:36px;
+  right: -50px;
+  transition: 0.1s ease-in;
+  -moz-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  -webkit-transition: 0.1s ease-in;
+  -ms-transition 0.1s ease-in;
+}
+#cart:hover{
+  color:#37D9F5;
+  font-size:215%;
+}
 .container{
   width: 1080px;
   margin: 0 auto;
@@ -542,8 +558,8 @@ a.button.full:hover {
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(0%) blur(0px) !important;
-  filter: grayscale(0%) blur(0px) !important;
+  -webkit-filter: grayscale(97%) !important;
+  filter: grayscale(97%) !important;
   -webkit-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
   -webkit-transition: .2s ease-in-out;
@@ -554,10 +570,11 @@ a.button.full:hover {
   transform: scale(0.97);*/
 }
 .thumbnail:hover{
-  -webkit-filter: grayscale(70%) blur(1.5px) !important;
-  filter: grayscale(70%) blur(1.5px)  !important;
+  -webkit-filter: grayscale(0%)  !important;
+  filter: grayscale(0%)  !important;
   /*
     Animates the thumbnail to blur and grayscale when hovered
+    blur(1.5px)
   */
 }
 #menu{
