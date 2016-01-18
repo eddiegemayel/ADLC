@@ -43,7 +43,7 @@ $(document).ready(function() {
     $("#clickme").click(function(){
       if($(".info").css("right") == "50px"){
         //animate out
-        $(".info").animate({right:'470px'}, {queue: false, duration: 825});
+        $(".info").animate({right:'450px'}, {queue: false, duration: 825});
       }else{
         //animate back in
         $(".info").animate({right:'50px'}, {queue: false, duration: 950});
@@ -73,7 +73,7 @@ $(document).ready(function() {
     $("#dynamicInfo").click(function(){
       if($(".info").css("right") == "50px"){
         //animate out
-        $(".info").animate({right:'470px'}, {queue: false, duration: 825});
+        $(".info").animate({right:'450px'}, {queue: false, duration: 825});
       }else{
         //animate back in
         $(".info").animate({right:'50px'}, {queue: false, duration: 950});
