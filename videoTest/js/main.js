@@ -225,7 +225,6 @@ $(document).ready(function() {
      $("#vid6").css("visibility", "hidden");
      $("#vid6").css("display", "none");
      $("#vid6").removeClass("selectedVideo");
-     // console.log("stop it"); 
   });
 
   //plays video when button is clicked
