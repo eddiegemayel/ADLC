@@ -227,12 +227,6 @@ $(document).ready(function() {
      $("#vid6").removeClass("selectedVideo");
   });
 
-  //plays video when button is clicked
-  // $("#play").click(function(){
-  //   $("#vid1")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
-  // });
-  //this code do not delete just yet 
-
   //when form is submitted, play the video
   $("#modalForm").submit(function(){
     $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
@@ -240,7 +234,7 @@ $(document).ready(function() {
   });
 
   //if the user begins to scroll
-  //my attempt to hide the discount button if scrolled to very bottom
+  //my attempt to hide the discount button if scrolled to very bottom here
   $(window).scroll(function(){
     //collect how much has been scrolled
     var s = $(window).scrollTop();

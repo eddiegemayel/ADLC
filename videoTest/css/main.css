@@ -71,10 +71,10 @@ form{
 }
 #cart{
   color:#1d3c70;
-  position: relative;
+  /*position: relative;*/
   font-size:170%;
-  bottom:33px;
-  right: -328px;
+  /*bottom:33px;*/
+  /*right: -328px;*/
   transition: 0.1s ease-in;
   -moz-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
