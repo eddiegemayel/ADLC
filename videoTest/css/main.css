@@ -57,7 +57,7 @@ form{
   display: block;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
-/*----------------------------------------------------------------------------------------------------------Header Area*/
+/*----------------------------------------------------------------------------------------------------------Header Area + Nav*/
 /*--------------------------------------------------------------------------------------------------------------*/
 .header{
   width: 100%;
@@ -97,9 +97,6 @@ form{
 .logo_menu{
   max-width: 1200px; 
 }
-/*--------------------------------------------------------------------------------------------------------------*/
-/*-------------------------------------------------------------------------------------------------------------Nav*/
-/*--------------------------------------------------------------------------------------------------------------*/
 .menu ul li{
   display: inline-block;
   padding: 30px 15px;
@@ -125,6 +122,10 @@ form{
 .list_right{
   float: right;
   clear: none;
+}
+#flag:hover{
+  width: 18px;
+  height: 13px;
 }
 .logo h1 a{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -562,8 +563,8 @@ a.button.full:hover {
   height: 175px;
   top: -25px;
   position: relative;
-  -webkit-filter: grayscale(90%) blur(1.2px) !important;
-  filter: grayscale(90%) blur(1.2px) !important;
+  -webkit-filter: grayscale(100%) blur(0.5px) !important;
+  filter: grayscale(100%) blur(0.5px) !important;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
@@ -620,6 +621,7 @@ a.button.full:hover {
   margin-right:75px; 
   margin-left:75px;
   transition:0.3s;
+  visibility: hidden;
 }
 /*empty class just to tell the jQuery which video is selected*/
 .selectedVideo{}
