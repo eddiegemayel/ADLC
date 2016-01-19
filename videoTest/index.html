@@ -32,7 +32,7 @@
 	<!-- Header and Logo -->
   <div class="header">
       <div class="container">
-        <div class="logo-menu">
+        <div class="logo_menu">
             <div class="logo">
               <!-- Desktop/Main logo -->
               <img id="logo" src="images/Logo_Main.png" />
@@ -49,10 +49,10 @@
                     <li><a href="#features">Sobre Nós</a></li>
                     <li><a href="#stories">TESOL</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#"><img src="images/us.gif" title="English (U.S)" alt="English (United States)"/></a></li> 
-                    <li><a href="#"><img src="images/br.gif" title="Portuguese (Brazil)" alt="Portuguese (Brazil)"/></a></li>
-                    <li><a href="#"><img src="images/do.gif" title="Spanish (Dominican Republic)" alt="Spanish (Dominican Republic)"/></a></li>
-                    <li><a href="#"><i id="cart" class="fa fa-shopping-cart" title="Your Cart" atl="Your Cart"></i></a></li>
+                    <li class="list_right"><a href="#"><i id="cart" class="fa fa-shopping-cart" title="Your Cart" atl="Your Cart"></i></a></li>
+                    <li class="list_right"><a href="#"><img src="images/do.gif" title="Spanish (Dominican Republic)" alt="Spanish (Dominican Republic)"/></a></li>
+                    <li class="list_right"><a href="#"><img src="images/br.gif" title="Portuguese (Brazil)" alt="Portuguese (Brazil)"/></a></li>
+                    <li class="list_right"><a href="#"><img src="images/us.gif" title="English (U.S)" alt="English (United States)"/></a></li> 
                 </ul>
             </div>
           </div><!-- end of logo-menu -->
@@ -150,9 +150,9 @@
           <li><strong>+ Start Learning!</strong></li>
         </ul>
         <form id="modalForm" method="" action="">
-          <input type="text" name="Name" placeholder="Name" />
-          <input type="email" name="email" placeholder="Email" />
-          <input id="phone" type="tel" name="phone" placeholder="Phone Number" />
+          <input type="text" name="name_modal" placeholder="Name" />
+          <input type="email" name="email_modal" placeholder="Email" />
+          <input id="phone" type="tel" name="phone_modal" placeholder="Phone Number" />
           <button type="submit" class="submit">Sign Up</button>
         </form>
       </div>
@@ -179,7 +179,7 @@
      <!-- features -->
 	   <div class="features2" id="features">
       <div class="container">
-          <div class="features-section">
+          <div class="features_section">
                 <ul>
                   <li>
                         <i class="fa fa-gamepad" style="font-size:430%;"></i>
@@ -205,15 +205,15 @@
      <!-- Contact form -->
      <div class="contact" id="contact">
       <div class="container">
-          <h3 class="text-head" >Contact Us</h3>
-              <div class="contact-section" id="contact2">
+          <h3 class="text_head">Contact Us</h3>
+              <div class="contact_section" id="contact2">
                   <!-- Google Map -->
                   <iframe id="map" width="500" height="350" frameborder="0" style="border:0"
                   src="https://www.google.com/maps/embed/v1/search?q=American%20Dreams%20Learning%20Center%2C%20Ferry%20Street%2C%20Newark%2C%20NJ%2C%20United%20States&key=AIzaSyDns4OzHtgrIhaELR-le7jLHH8_5vshfrU" allowfullscreen></iframe>
                   <form method="" action="">
-                    <input type="text" name="Name" placeholder="Name" required />
+                    <input type="text" name="name" placeholder="Name" required />
                     <input type="email" name="email" placeholder="Email" required/>
-                    <input id="phone" type="tel" name="phone" placeholder="Telephone" required/>
+                    <input id="phone" type="tel" name="phone" placeholder="Phone Number" required/>
                     <button type="submit" class="submit">Contact Us</button>
                   </form>
               </div>
@@ -227,7 +227,7 @@
                 <p class="copyright">Social Media</a></p>
               </div>
               <!-- Social media links  -->
-            <ul class="socialmedia">
+            <ul class="social_media">
                 <li><a href=""><i class="icon-twitter"></i></a></li>
                 <li><a href=""><i class="icon-facebook"></i></a></li>
                 <li><a href=""><i class="icon-dribbble"></i></a></li>

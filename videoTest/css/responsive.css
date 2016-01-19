@@ -31,7 +31,7 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
-	.features-section ul li{
+	.features_section ul li{
 		width: 346px;
 	}
 	.stories-section ul li{
@@ -123,14 +123,14 @@
 	#desc_container{
 		margin-top: 20px;
 	}
-	.features-section ul li {
+	.features_section ul li {
     	width: 242px;
 	}
-	.features-section ul li p {
+	.features_section ul li p {
     	font-size: 14px;
     	width: 95%;
 	}
-	.contact-section{
+	.contact_section{
 		width: 100%;
 		margin: 0 auto;
 		font-family: 'Open Sans', sans-serif;
@@ -211,14 +211,14 @@ and (orientation : landscape){
 	.desc p {
     	font-size: 16px;
 	}
-	.features-section ul li {
+	.features_section ul li {
     	width: 242px;
 	}
-	.features-section ul li p {
+	.features_section ul li p {
     	font-size: 14px;
     	width: 95%;
 	}
-	.contact-section{
+	.contact_section{
 		width: 80%;
 		margin: 0 auto;
 		font-family: 'Open Sans', sans-serif;
@@ -277,7 +277,7 @@ and (orientation : landscape){
 	.desc p {
     	font-size: 14px;
 	}
-	.features-section ul li {
+	.features_section ul li {
     	display: block;
     	float: none;
     	width: 80%;
@@ -373,7 +373,7 @@ and (orientation : landscape){
 		background: url(../images/desc3_mobile.png) 25% 0% no-repeat fixed;
 		height: 210px;
 	}
-	.features-section ul li {
+	.features_section ul li {
     	display: block;
     	float: none;
     	width: 80%;
@@ -475,13 +475,13 @@ and (orientation : landscape){
 	#features{
 		padding: 10px 0px;
 	}
-	.features-section ul li {
+	.features_section ul li {
     	display: block;
     	float: none;
     	width: 90%;
     	margin: 40px auto;
 	}
-	.features-section ul li p{
+	.features_section ul li p{
 		width: 100%;
 	}
 	p.box-desc {
@@ -509,7 +509,7 @@ and (orientation : landscape){
 	.contact {
     	padding: 100px 0px;
 	}
-	h3.text-head {
+	h3.text_head {
     	font-size: 20px;
 	}
 	.menu {
@@ -562,7 +562,7 @@ and (orientation : landscape){
     	float: none;
     	width:100%;
     }
-    .contact-section form{
+    .contact_section form{
 		/*padding: 25px 0px 0px 0px;*/
 		border: 0;
 		font-size: 100%;
@@ -768,7 +768,7 @@ and (orientation : landscape){
     	float: none;
     	width:100%;
     }
-    .contact-section form{
+    .contact_section form{
     	/*margin-left: -10px;*/
 		/*padding: 25px 0px 0px 0px;*/
 		border: 0;
