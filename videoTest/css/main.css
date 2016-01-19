@@ -124,8 +124,8 @@ form{
   clear: none;
 }
 #flag:hover{
-  width: 18px;
-  height: 13px;
+  width: 19px;
+  height: 14px;
 }
 .logo h1 a{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -435,22 +435,29 @@ display: none;
   top: 190px; 
   left: 55px; 
 }
-.banner1 h4{
+.banner1 .line1{
   position: absolute; 
-  top: 220px; 
+  top: 230px; 
   left: 55px; 
   color: white; 
-  font: bold 24px/45px Helvetica, Sans-Serif; 
+  font: 17px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
-  /*background: rgb(0, 0, 0); 
-  background: rgba(0, 0, 0, 0.7);*/
   padding: 10px;
-  font-size: 25px;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
+}
+.banner1 .line2{
+  position: absolute; 
+  top: 260px; 
+  left: 55px; 
+  color: white; 
+  font: 17px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 .banner1 a{
   position: absolute; 
-  top: 280px; 
+  top: 300px; 
   left: 60px; 
   width: 120px;
 }
@@ -581,6 +588,9 @@ a.button.full:hover {
     Animates the thumbnail to blur and grayscale when hovered
   */
 }
+#thumbnail5{
+  margin-top: -23px;
+}
 #menu{
   position: absolute;
   top: 10px; 
@@ -602,7 +612,6 @@ a.button.full:hover {
   display: block;
   text-decoration: none;
   position: relative;
-  border-left: 1px black solid;
   height: 175px;
   width:360px;
   left: 30px;
@@ -635,7 +644,6 @@ iframe, object, embed {
 .headingSection{
   position: relative;
   border-left: 1px black solid;
-  border-bottom: 1px black solid;
   height: 50px;
   width:360px;
   left: 30px;

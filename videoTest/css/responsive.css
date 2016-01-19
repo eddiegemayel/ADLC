@@ -11,9 +11,6 @@
  		width: 1000px;
  		margin-left: -110px;
 	}
-	#buttons{
-      margin-left: -110px;
-    }
 	.banner{
 		padding: 140px 0px;
 	}
@@ -51,13 +48,20 @@
    		font-size: 38px;
 	}
 	.banner1 h1{
-		position: absolute; 
   		top: 140px; 
   		left: 20px; 
   		width: 100%;
 	}
+	.banner1 .line1{
+  		top: 180px; 
+  		left: 20px; 
+	}
+	.banner1 .line2{
+  		top: 210px; 
+  		left: 20px; 
+	}
 	.banner1 a{
-    	top: 210px; 
+    	top: 250px; 
     	left: 25px; 
     	width: 120px;
 	}
@@ -142,14 +146,21 @@
    		font-size: 35px;
 	}
 	.banner1 h1{
-		position: absolute; 
   		top: 140px; 
   		left: 20px; 
   		width: 100%;
 	}
+	.banner1 .line1{
+  		top: 180px; 
+  		left: 20px; 
+	}
+	.banner1 .line2{
+  		top: 210px; 
+  		left: 20px; 
+	}
 	.banner1 a{
-    	top: 210px; 
-    	left: 25px;
+    	top: 230px; 
+    	left: 30px;
     	width: 120px;
 	}
     #slideout{
@@ -306,14 +317,21 @@ and (orientation : landscape){
    		font-size: 28px;
 	}
 	.banner1 h1{
-		position: absolute; 
-  		top: 130px; 
+  		top: 30px; 
   		left: 30px; 
   		width: 100%;
 	}
+	.banner1 .line1{
+  		top: 70px; 
+  		left: 30px; 
+	}
+	.banner1 .line2{
+  		top: 100px; 
+  		left: 30px; 
+	}
 	.banner1 a{
-    	top: 200px; 
-    	left: 30px; 
+    	top: 250px; 
+    	left: 33px; 
     	width: 120px;
 	}
     #slideout{
@@ -401,14 +419,21 @@ and (orientation : landscape){
 	.banner1 span{
    		font-size: 28px;
 	}
-	.banner1 h1{
-		position: absolute; 
-  		top: 90px; 
+	.banner1 h1{ 
+  		top: 10px; 
   		left: 15px; 
   		width: 100%;
 	}
+	.banner1 .line1{
+  		top: 50px; 
+  		left: 15px; 
+	}
+	.banner1 .line2{
+  		top: 80px; 
+  		left: 15px; 
+	}
 	.banner1 a{
-    	top: 160px; 
+    	top: 180px; 
     	left: 15px; 
     	width: 120px;
 	}
@@ -521,29 +546,28 @@ and (orientation : landscape){
 	.button.submit {
  		padding: 15px 70px; 
  	}		
- 	.slick-dots{
-    	visibility: hidden;
-	}
 	.banner1 span{
    		font-size: 25px;
 	}
 	.banner1 h1{
-		position: absolute; 
   		top: 10px; 
   		left: 0px; 
+	}
+	.banner1 .line1{
+  		top: 50px; 
+  		left: 0px; 
+  		font-size: 13px;
+	}
+	.banner1 .line2{
+  		top: 80px; 
+  		left: 0px; 
+  		font-size: 13px;
 	}
 	.banner1 a{
     	top: 110px; 
     	left: 30px; 
     	width: 120px;
 	}
-	#want-a-discount--button{
-      width: 50%;
-      visibility: hidden;
-    }
-    #stickyBtn{
-       visibility: visible;
-    }
     .right{
     	padding-left:5px;
     }
@@ -571,6 +595,19 @@ and (orientation : landscape){
 		font-family: 'Raleway', sans-serif;
 		width: 88%;
 		float: none;
+    }
+    #stickyBtn{
+       visibility: visible;
+    }
+    #want-a-discount--button{
+      visibility: hidden;
+    }
+    #dynamicInfo{
+    	visibility: hidden;
+    	display: none;
+    }
+    #slideout{
+    	background: rgba(28, 152, 204, .95);
     }
 }
 
@@ -702,7 +739,7 @@ and (orientation : landscape){
 
 /*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------------Modal responsiveness*/
-/*---------------------------------------------------------------------------------1683-----------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
 @media (min-width:1050px) and (max-width:2100px){
 	.left{
 		width: 50%;
@@ -760,7 +797,23 @@ and (orientation : landscape){
 	}
 }
 
-/*-----------------------------------------------------------------------------------Google Map and Form*/
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------Sticky Footer discount button*/
+/*--------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width:480px) and (max-width:586px){
+	#stickyBtn{
+       visibility: visible;
+       width: 80%;
+    }
+    #want-a-discount--button{
+      visibility: hidden;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------Google map + Form*/
+/*--------------------------------------------------------------------------------------------------------------*/
 @media (min-width:769px) and (max-width:1080px){
 	#map{ 
 		padding: 0px 0px 0px 0px;
