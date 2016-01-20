@@ -123,6 +123,19 @@ form{
   float: right;
   clear: none;
 }
+/*#btn{
+  color: #ffffff;
+  border-color: #ffffff;
+  text-decoration: none;
+  position: absolute;
+  left:450px;
+  top:350px;
+  font-size: 16px;
+  background-color: #FF9735;
+  transition-duration: 0.1s;
+  transition: all 0.2s, color 0.2s;
+  animation: all spinAround 2s linear infinite;
+}*/
 #flag:hover{
   width: 19px;
   height: 14px;
@@ -664,17 +677,22 @@ iframe, object, embed {
 }
 #watchBtn{
   padding: 16px 72px !important;
-  font-size: 16px;
+  font-size: 21px;
+  border-radius: 9px;
   /*background-color: #FF9735;*/
   background: rgba(222, 222, 218, 0.85);
   transition-duration: 0.1s;
   transition: all 0.2s, color 0.2s;
   animation: all spinAround 2s linear infinite;
   visibility: visible;
+  text-align: center;
+  vertical-align: middle;
   position: absolute;
-  bottom:50px;
-  left: 240px;
+  top:320px;
+  left: 430px;
   border: none !important;
+  width: 130px;
+  height:30px;
 }
 #watchBtn:hover {
   background-color: #f2f2f2;
