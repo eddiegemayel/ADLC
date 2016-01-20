@@ -65,6 +65,10 @@
     	left: 25px; 
     	width: 120px;
 	}
+	#watchBtn{
+		left:380px;
+		top:270px;
+	}
 	.desc{
 		margin-top: 14px;
 	}
@@ -77,9 +81,6 @@
     #dynamicInfo{
     	/*visibility: hidden;*/
     	font-size:150%;
-    }
-    .banner1 a.button{
-    	/*width: 70px;*/
     }
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -163,6 +164,10 @@
     	left: 30px;
     	width: 120px;
 	}
+	#watchBtn{
+		left:360px;
+		top:250px;
+	}
     #slideout{
     	min-height: 100px;
     	/*overflow:scroll;*/
@@ -176,9 +181,6 @@
   		left: 0 !important;*/
   		height: 50px !important;
   		width: 50px !important;
-    }
-    #watchBtn{
-    	visibility: hidden;
     }
     /*#dynamicInfo{visibility: hidden;}*/
     .desc2{
@@ -238,9 +240,6 @@ and (orientation : landscape){
     	visibility: hidden;
     }
     .info{
-    	visibility: hidden;
-    }
-    #watchBtn{
     	visibility: hidden;
     }
     .video{
@@ -341,6 +340,10 @@ and (orientation : landscape){
 		background: url(../images/desc2_tablet.png) 20% 0% no-repeat fixed;
 		height: 170px;
 	}
+	#watchBtn{
+		left:360px;
+		top:270px;
+	}
 }
 /**/
 @media (min-width: 480px) and (max-width: 640px){
@@ -433,9 +436,13 @@ and (orientation : landscape){
   		left: 15px; 
 	}
 	.banner1 a{
-    	top: 180px; 
+    	top: 140px; 
     	left: 15px; 
     	width: 120px;
+	}
+	#watchBtn{
+		left:40px;
+		top:235px;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -609,6 +616,10 @@ and (orientation : landscape){
     #slideout{
     	background: rgba(28, 152, 204, .95);
     }
+    #watchBtn{
+	 left:80px;
+	 top:138px;
+	}
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -779,7 +790,6 @@ and (orientation : landscape){
 		right: 0px;
 	}
     .video{display: none;}
-    #watchBtn{visibility: hidden;}
 }
 
 @media (min-width:480px) and (max-width:762px){
@@ -809,6 +819,10 @@ and (orientation : landscape){
     #want-a-discount--button{
       visibility: hidden;
     }
+    #watchBtn{
+	 left:140px;
+	 top:180px;
+	}
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
