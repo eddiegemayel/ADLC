@@ -123,9 +123,14 @@ form{
   float: right;
   clear: none;
 }
+#flag{
+  border-radius:10px;
+  transition: 0.4s linear;
+}
 #flag:hover{
   width: 19px;
   height: 14px;
+  border-radius:0px;
 }
 .logo h1 a{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -578,8 +583,6 @@ a.button.full:hover {
   transition: .3s ease-in-out;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
-  /*  -webkit-transform: scale(0.97);
-  transform: scale(0.97);*/
 }
 .thumbnail:hover{
   -webkit-filter: grayscale(0%) blur(0px) !important;
