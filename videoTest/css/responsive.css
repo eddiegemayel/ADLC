@@ -66,7 +66,7 @@
     	width: 120px;
 	}
 	#watchBtn{
-		left:380px;
+		left:355px;
 		top:270px;
 	}
 	.desc{
@@ -441,8 +441,9 @@ and (orientation : landscape){
     	width: 120px;
 	}
 	#watchBtn{
-		left:40px;
+		left:18px;
 		top:235px;
+		width: 148px;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -566,7 +567,7 @@ and (orientation : landscape){
   		font-size: 13px;
 	}
 	.banner1 .line2{
-  		top: 80px; 
+  		top: 70px; 
   		left: 0px; 
   		font-size: 13px;
 	}
@@ -617,8 +618,8 @@ and (orientation : landscape){
     	background: rgba(28, 152, 204, .95);
     }
     #watchBtn{
-	 left:80px;
-	 top:138px;
+	 left:65px;
+	 top:130px;
 	}
 }
 

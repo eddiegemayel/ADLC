@@ -123,19 +123,6 @@ form{
   float: right;
   clear: none;
 }
-/*#btn{
-  color: #ffffff;
-  border-color: #ffffff;
-  text-decoration: none;
-  position: absolute;
-  left:450px;
-  top:350px;
-  font-size: 16px;
-  background-color: #FF9735;
-  transition-duration: 0.1s;
-  transition: all 0.2s, color 0.2s;
-  animation: all spinAround 2s linear infinite;
-}*/
 #flag:hover{
   width: 19px;
   height: 14px;
@@ -690,7 +677,7 @@ iframe, object, embed {
   vertical-align: middle;
   position: absolute;
   top:320px;
-  left: 410px;
+  left: 385px;
   border: 4px solid white;
   width: 110px;
   height:20px;
