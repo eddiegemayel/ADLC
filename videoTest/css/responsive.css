@@ -849,7 +849,7 @@ and (orientation : landscape){
 /*--------------------------------------------------------------------------------------------------------------*/
 /*---------------------------------------------------------------------------Google map + Form*/
 /*--------------------------------------------------------------------------------------------------------------*/
-@media (min-width:769px) and (max-width:1080px){
+@media (min-width:769px) and (max-width:1100px){
 	#map{ 
 		padding: 0px 0px 0px 0px;
     	font-family: 'Open Sans', sans-serif;
@@ -867,4 +867,19 @@ and (orientation : landscape){
 		width: 88%;
 		float: none;
     }
+}
+
+
+/*trying to fix header*/
+@media (min-width:769px) and (max-width:1080px){
+	.banner1{
+
+	}
+}
+
+@media (min-width:20px) and (max-width:1080px){
+	.list_right{
+		display: none;
+		visibility: hidden;
+	}
 }
