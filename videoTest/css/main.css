@@ -125,7 +125,7 @@ form{
 }
 #flag{
   border-radius:10px;
-  transition: 0.4s linear;
+  transition: 0.2s ease-in-out;
 }
 #flag:hover{
   width: 19px;
@@ -547,10 +547,9 @@ a.button.full:hover {
   text-decoration: none;
   color: white;
   padding-right: 10px;
-  /*font-size: 230%;*/
 }
 /*--------------------------------------------------------------------------------------------------------------*/
-/* ------------------------------------------------------------------------------------------------------------slideout and video area */
+/*------------------------------------------------------------------------------------------------------------slideout and video area */
 /*--------------------------------------------------------------------------------------------------------------*/
 #slideout {
   background: rgba(28, 152, 204, 0.72);
@@ -642,7 +641,6 @@ a.button.full:hover {
 iframe, object, embed {
     max-width: 100%;
     transition:0.3s;
-    /*min-width:70%;*/
 }
 .headingSection{
   position: relative;
