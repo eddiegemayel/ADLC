@@ -152,20 +152,20 @@
    		font-size: 35px;
 	}
 	.banner1 h1{
-  		top: 140px; 
+  		top: 60px; 
   		left: 20px; 
   		width: 100%;
 	}
 	.banner1 h2{
- 	 top: 180px; 
+ 	 top: 100px; 
   	 left: 20px; 
 	}
 	.banner1 .line1{
-  		top: 215px; 
+  		top: 140px; 
   		left: 20px; 
 	}
 	.banner1 .line2{
-  		top: 235px; 
+  		top: 160px; 
   		left: 20px; 
 	}
 	.banner1 a{
@@ -437,20 +437,22 @@ and (orientation : landscape){
 	}
 	.banner1 h1{ 
   		top: 10px; 
-  		left: 15px; 
+  		left: 0px; 
   		width: 100%;
 	}
 	.banner1 h2{
  	 top: 40px; 
-  	 left: 15px; 
+  	 left: 0px; 
 	}
 	.banner1 .line1{
   		top: 70px; 
-  		left: 15px; 
+  		left: 0px; 
+  		font-size: 13px;
 	}
 	.banner1 .line2{
   		top: 90px; 
-  		left: 15px; 
+  		left: 0px; 
+  		font-size: 13px;
 	}
 	.banner1 a{
     	left:15px;
