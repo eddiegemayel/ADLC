@@ -65,13 +65,14 @@
   	 left: 20px; 
 	}
 	.banner1 a{
-     top: 280px; 
-     left: 25px; 
-     width: 120px;
+	left:335px;
+	 top:260px;
+     
 	}
 	#watchBtn{
-	 left:355px;
-	 top:300px;
+	 top: 280px; 
+     left: 25px; 
+     width: 120px;
 	}
 	.desc{
 		margin-top: 14px;
@@ -168,13 +169,13 @@
   		left: 20px; 
 	}
 	.banner1 a{
-    	top: 260px; 
-    	left: 30px;
-    	width: 120px;
+    	left:350px;
+		top:255px;
 	}
 	#watchBtn{
-		left:360px;
-		top:280px;
+		top: 275px; 
+    	left: 30px;
+    	width: 120px;
 	}
     #slideout{
     	min-height: 100px;
@@ -341,9 +342,8 @@ and (orientation : landscape){
   		left: 30px; 
 	}
 	.banner1 a{
-    	top: 250px; 
-    	left: 33px; 
-    	width: 120px;
+    	left:350px;
+		top:260px;
 	}
     #slideout{
     	height: 370px;
@@ -353,8 +353,9 @@ and (orientation : landscape){
 		height: 170px;
 	}
 	#watchBtn{
-		left:360px;
-		top:270px;
+		top: 280px; 
+    	left: 23px; 
+    	width: 120px;
 	}
 }
 /**/
@@ -452,14 +453,14 @@ and (orientation : landscape){
   		left: 15px; 
 	}
 	.banner1 a{
-    	top: 140px; 
-    	left: 15px; 
-    	width: 120px;
-	}
-	#watchBtn{
-		left:18px;
+    	left:15px;
 		top:235px;
 		width: 148px;
+	}
+	#watchBtn{
+		top: 170px; 
+    	left: 15px; 
+    	width: 140px;
 	}
 }
 /*--------------------------------------------------------------------------------------------------------------*/
