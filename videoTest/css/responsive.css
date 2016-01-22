@@ -879,7 +879,7 @@ and (orientation : landscape){
 
 @media (min-width:20px) and (max-width:1080px){
 	.list_right{
-		display: none;
+		display: none !important;
 		visibility: hidden;
 	}
 }
