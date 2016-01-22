@@ -177,10 +177,10 @@ $(document).ready(function() {
     windowHeight = $(window).height();
     windowWidth = $(window).width();
     //apply new width and height to the modal
-    $('.remodal').css("height", windowHeight - 100);
+    $('.remodal').css("height", windowHeight - 130);
     $('.remodal').css("max-width", windowWidth - 20);
     $('.modalVideo').css("height", windowHeight / 2);
-    $('.modalVideo').css("width", windowWidth - 40);
+    $('.modalVideo').css("width", windowWidth - 50);
   });
 
   //Regular Expression for phone number input(s)

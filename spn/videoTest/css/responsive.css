@@ -1,0 +1,885 @@
+/*Stylesheet for media queries that help the page maintain responsiveness*/
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------For Larger screens*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1601px) and (max-width: 2000px){
+	#l2{
+  		width: 1000px;
+  		margin-left: -112px;
+	}
+	#l3{
+ 		width: 1000px;
+ 		margin-left: -110px;
+	}
+	.banner{
+		padding: 140px 0px;
+	}
+	.banner1 img{
+  		height:700px; 
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------For average screens*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 1080px) and (max-width: 1600px){
+	.container{
+		width: 1040px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	.features_section ul li{
+		width: 346px;
+	}
+	.stories-section ul li{
+		width: 304px;
+	}
+	.story-img img{
+		width: 304px;
+		height: 195px;
+	}
+	.banner1 img{
+  		height:640px; 
+	}
+	.slick-dots{
+    	bottom: -70px !important;
+	}
+	.banner1 span{
+   		font-size: 38px;
+	}
+	.banner1 h1{
+  	 top: 140px; 
+  	 left: 20px; 
+  	 width: 100%;
+	}
+	.banner1 h2{
+ 	 top: 180px; 
+  	 left: 20px; 
+	}
+	.banner1 .line1{
+  	 top: 220px; 
+  	 left: 20px; 
+	}
+	.banner1 .line2{
+  	 top: 240px; 
+  	 left: 20px; 
+	}
+	.banner1 a{
+     top: 280px; 
+     left: 25px; 
+     width: 120px;
+	}
+	#watchBtn{
+	 left:355px;
+	 top:300px;
+	}
+	.desc{
+		margin-top: 14px;
+	}
+	#slideout{
+    	height: 640px;
+    }
+    .info{
+    	height: 640px;
+    }
+    #dynamicInfo{
+    	/*visibility: hidden;*/
+    	font-size:150%;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------For smaller screens*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 1080px){
+	.banner{
+		background-position: 80% 0%;
+		padding: 100px 0px;
+	}
+	.button.button-left {
+		float: left;
+		padding: 10px 20px !important;
+	}
+	.button.button-right {
+		float: right;
+		padding: 10px 20px !important;
+	}
+	.container{
+		width: 728px;
+		margin: 0 auto;
+	}
+	.big-text{
+		font-size: 22px;
+	}
+	.header-text h2{
+    	font-size: 34px;
+    	z-index: 0
+	}
+	.small-text{
+    	width: 85%;
+    	margin: 0px auto;
+    	font-size: 16px;
+	}
+	.desc{
+		margin-top: -70px !important;
+		height: 170px;
+	}
+	.desc h2{
+    	font-size: 25px;
+	}
+	.desc p{
+    	font-size: 16px;
+	}
+	#desc_container{
+		margin-top: 20px;
+	}
+	.features_section ul li {
+    	width: 242px;
+	}
+	.features_section ul li p {
+    	font-size: 14px;
+    	width: 95%;
+	}
+	.contact_section{
+		width: 100%;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
+	}
+	.slick-dots{
+    	visibility: hidden;
+	}
+	.banner1 span{
+   		font-size: 35px;
+	}
+	.banner1 h1{
+  		top: 140px; 
+  		left: 20px; 
+  		width: 100%;
+	}
+	.banner1 h2{
+ 	 top: 180px; 
+  	 left: 20px; 
+	}
+	.banner1 .line1{
+  		top: 215px; 
+  		left: 20px; 
+	}
+	.banner1 .line2{
+  		top: 235px; 
+  		left: 20px; 
+	}
+	.banner1 a{
+    	top: 260px; 
+    	left: 30px;
+    	width: 120px;
+	}
+	#watchBtn{
+		left:360px;
+		top:280px;
+	}
+    #slideout{
+    	min-height: 100px;
+    	/*overflow:scroll;*/
+    	height: 560px;
+    	/*height: auto;*/
+    }
+    #clickme2{
+    	visibility: visible;
+    	/*position: absolute;*/
+  		/*top: 0 !important; 
+  		left: 0 !important;*/
+  		height: 50px !important;
+  		width: 50px !important;
+    }
+    /*#dynamicInfo{visibility: hidden;}*/
+    .desc2{
+		background: url(../images/desc2_tablet.png) 7% 0% no-repeat fixed;
+		height: 185px;
+	}
+	.badge {
+      display: none;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape){
+	.container{
+		width: 728px;
+		margin: 0 auto;
+	}
+	.banner{
+		padding: 140px 0px;
+/*		background-position: -190px -20px/cover ;*/
+	}
+	.big-text{
+		font-size: 22px;
+	}
+	.header-text h2 {
+    	font-size: 34px;
+	}
+	.small-text {
+    	width: 85%;
+    	margin: 0px auto;
+    	font-size: 16px;
+	}
+	.desc{
+		margin-top: -120px !important;
+	}
+	.desc h2 {
+    	font-size: 25px;
+	}
+	.desc p {
+    	font-size: 16px;
+	}
+	.features_section ul li {
+    	width: 242px;
+	}
+	.features_section ul li p {
+    	font-size: 14px;
+    	width: 95%;
+	}
+	.contact_section{
+		width: 80%;
+		margin: 0 auto;
+		font-family: 'Open Sans', sans-serif;
+	}
+	#slideout{
+    	visibility: hidden;
+    }
+    .info{
+    	visibility: hidden;
+    }
+    .video{
+    	display: none;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------tablet media queries*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 640px) and (max-width: 768px){
+	.container{
+		width: 600px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	.banner{
+		padding: 140px 0px;
+		background-position: 90% 0%;
+	}
+
+	.banner2{
+		background-position:40% 0%;
+	}
+	.big-text {
+    	font-size: 20px;
+	}
+	.header-text h2 {
+    	font-size: 30px;
+    	line-height: 40px;
+	}
+	.small-text {
+    	width: 90%;
+	    font-size: 16px;
+    	line-height: 35px;
+	}
+	.desc {
+    	padding: 60px 0px;
+	}
+	.desc{
+		margin-top: -180px !important;
+	}
+	.desc h2 {
+    	font-size: 22px;
+	}
+	.desc p {
+    	font-size: 14px;
+	}
+	.features_section ul li {
+    	display: block;
+    	float: none;
+    	width: 80%;
+    	margin: 40px auto;
+	}
+	p.box-desc {
+   	 	line-height: 30px;
+	}
+	.stories-section ul li {
+   	 	float: none;;
+   	 	margin: 40px auto;
+	}	
+	.features {
+    	padding: 140px 0px;
+	}
+	.stories {
+    	padding: 140px 0px;
+	}
+	.contact {
+    	padding: 140px 0px;
+	}
+	.slick-dots{
+    	visibility: hidden;
+	}
+	.banner1 span{
+   		font-size: 28px;
+	}
+	.banner1 h1{
+  		top: 30px; 
+  		left: 30px; 
+  		width: 100%;
+	}
+	.banner1 h2{
+ 	 top: 60px; 
+  	 left: 30px; 
+	}
+	.banner1 .line1{
+  		top: 90px; 
+  		left: 30px; 
+	}
+	.banner1 .line2{
+  		top: 120px; 
+  		left: 30px; 
+	}
+	.banner1 a{
+    	top: 250px; 
+    	left: 33px; 
+    	width: 120px;
+	}
+    #slideout{
+    	height: 370px;
+    }
+    .desc2{
+		background: url(../images/desc2_tablet.png) 20% 0% no-repeat fixed;
+		height: 170px;
+	}
+	#watchBtn{
+		left:360px;
+		top:270px;
+	}
+}
+/**/
+@media (min-width: 480px) and (max-width: 640px){
+	.container{
+		width: 440px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	#l2{
+		width: 100%;
+	}
+	#l3{
+		width:100%;
+	}
+	.banner{
+		padding: 140px 0px;
+		background-position: 92% 0%;
+	}
+	.banner2{
+		background-position:50% 0%;
+	}
+	.big-text {
+    	font-size: 20px;
+	}
+	.header-text h2 {
+    	font-size: 30px;
+    	line-height: 40px;
+	}
+	.small-text {
+    	width: 90%;
+	    font-size: 16px;
+    	line-height: 35px;
+	}
+	.desc {
+    	padding: 60px 0px;
+	}
+	.desc{
+		margin-top: -250px !important;
+	}
+	.desc h2 {
+    	font-size: 22px;
+	}
+	.desc p {
+    	font-size: 14px;
+		width: 100%;
+	}
+	.desc2{
+		background: url(../images/desc3_mobile.png) 25% 0% no-repeat fixed;
+		height: 210px;
+	}
+	.features_section ul li {
+    	display: block;
+    	float: none;
+    	width: 80%;
+    	margin: 40px auto;
+	}
+	p.box-desc {
+   	 	line-height: 30px;
+	}
+	.stories-section ul li {
+   	 	float: none;
+   	 	margin: 40px auto;
+	}	
+	.features {
+    	padding: 140px 0px;
+	}
+	.stories {
+    	padding: 140px 0px;
+	}
+	.contact {
+    	padding: 140px 0px;
+	}
+	.slick-dots{
+    	visibility: hidden;
+	}
+	.banner1 span{
+   		font-size: 28px;
+	}
+	.banner1 h1{ 
+  		top: 10px; 
+  		left: 15px; 
+  		width: 100%;
+	}
+	.banner1 h2{
+ 	 top: 40px; 
+  	 left: 15px; 
+	}
+	.banner1 .line1{
+  		top: 70px; 
+  		left: 15px; 
+	}
+	.banner1 .line2{
+  		top: 90px; 
+  		left: 15px; 
+	}
+	.banner1 a{
+    	top: 140px; 
+    	left: 15px; 
+    	width: 120px;
+	}
+	#watchBtn{
+		left:18px;
+		top:235px;
+		width: 148px;
+	}
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------Mobile media query*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 20px) and (max-width: 480px){
+	.container{
+		width: 280px;
+		margin: 0 auto;
+		padding: 0px 20px;
+	}
+	#l2{
+  		width: 100%;
+  		margin-left: -37px;
+	}
+	#l3{
+  		width: 100%;
+  		margin-left: -40px;
+	}
+	.banner{
+		padding: 140px 0px 60px;
+		background-position: 87% 0%;
+	}
+	.banner2{
+		background-position:50% 0%;
+	}
+	.big-text {
+    	font-size: 15px;
+	}
+	.header-text h2 {
+    	font-size: 26px;
+    	line-height: 40px;
+	}
+	.small-text {
+    	width: 90%;
+	    font-size: 15px;
+    	line-height: 35px;
+	}
+	.button-section ul li {
+    	margin: 50px 12px;
+	}
+	.white, .green {
+    	padding: 15px;
+	}
+	.desc {
+    	padding: 60px 0px;
+	}
+	.desc{
+		margin-top: -340px !important;
+	}	
+	.desc h2 {
+    	font-size: 22px;
+	}
+	.desc p {
+    	font-size: 14px;
+		width: 100%;
+	}
+	.desc2{
+		background: url(../images/desc3_mobile.png) 25% 20% no-repeat fixed;
+		height: 120px;
+	}
+	#features{
+		padding: 10px 0px;
+	}
+	.features_section ul li {
+    	display: block;
+    	float: none;
+    	width: 90%;
+    	margin: 40px auto;
+	}
+	.features_section ul li p{
+		width: 100%;
+	}
+	p.box-desc {
+   	 	line-height: 30px;
+		font-size: 14px;
+	}
+	.stories{
+		padding: 140px 0px;
+	}
+	.stories-section ul li {
+   	 	float: none;;
+   	 	margin: 40px auto;
+		width: 260px;
+	}
+	.story-img img {
+    	height: 170px;
+    	width: 260px;
+	}
+	.features {
+    	padding: 60px 0px;
+	}
+	.stories {
+    	padding: 60px 0px;
+	}
+	.contact {
+    	padding: 100px 0px;
+	}
+	h3.text_head {
+    	font-size: 20px;
+	}
+	.menu {
+   		display: none;
+	}
+	.logo {
+		float: left;
+	}
+	.button.submit {
+ 		padding: 15px 70px; 
+ 	}		
+	.banner1 span{
+   		font-size: 25px;
+	}
+	.banner1 h1{
+  		top: 10px; 
+  		left: 0px; 
+	}
+	.banner1 h2{
+ 	 top: 40px; 
+  	 left: 0px; 
+	}
+	.banner1 .line1{
+  		top: 70px; 
+  		left: 0px; 
+  		font-size: 13px;
+	}
+	.banner1 .line2{
+  		top: 90px; 
+  		left: 0px; 
+  		font-size: 13px;
+	}
+	.banner1 a{
+    	top: 110px; 
+    	left: 30px; 
+    	width: 120px;
+	}
+    .right{
+    	padding-left:5px;
+    }
+    #mobileLogo{
+    	display: block;
+    }
+    #logo{
+    	display: none;
+    }
+    .header{
+    	background-color: #1d3c70;
+    }
+    #map{ 
+		padding: 0px 0px 0px 0px;
+    	font-family: 'Open Sans', sans-serif;
+    	float: none;
+    	width:100%;
+    }
+    .contact_section form{
+		/*padding: 25px 0px 0px 0px;*/
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 88%;
+		float: none;
+    }
+    #stickyBtn{
+       visibility: visible;
+    }
+    #want-a-discount--button{
+      visibility: hidden;
+    }
+    #dynamicInfo{
+    	visibility: hidden;
+    	display: none;
+    }
+    #slideout{
+    	background: rgba(28, 152, 204, .95);
+    }
+    #watchBtn{
+	 left:65px;
+	 top:145px;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 767px){
+	.banner .bloco-destaque{
+		width: 100% !important; 
+		float: none; 
+	}
+	button.submit {
+		padding: 15px 50px !important;
+	}
+	.banner .bloco-destaque {
+		text-align: center;
+	}
+	.banner .bloco-destaque a.button {
+		display: block;
+		margin-bottom: 10px;
+	}
+	#mobile-header {
+		display: block;
+	}
+	.header{
+		width: 100%;
+		/*margin-bottom: -108px;*/
+		/*position: fixed;*/
+	}
+	.header .logo img{
+		width: 100%;
+		text-align: center;
+	}
+	.banner {
+    	padding: 160px 0px 80px;
+	}
+	.menu{
+		display: none;
+	}
+	#map{ 
+		width: 100%;
+		margin: 50px auto;
+		padding: 0px 0px 0px 0px;
+    	color: #888;
+    	font-size: 17px;
+    	font-weight: 500;
+    	font-family: 'Open Sans', sans-serif;
+    	float: left;
+    }
+ 	form{
+		margin: 0;
+		padding: 25px 0px 0px 0px;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 100%;
+		float: right;
+	}
+ 	form.discount{
+		margin: 0;
+		padding: 25px;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 100%;
+		float: right;
+		margin-top: 20px;
+	}
+	button.enviar {
+		padding: 15px 50px !important;
+	}
+	.white, .green {
+    	padding: 15px 35px;
+    }
+	.banner .bloco-destaque .l3 {
+    	font-size: 40px;
+    	font-family: 'Open Sans', 'Raleway', sans-serif;
+	}
+	.video{
+    	display: none;
+    }
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------Real life experiences section*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media(max-width: 1000px) {
+  .desc2 p {
+    margin: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
+  .desc2 h2 {
+    padding: 0;
+    margin: 0 0 20px 0;
+  }
+  .badge {
+    display: none;
+  }
+}
+
+@media(max-width: 768px) {
+  .banner {
+    padding: 0 0 20px 0 !important;
+  }
+  .banner .bloco-destaque .l2 {
+    font-size: 2em;
+  }
+  .banner .bloco-destaque .l3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px !important;
+  }
+  .banner .bloco-destaque .botoes {
+    width: 100%;
+  }
+  .desc2 {
+    background-size: cover;
+  }
+  .desc3 h2 {
+    margin-top: 40px;
+    display: inline-block;
+  }
+  .form.discount {
+    margin-top: 120px !important;
+  }
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------Modal responsiveness*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width:1050px) and (max-width:2100px){
+	.left{
+		width: 50%;
+	}
+	.right{
+		width: 50%;
+	}
+	iframe, object, embed {
+     max-width: 90%;
+     /*min-width:70%;*/
+	}
+}
+@media (min-width:20px) and ( max-width:1050px){
+	.left{
+		float: none;
+	}
+	.right{
+		float: none;
+	}
+	.socialMediaButtons li{
+		float: none;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------slideout responsive code....hide everything once it gets to mobile size*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 20px) and (max-width: 850px){
+	/*#slideout{visibility: hidden;}
+	.info{visibility: hidden;}*/
+	.info h2{
+		font-size: 15px;
+		position: relative;
+		text-align: none;
+		float:none;
+		top:180px;
+		right: 0px;
+	}
+    .video{display: none;}
+}
+
+@media (min-width:480px) and (max-width:762px){
+  #logo{
+   	text-align: center;
+    vertical-align: middle;
+    margin-left: 17%;
+  }
+}
+/*desc2 Banner image*/
+@media (min-width:1080px) and (max-width:1242px){
+	.desc2{
+		background: url(../images/desc3_mobile.png) 0% 90% no-repeat fixed;
+		height: 260px;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------Sticky Footer discount button*/
+/*--------------------------------------------------------------------------------------------------------------*/
+
+@media (min-width:480px) and (max-width:586px){
+	#stickyBtn{
+       visibility: visible;
+       width: 80%;
+    }
+    #want-a-discount--button{
+      visibility: hidden;
+    }
+    #watchBtn{
+	 left:140px;
+	 top:180px;
+	}
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------Google map + Form*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width:769px) and (max-width:1100px){
+	#map{ 
+		padding: 0px 0px 0px 0px;
+    	font-family: 'Open Sans', sans-serif;
+    	float: none;
+    	width:100%;
+    }
+    .contact_section form{
+    	/*margin-left: -10px;*/
+		/*padding: 25px 0px 0px 0px;*/
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+		font-family: 'Raleway', sans-serif;
+		width: 88%;
+		float: none;
+    }
+}
+
+
+/*trying to fix header*/
+@media (min-width:769px) and (max-width:1080px){
+	.banner1{
+
+	}
+}
+
+@media (min-width:20px) and (max-width:1080px){
+	.list_right{
+		display: none !important;
+		visibility: hidden;
+	}
+}
