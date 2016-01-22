@@ -336,10 +336,12 @@ and (orientation : landscape){
 	.banner1 .line1{
   		top: 90px; 
   		left: 30px; 
+  		font-size:16px;
 	}
 	.banner1 .line2{
-  		top: 120px; 
+  		top: 110px; 
   		left: 30px; 
+  		font-size: 16px;
 	}
 	.banner1 a{
     	left:325px;
