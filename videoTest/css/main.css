@@ -465,12 +465,6 @@ display: none;
   padding: 10px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
-.banner1 a{
-  position: absolute; 
-  top: 330px; 
-  left: 60px; 
-  width: 120px;
-}
 .banner1 a.button {
   display: inline-block;
   text-decoration: none;
@@ -506,10 +500,40 @@ display: none;
   visibility: hidden;
 }
 #want-a-discount--button{
-  float: left;
+  /*float: left;*/
 }
 #want-a-discount--button:hover{
   color: #00ccea;
+}
+.banner1 a{
+  position: absolute;
+  top:320px;
+  left: 375px;
+}
+#watchBtn{
+  padding: 18px 78px !important;
+  font-size: 19px;
+  border-radius: 9px;
+  color:#fff;
+  background:none;
+  /*background-color: #FF9735;*/
+  transition-duration: 0.1s;
+  transition: all 0.2s, color 0.2s;
+  animation: all spinAround 2s linear infinite;
+  visibility: visible;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute; 
+  top: 340px; 
+  left: 60px; 
+  width: 120px;
+  border: 4px solid white;
+  width: 110px;
+  height:20px;
+}
+#watchBtn:hover {
+  background-color: #f2f2f2;
+  color: black;
 }
 a.button.full{
   padding: 16px 72px !important;
@@ -667,30 +691,6 @@ iframe, object, embed {
 .selected{
   /*background-color: #FF9735;*/
   /*background-color: rgba(255,151,53, 0.7);*/
-}
-#watchBtn{
-  padding: 18px 78px !important;
-  font-size: 19px;
-  border-radius: 9px;
-  color:#fff;
-  background:none;
-  /*background-color: #FF9735;*/
-  transition-duration: 0.1s;
-  transition: all 0.2s, color 0.2s;
-  animation: all spinAround 2s linear infinite;
-  visibility: visible;
-  text-align: center;
-  vertical-align: middle;
-  position: absolute;
-  top:350px;
-  left: 385px;
-  border: 4px solid white;
-  width: 110px;
-  height:20px;
-}
-#watchBtn:hover {
-  background-color: #f2f2f2;
-  color: black;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------Video and Modal*/
