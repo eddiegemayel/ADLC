@@ -870,11 +870,45 @@ and (orientation : landscape){
     }
 }
 
-
-/*trying to fix header*/
-@media (min-width:769px) and (max-width:1080px){
-	.banner1{
-
+/*-------------------------------------------------------------------------Header Responsiveness*/
+@media (min-width:1700px) and (max-width:1779px){
+	.logo_menu{
+		margin-left: -300px;
+	}
+}
+@media (min-width:1600px) and (max-width:1700px){
+	.logo_menu{
+		margin-left: -250px;
+	}
+}
+@media (min-width:1500px) and (max-width:1600px){
+	.logo_menu{
+		margin-left: -220px;
+	}
+}
+@media (min-width:1400px) and (max-width:1500px){
+	.logo_menu{
+		margin-left: -170px;
+	}
+}
+@media (min-width:1300px) and (max-width:1400px){
+	.logo_menu{
+		margin-left: -130px;
+	}
+}
+@media (min-width:1200px) and (max-width:1300px){
+	.logo_menu{
+		margin-left: -80px;
+	}
+}
+@media (min-width:1100px) and (max-width:1200px){
+	.logo_menu{
+		margin-left: -30px;
+	}
+}
+@media (min-width:20px) and (max-width:1100px){
+	.logo_menu{
+		margin-left: 0px;
 	}
 }
 
