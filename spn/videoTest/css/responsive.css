@@ -322,16 +322,16 @@ and (orientation : landscape){
   		width: 100%;
 	}
 	.banner1 h2{
- 	 top: 60px; 
+ 	 top: 63px; 
   	 left: 30px; 
 	}
 	.banner1 .line1{
-  		top: 90px; 
+  		top: 140px; 
   		left: 30px; 
   		font-size:16px;
 	}
 	.banner1 .line2{
-  		top: 110px; 
+  		top: 170px; 
   		left: 30px; 
   		font-size: 16px;
 	}
@@ -450,11 +450,11 @@ and (orientation : landscape){
 	}
 	.banner1 a{
     	left:15px;
-		top:235px;
+		top:215px;
 		width: 148px;
 	}
 	#watchBtn{
-		top: 170px; 
+		top: 160px; 
     	left: 15px; 
     	width: 140px;
 	}

@@ -458,12 +458,12 @@ display: none;
 }
 .banner1 h2{
   position: absolute; 
-  top: 235px; 
+  top: 238px; 
   left: 155px; 
 }
 .banner1 .line1{
   position: absolute; 
-  top: 295px; 
+  top: 305px; 
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
@@ -474,7 +474,7 @@ display: none;
 }
 .banner1 .line2{
   position: absolute; 
-  top: 325px; 
+  top: 335px; 
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
