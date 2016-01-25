@@ -3,14 +3,6 @@
 /*-------------------------------------------------------------------------------------------For Larger screens*/
 /*--------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 1601px) and (max-width: 2000px){
-	#l2{
-  		width: 1000px;
-  		margin-left: -112px;
-	}
-	#l3{
- 		width: 1000px;
- 		margin-left: -110px;
-	}
 	.banner{
 		padding: 140px 0px;
 	}
@@ -49,29 +41,29 @@
 	}
 	.banner1 h1{
   	 top: 140px; 
-  	 left: 20px; 
+  	 left: 120px; 
   	 width: 100%;
 	}
 	.banner1 h2{
  	 top: 180px; 
-  	 left: 20px; 
+  	 left: 120px; 
 	}
 	.banner1 .line1{
   	 top: 220px; 
-  	 left: 20px; 
+  	 left: 120px; 
 	}
 	.banner1 .line2{
   	 top: 240px; 
-  	 left: 20px; 
+  	 left: 120px; 
 	}
 	.banner1 a{
-	left:335px;
+	left:435px;
 	 top:260px;
      
 	}
 	#watchBtn{
 	 top: 280px; 
-     left: 25px; 
+     left: 125px; 
      width: 120px;
 	}
 	.desc{
@@ -152,21 +144,21 @@
    		font-size: 35px;
 	}
 	.banner1 h1{
-  		top: 60px; 
-  		left: 20px; 
+  		top: 20px; 
+  		left: 30px; 
   		width: 100%;
 	}
 	.banner1 h2{
- 	 top: 100px; 
-  	 left: 20px; 
+ 	 top: 60px; 
+  	 left: 30px; 
 	}
 	.banner1 .line1{
-  		top: 140px; 
-  		left: 20px; 
+  		top: 100px; 
+  		left: 30px; 
 	}
 	.banner1 .line2{
-  		top: 160px; 
-  		left: 20px; 
+  		top: 120px; 
+  		left: 30px; 
 	}
 	.banner1 a{
     	left:350px;
@@ -877,37 +869,37 @@ and (orientation : landscape){
 /*-------------------------------------------------------------------------Header Responsiveness*/
 @media (min-width:1700px) and (max-width:1779px){
 	.logo_menu{
-		margin-left: -300px;
+		margin-left: -230px;
 	}
 }
 @media (min-width:1600px) and (max-width:1700px){
 	.logo_menu{
-		margin-left: -250px;
+		margin-left: -160px;
 	}
 }
 @media (min-width:1500px) and (max-width:1600px){
 	.logo_menu{
-		margin-left: -220px;
+		margin-left: -120px;
 	}
 }
 @media (min-width:1400px) and (max-width:1500px){
 	.logo_menu{
-		margin-left: -170px;
+		margin-left: -100px;
 	}
 }
 @media (min-width:1300px) and (max-width:1400px){
 	.logo_menu{
-		margin-left: -130px;
+		margin-left: -40px;
 	}
 }
 @media (min-width:1200px) and (max-width:1300px){
 	.logo_menu{
-		margin-left: -80px;
+		margin-left: -30px;
 	}
 }
 @media (min-width:1100px) and (max-width:1200px){
 	.logo_menu{
-		margin-left: -30px;
+		margin-left: 55px;
 	}
 }
 @media (min-width:20px) and (max-width:1100px){
