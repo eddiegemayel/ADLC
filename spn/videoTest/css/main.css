@@ -291,6 +291,17 @@ p.box-desc{
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
 }
+.desc2 .container h1{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  /*font-weight: 100;*/
+  padding: 20px 0px;
+  display: block;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
 img.badge{
   float:left;
   margin-top: -50px;
