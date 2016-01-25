@@ -463,22 +463,24 @@ display: none;
 }
 .banner1 .line1{
   position: absolute; 
-  top: 275px; 
-  left: 155px; 
-  color: white; 
-  font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
-  padding: 10px;
-  font-family: 'Open Sans', 'Raleway', sans-serif; 
-}
-.banner1 .line2{
-  position: absolute; 
   top: 295px; 
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
   padding: 10px;
+  font-weight: 100;
+  font-family: 'Open Sans', 'Raleway', sans-serif; 
+}
+.banner1 .line2{
+  position: absolute; 
+  top: 325px; 
+  left: 155px; 
+  color: white; 
+  font: 20px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px;
+  font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 .banner1 a.button {
@@ -523,7 +525,7 @@ display: none;
 }
 .banner1 a{
   position: absolute;
-  top:320px;
+  top:420px;
   left: 475px;
 }
 #watchBtn{
@@ -540,7 +542,7 @@ display: none;
   text-align: center;
   vertical-align: middle;
   position: absolute; 
-  top: 340px; 
+  top: 440px; 
   left: 160px; 
   width: 120px;
   border: 4px solid white;
