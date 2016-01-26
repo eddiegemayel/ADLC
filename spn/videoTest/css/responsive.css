@@ -695,7 +695,8 @@ and (orientation : landscape){
 		font: inherit;
 		vertical-align: baseline;
 		font-family: 'Raleway', sans-serif;
-		width: 100%;
+		width: 98%;
+		margin-right: 25px;
 		float: right;
 	}
  	form.discount{
