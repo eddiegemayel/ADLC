@@ -126,6 +126,9 @@ form{
   float: right;
   clear: none;
 }
+#list_group_1{
+  /*margin-left: 230px;*/
+}
 #flag{
   border-radius:10px;
   transition: 0.2s ease-in-out;

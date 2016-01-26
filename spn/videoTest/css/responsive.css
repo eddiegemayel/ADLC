@@ -571,20 +571,20 @@ and (orientation : landscape){
    		font-size: 25px;
 	}
 	.banner1 h1{
-  		top: 10px; 
+  		top: 0px; 
   		left: 0px; 
 	}
 	.banner1 h2{
- 	 top: 40px; 
+ 	 top: 25px; 
   	 left: 0px; 
 	}
 	.banner1 .line1{
-  		top: 70px; 
+  		top: 50px; 
   		left: 0px; 
   		font-size: 13px;
 	}
 	.banner1 .line2{
-  		top: 90px; 
+  		top: 70px; 
   		left: 0px; 
   		font-size: 13px;
 	}
@@ -635,8 +635,9 @@ and (orientation : landscape){
     	background: rgba(28, 152, 204, .95);
     }
     #watchBtn{
-	 left:65px;
-	 top:135px;
+	 left:55px;
+	 top:110px;
+	 font-size: 16px; 
 	}
 	.desc2 .container h1{
 		font-size: 150%;
