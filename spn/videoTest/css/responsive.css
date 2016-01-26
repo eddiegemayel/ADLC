@@ -113,8 +113,8 @@
     	font-size: 16px;
 	}
 	.desc{
-		margin-top: -180px !important;
-		height: 170px;
+		margin-top: -100px;
+		height: 160px;
 	}
 	.desc h2{
     	font-size: 25px;
@@ -870,6 +870,13 @@ and (orientation : landscape){
 }
 
 /*-------------------------------------------------------------------------Header Responsiveness*/
+
+@media (min-width:769px) and (max-width:860px){
+	.desc{
+		margin-top: -180px !important;
+		height: 160px;
+	}
+}
 @media (min-width:1700px) and (max-width:1779px){
 	.logo_menu{
 		margin-left: -230px;
