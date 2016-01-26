@@ -6,9 +6,6 @@
 	.banner{
 		padding: 140px 0px;
 	}
-	.banner1 img{
-  		height:650px; 
-	}
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -35,7 +32,7 @@
 		height: 195px;
 	}
 	.banner1 img{
-  		height:620px; 
+  		/*height:620px; */
 	}
 	.slick-dots{
     	bottom: -70px !important;
@@ -874,41 +871,58 @@ and (orientation : landscape){
 }
 
 /*-------------------------------------------------------------------------Header Responsiveness*/
-
 @media (min-width:769px) and (max-width:860px){
 	.desc{
 		margin-top: -180px !important;
 		height: 160px;
 	}
 }
-@media (min-width:1700px) and (max-width:1779px){
+@media (min-width:1700px) and (max-width:1925px){
 	.logo_menu{
 		margin-left: -230px;
+	}
+	.banner1 img{
+  		height:665px; 
 	}
 }
 @media (min-width:1600px) and (max-width:1700px){
 	.logo_menu{
 		margin-left: -160px;
 	}
+	.banner1 img{
+  		height:650px; 
+	}
 }
 @media (min-width:1500px) and (max-width:1600px){
 	.logo_menu{
 		margin-left: -120px;
+	}
+	.banner1 img{
+  		height:640px; 
 	}
 }
 @media (min-width:1400px) and (max-width:1500px){
 	.logo_menu{
 		margin-left: -100px;
 	}
+	.banner1 img{
+  		height:630px; 
+	}
 }
 @media (min-width:1300px) and (max-width:1400px){
 	.logo_menu{
 		margin-left: -40px;
 	}
+	.banner1 img{
+  		height:620px; 
+	}
 }
 @media (min-width:1200px) and (max-width:1300px){
 	.logo_menu{
 		margin-left: -30px;
+	}
+	.banner1 img{
+  		height:610px; 
 	}
 }
 @media (min-width:1100px) and (max-width:1200px){
