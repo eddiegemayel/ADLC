@@ -23,6 +23,10 @@
 	.features_section ul li{
 		width: 346px;
 	}
+	.features2 .container .features_section ul li{
+		/*padding-left: 10px;*/
+		/*padding-right: 10px;*/
+	}
 	.stories-section ul li{
 		width: 304px;
 	}
@@ -59,7 +63,6 @@
 	.banner1 a{
 	left:435px;
 	 top:320px;
-     
 	}
 	#watchBtn{
 	 top: 340px; 
