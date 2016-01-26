@@ -1,10 +1,16 @@
 <?php
 	#contact form
-    $to="eddiegem16@gmail.com";
-    $subject="Form to email message";
+    $to="dp@ark101.com";
+    $date = date('Y/m/d');
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];
+    $subject="Form submission from $senderEmail on $date";
     $phone = $_POST["phone"];
+
+    // $headers = "From: $sender\r\n";
+	// $headers .= "Reply-To: myplace2@example.com\r\n";
+	// $headers .= "Return-Path: myplace@example.com\r\n";
+	// $headers .= "CC: ewg@ark101.com\r\n";date("Y/m/d")
 
     #message to appear in email sent
     $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone ";
