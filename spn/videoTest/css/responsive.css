@@ -870,7 +870,7 @@ and (orientation : landscape){
     }
 }
 
-/*-------------------------------------------------------------------------Header Responsiveness*/
+/*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
 @media (min-width:769px) and (max-width:860px){
 	.desc{
 		margin-top: -180px !important;
@@ -941,4 +941,6 @@ and (orientation : landscape){
 		display: none !important;
 		visibility: hidden;
 	}
+	#banner_img_big{visibility: hidden; display: none;}
+	#banner_img_small{visibility: visible; display: block;}
 }
