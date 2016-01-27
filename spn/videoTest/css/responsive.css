@@ -601,6 +601,7 @@ and (orientation : landscape){
     }
     #mobileLogo{
     	display: block;
+    	margin-left: 25px;
     }
     #logo{
     	display: none;
