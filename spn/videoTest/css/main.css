@@ -138,7 +138,7 @@ form{
   position: absolute;
   top: 0;
   border: 0.25px solid black;
-  border-radius:0px 6px 6px 0px;
+  border-radius:0px 3px 3px 0px;
   z-index: 1;
   left:-205px;
   background-color:rgba(8,8,8,0.75) !important;
@@ -146,16 +146,22 @@ form{
   transition: 0.5s ease-in-out;
   overflow: hidden;
 }
-.hamburger_links a{
-  text-decoration: none !important;
-  color:#1d3c70;
-}
-.hamburger_links a:hover{
-  color: #37D9F5;
-}
 .hamburger_links{
   list-style-type:none;
   text-decoration: none;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.hamburger_links a{
+  text-decoration: none !important;
+  color:#37D9F5;
+}
+.hamburger_links a:hover{
+  color: #35E6ED;
+}
+#hamburger p{
+  margin-left: 5px;
+  margin-top: 10px;
 }
 .list_right{
   float: right;

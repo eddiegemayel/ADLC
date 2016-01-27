@@ -192,7 +192,7 @@
       display: none;
     }
      .list_right{
-    	margin-left: -5px;
+    	margin-left: -4px;
     }
 }
 
@@ -961,7 +961,7 @@ and (orientation : landscape){
 }
 @media (min-width:600px) and (max-width:826px){
 	.logo_menu{
-		margin-left: -30px;
+		margin-left: -29px !important;
 	}
 }
 @media (min-width:20px) and (max-width:600px){
@@ -974,4 +974,11 @@ and (orientation : landscape){
 	
 	#banner_img_big{visibility: hidden; display: none;}
 	#banner_img_small{visibility: visible; display: block;}
+}
+
+@media (min-width:768px) and (max-width:2500px){
+	#hamburger{
+		display: none;
+		visibility: hidden;
+	}
 }
