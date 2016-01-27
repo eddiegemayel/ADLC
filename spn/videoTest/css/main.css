@@ -125,6 +125,37 @@ form{
 #arrow{
   visibility: hidden;
   display: none;
+  transition: 0.2s ease-in-out;
+}
+#arrow:hover{
+  font-size: 15px;
+}
+#hamburger{
+  width: 200px;
+  height: ;
+  margin-top: 80px;
+  transition:0.3s;
+  position: absolute;
+  top: 0;
+  border: 0.25px solid black;
+  border-radius:0px 6px 6px 0px;
+  z-index: 1;
+  left:-205px;
+  background-color:rgba(8,8,8,0.75) !important;
+  color:#fff;
+  transition: 0.5s ease-in-out;
+  overflow: hidden;
+}
+.hamburger_links a{
+  text-decoration: none !important;
+  color:#1d3c70;
+}
+.hamburger_links a:hover{
+  color: #37D9F5;
+}
+.hamburger_links{
+  list-style-type:none;
+  text-decoration: none;
 }
 .list_right{
   float: right;

@@ -19,64 +19,19 @@ $(document).ready(function() {
 
 
   //SLIDEOUT MENU TRIGGERS
-  //clicking 1 of 2 elements will cause the slideout with videos to animate 
   //if someone clicks the HAMBURGER MENU 
   $(function(){
     //once hamburger menu area is clicked
-    $("#clickme").click(function () {
-      if($(this).parent().css("right") == "-361px"){
+    $("#arrow").click(function () {
+      if($("#hamburger").css("left") == "-205px"){
         //animate it out
-        $(this).parent().animate({right:'0px'}, {queue: false, duration: 825});
+        $("#hamburger").animate({left:'0px'}, {queue: false, duration: 700});
         $("#dynamicInfo").html("Close");
       }else{
         //animate it back in
-        $(this).parent().animate({right:'-361px'}, {queue: false, duration: 950});
+        $("#hamburger").animate({left:'-205px'}, {queue: false, duration: 750});
         //hide any video when slideout goes away
         $(".video").css("visibility", "hidden");
-        $("#dynamicInfo").html("Select a Video");
-      }
-    });
-  });
-  //info slide out div
-  //if someone clicks the HAMBURGER MENU
-  $(function(){
-    $("#clickme").click(function(){
-      if($(".info").css("right") == "50px"){
-        //animate out
-        $(".info").animate({right:'450px'}, {queue: false, duration: 825});
-      }else{
-        //animate back in
-        $(".info").animate({right:'50px'}, {queue: false, duration: 950});
-      }
-    });
-  });
-   //slide out menu
-   //if someone clicks the TEXT
-  $(function(){
-    $("#dynamicInfo").click(function () {
-      if($("#clickme").parent().css("right") == "-361px"){
-        //animate it out
-        $("#clickme").parent().animate({right:'0px'}, {queue: false, duration: 825});
-        $("#dynamicInfo").html("Close");
-      }else{
-        //animate it back in
-        $("#clickme").parent().animate({right:'-361px'}, {queue: false, duration: 950});
-        //hide any video when slideout goes away
-        $(".video").css("visibility", "hidden");
-        $("#dynamicInfo").html("Select a Video");
-      }
-    });
-  });
-  //info slide out div
-  //if someone clicks the TEXT
-  $(function(){
-    $("#dynamicInfo").click(function(){
-      if($(".info").css("right") == "50px"){
-        //animate out
-        $(".info").animate({right:'450px'}, {queue: false, duration: 825});
-      }else{
-        //animate back in
-        $(".info").animate({right:'50px'}, {queue: false, duration: 950});
       }
     });
   });
@@ -152,21 +107,21 @@ $(document).ready(function() {
   });
   
   //dimension variables to be used below
-  var bannerHeight = $('#bannerImg').css("height");
+  var bannerHeight = $('#banner_img_small').css("height");
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
 
   //make sure slideout and banner height are the same
-  bannerHeight = $('#bannerImg').css("height");
-  $('#slideout').css("height", bannerHeight);
+  bannerHeight = $('#banner_img_small').css("height");
+  $('#hamburger').css("height", bannerHeight);
 
   //keep slideout div in line with banner
   //when window is resized grab height of banner image
   $(window).on("resize", function() {
     //apply banner image height to slideout div
-    bannerHeight = $('#bannerImg').css("height");
-    $('#slideout').css("height", bannerHeight);
+    bannerHeight = $('#banner_img_small').css("height");
+    $('#hamburger').css("height", bannerHeight);
     // console.log(height);
   });
 
