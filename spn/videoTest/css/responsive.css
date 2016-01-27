@@ -649,13 +649,6 @@ and (orientation : landscape){
 	#arrow{
   		visibility: visible;
   		display: block;
-  		position: absolute;
-  		top:30px;
-  		left: 5px;
-  		color: #fff;
-  		-ms-transform: rotate(90deg); /* IE 9 */
-    	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
-    	transform: rotate(90deg);
 	}
 	.list_right{
 		display: none !important;
@@ -980,5 +973,13 @@ and (orientation : landscape){
 	#hamburger{
 		display: none;
 		visibility: hidden;
+	}
+}
+
+@media (min-width:480px) and (max-width:768px){
+	#arrow{
+  		visibility: visible;
+  		display: block;
+  		color:#FF9735;
 	}
 }
