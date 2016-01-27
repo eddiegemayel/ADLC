@@ -191,6 +191,9 @@
 	.badge {
       display: none;
     }
+     .list_right{
+    	margin-left: -5px;
+    }
 }
 
 @media only screen 
@@ -643,6 +646,21 @@ and (orientation : landscape){
 		font-size: 150%;
 		margin-top: -35px;
 	}
+	#arrow{
+  		visibility: visible;
+  		display: block;
+  		position: absolute;
+  		top:30px;
+  		left: 5px;
+  		color: #fff;
+  		-ms-transform: rotate(90deg); /* IE 9 */
+    	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(90deg);
+	}
+	.list_right{
+		display: none !important;
+		visibility: hidden;
+	}
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 767px){
@@ -931,17 +949,29 @@ and (orientation : landscape){
 		margin-left: 55px;
 	}
 }
-@media (min-width:20px) and (max-width:1100px){
+@media (min-width:888px) and (max-width:1100px){
+	.logo_menu{
+		margin-left: -80px;
+	}
+}
+@media (min-width:826px) and (max-width:888px){
+	.logo_menu{
+		margin-left: -50px;
+	}
+}
+@media (min-width:600px) and (max-width:826px){
+	.logo_menu{
+		margin-left: -30px;
+	}
+}
+@media (min-width:20px) and (max-width:600px){
 	.logo_menu{
 		margin-left: -20px;
 	}
 }
 
 @media (min-width:20px) and (max-width:1080px){
-	.list_right{
-		display: none !important;
-		visibility: hidden;
-	}
+	
 	#banner_img_big{visibility: hidden; display: none;}
 	#banner_img_small{visibility: visible; display: block;}
 }
