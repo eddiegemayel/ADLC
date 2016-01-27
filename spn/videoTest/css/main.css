@@ -96,9 +96,11 @@ form{
 #logo{
   height: 78px;
   width: 350px;
+   transition: 0.2s ease-in-out;
 }
 .logo_menu{
   max-width: 1200px; 
+   transition: 0.2s ease-in-out;
 }
 .menu ul li{
   display: inline-block;

@@ -883,6 +883,7 @@ and (orientation : landscape){
 }
 
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
+/*-------------------------------------------------------------------------YEAH I KNOW ITS A COMPLETE MESS DOWN HERE*/
 @media (min-width:769px) and (max-width:860px){
 	.desc{
 		margin-top: -180px !important;
@@ -952,9 +953,19 @@ and (orientation : landscape){
 		margin-left: -50px;
 	}
 }
-@media (min-width:600px) and (max-width:826px){
+@media (min-width:768px) and (max-width:826px){
 	.logo_menu{
 		margin-left: -29px !important;
+	}
+}
+@media (min-width:700px) and (max-width:768px){
+	.logo_menu{
+		margin-left: 100px !important;
+	}
+}
+@media (min-width:600px) and (max-width:700px){
+	.logo_menu{
+		margin-left: 40px !important;
 	}
 }
 @media (min-width:20px) and (max-width:600px){
@@ -975,11 +986,16 @@ and (orientation : landscape){
 		visibility: hidden;
 	}
 }
-
 @media (min-width:480px) and (max-width:768px){
 	#arrow{
   		visibility: visible;
   		display: block;
   		color:#FF9735;
+	}
+}
+@media (min-width:767px) and (max-width:769px){
+	.list_right{
+		display: none !important;
+		visibility: hidden;
 	}
 }
