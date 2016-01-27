@@ -17,7 +17,6 @@ $(document).ready(function() {
   	});
 	});
 
-
   //SLIDEOUT MENU TRIGGERS
   //if someone clicks the HAMBURGER MENU 
   $(function(){
@@ -35,8 +34,7 @@ $(document).ready(function() {
       }
     });
   });
-  
- 
+   
   //toggle function
   //once user clicks on a new video
   //this function checks to see which video is selected, then de-selects it

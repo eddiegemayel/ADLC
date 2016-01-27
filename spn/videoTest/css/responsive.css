@@ -639,7 +639,7 @@ and (orientation : landscape){
     	background: rgba(28, 152, 204, .95);
     }
     #watchBtn{
-	 left:55px;
+	 left:40px;
 	 top:110px;
 	 font-size: 16px; 
 	}
