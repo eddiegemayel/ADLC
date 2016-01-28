@@ -520,15 +520,13 @@ and (orientation : landscape){
 	.desc2{
 		background: url(../images/desc3_mobile.png) 25% 20% no-repeat fixed;
 		height: 120px;
-		/*z-index: -10;*/
-		/*position: fixed;*/
-	/*	 -webkit-background-size: fixed;
-  		-moz-background-size: fixed;
-  		-o-background-size: fixed;
-  		background-size: fixed;*/
+		transform: translate3d(0px, 0px, 0px);
 	}
-	#features{
-		padding: 10px 0px;
+	.features2{
+		padding: -10px 0px 62px 0px !important;
+	}
+	.features2 .container .features_section{
+		margin-top: -15px;
 	}
 	.features_section ul li {
     	display: block;
@@ -547,7 +545,7 @@ and (orientation : landscape){
 		padding: 140px 0px;
 	}
 	.stories-section ul li {
-   	 	float: none;;
+   	 	float: none;
    	 	margin: 40px auto;
 		width: 260px;
 	}
