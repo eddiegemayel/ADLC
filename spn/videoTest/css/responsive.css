@@ -570,6 +570,7 @@ and (orientation : landscape){
 	}
 	.logo {
 		float: left;
+		/*margin-left: 20px;*/
 	}
 	.button.submit {
  		padding: 15px 70px; 
@@ -578,11 +579,11 @@ and (orientation : landscape){
    		font-size: 25px;
 	}
 	.banner1 h1{
-  		top: 0px; 
+  		top: -3px; 
   		left: 0px; 
 	}
 	.banner1 h2{
- 	 top: 25px; 
+ 	 top: 24px; 
   	 left: 0px; 
 	}
 	.banner1 .line1{
@@ -591,7 +592,7 @@ and (orientation : landscape){
   		font-size: 13px;
 	}
 	.banner1 .line2{
-  		top: 70px; 
+  		top: 64px; 
   		left: 0px; 
   		font-size: 13px;
 	}
@@ -605,7 +606,7 @@ and (orientation : landscape){
     }
     #mobileLogo{
     	display: block;
-    	margin-left: 25px;
+    	margin-left: 33px;
     }
     #logo{
     	display: none;
@@ -645,7 +646,9 @@ and (orientation : landscape){
     #watchBtn{
 	 left:40px;
 	 top:110px;
-	 font-size: 16px; 
+	 font-size: 16px;
+	 font-weight: 400; 
+	 border:3px #fff solid;
 	}
 	.desc2 .container h1{
 		font-size: 150%;
@@ -654,6 +657,7 @@ and (orientation : landscape){
 	#arrow{
   		visibility: visible;
   		display: block;
+  		margin-left: 5px;
 	}
 	.list_right{
 		display: none !important;
