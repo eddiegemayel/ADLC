@@ -622,7 +622,9 @@ display: none;
   float: none;
   transition: background 0.2s, color 0.2s;
   position: fixed;
-  bottom: 0;}
+  bottom: 0;
+  z-index: 1;
+}
 #stickyBtn:hover{
   color: #00ccea;
 }
