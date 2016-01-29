@@ -46,7 +46,8 @@ form{
   float: right;
 }
 .features_section ul li i{
-  color:#FF9735;
+  /*color:#FF9735;*/
+  color:#c7c7c7;
 }
 .hide{
   visibility: hidden;
@@ -288,10 +289,13 @@ p.box-desc{
 .features_section ul li h4{
   font-size: 17px;
   font-weight: 600;
-  color: #1C97CA;
+  color: #c7c7c7;
   font-family: 'Open Sans', 'Raleway', sans-serif;
   line-height: 50px;
   margin-top: 20px;
+}
+.features_section ul li h4 span{
+  color:#1C97CA;
 }
 .features_section ul li p{
   color: #4F4D4C;
