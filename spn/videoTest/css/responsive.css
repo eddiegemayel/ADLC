@@ -631,6 +631,7 @@ and (orientation : landscape){
     }
     #stickyBtn{
        visibility: visible;
+       width: 66%;
     }
     #want-a-discount--button{
       visibility: hidden;

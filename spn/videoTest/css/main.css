@@ -617,7 +617,7 @@ display: none;
   /*border-radius: 9px;  color: #00ccea;*/
   font-family: 'Open Sans', 'Raleway', sans-serif;
   color: #ffffff;
-  width: 64%;
+  width: 69%;
   margin: 20px 0px 0px 0px;
   float: none;
   transition: background 0.2s, color 0.2s;
@@ -668,12 +668,13 @@ display: none;
   color: black;
 }
 a.button.full{
-  padding: 16px 72px !important;
-  font-size: 16px;
+  padding: 21px 72px !important;
+  font-size: 17px;
   background-color: #FF9735;
   transition-duration: 0.1s;
   transition: all 0.2s, color 0.2s;
   animation: all spinAround 2s linear infinite;
+  height: 24px;
 }
 a.button.full:hover {
   background-color: #f2f2f2;
