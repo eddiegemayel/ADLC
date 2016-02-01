@@ -57,7 +57,7 @@
   width: 100%;
   margin-bottom: 10px;
   padding: 35px;
-  height: 700px;
+  height: 800px;
 
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -66,7 +66,14 @@
   /*background: #fff;*/
   background: rgba(255,255,255,0.85);
 }
-
+@media (min-width:20px) and (max-width:520px){
+  .remodal{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px; 
+  }
+}
 .remodal.remodal-is-opening,
 .remodal.remodal-is-closing {
   -webkit-animation-duration: 0.3s;
@@ -299,7 +306,7 @@
 
 @media only screen and (min-width: 641px) {
   .remodal {
-    max-width: 1200px;
+    max-width: 1400px;
   }
 }
 
