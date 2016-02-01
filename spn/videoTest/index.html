@@ -86,9 +86,9 @@
 independiente y con la confianza para explorar sus sueños.</p>
          <img id="banner_img_big"  src="images/happyman-1.png"/>
          <img id="banner_img_small" src="images/happyman-2.jpg"/>
-         <a id="watchBtn" style="text-decoration:none;" href="#modal">Ver vídeo</a>
-        <a id="want-a-discount--button" href="#contact2" class="button full">Solicitar descuento</a><br>
-        <!-- <a id="btn" href="#modal">Watch Video</a> -->
+         <a id="watchBtn" style="text-decoration:none;" href="#modal1">Ver vídeo</a>
+         <a id="want-a-discount--button" href="#modal2" class="button full">Solicitar descuento</a><br>
+         <!-- <a id="btn" href="#modal">Watch Video</a> -->
        
       </div>
     </div>
@@ -98,15 +98,36 @@ independiente y con la confianza para explorar sus sueños.</p>
     <!-- </div> -->
 
 
-    <!-- Hidden Modal  -->
-    <div class="remodal" data-remodal-id="modal">
+    <!-- Hidden Modal1  -->
+    <div class="remodal" data-remodal-id="modal1">
       <button data-remodal-action="close" class="remodal-close"></button>
 
         <!-- <h1>Watch this Video!</h1> https://www.youtube.com/watch?v=ysHp8exDPqo -->
         <iframe id="vid1" class="modalVideo" src="https://www.youtube.com/embed/ysHp8exDPqo?enablejsapi=1&version=3&playerapiid=ytplayer" allowscriptaccess="always" allowfullscreen seamless="seamless">Please Update Your Browser!</iframe>   
     
 
-    </div><!-- end of modal -->
+    </div><!-- end of modal1 -->
+
+     <!-- Hidden Modal2  -->
+    <div class="remodal" data-remodal-id="modal2">
+      <button data-remodal-action="close" class="remodal-close"></button>
+      <img src="images/discount_img_1.jpg"/>
+
+
+          <h3 class="text_head">Contact Us</h3>
+              <div class="contact_section" id="contact2">
+                  <!-- Google Map -->
+                  <iframe id="map" width="500" height="350" frameborder="0" style="border:0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Av%2027%20de%20Febrero%20446%2C%20Santo%20Domingo%2C%20Dominican%20Republic&key=AIzaSyDns4OzHtgrIhaELR-le7jLHH8_5vshfrU" allowfullscreen></iframe>
+                  <form id="contact" method="POST" action="contact.php">
+                    <input type="text" name="name" placeholder="Name" required/>
+                    <input type="email" name="email" placeholder="Email" required/>
+                    <input id="phone" type="tel" name="phone" placeholder="Phone Number" required/>
+                    <button type="submit" class="submit">Contact Us</button>
+                  </form>
+              </div>
+
+    </div><!-- end of modal2 -->
 
     <!-- Sticky footer button...hidden until mobile or small screens -->
     <a id="stickyBtn" href="#contact2" class="button full hide">Solicitar descuento</a>
