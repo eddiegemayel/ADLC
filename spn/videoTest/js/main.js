@@ -105,13 +105,14 @@ $(document).ready(function() {
   });
   
   //dimension variables to be used below
-  var bannerHeight = $('#banner_img_small').css("height");
+  var bannerHeight = 0;
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
 
   //make sure slideout and banner height are the same
   console.log(bannerHeight);
+  bannerHeight = $('#banner_img_small').css("height");
   $('#hamburger').css("height", bannerHeight);
 
   //keep slideout div in line with banner
