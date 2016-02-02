@@ -105,7 +105,7 @@ $(document).ready(function() {
   });
   
   //dimension variables to be used below
-  var bannerHeight = $('#banner_img_small').css("height");
+  var bannerHeight = $('.banner_img_height').css("height");
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
