@@ -664,6 +664,11 @@ and (orientation : landscape){
 		visibility: hidden;
 	}
 }
+
+
+
+
+
 /*--------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 767px){
 	.banner .bloco-destaque{
@@ -891,6 +896,20 @@ and (orientation : landscape){
 		width: 88%;
 		float: none;
     }
+}
+
+
+@media (min-width:20px) and (max-width:850px){
+
+
+	#discount_img_desktop{
+		visibility: hidden;
+		display: none;
+	}
+	#discount_img_tablet{
+  		visibility: visible;
+  		display: block;
+	}
 }
 
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/

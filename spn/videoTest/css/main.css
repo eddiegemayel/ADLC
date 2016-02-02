@@ -870,12 +870,17 @@ iframe, object, embed {
   margin: 0 auto;
   text-align: center;
 }
-#banner_img_desktop{
+#discount_img_desktop{
   height: auto;
   width: 725px;
 }
-#banner_img_mobile{
-
+#discount_img_tablet{
+  visibility: hidden;
+  display: none;
+}
+#discount_img_mobile{
+  visibility: hidden;
+  display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------Footer and social media*/
