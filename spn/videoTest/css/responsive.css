@@ -899,9 +899,7 @@ and (orientation : landscape){
 }
 
 
-@media (min-width:20px) and (max-width:850px){
-
-
+@media (min-width:640px) and (max-width:850px){
 	#discount_img_desktop{
 		visibility: hidden;
 		display: none;
@@ -909,6 +907,41 @@ and (orientation : landscape){
 	#discount_img_tablet{
   		visibility: visible;
   		display: block;
+  		margin-left: 0px;
+  		margin-top: -60px;
+  		margin-bottom: 10px;
+	}
+}
+@media (min-width:481px) and (max-width:640px){
+	#discount_img_desktop{
+		visibility: hidden;
+		display: none;
+	}
+	#discount_img_tablet{
+		visibility: hidden;
+		display: none;
+	}
+	#discount_img_mobile{
+		visibility: hidden;
+		display: none;
+	}
+
+}
+@media (min-width:20px) and (max-width:481px){
+	#discount_img_desktop{
+		visibility: hidden;
+		display: none;
+	}
+	#discount_img_tablet{
+		visibility: hidden;
+		display: none;
+	}
+	#discount_img_mobile{
+  		visibility: visible;
+  		display: block;
+  		margin-left: -20px;
+  		margin-top: -60px;
+  		margin-bottom: 10px;
 	}
 }
 
