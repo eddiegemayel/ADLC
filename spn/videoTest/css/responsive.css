@@ -899,6 +899,22 @@ and (orientation : landscape){
 }
 
 
+@media (min-width: 1101px) and (max-width:1235px){
+	#contact2{
+  		width: 60%;
+  		/*margin-left: 90px !important;*/
+  		/*margin-right: 30px;*/
+	}
+	#map2{
+		margin-left: -265px !important;
+		  width:400px; 
+	}
+}
+@media (min-width: 876px) and (max-width:1101px){
+	#map2{
+		width:600px; 
+	}
+}
 @media (min-width:640px) and (max-width:850px){
 	#discount_img_desktop{
 		visibility: hidden;
@@ -909,8 +925,8 @@ and (orientation : landscape){
   		display: block;
   		margin-left: 0px;
   		margin-top: -60px;
-  		margin-bottom: 10px;
 	}
+
 }
 @media (min-width:481px) and (max-width:640px){
 	#discount_img_desktop{
@@ -925,6 +941,22 @@ and (orientation : landscape){
 		visibility: hidden;
 		display: none;
 	}
+	#discount_img_mobile2{
+  		visibility: visible;
+  		display: block;
+  		margin-top: -80px;
+	}
+	#map2{ 
+		width: 90%;
+		/*margin: 50px auto;*/
+		/*margin-left: -40px;*/
+		padding: 0px 0px 0px 0px;
+    	color: #888;
+    	font-size: 17px;
+    	font-weight: 500;
+    	font-family: 'Open Sans', sans-serif;
+    	float: left;
+    }
 
 }
 @media (min-width:20px) and (max-width:481px){
@@ -941,7 +973,6 @@ and (orientation : landscape){
   		display: block;
   		margin-left: -20px;
   		margin-top: -60px;
-  		margin-bottom: 10px;
 	}
 }
 

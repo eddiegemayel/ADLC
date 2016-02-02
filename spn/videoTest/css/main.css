@@ -454,6 +454,14 @@ img.badge{
   margin-right: 10px;
   margin-top: 15px;
 }
+#map2{
+  /*height:100%;*/
+  transition: all 0.5s ease-in;
+  margin-right: 10px;
+  margin-top: 15px;
+  width:500px; 
+  height:350px;
+}
 .contact-text p{
   color: #888;
   font-size: 17px;
@@ -873,14 +881,22 @@ iframe, object, embed {
 #discount_img_desktop{
   height: auto;
   width: 725px;
+  margin-bottom: 10px;
 }
 #discount_img_tablet{
   visibility: hidden;
   display: none;
+  margin-bottom: 10px;
+}
+#discount_img_mobile2{
+  visibility: hidden;
+  display: none;
+  margin-bottom: 10px;
 }
 #discount_img_mobile{
   visibility: hidden;
   display: none;
+  margin-bottom: 10px;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------Footer and social media*/
