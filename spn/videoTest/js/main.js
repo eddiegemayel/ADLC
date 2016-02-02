@@ -1,6 +1,19 @@
 //wait for document to be ready
 $(document).ready(function() {
 
+  var windowHeight ;
+  var windowWidth ;
+  var modalHeight ;
+
+  //keep slideout div in line with banner
+  //when window is resized grab height of banner image
+  $(window).on("resize", function() {
+    //apply banner image height to slideout div
+    bannerHeight = $('#banner_img_small').height();
+    $('#hamburger').css("height", bannerHeight);
+    // console.log(height);
+  });
+
   //Smooth Scroll jQuery implemented from CSS Tricks
   $(function() {
   	$('a[href*=#]:not([href=#])').click(function() {
@@ -103,27 +116,6 @@ $(document).ready(function() {
       $("#vid6").addClass("selectedVideo");
     });
   });
-  
-  //dimension variables to be used below
-  var imgHeight = $("#banner_img_small").height();
-  console.log(imgHeight);
-  var bannerHeight = imgHeight;
-  var windowHeight ;
-  var windowWidth ;
-  var modalHeight ;
-
-  //make sure slideout and banner height are the same
-  console.log(bannerHeight);
-  $('#hamburger').css("height", bannerHeight);
-
-  //keep slideout div in line with banner
-  //when window is resized grab height of banner image
-  $(window).on("resize", function() {
-    //apply banner image height to slideout div
-    bannerHeight = $('#banner_img_small').height();
-    $('#hamburger').css("height", bannerHeight);
-    // console.log(height);
-  });
 
   //change modal height
   //when the right button is clicked
@@ -211,5 +203,16 @@ $(document).ready(function() {
       $("#stickyBtn").addClass("show");
     }
   });
+});
 
+$(window).load(function(){
+    // $("#banner_img_small").css("display", "block");
+    //dimension variables to be used below
+    var imgHeight = $("#banner_img_small").height();
+    var bannerHeight = imgHeight;
+   
+    //make sure slideout and banner height are the same
+    console.log(imgHeight);
+    console.log(bannerHeight);
+    $('#hamburger').css("height", bannerHeight);
 });
