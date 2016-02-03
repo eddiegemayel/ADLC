@@ -518,8 +518,12 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.png) 50% 15% no-repeat fixed;
-		height: 120px;
+		/*background: url(../images/desc3_mobile.png) 50% 15% no-repeat fixed;
+		height: 120px;*/
+		background-image: url(../images/desc3_mobile.png);
+    	background-repeat: no-repeat;
+    	background-position: 50% 15%;
+    	background-attachment: fixed;
 	}
 	.features2{
 		padding: -10px 0px 62px 0px !important;
@@ -668,8 +672,8 @@ and (orientation : landscape){
 
 
 
-/*--------------------------------------------------------------------------WARNING-----SUPER MESSY*/
-/*-------------------------------------------------------------------------YEAH I KNOW ITS A COMPLETE MESS DOWN HERE*/
+/*----------------------------------------------------------------------------------------------------------------------WARNING-----SUPER MESSY*/
+/*---------------------------------------------------------------------------------------------------------------------YEAH I KNOW ITS A COMPLETE MESS DOWN HERE*/
 /*--------------------------------------------------------------------------------------------------------------*/
 /*--------------------------------------------------------------------------------------------------------------*/
 @media only screen and (max-width: 767px){
