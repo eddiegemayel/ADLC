@@ -520,6 +520,12 @@ and (orientation : landscape){
 	.desc2{
 		background: url(../images/desc3_mobile.png) 50% 15% no-repeat scroll !important;
 		height: 120px;
+	/*	background-size:contain;
+		background-repeat:no-repeat;
+		background-position:top center;
+		-webkit-background-size:contain;
+		-moz-background-size:contain;
+		-o-background-size:contain;*/
 		/*background-image: url(../images/desc3_mobile.png);
 		background-repeat: no-repeat;
 		background-attachment: fixed;
