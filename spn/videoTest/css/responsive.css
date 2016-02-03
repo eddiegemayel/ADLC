@@ -520,11 +520,18 @@ and (orientation : landscape){
 	.desc2{
 		background: url(../images/desc3_mobile.png) 50% 15% no-repeat scroll !important;
 		height: 120px;
-/*		background-attachment:scroll;
-		background-image: url(../images/desc3_mobile.png);
-    	background-repeat: no-repeat;
-    	background-position: 50% 15%;*/
-    	/*background-attachment: fixed;*/
+		/*background-image: url(../images/desc3_mobile.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: top;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		height: 50%;
+		width: 100%;
+		background-position: center center;
+		background-repeat: no-repeat;*/
 	}
 	.features2{
 		padding: -10px 0px 62px 0px !important;
