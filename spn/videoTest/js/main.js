@@ -216,3 +216,10 @@ $(window).load(function(){
     console.log(bannerHeight);
     $('#hamburger').css("height", bannerHeight);
 });
+
+//detect ios
+if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    $(".desc2").css('display', 'none');
+    $(".desc2").css('visibility', 'hidden');
+    console.log("iOs");
+}
