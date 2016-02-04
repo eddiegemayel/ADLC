@@ -216,12 +216,11 @@ $(window).load(function(){
     console.log(bannerHeight);
     $('#hamburger').css("height", bannerHeight);
 
-    var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-if(isAndroid) {
-  $(".desc2").css("background-positioning", "50% -30%");
-}
-
+  var ua = navigator.userAgent.toLowerCase();
+  var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+  if(isAndroid) {
+    $(".desc2").css("background-positioning", "50% -30%");
+  }
 });
 
 

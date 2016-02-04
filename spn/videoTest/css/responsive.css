@@ -519,7 +519,7 @@ and (orientation : landscape){
 	}
 	.desc2{
 		background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;
-		height: 140px !important;
+		height: 190px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
 		background-position:top center;
