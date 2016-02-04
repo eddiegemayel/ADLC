@@ -222,7 +222,9 @@ if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
     // $(".desc2").css('display', 'none');
     // $(".desc2").css('visibility', 'hidden');
     $(".desc2").css("background", "url(../images/desc3_mobile_iphone.jpg)");
-    $(".desc2").css("background-positioning", "50% 15%");
+    $(".desc2").css("background-positioning", "30% 15%");
     $(".desc2").css("background-repeat", "no-repeat");
     console.log("iOs");
-}
+}else if(userAgent.match(/Android/i)){
+    $(".desc2").css("background-positioning", "50% -30%");
+  }
