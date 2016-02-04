@@ -527,22 +527,41 @@ and (orientation : landscape){
 		-webkit-background-size:contain;
 		-moz-background-size:contain;
 		-o-background-size:contain;*/
-		/*background-image: url(../images/desc3_mobile.png);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: top;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		height: 50%;
-		width: 100%;
-		background-position: center center;
-		background-repeat: no-repeat;*/
 	}
 	.important{
 		background: url(../images/desc3_mobile_iphone.jpg) 45% -55% no-repeat fixed !important;
 		height: 260px !important;
+		font-family: 'Open Sans', 'Raleway', sans-serif;
+  		text-align: center;
+  		padding: 49px 0px 70px 0px;
+  		margin-bottom: 0px;
+	}
+	.important h2{
+  		font-size: 30px;
+  		font-weight: 600;
+  		padding: 0px 0px 15px 400px;
+  		color: #00aeef;
+	}
+	.important p {
+  		text-align: left;
+  		font-size: 18px;
+  		font-weight: 400;
+  		line-height: 30px;
+  		width: 50%;
+  		margin: 25px 43px 0px 493px;
+  		font-family: 'Open Sans', sans-serif;
+  		color: #aab1bf;
+	}
+	.important .container h1{
+	 	font-size: 150%;
+	 	margin-top: -35px;
+	 	font-family: 'Open Sans', 'Raleway', sans-serif;
+     	text-decoration: none;
+     	color: #fff;
+     	padding: 20px 0px;
+     	display: block;
+     	letter-spacing: 4px;
+     	text-transform: uppercase;
 	}
 	.features2{
 		padding: -10px 0px 62px 0px !important;
