@@ -518,8 +518,8 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.png) 50% 15% no-repeat scroll !important;
-		height: 120px;
+		background: url(../images/desc3_mobile.png) 50% 15% no-repeat fixed !important;
+		height: 120px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
 		background-position:top center;

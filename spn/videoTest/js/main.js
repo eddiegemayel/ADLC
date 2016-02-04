@@ -218,8 +218,9 @@ $(window).load(function(){
 });
 
 //detect ios
-// if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-//     $(".desc2").css('display', 'none');
-//     $(".desc2").css('visibility', 'hidden');
-//     console.log("iOs");
-// }
+if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+    // $(".desc2").css('display', 'none');
+    // $(".desc2").css('visibility', 'hidden');
+    $(".desc2").css("height", "200px");
+    console.log("iOs");
+}
