@@ -220,13 +220,21 @@ $(window).load(function(){
 
   var ua = navigator.userAgent.toLowerCase();
   var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+  var isIpod = ua.indexOf("ipod") > -1;
+  var isIphone = ua.indexOf("iphone") > -1;
   if(isAndroid) {
     // $(".desc2").css("background", "url(../images/)");
     // $(".desc2").css("background-position", "50% -30% !important");
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
+    
     // $(".desc2").css("display", "none");
     // $(".desc2").css("visibility","hidden");
+  }else if(isIpod){
+    $("#watchBtn").css("left", "25px");
+  }
+  else if(isIphone){
+    $("#watchBtn").css("left", "25px");
   }
 
 // $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
