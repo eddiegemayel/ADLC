@@ -690,6 +690,9 @@ and (orientation : landscape){
 		display: none !important;
 		visibility: hidden;
 	}
+	.footer{
+		padding-bottom: 100px !important;
+	}
 }
 
 
