@@ -215,24 +215,25 @@ $(window).load(function(){
     console.log(imgHeight);
     console.log(bannerHeight);
     $('#hamburger').css("height", bannerHeight);
+
+    var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(isAndroid) {
+  $(".desc2").css("background-positioning", "50% -30%");
+}
+
 });
 
 
 // $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 
 
-var ua = navigator.userAgent.toLowerCase();
-var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-if(isAndroid) {
-  $(".desc2").css("background-positioning", "50% -30%");
-}
-
 //detect ios
-if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
-    // $(".desc2").css('display', 'none');
-    // $(".desc2").css('visibility', 'hidden');
-    $(".desc2").css("background", "url(../images/desc3_mobile_iphone.jpg)");
-    $(".desc2").css("background-positioning", "30% 15%");
-    $(".desc2").css("background-repeat", "no-repeat");
-    console.log("iOs");
-}
+// if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+//     // $(".desc2").css('display', 'none');
+//     // $(".desc2").css('visibility', 'hidden');
+//     $(".desc2").css("background", "url(../images/desc3_mobile_iphone.jpg)");
+//     $(".desc2").css("background-positioning", "30% 15%");
+//     $(".desc2").css("background-repeat", "no-repeat");
+//     console.log("iOs");
+// }
