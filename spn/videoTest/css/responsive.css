@@ -518,7 +518,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.jpg) 50% 15% no-repeat fixed !important;
+		background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;
 		height: 140px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
@@ -623,7 +623,7 @@ and (orientation : landscape){
     }
     #mobileLogo{
     	display: block;
-    	margin-left: 33px;
+    	margin-left: 35px;
     }
     #logo{
     	display: none;

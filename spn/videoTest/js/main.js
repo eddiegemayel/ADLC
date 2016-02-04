@@ -217,6 +217,16 @@ $(window).load(function(){
     $('#hamburger').css("height", bannerHeight);
 });
 
+
+// $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
+
+
+var ua = navigator.userAgent.toLowerCase();
+var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+if(isAndroid) {
+  $(".desc2").css("background-positioning", "50% -30%");
+}
+
 //detect ios
 if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
     // $(".desc2").css('display', 'none');
@@ -225,6 +235,4 @@ if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
     $(".desc2").css("background-positioning", "30% 15%");
     $(".desc2").css("background-repeat", "no-repeat");
     console.log("iOs");
-}else if(userAgent.match(/Android/i)){
-    $(".desc2").css("background-positioning", "50% -30%");
-  }
+}
