@@ -401,7 +401,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.png) 25% 0% no-repeat fixed;
+		background: url(../images/desc3_mobile.jpg) 25% 0% no-repeat fixed;
 		height: 210px;
 	}
 	.features_section ul li {
@@ -518,7 +518,7 @@ and (orientation : landscape){
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.png) 50% 15% no-repeat fixed !important;
+		background: url(../images/desc3_mobile.jpg) 50% 15% no-repeat fixed !important;
 		height: 120px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
@@ -869,7 +869,7 @@ and (orientation : landscape){
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		background: url(../images/desc3_mobile.png) 0% 90% no-repeat fixed;
+		background: url(../images/desc3_mobile.jpg) 0% 90% no-repeat fixed;
 		height: 260px;
 	}
 }
