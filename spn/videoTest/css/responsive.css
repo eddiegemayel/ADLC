@@ -519,6 +519,7 @@ and (orientation : landscape){
 	}
 	.desc2{
 		background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;
+		/*background-position: 45% 15% !important;*/
 		height: 260px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
@@ -538,6 +539,10 @@ and (orientation : landscape){
 		width: 100%;
 		background-position: center center;
 		background-repeat: no-repeat;*/
+	}
+	.important{
+		background: url(../images/desc3_mobile_iphone.jpg) 45% -55% no-repeat fixed !important;
+		height: 260px !important;
 	}
 	.features2{
 		padding: -10px 0px 62px 0px !important;
