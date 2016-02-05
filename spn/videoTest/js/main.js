@@ -174,12 +174,6 @@ $(document).ready(function() {
      $("#vid6").removeClass("selectedVideo");
   });
 
-  // //when form is submitted, play the video
-  // $("#modalForm").submit(function(){
-  //   $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
-  //   // console.log("this has now been submitted");
-  // });
-
   //if the user begins to scroll
   //my attempt to hide the discount button if scrolled to very bottom here
   $(window).scroll(function(){
@@ -205,41 +199,42 @@ $(document).ready(function() {
   });
 });
 
+//make sure slideout is same height as banner image
+//wait for window to finish loading first, not just the document
 $(window).load(function(){
-    // $("#banner_img_small").css("display", "block");
     //dimension variables to be used below
     var imgHeight = $("#banner_img_small").height();
     var bannerHeight = imgHeight;
-   
     //make sure slideout and banner height are the same
     console.log(imgHeight);
     console.log(bannerHeight);
     $('#hamburger').css("height", bannerHeight);
-
 });
-
+  
+  //mobile listeners
+  //if its android or iOs
   var ua = navigator.userAgent.toLowerCase();
   var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
   var isIpod = ua.indexOf("ipod") > -1;
   var isIphone = ua.indexOf("iphone") > -1;
+  //if its android , switch desc2 banner image out
   if(isAndroid) {
-    // $(".desc2").css("background", "url(../images/)");
-    // $(".desc2").css("background-position", "50% -30% !important");
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
-    
-    // $(".desc2").css("display", "none");
-    // $(".desc2").css("visibility","hidden");
   }else if(isIpod){
+    //if its iOs
+    //add padding to watch button 
     $("#watchBtn").css("left", "25px");
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");
   }
 
+
+
+
+//junk
 // $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
-
-
 //detect ios
 // if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
 //     // $(".desc2").css('display', 'none');
@@ -249,3 +244,8 @@ $(window).load(function(){
 //     $(".desc2").css("background-repeat", "no-repeat");
 //     console.log("iOs");
 // }
+  // //when form is submitted, play the video
+  // $("#modalForm").submit(function(){
+  //   $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
+  //   // console.log("this has now been submitted");
+  // });
