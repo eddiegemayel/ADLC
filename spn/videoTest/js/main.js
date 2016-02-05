@@ -159,29 +159,6 @@ $(document).ready(function() {
      $("#vid1").removeClass("selectedVideo");
   });
 
-  //if the user begins to scroll
-  //my attempt to hide the discount button if scrolled to very bottom here
-  $(window).scroll(function(){
-    //collect how much has been scrolled
-    var s = $(window).scrollTop();
-    //collect total window height plus document height
-    var  d = $(document).height();
-    var  c = $(window).height();
-    //calculate percent
-    var scrollPercent = (s / (d-c)) * 100;
-    //for dev purposes
-    console.log(scrollPercent + "% " + s, d, c);
-
-    //if user scrolled to bottom, hide discount button
-    if(scrollPercent=100){
-      $("#stickyBtn").removeClass("show");
-      $("#stickyBtn").addClass("hide");
-    }
-    else{
-      $("#stickyBtn").removeClass("hide");
-      $("#stickyBtn").addClass("show");
-    }
-  });
 });
 
 //make sure slideout is same height as banner image
@@ -207,15 +184,28 @@ $(window).load(function(){
   if(isAndroid) {
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
+    if($(".input").is(":focus")){
+      $("#stickyBtn").css("disply", "none");
+      $("#stickyBtn").css("visibility", "hidden");
+    }
   }else if(isIpod){
     //if its iOs
     //add padding to watch button 
     $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
+    if($(".input").is(":focus")){
+      $("#stickyBtn").css("disply", "none");
+      $("#stickyBtn").css("visibility", "hidden");
+    }
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
+    if($(".input").is(":focus")){
+      $("#stickyBtn").css("disply", "none");
+      $("#stickyBtn").css("visibility", "hidden");
+    }
+    
   }
 
 
@@ -236,4 +226,28 @@ $(window).load(function(){
   // $("#modalForm").submit(function(){
   //   $(".selectedVideo")[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}','*');
   //   // console.log("this has now been submitted");
+  // });
+
+  //if the user begins to scroll
+  //my attempt to hide the discount button if scrolled to very bottom here
+  // $(window).scroll(function(){
+  //   //collect how much has been scrolled
+  //   var s = $(window).scrollTop();
+  //   //collect total window height plus document height
+  //   var  d = $(document).height();
+  //   var  c = $(window).height();
+  //   //calculate percent
+  //   var scrollPercent = (s / (d-c)) * 100;
+  //   //for dev purposes
+  //   console.log(scrollPercent + "% " + s, d, c);
+
+  //   //if user scrolled to bottom, hide discount button
+  //   if(scrollPercent=100){
+  //     $("#stickyBtn").removeClass("show");
+  //     $("#stickyBtn").addClass("hide");
+  //   }
+  //   else{
+  //     $("#stickyBtn").removeClass("hide");
+  //     $("#stickyBtn").addClass("show");
+  //   }
   // });
