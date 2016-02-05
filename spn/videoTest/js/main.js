@@ -197,23 +197,27 @@ $(window).load(function(){
     //add padding to watch button 
     $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
-    $(".input").focus(function() {
+    $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
     });
-     $(".input").focusout(function() {
+     $("html").click(function(){
       $("#stickyBtn").css("display", "block");
       $("#stickyBtn").css("visibility", "visible");
     });
+    //  $(".input").focusout(function() {
+    //   $("#stickyBtn").css("display", "block");
+    //   $("#stickyBtn").css("visibility", "visible");
+    // });
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px")
-    $(".input").focus(function() {
+   $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
     });
-     $(".input").focusout(function() {
+    $("html").click(function(){
       $("#stickyBtn").css("display", "block");
       $("#stickyBtn").css("visibility", "visible");
     });
