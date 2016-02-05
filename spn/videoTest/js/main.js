@@ -157,21 +157,6 @@ $(document).ready(function() {
      $("#vid1").css("visibility", "hidden");
      $("#vid1").css("display", "none");
      $("#vid1").removeClass("selectedVideo");
-     $("#vid2").css("visibility", "hidden");
-     $("#vid2").css("display", "none");
-     $("#vid2").removeClass("selectedVideo");
-     $("#vid3").css("visibility", "hidden");
-     $("#vid3").css("display", "none");
-     $("#vid3").removeClass("selectedVideo");
-     $("#vid4").css("visibility", "hidden");
-     $("#vid4").css("display", "none");
-     $("#vid4").removeClass("selectedVideo");
-     $("#vid5").css("visibility", "hidden");
-     $("#vid5").css("display", "none");
-     $("#vid5").removeClass("selectedVideo");
-     $("#vid6").css("visibility", "hidden");
-     $("#vid6").css("display", "none");
-     $("#vid6").removeClass("selectedVideo");
   });
 
   //if the user begins to scroll
@@ -213,6 +198,7 @@ $(window).load(function(){
   
   //mobile listeners
   //if its android or iOs
+  //borrowed from ol' reliable David Walsh
   var ua = navigator.userAgent.toLowerCase();
   var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
   var isIpod = ua.indexOf("ipod") > -1;
