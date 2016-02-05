@@ -184,33 +184,47 @@ $(window).load(function(){
   if(isAndroid) {
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
-    if($(".input").is(":focus")){
-      $("#stickyBtn").css("disply", "none");
+    $(".input").focus(function() {
+      $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
-    }
+    });
+    $(".input").focusout(function() {
+      $("#stickyBtn").css("display", "block");
+      $("#stickyBtn").css("visibility", "visible");
+    });
   }else if(isIpod){
     //if its iOs
     //add padding to watch button 
     $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
-    if($(".input").is(":focus")){
-      $("#stickyBtn").css("disply", "none");
+    $(".input").focus(function() {
+      $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
-    }
+    });
+     $(".input").focusout(function() {
+      $("#stickyBtn").css("display", "block");
+      $("#stickyBtn").css("visibility", "visible");
+    });
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");
-    $("#mobileLogo").css("margin-left", "42px");
-    if($(".input").is(":focus")){
-      $("#stickyBtn").css("disply", "none");
+    $("#mobileLogo").css("margin-left", "42px")
+    $(".input").focus(function() {
+      $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
-    }
-    
+    });
+     $(".input").focusout(function() {
+      $("#stickyBtn").css("display", "block");
+      $("#stickyBtn").css("visibility", "visible");
+    });
   }
 
 
 
-
+// $(".input").focus(function() {
+//   $("#stickyBtn").css("disply", "none");
+//     $("#stickyBtn").css("visibility", "hidden");
+// });
 //junk
 // $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 //detect ios
