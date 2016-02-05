@@ -225,11 +225,11 @@ $(window).load(function(){
     //if its iOs
     //add padding to watch button 
     $("#watchBtn").css("left", "25px");
-    $("#mobileLogo").css("margin-left", "40px");
+    $("#mobileLogo").css("margin-left", "42px");
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");
-    $("#mobileLogo").css("margin-left", "40px");
+    $("#mobileLogo").css("margin-left", "42px");
   }
 
 
