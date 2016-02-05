@@ -225,10 +225,7 @@ $(window).load(function(){
 
 
 
-// $(".input").focus(function() {
-//   $("#stickyBtn").css("disply", "none");
-//     $("#stickyBtn").css("visibility", "hidden");
-// });
+
 //junk
 // $.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
 //detect ios
@@ -269,3 +266,8 @@ $(window).load(function(){
   //     $("#stickyBtn").addClass("show");
   //   }
   // });
+
+// $(".input").focus(function() {
+//   $("#stickyBtn").css("disply", "none");
+//     $("#stickyBtn").css("visibility", "hidden");
+// });
