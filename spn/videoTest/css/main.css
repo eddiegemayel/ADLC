@@ -417,11 +417,6 @@ img.badge{
   float:left;
   margin-top: -50px;
 }
-.banner .bloco-destaque .botoes {
-  margin: 20px;
-  font-family:  'Open Sans', 'Raleway', sans-serif;
-  overflow: hidden;
-}
 #banner_img_big{}
 #banner_img_small{visibility: hidden; display: none;}
 /*--------------------------------------------------------------------------------------------------------------*/

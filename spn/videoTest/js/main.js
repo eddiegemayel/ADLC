@@ -23,7 +23,7 @@ $(document).ready(function() {
       	if (target.length) {
         	$('html,body').animate({
           	scrollTop: target.offset().top
-        	}, 2200);
+        	}, 2000);
         		return false;
       		}
     	}
