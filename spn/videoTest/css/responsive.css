@@ -791,17 +791,6 @@ and (orientation : landscape){
   .banner {
     padding: 0 0 20px 0 !important;
   }
-  .banner .bloco-destaque .l2 {
-    font-size: 2em;
-  }
-  .banner .bloco-destaque .l3 {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 20px !important;
-  }
-  .banner .bloco-destaque .botoes {
-    width: 100%;
-  }
   .desc2 {
     background-size: cover;
   }
