@@ -886,6 +886,7 @@ iframe, object, embed {
   height: auto;
   width: 725px;
   margin-bottom: 10px;
+  margin-top: -30px;
 }
 #discount_img_tablet{
   visibility: hidden;

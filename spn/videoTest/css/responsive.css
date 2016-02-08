@@ -943,7 +943,7 @@ and (orientation : landscape){
 		padding: 0px 0px 0px 0px;
     	font-family: 'Open Sans', sans-serif;
     	float: none;
-    	width:85%;
+    	width:75%;
     	height: 350px;
     	margin-left: 40px;
     }
@@ -1172,9 +1172,7 @@ and (orientation : landscape){
 		margin-left: -20px;
 	}
 }
-
 @media (min-width:20px) and (max-width:1080px){
-	
 	#banner_img_big{visibility: hidden; display: none;}
 	#banner_img_small{visibility: visible; display: block;}
 }
