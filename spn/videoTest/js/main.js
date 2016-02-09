@@ -1,6 +1,6 @@
 //wait for document to be ready
 $(document).ready(function() {
-
+  //variables for dynamic modal height
   var windowHeight ;
   var windowWidth ;
   var modalHeight ;
