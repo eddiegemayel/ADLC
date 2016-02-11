@@ -770,6 +770,7 @@ and (orientation : landscape){
     	display: none;
     }
 }
+/*--------------------------------------------------------------------------------------------------------------*/
 /*----------------------------------------------------------------------------------------Real life experiences section*/
 /*--------------------------------------------------------------------------------------------------------------*/
 @media(max-width: 1000px) {
@@ -786,7 +787,6 @@ and (orientation : landscape){
     display: none;
   }
 }
-
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
@@ -924,8 +924,6 @@ and (orientation : landscape){
     	margin-left: 40px;
     }
     .contact_section form{
-    	/*margin-left: -10px;*/
-		/*padding: 25px 0px 0px 0px;*/
 		border: 0;
 		font-size: 100%;
 		font: inherit;
@@ -1130,7 +1128,7 @@ and (orientation : landscape){
 }
 @media (min-width:768px) and (max-width:826px){
 	.logo_menu{
-		margin-left: -29px !important;
+		margin-left: -20px !important;
 	}
 }
 @media (min-width:700px) and (max-width:768px){
@@ -1140,7 +1138,7 @@ and (orientation : landscape){
 }
 @media (min-width:600px) and (max-width:700px){
 	.logo_menu{
-		margin-left: 40px !important;
+		margin-left: 20px !important;
 	}
 }
 @media (min-width:20px) and (max-width:600px){
