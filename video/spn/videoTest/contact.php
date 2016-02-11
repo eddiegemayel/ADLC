@@ -1,10 +1,10 @@
 <?php
 	#contact form
-    $to="dp@ark101.com, rleslie@americandreamslc.com.do, office@americandreamslc.com.do, info@americandreamslc.com.do ";
+    $to="dp@ark101.com, rleslie@americandreamslc.com.do";
     $date = date('Y/m/d');
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];
-    $subject="Form submission from $senderEmail on $date";
+    $subject="Submission from ' $senderEmail ' on $date -- from 'ADLC DR' ";
     $phone = $_POST["phone"];
 
     // $headers = "From: $sender\r\n";
@@ -13,7 +13,7 @@
 	// $headers .= "CC: ewg@ark101.com\r\n";date("Y/m/d")
 
     #message to appear in email sent
-    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone ";
+    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nFrom: www.americandreamslc.com.do";
 
     #mail function, sends the email to specified link
     mail($to, $subject, $message);
