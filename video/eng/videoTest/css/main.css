@@ -421,7 +421,7 @@ p.box-desc{
   text-transform: uppercase;
 }
 .important{
-  background: url(../images/desc3_mobile_android.jpg) 45% 64%  no-repeat fixed !important;
+  background: url(../images/desc3_mobile_android.jpg) 40% 64%  no-repeat fixed !important;
   height: 290px !important;
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
