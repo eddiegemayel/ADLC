@@ -405,11 +405,28 @@ p.box-desc{
   text-decoration: none;
   color: #fff;
   font-size: 40px;
-  /*font-weight: 100;*/
   padding: 20px 0px;
   display: block;
   letter-spacing: 4px;
   text-transform: uppercase;
+}
+.important .container h1{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 40px;
+  padding: 20px 0px;
+  display: block;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.important{
+  background: url(../images/desc3_mobile_android.jpg) 45% 64%  no-repeat fixed !important;
+  height: 290px !important;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-align: center;
+  padding: 49px 0px 70px 0px;
+  margin-bottom: 0px;
 }
 img.badge{
   float:left;

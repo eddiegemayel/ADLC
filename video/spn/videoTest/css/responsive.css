@@ -196,10 +196,10 @@
     }
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape){
+/*--------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------landscape tablet*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
 	.container{
 		width: 728px;
 		margin: 0 auto;
@@ -250,6 +250,7 @@ and (orientation : landscape){
     	display: none;
     }
 }
+
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------------tablet media queries*/
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -263,7 +264,6 @@ and (orientation : landscape){
 		padding: 140px 0px;
 		background-position: 90% 0%;
 	}
-
 	.banner2{
 		background-position:40% 0%;
 	}
@@ -542,7 +542,6 @@ and (orientation : landscape){
 	 	font-family: 'Open Sans', 'Raleway', sans-serif;
      	text-decoration: none;
      	color: #fff;
-     	/*color: black;*/
      	padding: 20px 0px;
      	display: block;
      	letter-spacing: 4px;
@@ -779,10 +778,10 @@ and (orientation : landscape){
     width: 100%;
     text-align: center;
   }
-  .desc2 h2 {
+/*  .desc2 h2 {
     padding: 0;
     margin: 0 0 20px 0;
-  }
+  }*/
   .badge {
     display: none;
   }
