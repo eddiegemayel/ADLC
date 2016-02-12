@@ -224,6 +224,7 @@
 	}
 	.desc h2 {
     	font-size: 25px;
+    	margin-top: 40px;
 	}
 	.desc p {
     	font-size: 16px;
@@ -856,7 +857,7 @@
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		background: url(../images/desc3_mobile.jpg) 0% 90% no-repeat fixed;
+		background: url(../images/desc3_mobile.jpg) 40% 90% no-repeat fixed;
 		height: 260px;
 	}
 }
