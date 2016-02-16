@@ -661,8 +661,8 @@ display: none;
 }
 .banner1 a{
   position: absolute;
-  top:420px;
-  left: 475px;
+  top:520px;
+  right: 165px;
 }
 #watchBtn{
   padding: 18px 78px !important;
