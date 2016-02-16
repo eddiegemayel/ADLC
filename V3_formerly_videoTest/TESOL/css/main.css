@@ -291,21 +291,21 @@ p.box-desc{
 }
 .features_section ul .list_one i{
   position: relative;
-  left: 50px;
-  bottom: 0px;
+  left: 43px;
+  bottom: -4px;
   margin: 0;
   padding-top: 0;
 }
 .features_section ul .list_two i{
   position: relative;
-  left: 55px;
-  bottom: -5px;
+  left: 65px;
+  bottom: -2px;
   margin: 0;
   padding-top: 0;
 }
 .features_section ul .list_three i{
   position: relative;
-  left: 55px;
+  left: 57px;
   bottom: -5px;
   margin: 0;
   padding-top: 0;
@@ -358,7 +358,7 @@ p.box-desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
   padding: 80px 0px;
-  margin-top: 95px;
+  margin-top: 95px !important;
 }
 .desc h2{
   font-size: 30px;
@@ -374,6 +374,8 @@ p.box-desc{
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
+  margin-top: 95px !important;
+  margin-bottom: -40px;
 }
 .desc2{
   font-family: 'Open Sans', 'Raleway', sans-serif;
