@@ -205,10 +205,6 @@ $(window).load(function(){
       $("#stickyBtn").css("display", "block");
       $("#stickyBtn").css("visibility", "visible");
     });
-    //  $(".input").focusout(function() {
-    //   $("#stickyBtn").css("display", "block");
-    //   $("#stickyBtn").css("visibility", "visible");
-    // });
   }
   else if(isIphone){
     $("#watchBtn").css("left", "25px");

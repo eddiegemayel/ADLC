@@ -186,8 +186,8 @@
     }
     /*#dynamicInfo{visibility: hidden;}*/
     .desc2{
-		background: url(../images/desc2_tablet.png) 7% 0% no-repeat fixed;
-		height: 185px;
+		/*background: url(../images/desc2_tablet.png) 7% 0% no-repeat fixed;*/
+		height: 480px;
 	}
 	.badge {
       display: none;
@@ -345,8 +345,8 @@
     	height: 370px;
     }
     .desc2{
-		background: url(../images/desc2_tablet.png) 20% 0% no-repeat fixed;
-		height: 170px;
+		/*background: url(../images/desc2_tablet.png) 20% 0% no-repeat fixed;*/
+		/*height: 170px;*/
 	}
 	#watchBtn{
 		top: 270px; 
@@ -400,8 +400,8 @@
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile.jpg) 25% 0% no-repeat fixed;
-		height: 210px;
+		/*background: url(../images/desc3_mobile.jpg) 25% 0% no-repeat fixed;*/
+		height: 500px;
 	}
 	.features_section ul li {
     	display: block;
@@ -514,9 +514,9 @@
 		width: 100%;
 	}
 	.desc2{
-		background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;
+		/*background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;*/
 		/*background-position: 45% 15% !important;*/
-		height: 260px !important;
+		height: 590px !important;
 	/*	background-size:contain;
 		background-repeat:no-repeat;
 		background-position:top center;
@@ -787,7 +787,7 @@
     padding: 0 0 20px 0 !important;
   }
   .desc2 {
-    background-size: cover;
+    /*background-size: cover;*/
   }
   .desc3 h2 {
     margin-top: 40px;
@@ -852,7 +852,7 @@
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		background: url(../images/desc3_mobile.jpg) 40% 90% no-repeat fixed;
+		/*background: url(../images/desc3_mobile.jpg) 40% 90% no-repeat fixed;*/
 		height: 260px;
 	}
 }

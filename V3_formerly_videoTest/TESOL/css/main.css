@@ -401,13 +401,23 @@ p.box-desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
   padding: 80px 0px;
-  margin-top: 125px !important;
+  /*margin-top: 125px !important;*/
+  height: 400px;
+  float: left;
+  width: 100%;
 }
 .desc2 h2{
   font-size: 30px;
   font-weight: 600;
   padding: 0px 0px 15px 0px;
   color: #00aeef;
+  margin-top:20px
+}
+.desc2 h4{
+  font-size: 20px;
+  font-weight: 400;
+  color: #00aeef;
+  /*float: left;*/
 }
 .desc2 p{
   font-size: 18px;
@@ -418,7 +428,7 @@ p.box-desc{
   color: #aab1bf;
   margin-top: 75px !important;
   float:left;
-  clear: none;
+  clear: left;
   margin-bottom: 20px;
 }
 .desc2 .container ul{
