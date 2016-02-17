@@ -1060,6 +1060,10 @@
   		left: 63px;
   		bottom: -4px;
 	}
+	.features2{
+			background-image: none;
+		background-color: #2e2e2e;
+	}
 }
 
 @media (min-width:769px) and (max-width:1600px) {
