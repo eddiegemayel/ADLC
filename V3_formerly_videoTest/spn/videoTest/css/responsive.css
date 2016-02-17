@@ -435,12 +435,12 @@
 	}
 	.banner1 h1{ 
   		top: 10px; 
-  		left: 0px; 
+  		left: 10px; 
   		width: 100%;
 	}
 	.banner1 h2{
  	 top: 40px; 
-  	 left: 0px; 
+  	 left: 10px; 
 	}
 	.banner1 .line1{
   		top: 70px; 
@@ -606,11 +606,11 @@
 	}
 	.banner1 h1{
   		top: -3px; 
-  		left: 0px; 
+  		left: 10px; 
 	}
 	.banner1 h2{
  	 top: 24px; 
-  	 left: 0px; 
+  	 left: 10px; 
 	}
 	.banner1 .line1{
   		top: 50px; 
