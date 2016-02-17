@@ -1051,6 +1051,23 @@
 	}
 }
 
+@media (min-width:20px) and (max-width:768px) {
+	#svg_one{
+  		left:-24px;
+  		bottom:-33px;
+	}	
+	.features_section ul .list_one i{
+  		left: 63px;
+  		bottom: -4px;
+	}
+}
+
+@media (min-width:769px) and (max-width:1600px) {
+	.list_four{
+		margin-right:100px;
+	}
+}
+
 
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
 @media (min-width:769px) and (max-width:860px){
