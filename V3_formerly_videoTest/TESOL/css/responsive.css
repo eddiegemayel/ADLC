@@ -17,6 +17,9 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+	.desc h2{
+		margin-top: -90px;
+	}
 	.features_section ul li{
 		width: 346px;
 	}
@@ -1034,11 +1037,29 @@
 	}
 }
 
+
+
+@media (min-width:20px) and (max-width: 1701px) {
+	.container{
+		margin-top: -30px !important;
+	}
+	.desc p{
+		margin-top: 0;
+	}
+	.header{
+		margin-top: 30px;
+	}
+}
+
+
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
 @media (min-width:769px) and (max-width:860px){
 	.desc{
 		margin-top: -180px !important;
-		height: 180px;
+		height: 210px;
+	}
+	.desc h2{
+		margin-top: 10px;
 	}
 }
 @media (min-width:1700px) and (max-width:1925px){

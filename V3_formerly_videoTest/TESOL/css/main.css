@@ -679,7 +679,7 @@ display: none;
 }
 .banner1 a{
   position: absolute;
-  top:520px;
+  top:500px;
   right: 165px;
 }
 #watchBtn{
@@ -707,7 +707,7 @@ display: none;
   color: black;
 }
 a.button.full{
-  padding: 21px 72px !important;
+  /*padding: 21px 72px;*/
   font-size: 17px;
   background-color: #FF9735;
   transition-duration: 0.1s;
@@ -748,6 +748,28 @@ a.button.full:hover {
   text-decoration: none;
   color: white;
   padding-right: 10px;
+}
+.features_section h2{
+   text-align:center;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #c7c7c7;
+  padding-right: 10px;
+  margin-top: 30px;
+  font-size: 190%;
+  font-weight: 120;
+}
+.features_section p{
+   text-align:center;
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #c7c7c7;
+  font: 20px Helvetica, Sans-Serif; 
+  letter-spacing: -1px;  
+  padding: 10px;
+  font-weight: 100;
+  margin-top: 10px;
+  line-height: 1.5;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------------------------------------------------------------------------slideout and video area */
