@@ -620,7 +620,7 @@ display: none;
 .banner1 a.button {
   display: inline-block;
   text-decoration: none;
-  padding: 10px;
+  /*padding: 10px;*/
   text-align: center;
   border-radius: 9px;
   margin-bottom: 16px;
@@ -690,8 +690,12 @@ display: none;
   color: black;
 }
 a.button.full{
-  padding: 21px 72px !important;
-  font-size: 17px;
+  /*padding: 21px 62px !important;*/
+  font-size: 15px;
+  padding-top: 15px !important;
+  padding-bottom: 24px !important;
+  padding-left: 62px;
+  padding-right: 62px;
   background-color: #FF9735;
   transition-duration: 0.1s;
   transition: all 0.2s, color 0.2s;
@@ -712,7 +716,6 @@ a.button.full:hover {
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
-  padding: 10px;
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }

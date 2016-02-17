@@ -400,37 +400,34 @@ p.box-desc{
 .desc2{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
-  padding: 49px 0px 70px 0px;
-  /*background-image: url(../images/bgbadge.png);  no-repeat fixed 30% 0%/cover*/
-  margin-bottom: 0px;
-  background: url(../images/desc1_desktop.jpg) center center no-repeat fixed;
-  height: 590px;
+  padding: 80px 0px;
+  margin-top: 125px !important;
 }
 .desc2 h2{
   font-size: 30px;
   font-weight: 600;
-  padding: 0px 0px 15px 400px;
+  padding: 0px 0px 15px 0px;
   color: #00aeef;
 }
-.desc2 p {
-  text-align: left;
+.desc2 p{
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
   width: 50%;
-  margin: 25px 43px 0px 493px;
+  margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
+  margin-top: 75px !important;
+  float:left;
+  clear: none;
+  margin-bottom: 20px;
 }
-.desc2 .container h1{
-  font-family: 'Open Sans', 'Raleway', sans-serif;
-  text-decoration: none;
-  color: #fff;
-  font-size: 40px;
-  padding: 20px 0px;
-  display: block;
-  letter-spacing: 4px;
-  text-transform: uppercase;
+.desc2 .container ul{
+  text-align:left;
+  float:right;
+  clear:none;
+}
+.desc2 .container li{
+  margin-top: 8px;
 }
 .important .container h1{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -630,7 +627,7 @@ display: none;
 }
 .banner1 .line2{
   position: absolute; 
-  top: 445px; 
+  top: 435px; 
   right: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
@@ -679,7 +676,7 @@ display: none;
 }
 .banner1 a{
   position: absolute;
-  top:500px;
+  top:480px;
   right: 165px;
 }
 #watchBtn{
