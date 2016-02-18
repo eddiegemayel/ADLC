@@ -215,7 +215,7 @@ form{
   font-size: 110%;
   letter-spacing: 2px;
 }
-.desc2 .container ul li i{
+.desc3 .container ul li i{
   margin-right: 5px;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -405,24 +405,69 @@ p.box-desc{
   text-align: center;
   padding: 80px 0px;
   /*margin-top: 125px !important;*/
-  height: 400px;
+  height: 200px;
   float: left;
   width: 100%;
 }
 .desc2 h2{
   font-size: 30px;
   font-weight: 600;
+  color: #00aeef;
+}
+.desc2 h4{
+  color: black;
+  font-size: 90%;
+}
+.desc2 p{
+  font-size: 12px;
+  font-weight: 200;
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #aab1bf;
+  margin-top: 25px !important;
+  /*float:left;*/
+  /*clear: left;*/
+  margin-bottom: 20px;
+}
+.desc2 .container .icon_container div{
+  float:right;
+  /*clear:none;*/
+  margin:0px auto; 
+  width: 180px;
+}
+.desc2 .container .icon_container{
+  width: 100%;
+  margin-left: -40px;
+  height: 200px;
+  margin-top: 60px;
+}
+.desc2 .container li{
+  margin-top: 8px;
+}
+.desc3{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-align: center;
+  padding: 80px 0px;
+  /*margin-top: 125px !important;*/
+  height: 400px;
+  float: left;
+  width: 100%;
+}
+.desc3 h2{
+  font-size: 30px;
+  font-weight: 600;
   padding: 0px 0px 15px 0px;
   color: #00aeef;
   margin-top:20px
 }
-.desc2 h4{
+.desc3 h4{
   font-size: 20px;
   font-weight: 400;
   color: #00aeef;
   /*float: left;*/
 }
-.desc2 p{
+.desc3 p{
   font-size: 18px;
   font-weight: 400;
   width: 50%;
@@ -434,12 +479,12 @@ p.box-desc{
   clear: left;
   margin-bottom: 20px;
 }
-.desc2 .container ul{
+.desc3 .container ul{
   text-align:left;
   float:right;
   clear:none;
 }
-.desc2 .container li{
+.desc3 .container li{
   margin-top: 8px;
 }
 .important .container h1{

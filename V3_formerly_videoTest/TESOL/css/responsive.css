@@ -183,6 +183,9 @@
     .desc2{
 		height: 480px;
 	}
+	 .desc3{
+		height: 480px;
+	}
 	.badge {
       display: none;
     }
@@ -389,6 +392,9 @@
 		/*background: url(../images/desc3_mobile.jpg) 25% 0% no-repeat fixed;*/
 		height: 500px;
 	}
+	.desc3{
+		height: 500px;
+	}
 	.features_section ul li {
     	display: block;
     	float: none;
@@ -500,15 +506,10 @@
 		width: 100%;
 	}
 	.desc2{
-		/*background: url(../images/desc3_mobile_iphone.jpg) 45% 15% no-repeat fixed !important;*/
-		/*background-position: 45% 15% !important;*/
 		height: 590px !important;
-	/*	background-size:contain;
-		background-repeat:no-repeat;
-		background-position:top center;
-		-webkit-background-size:contain;
-		-moz-background-size:contain;
-		-o-background-size:contain;*/
+	}
+	.desc3{
+		height: 590px !important;
 	}
 	.important{
 		background: url(../images/desc3_mobile_android.jpg) 45% 64% no-repeat fixed !important;
@@ -659,7 +660,11 @@
 	 font-weight: 400; 
 	 border:3px #fff solid;
 	}
-	.desc2 .container h1{
+/*	.desc2 .container h2{
+		font-size: 150%;
+		margin-top: -35px;
+	}*/
+	.desc3 .container h1{
 		font-size: 150%;
 		margin-top: -35px;
 	}
@@ -761,6 +766,11 @@
     width: 100%;
     text-align: center;
   }
+  .desc3 p {
+    margin: 0 0 0 0;
+    width: 100%;
+    text-align: center;
+  }
 /*  .desc2 h2 {
     padding: 0;
     margin: 0 0 20px 0;
@@ -772,9 +782,6 @@
 @media(max-width: 768px) {
   .banner {
     padding: 0 0 20px 0 !important;
-  }
-  .desc2 {
-    /*background-size: cover;*/
   }
   .desc3 h2 {
     margin-top: 40px;
@@ -839,7 +846,9 @@
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		/*background: url(../images/desc3_mobile.jpg) 40% 90% no-repeat fixed;*/
+		height: 260px;
+	}
+	.desc3{
 		height: 260px;
 	}
 }
@@ -1068,6 +1077,13 @@
 		margin-left: -10px;
 	}
 	.desc2 .container ul{
+		margin-top: 30px;
+	}
+	.desc3 p{
+		width: 37%;
+		margin-left: -10px;
+	}
+	.desc3 .container ul{
 		margin-top: 30px;
 	}
 }
