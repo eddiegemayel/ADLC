@@ -417,6 +417,7 @@ p.box-desc{
 .desc2 h4{
   color: black;
   font-size: 90%;
+  margin-top: 5px;
 }
 .desc2 p{
   font-size: 12px;
@@ -425,22 +426,27 @@ p.box-desc{
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
-  margin-top: 25px !important;
+  margin-top: 10px !important;
   /*float:left;*/
   /*clear: left;*/
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
 }
-.desc2 .container .icon_container div{
-  float:right;
-  /*clear:none;*/
+.desc2 .container .icon_container li{
+  float:left;
+  clear:none;
   margin:0px auto; 
-  width: 180px;
+  width: 140px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 .desc2 .container .icon_container{
+  /*width: 150%;*/
+  /*margin-right: -480px;*/
+  /*height: 200px;*/
+  /*margin-top: 60px;*/
   width: 100%;
-  margin-left: -40px;
-  height: 200px;
-  margin-top: 60px;
+  float:left;
+  clear:none;
 }
 .desc2 .container li{
   margin-top: 8px;
