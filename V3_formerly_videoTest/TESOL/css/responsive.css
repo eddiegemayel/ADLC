@@ -43,25 +43,25 @@
 	.banner1 span{
    		font-size: 38px;
 	}
-	.banner1 a{
-	 	top:440px;
-  		right: 70px;
-	}
 	.banner1 h1{
-  		top: 250px; 
+  		top: 160px; 
   		right: 70px; 
 	}
 	.banner1 h2{
-  		top: 298px; 
+  		top: 208px; 
   		right: 70px; 
 	}
 	.banner1 .line1{
-  		top: 365px; 
+  		top: 275px; 
   		right: 70px; 
 	}
 	.banner1 .line2{
-  		top: 385px; 
+  		top: 295px; 
   		right: 70px; 
+	}
+	.banner1 a{
+	 	top:350px;
+  		right: 70px;
 	}
 	#watchBtn{
 	 top: 340px; 
@@ -146,23 +146,23 @@
    		font-size: 35px;
 	}
 	.banner1 h1{
-  		top: 180px; 
+  		top: 160px; 
   		right: 30px; 
 	}
 	.banner1 h2{
-  		top: 218px; 
+  		top: 198px; 
   		right: 30px; 
 	}
 	.banner1 .line1{
-  		top: 295px; 
+  		top: 245px; 
   		right: 30px; 
 	}
 	.banner1 .line2{
-  		top: 325px; 
+  		top: 260px; 
   		right: 30px; 
 	}
 	.banner1 a{
-    	top:360px;
+    	top:340px;
   		right: 30px;
 	}
 	#watchBtn{
@@ -289,6 +289,7 @@
 	}
 	.desc h2 {
     	font-size: 22px;
+    	margin-top: 20px;
 	}
 	.desc p {
     	font-size: 14px;
@@ -322,32 +323,28 @@
    		font-size: 28px;
 	}
 	.banner1 h1{
-  		top: 110px; 
+  		top: 80px; 
   		right: 10px; 
 	}
 	.banner1 h2{
-  		top: 138px; 
+  		top: 108px; 
   		right: 10px; 
 	}
 	.banner1 .line1{
-  		top: 205px; 
+  		top: 155px; 
   		right: 10px; 
 	}
 	.banner1 .line2{
-  		top: 235px; 
+  		top: 170px; 
   		right: 10px; 
 	}
 	.banner1 a{
-    	top:270px;
+    	top:260px;
   		right: 10px;
 	}
     #slideout{
     	height: 370px;
     }
-    .desc2{
-		/*background: url(../images/desc2_tablet.png) 20% 0% no-repeat fixed;*/
-		/*height: 170px;*/
-	}
 	#watchBtn{
 		top: 270px; 
     	left: 23px; 
@@ -394,6 +391,7 @@
 	}
 	.desc h2 {
     	font-size: 22px;
+    	margin-top: 20px;
 	}
 	.desc p {
     	font-size: 14px;
@@ -440,11 +438,11 @@
   		right: 10px; 
 	}
 	.banner1 .line1{
-  		top: 145px; 
+  		top: 115px; 
   		right: 10px; 
 	}
 	.banner1 .line2{
-  		top: 175px; 
+  		top: 130px; 
   		right: 10px; 
 	}
 	.banner1 a{
@@ -552,8 +550,9 @@
 	.features_section ul li {
     	display: block;
     	float: none;
-    	width: 90%;
-    	margin: 40px auto;
+    	width: 97%;
+    	margin: 30px auto;
+    	margin-right: -15px;
 	}
 	.features_section ul li p{
 		width: 100%;
@@ -1044,7 +1043,7 @@
 		margin-top: -30px !important;
 	}
 	.desc p{
-		margin-top: 0;
+		margin-top: 0px !important;
 	}
 	.header{
 		margin-top: 30px;
