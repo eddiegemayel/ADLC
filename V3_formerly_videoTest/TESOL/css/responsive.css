@@ -172,21 +172,15 @@
 	}
     #slideout{
     	min-height: 100px;
-    	/*overflow:scroll;*/
     	height: 560px;
-    	/*height: auto;*/
     }
     #clickme2{
     	visibility: visible;
-    	/*position: absolute;*/
-  		/*top: 0 !important; 
-  		left: 0 !important;*/
   		height: 50px !important;
   		width: 50px !important;
     }
     /*#dynamicInfo{visibility: hidden;}*/
     .desc2{
-		/*background: url(../images/desc2_tablet.png) 7% 0% no-repeat fixed;*/
 		height: 480px;
 	}
 	.badge {
@@ -357,12 +351,6 @@
 		width: 440px;
 		margin: 0 auto;
 		padding: 0px 20px;
-	}
-	#l2{
-		width: 100%;
-	}
-	#l3{
-		width:100%;
 	}
 	.banner{
 		padding: 140px 0px;
@@ -1071,6 +1059,16 @@
 @media (min-width:769px) and (max-width:1600px) {
 	.list_four{
 		margin-right:100px;
+	}
+}
+
+@media (min-width:1001px) and (max-width:1081px) {
+	.desc2 p{
+		width: 37%;
+		margin-left: -10px;
+	}
+	.desc2 .container ul{
+		margin-top: 30px;
 	}
 }
 
