@@ -215,7 +215,7 @@ form{
   font-size: 110%;
   letter-spacing: 2px;
 }
-.desc2 .container ul li i{
+.desc3 .container ul li i{
   margin-right: 5px;
 }
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -387,7 +387,7 @@ p.box-desc{
   font-size: 30px;
   font-weight: 600;
   padding: 0px 0px 15px 0px;
-  color: #00aeef;
+  color:black;
 }
 .desc p{
   font-size: 18px;
@@ -397,7 +397,7 @@ p.box-desc{
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
-  margin-top: 75px !important;
+  margin-top: 45px !important;
   margin-bottom: 20px;
 }
 .desc2{
@@ -405,41 +405,88 @@ p.box-desc{
   text-align: center;
   padding: 80px 0px;
   /*margin-top: 125px !important;*/
-  height: 400px;
+  height: 160px;
   float: left;
   width: 100%;
 }
 .desc2 h2{
   font-size: 30px;
   font-weight: 600;
-  padding: 0px 0px 15px 0px;
-  color: #00aeef;
-  margin-top:20px
+  color:black;
 }
 .desc2 h4{
+  color: black;
+  font-size: 90%;
+  margin-top: 5px;
+}
+.desc2 p{
+  font-size: 12px;
+  font-weight: 200;
+  width: 120%;
+  margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
+  color: #aab1bf;
+  margin-top: 10px !important;
+  line-height: 1.25;
+  margin-left: -10px;
+}
+.desc2 .container .icon_container li{
+  float:left;
+  clear:none;
+  margin:0px auto; 
+  width: 140px;
+  margin-right: 40px;
+  margin-top: 20px;
+}
+.desc2 .container .icon_container{
+  width: 130%;
+  float:left;
+  clear:none;
+}
+.desc2 .container li{
+  margin-top: 8px;
+}
+.desc3{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+  text-align: center;
+  padding: 40px 0px;
+  height: 400px;
+  float: left;
+  background:#F5F6FA;
+  width: 100%;
+  margin-top: 37px;
+}
+.desc3 h2{
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0px 0px 15px 0px;
+  color:black;
+  margin-top:20px
+}
+.desc3 h4{
   font-size: 20px;
   font-weight: 400;
   color: #00aeef;
   /*float: left;*/
 }
-.desc2 p{
+.desc3 p{
   font-size: 18px;
   font-weight: 400;
   width: 50%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   color: #aab1bf;
-  margin-top: 75px !important;
+  margin-top: 17px !important;
   float:left;
   clear: left;
-  margin-bottom: 20px;
+  line-height: 2;
 }
-.desc2 .container ul{
+.desc3 .container ul{
   text-align:left;
   float:right;
   clear:none;
 }
-.desc2 .container li{
+.desc3 .container li{
   margin-top: 8px;
 }
 .important .container h1{
