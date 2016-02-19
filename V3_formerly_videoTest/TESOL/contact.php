@@ -7,11 +7,6 @@
     $subject="Submission from ' $senderEmail ' on $date -- from 'TESOL' ";
     $phone = $_POST["phone"];
 
-    // $headers = "From: $sender\r\n";
-	// $headers .= "Reply-To: myplace2@example.com\r\n";
-	// $headers .= "Return-Path: myplace@example.com\r\n";
-	// $headers .= "CC: ewg@ark101.com\r\n";date("Y/m/d")
-
     #message to appear in email sent
     $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nFrom: www.americandreamslc.com/tesol";
 
