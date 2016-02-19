@@ -913,7 +913,7 @@
     	float: none;
     	width:75%;
     	height: 350px;
-    	margin-left: 40px;
+    	margin-left: 130px;
     }
     .contact_section form{
 		border: 0;
@@ -921,7 +921,7 @@
 		font: inherit;
 		vertical-align: baseline;
 		font-family: 'Raleway', sans-serif;
-		width: 88%;
+		width: 92%;
 		float: none;
     }
 }
@@ -990,7 +990,7 @@
 }
 
 /*icon container*/
-/**/
+/*641*/
 @media (min-width:1082px) and (max-width:1600px){
 	.desc2 .container .icon_container{
   		width: 150%;
@@ -1000,26 +1000,83 @@
 		/*float: none;*/
 	}
 }
-@media (min-width:1001px) and (max-width:1081px){
-
+@media (min-width:1001px) and (max-width:1082px){
+	.desc2 .container .icon_container{
+  		width: 50%;
+  		margin-left: 200px;
+	}
+	.desc2 p{
+  		width: 100%;
+  		margin-left: 0px;
+  		line-height: 1;
+	}
+}
+@media (min-width:768px) and (max-width:1001px) {
+	.desc2 .container .icon_container{
+  		width: 50%;
+  		margin-left: 210px;
+	}
+	.desc2 p{
+  		width: 100%;
+  		margin-left: 0px;
+  		line-height: 1;
+	}
 }
 @media (min-width:640px) and (max-width:768px) {
 	.desc2 {
 		height: 340px;
+		margin-bottom: 50px;
+	}
+	.desc2 .container .icon_container{
+  		width: 80%;
+  		margin-left: 150px;
+	}
+	.desc2 p{
+  		width: 100%;
+  		margin-left: 0px;
+  		line-height: 1;
 	}
 }
 @media (min-width:480px) and (max-width:640px) {
 	.desc2 .container .icon_container{
-		margin-left: 50px;
+		width: 80%;
+		margin-left:145px;
+	}
+	.desc2{
+		margin-bottom: 380px;
+		height: 650px;
+	}
+	.desc2 p{
+  		width: 100%;
+  		margin-left: 0px;
+  		line-height: 1;
+	}
+	.desc3{
+		height: 600px;
 	}
 }
 @media (min-width:20px) and (max-width:480px) {
 	.desc2 .container .icon_container{
-		margin-left: 70px;
+		margin-left: -15px;
 		margin-bottom: 10px;
 	}
 	.desc2{
 		margin-bottom: 20px;
+		height:470px !important;
+	}
+	.desc2 p{
+  		width: 100%;
+  		margin-left: 0px;
+  		line-height: 1;
+	}
+	.desc3{
+		height: 800px !important;
+	}
+	.desc3 .container p{
+		line-height: 1.76;
+	}
+	.desc3 .container ul li{
+		margin-bottom:14px;
 	}
 }
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
