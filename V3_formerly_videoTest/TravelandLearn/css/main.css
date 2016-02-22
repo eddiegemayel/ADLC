@@ -212,7 +212,7 @@ form{
 }
 #highlight{
   color:#37D9F5;
-  font-size: 110%;
+  font-size: 100%;
   letter-spacing: 2px;
 }
 .desc3 .container ul li i{
@@ -231,7 +231,7 @@ form{
 }
 .features2{
   padding: 0px 0px 62px 0px;
-  background-color: #fff;
+  background-color: black;
   color:#4F4D4C;
   float: left;
   width: 100%;
@@ -382,23 +382,23 @@ p.box-desc{
   text-align: center;
   padding: 80px 0px;
   margin-top: 95px !important;
+  background-image: url(../images/bg_travel2.png);
 }
 .desc h2{
   font-size: 30px;
   font-weight: 600;
   padding: 0px 0px 15px 0px;
-  color:black;
+  color:#fff;
 }
 .desc p{
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 1.25;
   width: 85%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  color: #aab1bf;
+  color: #fff;
   margin-top: 45px !important;
-  margin-bottom: 20px;
 }
 .desc2{
   font-family: 'Open Sans', 'Raleway', sans-serif;
@@ -452,21 +452,23 @@ p.box-desc{
   padding: 40px 0px;
   height: 400px;
   float: left;
-  background:#F5F6FA;
+  /*background:#F5F6FA;*/
+  opacity: .85;
+  background-color: black;
   width: 100%;
-  margin-top: 37px;
+  background: url(../images/bg_travel1.png) 40% 34% no-repeat;
 }
 .desc3 h2{
   font-size: 30px;
   font-weight: 600;
   padding: 0px 0px 15px 0px;
-  color:black;
+  color:#fff;
   margin-top:20px
 }
 .desc3 h4{
   font-size: 20px;
   font-weight: 400;
-  color: #00aeef;
+  color: #fff;
   /*float: left;*/
 }
 .desc3 p{
@@ -475,7 +477,7 @@ p.box-desc{
   width: 50%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  color: #aab1bf;
+  color: #fff;
   margin-top: 17px !important;
   float:left;
   clear: left;
@@ -488,6 +490,7 @@ p.box-desc{
 }
 .desc3 .container li{
   margin-top: 8px;
+  color:#fff;
 }
 .important .container h1{
   font-family: 'Open Sans', 'Raleway', sans-serif;
