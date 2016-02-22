@@ -254,7 +254,7 @@ p.box-desc{
 }
 .features_section ul{
   margin: 30px 0px;
-  margin-left: -55px;
+  margin-left: -45px;
 }
 .features_section ul li{
   width: 280px;
@@ -450,7 +450,7 @@ p.box-desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
   padding: 40px 0px;
-  height: 400px;
+  height: 490px;
   float: left;
   background:#F5F6FA;
   width: 100%;

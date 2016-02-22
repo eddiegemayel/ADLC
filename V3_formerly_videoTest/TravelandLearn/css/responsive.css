@@ -968,7 +968,7 @@
 
 @media (min-width:769px) and (max-width:1600px) {
 	.list_four{
-		margin-right:100px;
+		margin-left:250px;
 	}
 }
 
@@ -1082,8 +1082,8 @@
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
 @media (min-width:769px) and (max-width:860px){
 	.desc{
-		margin-top: -180px !important;
-		height: 210px;
+		margin-top: -83px !important;
+		height: 100px;
 	}
 	.desc h2{
 		margin-top: 10px;
