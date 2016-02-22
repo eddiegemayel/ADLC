@@ -666,17 +666,17 @@ display: none;
 }
 .banner1 h1{
 	position: absolute; 
-  top: 300px; 
+  top: 200px; 
   right: 155px; 
 }
 .banner1 h2{
   position: absolute; 
-  top: 348px; 
+  top: 248px; 
   right: 155px; 
 }
 .banner1 .line1{
   position: absolute; 
-  top: 415px; 
+  top: 315px; 
   right: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
@@ -687,7 +687,7 @@ display: none;
 }
 .banner1 .line2{
   position: absolute; 
-  top: 435px; 
+  top: 335px; 
   right: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
@@ -736,7 +736,7 @@ display: none;
 }
 .banner1 a{
   position: absolute;
-  top:480px;
+  top:380px;
   right: 165px;
 }
 #watchBtn{
