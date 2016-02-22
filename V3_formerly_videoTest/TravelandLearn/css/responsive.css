@@ -496,7 +496,7 @@
     	padding: 60px 0px;
 	}
 	.desc{
-		margin-top: -340px !important;
+		margin-top: -320px !important;
 	}	
 	.desc h2 {
     	font-size: 22px;
@@ -588,20 +588,20 @@
    		font-size: 25px;
 	}
 	.banner1 h1{
-  		top: 53px; 
+  		top: 33px; 
   		right: 0px; 
 	}
 	.banner1 h2{
- 	 top: 80px; 
+ 	 top: 60px; 
   	 right: 0px; 
 	}
 	.banner1 .line1{
-  		top: 120px; 
+  		top: 90px; 
   		right: 0px; 
   		font-size: 15px;
 	}
 	.banner1 .line2{
-  		top: 128px; 
+  		top: 98px; 
   		right: 0px; 
   		font-size: 15px;
 	}

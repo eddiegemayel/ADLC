@@ -213,7 +213,7 @@ form{
 #highlight{
   color:#37D9F5;
   font-size: 100%;
-  letter-spacing: 2px;
+  letter-spacing: 1.15px;
 }
 .desc3 .container ul li i{
   margin-right: 5px;
@@ -453,10 +453,10 @@ p.box-desc{
   height: 400px;
   float: left;
   /*background:#F5F6FA;*/
-  opacity: .85;
-  background-color: black;
+  /*opacity: .85;*/
+  /*background-color: black;*/
   width: 100%;
-  background: url(../images/bg_travel1.png) 40% 34% no-repeat;
+  background: black url(../images/bg_travel1.png) 40% 34% no-repeat;
 }
 .desc3 h2{
   font-size: 30px;
