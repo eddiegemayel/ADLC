@@ -452,9 +452,6 @@ p.box-desc{
   padding: 40px 0px;
   height: 400px;
   float: left;
-  /*background:#F5F6FA;*/
-  /*opacity: .85;*/
-  /*background-color: black;*/
   width: 100%;
   background: black url(../images/bg_travel1.png) 40% 34% no-repeat;
 }
@@ -463,7 +460,8 @@ p.box-desc{
   font-weight: 600;
   padding: 0px 0px 15px 0px;
   color:#fff;
-  margin-top:20px
+  margin-top:15px;
+  padding-top: 7px;
 }
 .desc3 h4{
   font-size: 20px;
@@ -489,31 +487,51 @@ p.box-desc{
   clear: left;
   line-height: 2;
 }
-/*.desc3 .container ul{
-  text-align:left;
-  float:left;
-  clear:none;
-}*/
 .option_heading{
   text-align: center;
   clear: both;
+  background-color:rgba(239, 239, 240, 0.88);
 }
 .option{
   float: left;
-  width: 480px;
-  height: 100%;
+  /*width: 480px;*/
+  width: 25%;
+  height: 109%;
   clear: none;
   margin: 0 auto;
   text-align: left;
-  background-color: rgba(221,221,221, 0.8);
+}
+.option_one{
+  background-color:rgba(239, 239, 240, 0.88);
+}
+.option_two{
+  background-color:rgba(221,221,221, 0.98);
+}
+.option_three{
+  background-color:rgba(239, 239, 240, 0.88);
+}
+.option_four{
+ background-color: rgba(221,221,221, 0.98);
 }
 .option ul{
-  padding: 20px;
-  list-style-type: circle;
+  padding: 25px;
+  list-style-type: square;
+}
+.option li{
+  margin-left: 65px;
+  color:#fff;
+}
+.option li span{
+  color:#333333;
+}
+.option h4{
+  padding: 5px;
+}
+.option h5{
+  padding: 5px;
 }
 .desc3 .container li{
   margin-top: 8px;
-  color:#fff;
 }
 .important .container h1{
   font-family: 'Open Sans', 'Raleway', sans-serif;
