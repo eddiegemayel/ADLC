@@ -1010,6 +1010,9 @@
   		margin-left: 0px;
   		line-height: 1;
 	}
+	.desktop_margin{
+		margin-bottom: 0;
+	}
 }
 @media (min-width:768px) and (max-width:1001px) {
 	.desc2 .container .icon_container{
@@ -1021,10 +1024,13 @@
   		margin-left: 0px;
   		line-height: 1;
 	}
+	.desktop_margin{
+		margin-bottom: 0;
+	}
 }
 @media (min-width:640px) and (max-width:768px) {
 	.desc2 {
-		height: 340px;
+		height: 370px;
 		margin-bottom: 50px;
 	}
 	.desc2 .container .icon_container{
@@ -1035,6 +1041,9 @@
   		width: 100%;
   		margin-left: 0px;
   		line-height: 1;
+	}
+	.desktop_margin{
+		margin-bottom: 0;
 	}
 }
 @media (min-width:480px) and (max-width:640px) {
@@ -1053,6 +1062,9 @@
 	}
 	.desc3{
 		height: 600px;
+	}
+	.desktop_margin{
+		margin-bottom: 0;
 	}
 }
 @media (min-width:20px) and (max-width:480px) {
@@ -1077,6 +1089,9 @@
 	}
 	.desc3 .container ul li{
 		margin-bottom:14px;
+	}
+	.desktop_margin{
+		margin-bottom: 0;
 	}
 }
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
