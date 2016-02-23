@@ -17,6 +17,9 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+	.desc3 .container{
+		width: 100% !important;
+	}
 	.desc h2{
 		margin-top: 60px;
 	}
@@ -94,6 +97,9 @@
 	.container{
 		width: 728px;
 		margin: 0 auto;
+	}
+	.desc3 .container{
+		width: 100% !important;
 	}
 	.big-text{
 		font-size: 22px;
@@ -252,6 +258,9 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+	.desc3 .container{
+		width: 100% !important;
+	}
 	.banner{
 		padding: 140px 0px;
 		background-position: 90% 0%;
@@ -347,6 +356,9 @@
 		width: 440px;
 		margin: 0 auto;
 		padding: 0px 20px;
+	}
+	.desc3 .container{
+		width: 100% !important;
 	}
 	.banner{
 		padding: 140px 0px;
@@ -451,6 +463,9 @@
 		width: 280px;
 		margin: 0 auto;
 		padding: 0px 20px;
+	}
+	.desc3 .container{
+		width: 100% !important;
 	}
 	#l2{
   		width: 100%;
@@ -953,10 +968,10 @@
   		left: 63px;
   		bottom: -4px;
 	}
-	.features2{
+/*	.features2{
 		background-image: none;
 		background-color: #2e2e2e;
-	}
+	}*/
 }
 
 @media (min-width:1081px) and (max-width:1601px) {

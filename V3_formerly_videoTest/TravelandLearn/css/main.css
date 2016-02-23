@@ -471,6 +471,12 @@ p.box-desc{
   color: #fff;
   /*float: left;*/
 }
+.desc3 .container{
+  /*width: 1130px;*/
+  width: 100%;
+  height: 100%;
+  margin-top: -55px;
+}
 .desc3 p{
   font-size: 18px;
   font-weight: 400;
@@ -483,10 +489,27 @@ p.box-desc{
   clear: left;
   line-height: 2;
 }
-.desc3 .container ul{
+/*.desc3 .container ul{
   text-align:left;
-  float:right;
+  float:left;
   clear:none;
+}*/
+.option_heading{
+  text-align: center;
+  clear: both;
+}
+.option{
+  float: left;
+  width: 480px;
+  height: 100%;
+  clear: none;
+  margin: 0 auto;
+  text-align: left;
+  background-color: rgba(221,221,221, 0.8);
+}
+.option ul{
+  padding: 20px;
+  list-style-type: circle;
 }
 .desc3 .container li{
   margin-top: 8px;
