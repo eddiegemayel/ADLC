@@ -23,19 +23,12 @@
 	.features_section ul li{
 		width: 346px;
 	}
-	.features2 .container .features_section ul li{
-		/*padding-left: 10px;*/
-		/*padding-right: 10px;*/
-	}
 	.stories-section ul li{
 		width: 304px;
 	}
 	.story-img img{
 		width: 304px;
 		height: 195px;
-	}
-	.banner1 img{
-  		/*height:620px; */
 	}
 	.slick-dots{
     	bottom: -70px !important;
