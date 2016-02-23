@@ -183,7 +183,7 @@
 		height: 480px;
 	}
 	 .desc3{
-		height: 480px;
+		height: 750px;
 	}
 	.badge {
       display: none;
@@ -668,10 +668,6 @@
 	 font-weight: 400; 
 	 border:3px #fff solid;
 	}
-/*	.desc2 .container h2{
-		font-size: 150%;
-		margin-top: -35px;
-	}*/
 	.desc3 .container h1{
 		font-size: 150%;
 		margin-top: -35px;
@@ -858,7 +854,7 @@
 		height: 260px;
 	}
 	.desc3{
-		height: 260px;
+		height: 400px;
 	}
 }
 
@@ -982,6 +978,24 @@
 @media (min-width:769px) and (max-width:1081px) {
 	.list_four{
 		margin-left:250px;
+	}
+	.option_one{
+		width: 50%;
+		height: 50%;
+	}
+	.option_two{
+		width: 50%;
+		height: 50%;
+	}
+	.option_three{
+		/*float: none;*/
+		width: 50%;
+		height: 50%;
+	}
+	.option_four{
+		/*float: none;*/
+		width: 50%;
+		height: 50%;
 	}
 }
 
