@@ -17,6 +17,9 @@
 		margin: 0 auto;
 		padding: 0px 20px;
 	}
+	.desc3 .container{
+		padding: 0px;
+	}
 	.desc h2{
 		margin-top: 60px;
 	}
@@ -968,10 +971,6 @@
   		left: 63px;
   		bottom: -4px;
 	}
-/*	.features2{
-		background-image: none;
-		background-color: #2e2e2e;
-	}*/
 }
 
 @media (min-width:1081px) and (max-width:1601px) {
@@ -987,10 +986,6 @@
 }
 
 @media (min-width:1001px) and (max-width:1081px) {
-	.desc2 p{
-		/*width: 37%;*/
-		/*margin-left: -10px;*/
-	}
 	.desc2 .container ul{
 		margin-top: 30px;
 	}
