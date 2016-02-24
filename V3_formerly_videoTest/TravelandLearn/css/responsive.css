@@ -462,7 +462,7 @@
 	.container{
 		width: 280px;
 		margin: 0 auto;
-		padding: 0px 20px;
+		padding: 0px 10px;
 	}
 	.desc3 .container{
 		width: 100% !important;
@@ -946,7 +946,8 @@
 		margin-top: -30px !important;
 	}
 	.desc3 .container{
-		margin-top: -55px!important;
+		margin-top: -60px !important;
+		margin-left: 10px;
 	}
 	.desc p{
 		margin-top: 0px !important;
@@ -1145,7 +1146,6 @@
 	}
 	.desc3{
 		height: 1690px !important;
-
 	}
 	.desc3 .container p{
 		line-height: 1.76;
@@ -1155,11 +1155,13 @@
 	}
 	.option_heading{
 		margin-left: -20px;
-		margin-top: 0px !important;
+		/*margin-top: 0px !important;*/
+		margin-top: 180px;
 		/*height: 5px !important;*/
 	}
 	#heading{
-		/*margin-top: 30px;*/
+		/*margin-top: 180px;*/
+		/*padding-bottom: 136px;*/
 	}
 	.option_one h2{
 		/*margin-top: 160px;*/
@@ -1167,9 +1169,9 @@
 	}
 	.option_one{
 		width: 100%;
-		height: 440px;
+		height: 370px;
 		margin-left:-20px;
-		margin-top: 170px;
+		/*margin-top: 170px;*/
 	}
 	.option_two{
 		width: 100%;
@@ -1180,11 +1182,15 @@
 		width: 100%;
 		height: 450px;
 		margin-left:-20px;
+		margin-bottom: -62px;
 	}
 	.option_four{
 		width: 100%;
 		height: 490px;
 		margin-left:-20px;
+	}
+	.features_section ul {
+		margin-left: -45px;
 	}
 }
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/

@@ -254,7 +254,7 @@ p.box-desc{
 }
 .features_section ul{
   margin: 10px 0px;
-  margin-left: -45px;
+  /*margin-left: -45px;*/
 }
 .features_section ul li{
   width: 280px;
@@ -453,7 +453,8 @@ p.box-desc{
   height: 400px;
   float: left;
   width: 100%;
-  background: black url(../images/bg_travel1.png) 40% 34% no-repeat;
+  background: url(../images/bg_travel1.png) 40% 34% no-repeat;
+  background-color:rgba(239, 239, 240, 0.88);
 }
 .desc3 h2{
   font-size: 30px;
