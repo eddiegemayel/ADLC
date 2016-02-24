@@ -788,9 +788,10 @@
   .banner {
     padding: 0 0 20px 0 !important;
   }
-  .desc3 h2 {
+  .desc3 .option_heading h2 {
     padding-left: 9px;
-    padding-top: 48px;
+    /*padding-top: 48px;*/
+    /*margin-bottom: -30px;*/
   }
   .form.discount {
     margin-top: 120px !important;
@@ -1057,11 +1058,14 @@
 	}
 	.option_heading{
 		margin-left: -20px;
-		margin-top: 15px;
+		/*margin-top: 15px;*/
+	}
+	.option_one h2{
+		margin-top: 90px;
 	}
 	.option_one{
 		width: 100%;
-		height: 350px;
+		height: 400px;
 		margin-left:-20px;
 	}
 	.option_two{
@@ -1095,7 +1099,10 @@
   		line-height: 1;
 	}
 	.desc3{
-		height: 600px;
+		height: 1530px;
+	}
+	#heading{
+		padding-bottom: 124px;
 	}
 	.option_heading{
 		margin-left: -20px;
@@ -1113,12 +1120,12 @@
 	}
 	.option_three{
 		width: 100%;
-		height: 380px;
+		height: 400px;
 		margin-left:-20px;
 	}
 	.option_four{
 		width: 100%;
-		height: 380px;
+		height: 420px;
 		margin-left:-20px;
 	}
 }
@@ -1137,7 +1144,8 @@
   		line-height: 1;
 	}
 	.desc3{
-		height: 1650px !important;
+		height: 1690px !important;
+
 	}
 	.desc3 .container p{
 		line-height: 1.76;
@@ -1148,16 +1156,24 @@
 	.option_heading{
 		margin-left: -20px;
 		margin-top: 0px !important;
-		/*height: 10px;*/
+		/*height: 5px !important;*/
+	}
+	#heading{
+		/*margin-top: 30px;*/
+	}
+	.option_one h2{
+		/*margin-top: 160px;*/
+		/*height: 40px;*/
 	}
 	.option_one{
 		width: 100%;
-		height: 350px;
+		height: 440px;
 		margin-left:-20px;
+		margin-top: 170px;
 	}
 	.option_two{
 		width: 100%;
-		height: 370px;
+		height: 390px;
 		margin-left:-20px;
 	}
 	.option_three{
@@ -1167,7 +1183,7 @@
 	}
 	.option_four{
 		width: 100%;
-		height: 480px;
+		height: 490px;
 		margin-left:-20px;
 	}
 }
