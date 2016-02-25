@@ -640,6 +640,20 @@ form textarea:focus{
   border: 2px solid #888;
   background-color: #fff;
 }
+option{}
+select{
+  /*-webkit-appearance: none;*/
+/*  border: 0; 
+  font-family: "Open Sans",sans-serif;
+  float: right;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  */
+/*  position:relative;
+  margin-top: 15px;
+  left: 200px;*/
+}
 /*Is Visible*/
 .is-visible { display: block !important; 
   transition: all 0.5s ease-in !important;
