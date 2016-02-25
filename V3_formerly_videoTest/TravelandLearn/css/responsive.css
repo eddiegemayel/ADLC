@@ -926,7 +926,7 @@
 		font: inherit;
 		vertical-align: baseline;
 		font-family: 'Raleway', sans-serif;
-		width: 92%;
+		width: 98%;
 		float: none;
     }
 }
@@ -946,8 +946,8 @@
 		margin-top: -30px !important;
 	}
 	.desc3 .container{
-		margin-top: -60px !important;
-		margin-left: 10px;
+		margin-top: -55px !important;
+		/*margin-left: 10px;*/
 	}
 	.desc p{
 		margin-top: 0px !important;
@@ -1055,7 +1055,8 @@
   		line-height: 1;
 	}
 	.desc3{
-		height: 1470px;
+		height: 1420px;
+		/*height: */
 	}
 	.option_heading{
 		margin-left: -20px;
@@ -1066,12 +1067,12 @@
 	}
 	.option_one{
 		width: 100%;
-		height: 400px;
+		height: 360px;
 		margin-left:-20px;
 	}
 	.option_two{
 		width: 100%;
-		height: 350px;
+		height: 330px;
 		margin-left:-20px;
 	}
 	.option_three{
@@ -1100,10 +1101,10 @@
   		line-height: 1;
 	}
 	.desc3{
-		height: 1530px;
+		height: 1260px;
 	}
 	#heading{
-		padding-bottom: 124px;
+		/*padding-bottom: 124px;*/
 	}
 	.option_heading{
 		margin-left: -20px;
@@ -1111,23 +1112,23 @@
 	}
 	.option_one{
 		width: 100%;
-		height: 350px;
-		margin-left:-30px;
+		height: 270px;
+		margin-left:-20px;
 	}
 	.option_two{
 		width: 100%;
-		height: 350px;
-		margin-left:-30px;
+		height: 320px;
+		margin-left:-20px;
 	}
 	.option_three{
 		width: 100%;
-		height: 400px;
-		margin-left:-30px;
+		height: 350px;
+		margin-left:-20px;
 	}
 	.option_four{
 		width: 100%;
-		height: 420px;
-		margin-left:-30px;
+		height: 350px;
+		margin-left:-20px;
 	}
 }
 @media (min-width:20px) and (max-width:480px) {
@@ -1145,7 +1146,10 @@
   		line-height: 1;
 	}
 	.desc3{
-		height: 1690px !important;
+		/*height: 1060px !important;*/
+		height: 1510px !important;
+		margin-bottom: -60px;
+		background:none;
 	}
 	.desc3 .container p{
 		line-height: 1.76;
@@ -1155,39 +1159,29 @@
 	}
 	.option_heading{
 		margin-left: -20px;
-		/*margin-top: 0px !important;*/
-		margin-top: 180px;
-		/*height: 5px !important;*/
-	}
-	#heading{
 		/*margin-top: 180px;*/
-		/*padding-bottom: 136px;*/
-	}
-	.option_one h2{
-		/*margin-top: 160px;*/
-		/*height: 40px;*/
 	}
 	.option_one{
 		width: 100%;
-		height: 370px;
-		margin-left:-20px;
+		height: 310px;
+		margin-left:-10px;
 		/*margin-top: 170px;*/
 	}
 	.option_two{
 		width: 100%;
-		height: 390px;
-		margin-left:-20px;
+		height: 360px;
+		margin-left:-10px;
 	}
 	.option_three{
 		width: 100%;
-		height: 450px;
-		margin-left:-20px;
+		height: 470px;
+		margin-left:-10px;
 		margin-bottom: -62px;
 	}
 	.option_four{
 		width: 100%;
-		height: 490px;
-		margin-left:-20px;
+		height: 400px;
+		margin-left:-10px;
 	}
 	.features_section ul {
 		margin-left: -45px;
