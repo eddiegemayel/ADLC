@@ -207,7 +207,7 @@ form{
   font-weight: 100;
   padding: 20px 0px;
   display: block;
-  letter-spacing: 4px;
+  letter-spacing: -1px;
   text-transform: uppercase;
 }
 #mobileLogo{
@@ -216,7 +216,7 @@ form{
 #highlight{
   color:#37D9F5;
   font-size: 110%;
-  letter-spacing: 2px;
+  letter-spacing: -1px;
 }
 .desc3 .container ul li i{
   margin-right: 5px;
@@ -399,7 +399,7 @@ p.box-desc{
   width: 85%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  color: #aab1bf;
+  color: #71767F;
   margin-top: 45px !important;
   margin-bottom: 20px;
 }
@@ -428,7 +428,8 @@ p.box-desc{
   width: 120%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  color: #aab1bf;
+  /*color: #aab1bf;*/
+  color:#71767F;
   margin-top: 10px !important;
   line-height: 1.25;
   margin-left: -10px;
@@ -478,7 +479,7 @@ p.box-desc{
   width: 50%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  color: #aab1bf;
+  color: #71767F;
   margin-top: 17px !important;
   float:left;
   clear: left;
@@ -499,7 +500,7 @@ p.box-desc{
   font-size: 40px;
   padding: 20px 0px;
   display: block;
-  letter-spacing: 4px;
+  letter-spacing: -1px;
   text-transform: uppercase;
 }
 .important{
@@ -682,7 +683,7 @@ display: none;
   top: 415px; 
   right: 155px; 
   color: white; 
-  font: 20px Helvetica, Sans-Serif; 
+  font: 22px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
   padding: 10px;
   font-weight: 100;
@@ -693,7 +694,7 @@ display: none;
   top: 435px; 
   right: 155px; 
   color: white; 
-  font: 20px Helvetica, Sans-Serif; 
+  font: 22px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
   padding: 10px;
   font-weight: 100;
@@ -790,7 +791,7 @@ a.button.full:hover {
   font: bold 24px/45px Helvetica, Sans-Serif; 
   letter-spacing: -1px;  
   padding: 10px;
-  font-size: 45px;
+  font-size: 46px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
 }
 .info{
