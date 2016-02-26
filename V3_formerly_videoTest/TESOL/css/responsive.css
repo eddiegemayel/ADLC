@@ -848,7 +848,7 @@
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		height: 470px;
+		height: 200px;
 	}
 	.desc3{
 		height: 290px;
@@ -886,8 +886,6 @@
     	margin-left: 20px;
     }
 	 .contact_section form{
-    	/*margin-left: -10px;*/
-		/*padding: 25px 0px 0px 0px;*/
 		border: 0;
 		font-size: 100%;
 		font: inherit;
