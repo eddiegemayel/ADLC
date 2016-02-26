@@ -1,7 +1,6 @@
 <?php
 	#contact form
-    // $to="dp@ark101.com, rleslie@americandreamslc.com.do";
-    $to = "eddiegem16@gmail.com";
+    $to="dp@ark101.com, rleslie@americandreamslc.com.do";
     $date = date('Y/m/d');
     $sender = $_POST["name"];
     $senderEmail = $_POST["email"];

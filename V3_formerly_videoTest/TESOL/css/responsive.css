@@ -1093,6 +1093,9 @@
 	.desktop_margin{
 		margin-bottom: 0;
 	}
+	select{
+		width: 112%;
+	}
 }
 /*-------------------------------------------------------------------------Header/Logo/Banner Image Responsiveness*/
 @media (min-width:769px) and (max-width:860px){
