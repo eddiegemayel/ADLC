@@ -259,6 +259,7 @@ p.box-desc{
 .features_section ul{
   margin: 30px 0px;
   margin-left: -35px;
+  width: 108%;
 }
 .features_section ul li{
   width: 280px;
