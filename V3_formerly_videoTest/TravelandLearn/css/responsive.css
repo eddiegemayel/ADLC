@@ -519,25 +519,6 @@
 	.desc3{
 		height: 590px !important;
 	}
-	.important{
-		background: url(../images/desc3_mobile_android.jpg) 45% 64% no-repeat fixed !important;
-		height: 260px !important;
-		font-family: 'Open Sans', 'Raleway', sans-serif;
-  		text-align: center;
-  		padding: 49px 0px 70px 0px;
-  		margin-bottom: 0px;
-	}
-	.important .container h1{
-	 	font-size: 150%;
-	 	margin-top: -35px;
-	 	font-family: 'Open Sans', 'Raleway', sans-serif;
-     	text-decoration: none;
-     	color: #fff;
-     	padding: 20px 0px;
-     	display: block;
-     	letter-spacing: 4px;
-     	text-transform: uppercase;
-	}
 	.features2{
 		padding: -10px 0px 62px 0px !important;
 	}

@@ -532,24 +532,6 @@ p.box-desc{
 .desc3 .container li{
   margin-top: 8px;
 }
-.important .container h1{
-  font-family: 'Open Sans', 'Raleway', sans-serif;
-  text-decoration: none;
-  color: #fff;
-  font-size: 40px;
-  padding: 20px 0px;
-  display: block;
-  letter-spacing: 4px;
-  text-transform: uppercase;
-}
-.important{
-  background: url(../images/desc3_mobile_android.jpg) 40% 64%  no-repeat fixed !important;
-  height: 290px !important;
-  font-family: 'Open Sans', 'Raleway', sans-serif;
-  text-align: center;
-  padding: 49px 0px 70px 0px;
-  margin-bottom: 0px;
-}
 img.badge{
   float:left;
   margin-top: -50px;
@@ -649,24 +631,24 @@ form textarea{
   -webkit-transition: all 0.5s ease-in;
 }
 button.submit{
-background: #1C97CA;
-border: medium none;
-color: #FFF;
-padding: 15px 90px;
-font-size: 18px;
-font-weight: 600;
-font-family: "Open Sans",sans-serif;
-transition: all 0.3s ease 0s;
--o-transition: all 0.3s ease 0s;
--webkit-transition: all 0.3s ease 0s;
--ms-transition: all 0.3s ease 0s;
--moz-transition: all 0.3s ease 0s;
-margin-top: 20px;
-transition: background 0.3s ease-in;
-cursor: pointer;
-display: block;
-margin: 50px auto 0px;
-border-radius : 25px;
+  background: #1C97CA;
+  border: medium none;
+  color: #FFF;
+  padding: 15px 90px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Open Sans",sans-serif;
+  transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  margin-top: 20px;
+  transition: background 0.3s ease-in;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto 0px;
+  border-radius : 25px;
 }
 button.submit:hover{
   background:#00ccea;
@@ -723,7 +705,7 @@ display: none;
   right: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -734,7 +716,7 @@ display: none;
   right: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -807,7 +789,6 @@ display: none;
   color: black;
 }
 a.button.full{
-  /*padding: 21px 72px;*/
   font-size: 17px;
   background-color: #FF9735;
   transition-duration: 0.1s;
@@ -828,7 +809,7 @@ a.button.full:hover {
 .banner1 span{
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -865,7 +846,7 @@ a.button.full:hover {
   text-decoration: none;
   color: #c7c7c7;
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   margin-top: 10px;
