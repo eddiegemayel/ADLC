@@ -208,7 +208,7 @@ form{
   font-weight: 100;
   padding: 20px 0px;
   display: block;
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
   text-transform: uppercase;
 }
 #mobileLogo{
@@ -217,7 +217,7 @@ form{
 #highlight{
   color:#37D9F5;
   font-size: 110%;
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
 }
 .desc3 .container ul li i{
   margin-right: 5px;
@@ -501,7 +501,7 @@ p.box-desc{
   font-size: 40px;
   padding: 20px 0px;
   display: block;
-  letter-spacing: -1px;
+  /*letter-spacing: -1px;*/
   text-transform: uppercase;
 }
 .important{
@@ -697,7 +697,7 @@ select{
   right: 155px; 
   color: white; 
   font: 22px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -708,7 +708,7 @@ select{
   right: 155px; 
   color: white; 
   font: 22px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -801,7 +801,7 @@ a.button.full:hover {
 .banner1 span{
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-size: 46px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -837,8 +837,7 @@ a.button.full:hover {
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-decoration: none;
   color: #c7c7c7;
-  font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  font: 20px Helvetica, Sans-Serif;   
   padding: 10px;
   font-weight: 100;
   margin-top: 10px;
