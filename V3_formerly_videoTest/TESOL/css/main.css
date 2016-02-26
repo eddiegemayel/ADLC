@@ -424,12 +424,12 @@ p.box-desc{
   margin-top: 5px;
 }
 .desc2 p{
-  font-size: 12px;
+  font-size: 13.5px;
+  /*font-size: 12px;*/
   font-weight: 200;
   width: 120%;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
-  /*color: #aab1bf;*/
   color:#71767F;
   margin-top: 10px !important;
   line-height: 1.25;
@@ -439,12 +439,12 @@ p.box-desc{
   float:left;
   clear:none;
   margin:0px auto; 
-  width: 140px;
+  width: 150px;
   margin-right: 40px;
   margin-top: 20px;
 }
 .desc2 .container .icon_container{
-  width: 130%;
+  width: 110%;
   float:left;
   clear:none;
 }

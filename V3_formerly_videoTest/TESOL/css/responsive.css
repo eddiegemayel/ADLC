@@ -181,7 +181,7 @@
     }
     /*#dynamicInfo{visibility: hidden;}*/
     .desc2{
-		height: 480px;
+		height: 540px;
 	}
 	 .desc3{
 		height: 480px;
@@ -1002,8 +1002,11 @@
 	}
 }
 @media (min-width:1001px) and (max-width:1082px){
+	.desc2 .container .icon_container li:last-child{
+		margin-top: -145px;
+	}
 	.desc2 .container .icon_container{
-  		width: 50%;
+  		width: 70%;
   		margin-left: 200px;
 	}
 	.desc2 p{
@@ -1017,7 +1020,7 @@
 }
 @media (min-width:768px) and (max-width:1001px) {
 	.desc2 .container .icon_container{
-  		width: 50%;
+  		width: 65%;
   		margin-left: 210px;
 	}
 	.desc2 p{
@@ -1028,14 +1031,17 @@
 	.desktop_margin{
 		margin-bottom: 0;
 	}
+	.desc2 .container .icon_container li:last-child{
+		margin-top: -145px;
+	}
 }
 @media (min-width:640px) and (max-width:768px) {
 	.desc2 {
-		height: 370px;
+		height: 470px;
 		margin-bottom: 50px;
 	}
 	.desc2 .container .icon_container{
-  		width: 80%;
+  		width: 70%;
   		margin-left: 150px;
 	}
 	.desc2 p{
@@ -1045,6 +1051,9 @@
 	}
 	.desktop_margin{
 		margin-bottom: 0;
+	}
+	.desc2 .container .icon_container li:last-child{
+		margin-top: -145px;
 	}
 }
 @media (min-width:480px) and (max-width:640px) {
@@ -1070,12 +1079,12 @@
 }
 @media (min-width:20px) and (max-width:480px) {
 	.desc2 .container .icon_container{
-		margin-left: -15px;
+		margin-left: 55px;
 		margin-bottom: 10px;
 	}
 	.desc2{
 		margin-bottom: 20px;
-		height:470px !important;
+		height:1010px !important;
 	}
 	.desc2 p{
   		width: 100%;
