@@ -382,7 +382,7 @@
 	}
 	.desc h2 {
     	font-size: 22px;
-    	margin-top: 20px;
+    	margin-top: 40px;
 	}
 	.desc p {
     	font-size: 14px;
@@ -500,6 +500,7 @@
 	}	
 	.desc h2 {
     	font-size: 22px;
+    	margin-top: 20px;
 	}
 	.desc p {
     	font-size: 14px;
@@ -847,10 +848,10 @@
 /*desc2 Banner image*/
 @media (min-width:1080px) and (max-width:1242px){
 	.desc2{
-		height: 260px;
+		height: 470px;
 	}
 	.desc3{
-		height: 260px;
+		height: 290px;
 	}
 }
 
