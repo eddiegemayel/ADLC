@@ -601,7 +601,7 @@ display: none;
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -612,7 +612,7 @@ display: none;
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -711,7 +711,7 @@ a.button.full:hover {
 .banner1 span{
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 

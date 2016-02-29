@@ -603,24 +603,29 @@
  	}		
 	.banner1 span{
    		font-size: 25px;
+   		letter-spacing: -1px;
 	}
 	.banner1 h1{
   		top: -3px; 
   		left: 0px; 
+  		letter-spacing: -1px;
 	}
 	.banner1 h2{
  	 top: 24px; 
   	 left: 0px; 
+  	 letter-spacing: -1px;
 	}
 	.banner1 .line1{
   		top: 50px; 
   		left: 0px; 
   		font-size: 13px;
+  		letter-spacing: -1px;
 	}
 	.banner1 .line2{
   		top: 64px; 
   		left: 0px; 
   		font-size: 13px;
+  		letter-spacing: -1px;
 	}
 	.banner1 a{
     	top: 110px; 
@@ -672,7 +677,7 @@
     }
     #watchBtn{
 	 left:40px;
-	 top:97px;
+	 top:110px;
 	 font-size: 16px;
 	 font-weight: 400; 
 	 border:3px #fff solid;
