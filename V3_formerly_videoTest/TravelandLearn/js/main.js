@@ -197,7 +197,8 @@ $(window).load(function(){
     //if its iOs
     //add padding to watch button 
     $("#mobileLogo").css("margin-left", "42px");
-    $(".desc").css("margin-top", "-395px");
+    $(".desc").css("margin-top", "-445px");
+    $(".desc").css("padding", "0px");
     $("#stickyBtn").css("width", "55%");
     $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
@@ -210,7 +211,8 @@ $(window).load(function(){
   }
   else if(isIphone){
     $("#mobileLogo").css("margin-left", "42px");
-    $(".desc").css("margin-top", "-395px");
+    $(".desc").css("margin-top", "-445px");
+    $(".desc").css("padding", "0px");
     $("#stickyBtn").css("width", "55%");
    $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
