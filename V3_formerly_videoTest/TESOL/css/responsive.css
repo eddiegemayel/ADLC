@@ -433,11 +433,13 @@
 	}
 	.banner1 .line1{
   		top: 115px; 
-  		right: 10px; 
+  		right: 10px;
+  		letter-spacing:-1px; 
 	}
 	.banner1 .line2{
   		top: 130px; 
-  		right: 10px; 
+  		right: 10px;
+  		letter-spacing:-1px; 
 	}
 	.banner1 a{
     	left:15px;
@@ -1082,7 +1084,7 @@
 }
 @media (min-width:20px) and (max-width:480px) {
 	.desc2 .container .icon_container{
-		margin-left: 55px;
+		margin-left: 60px;
 		margin-bottom: 10px;
 	}
 	.desc2{
