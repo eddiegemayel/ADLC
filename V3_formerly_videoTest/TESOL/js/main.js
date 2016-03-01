@@ -195,8 +195,8 @@ $(window).load(function(){
   }else if(isIpod){
     //if its iOs
     //add padding to watch button 
-    $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
+    $("#stickyBtn").css("width", "56%");
     $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
@@ -207,8 +207,8 @@ $(window).load(function(){
     });
   }
   else if(isIphone){
-    $("#watchBtn").css("left", "25px");
-    $("#mobileLogo").css("margin-left", "42px")
+    $("#mobileLogo").css("margin-left", "42px");
+    $("#stickyBtn").css("width", "56%");
    $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
