@@ -184,6 +184,7 @@ $(window).load(function(){
   if(isAndroid) {
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
+    $(".desc").css("margin-top", "-375px");
     $(".input").focus(function() {
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
@@ -195,8 +196,9 @@ $(window).load(function(){
   }else if(isIpod){
     //if its iOs
     //add padding to watch button 
-    $("#watchBtn").css("left", "25px");
     $("#mobileLogo").css("margin-left", "42px");
+    $(".desc").css("margin-top", "-395px");
+    $("#stickyBtn").css("width", "55%");
     $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
@@ -207,8 +209,9 @@ $(window).load(function(){
     });
   }
   else if(isIphone){
-    $("#watchBtn").css("left", "25px");
-    $("#mobileLogo").css("margin-left", "42px")
+    $("#mobileLogo").css("margin-left", "42px");
+    $(".desc").css("margin-top", "-395px");
+    $("#stickyBtn").css("width", "55%");
    $(".input").click(function(){
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
