@@ -381,8 +381,14 @@ p.box-desc{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   text-align: center;
   padding: 80px 0px;
-  margin-top: 95px !important;
+  margin-top: 95px;
   background-image: url(../images/bg_travel2.png);
+}
+.desc_android{
+  margin-top: -375px !important;
+}
+.desc_ios{
+  margin-top: -400px !important;
 }
 .desc h2{
   font-size: 30px;
