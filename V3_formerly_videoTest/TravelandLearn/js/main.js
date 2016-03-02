@@ -184,7 +184,7 @@ $(window).load(function(){
   if(isAndroid) {
     $("#desc2").removeClass("desc2");
     $("#desc2").addClass("important");
-    $("#desc").addClass("desc_android");
+    // $("#desc").addClass("desc_android");
     $(".input").focus(function() {
       $("#stickyBtn").css("display", "none");
       $("#stickyBtn").css("visibility", "hidden");
