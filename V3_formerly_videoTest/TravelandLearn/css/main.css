@@ -385,10 +385,10 @@ p.box-desc{
   background-image: url(../images/bg_travel2.png);
 }
 .desc_android{
-  margin-top: -375px !important;
+  /*margin-top: -300px !important;*/
 }
 .desc_ios{
-  margin-top: -400px !important;
+  margin-top: -350px !important;
 }
 .desc h2{
   font-size: 30px;
