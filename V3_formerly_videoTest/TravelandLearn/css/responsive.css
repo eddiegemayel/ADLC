@@ -6,6 +6,9 @@
 	.banner{
 		padding: 140px 0px;
 	}
+	.desc .container h2{
+ 	 margin-top: 430px !important;
+	}
 }
 
 /*--------------------------------------------------------------------------------------------------------------*/
@@ -494,7 +497,7 @@
     	padding: 60px 0px;
 	}
 	.desc{
-		margin-top: -350px;
+		margin-top: -370px;
 	}	
 	.desc h2 {
     	font-size: 22px;
