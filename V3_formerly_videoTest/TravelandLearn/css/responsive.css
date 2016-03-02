@@ -445,7 +445,8 @@
   		right: 10px; 
 	}
 	.banner1 a{
-    	left:15px;
+    	/*left:15px;*/
+    	right: 10px;
 		top:215px;
 		width: 148px;
 	}
@@ -466,14 +467,6 @@
 	}
 	.desc3 .container{
 		width: 100% !important;
-	}
-	#l2{
-  		width: 100%;
-  		margin-left: -37px;
-	}
-	#l3{
-  		width: 100%;
-  		margin-left: -40px;
 	}
 	.banner{
 		padding: 140px 0px 60px;
@@ -731,9 +724,6 @@
 	button.enviar {
 		padding: 15px 50px !important;
 	}
-	.white, .green {
-    	padding: 15px 35px;
-    }
 	.video{
     	display: none;
     }
@@ -823,7 +813,7 @@
   #logo{
    	text-align: center;
     vertical-align: middle;
-    margin-left: 17%;
+    margin-left: 15% !important;
   }
 }
 /*desc2 Banner image*/
@@ -920,7 +910,7 @@
 
 @media (min-width:20px) and (max-width: 1701px) {
 	.container{
-		margin-top: -30px !important;
+		margin-top: -20px !important;
 	}
 	.desc3 .container{
 		margin-top: -55px !important;
