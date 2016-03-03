@@ -126,7 +126,7 @@
 	}
 	.desc{
 		margin-top: -40px !important;
-		height: 60px;
+		/*height: 60px;*/
 	}
 	.desc h2{
     	font-size: 25px;
@@ -391,7 +391,7 @@
     	line-height: 35px;
 	}
 	.desc {
-    	padding: 60px 0px;
+    	/*padding: 60px 0px;*/
 	}
 	.desc{
 		margin-top: -280px !important;
