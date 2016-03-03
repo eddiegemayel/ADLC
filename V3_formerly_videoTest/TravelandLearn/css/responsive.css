@@ -931,8 +931,17 @@
 }
 
 @media (min-width:769px) and (max-width:1081px) {
+	.list_one{
+		margin-left:90px;
+	}
+	.list_two{
+		margin-left:90px;
+	}
+	.list_three{
+		margin-left:90px;
+	}
 	.list_four{
-		margin-left:250px;
+		margin-left:90px;
 	}
 	.option_one{
 		width: 50%;
