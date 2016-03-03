@@ -212,17 +212,12 @@
 	.header-text h2 {
     	font-size: 34px;
 	}
-	.small-text {
-    	width: 85%;
-    	margin: 0px auto;
-    	font-size: 16px;
-	}
 	.desc{
 		margin-top: -120px !important;
 	}
 	.desc h2 {
     	font-size: 25px;
-    	margin-top: 40px;
+    	margin-top: 84px;
 	}
 	.desc p {
     	font-size: 16px;
