@@ -2,12 +2,20 @@
 /*--------------------------------------------------------------------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------For Larger screens*/
 /*--------------------------------------------------------------------------------------------------------------*/
-@media (min-width: 1601px) and (max-width: 2000px){
+@media (min-width:1701px) and (max-width:2300px){
+	.desc{
+		margin-top: 390px !important;
+	}
+}
+@media (min-width: 1601px) and (max-width: 1701px){
 	.banner{
 		padding: 140px 0px;
 	}
 	.desc .container h2{
- 	 margin-top: 430px !important;
+ 	 margin-top: 190px !important;
+	}
+	.desc{
+		margin-top: -60px !important;
 	}
 }
 
@@ -497,7 +505,7 @@
     	padding: 60px 0px;
 	}
 	.desc{
-		margin-top: -370px;
+		margin-top: -320px;
 	}	
 	.desc h2 {
     	font-size: 22px;
@@ -1161,7 +1169,7 @@
 @media (min-width:769px) and (max-width:860px){
 	.desc{
 		margin-top: -83px !important;
-		height: 100px;
+		/*height: 100px;*/
 	}
 	.desc h2{
 		margin-top: 10px;
