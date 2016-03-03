@@ -445,6 +445,7 @@ p.box-desc{
 }
 .desc2 .container .icon_container{
   width: 110%;
+  margin-left: -26px;
   float:left;
   clear:none;
 }
