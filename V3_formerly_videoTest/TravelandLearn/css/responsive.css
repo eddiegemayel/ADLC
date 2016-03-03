@@ -85,7 +85,6 @@
     	height: 640px;
     }
     #dynamicInfo{
-    	/*visibility: hidden;*/
     	font-size:150%;
     }
 }
@@ -126,7 +125,6 @@
 	}
 	.desc{
 		margin-top: -40px !important;
-		/*height: 60px;*/
 	}
 	.desc h2{
     	font-size: 25px;
@@ -505,10 +503,11 @@
     	padding: 60px 0px;
 	}
 	.desc{
-		margin-top: -318px;
+		margin-top: -339px;
 	}	
 	.desc h2 {
     	font-size: 22px;
+    	padding-top: 30px;
 	}
 	.desc p {
     	font-size: 14px;
