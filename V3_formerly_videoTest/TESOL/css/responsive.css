@@ -969,9 +969,24 @@
 	}
 }
 
-@media (min-width:769px) and (max-width:1600px) {
+@media (min-width:1080px) and (max-width:1600px) {
 	.list_four{
 		margin-right:100px;
+	}
+}
+@media (min-width:769px) and (max-width:1080px) {
+	.list_one{
+		margin-left: 110px;
+	}
+	.list_two{
+		margin-left: 110px;
+	}
+	.list_three{
+		margin-left: 110px;
+		margin-right: 199px;
+	}
+	.list_four{
+		margin-left:-90px;
 	}
 }
 
