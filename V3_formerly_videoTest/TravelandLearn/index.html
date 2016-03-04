@@ -219,7 +219,14 @@ outros destinos praticando <span id="highlight">inglês</span><span style="font-
                   <form id="contact" method="POST" action="contact.php">
                     <input class="input" type="text" name="name" placeholder="Name" required/>
                     <input class="input" type="email" name="email" placeholder="Email" required/>
-                    <input class="input" type="tel" name="phone" placeholder="Phone Number" required/>
+                    <input class="input" type="tel" name="phone" placeholder="Phone Number" required style="margin-bottom:20px;"/>
+                    <select class="input" name="dropdown" required>
+                        <option selected value="No Subject Selected">Choose Subject</option>
+                        <option value="TESOL">TESOL</option>
+                        <option value="Travel">Travel</option>
+                        <option value="Regular Courses">Regular Courses</option>
+                        <option value="Other">Other...</option>
+                    </select>
                     <button type="submit" class="submit">Send</button>
                   </form>
               </div>

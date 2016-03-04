@@ -2,9 +2,9 @@
 	#contact form
     $to="dp@ark101.com, rleslie@americandreamslc.com.do";
     $date = date('Y/m/d');
-    $sender=$_POST["name"];
-    $senderEmail=$_POST["email"];
-    $subject="Submission from ' $senderEmail ' on $date -- from 'ADLC DR' ";
+    $sender = $_POST["name"];
+    $senderEmail = $_POST["email"];
+    $subject =" Submission from ' $senderEmail ' on $date -- from 'ADLC DR' ";
     $phone = $_POST["phone"];
 
     // $headers = "From: $sender\r\n";

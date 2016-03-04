@@ -1,5 +1,5 @@
 <?php
-	#contact form
+	#contact form 
     $to="dp@ark101.com, eg@ark101.com";
     $date = date('Y/m/d');
     $sender = $_POST["name"];
@@ -14,6 +14,11 @@
     #mail function, sends the email to specified link
     mail($to, $subject, $message);
 
-    #put user back to the home page
-    header("Location: index.html");
+    #test if mail doesnt send
+    if(!mail($to, $subject, $message)){
+        echo '<h3>Message Not Sent. Please <a href="index.html">Try Again.</a></h3>';
+    }else{
+         #put user back to the home page
+        header("Location: index.html");
+    }
 ?>
