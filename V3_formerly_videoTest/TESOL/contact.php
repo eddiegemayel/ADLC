@@ -1,7 +1,7 @@
 <?php
 	#contact form 
-    // $to="dp@ark101.com, eg@ark101.com";
-    $to ="ewg@ark101.com" ;
+    $to="dp@ark101.com, eg@ark101.com";
+    // $to ="ewg@ark101.com" ;
     // $to  = 'dp@ark101.com' . ', '; // note the comma
     // $to .= 'eg@ark101.com';
     $date = date('Y/m/d');
