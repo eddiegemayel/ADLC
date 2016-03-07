@@ -15,9 +15,9 @@
     $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nSelection: $dropdown \nFrom: www.americandreamslc.com/tesol";
 
     // Additional headers 
-    // $headers = 'To: Eddie <ewg@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
+    $headers = 'To: Davi <dp@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
     // $headers = 'To: Davi <dp@ark101.com>' . "\r\n";
-    // $headers = 'From: TESOL <ewg@ark101.com>' . "\r\n";
+    $headers = 'From: TESOL <info@americandreamslc.com>' . "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
     #mail function, sends the email to specified link
