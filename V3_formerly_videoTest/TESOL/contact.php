@@ -1,6 +1,6 @@
 <?php
 	#contact form 
-    $to="ewg@ark101.com";
+    $to="dp@ark101.com";
     // $to  = 'dp@ark101.com' . ', '; // note the comma
     // $to .= 'eg@ark101.com';
     $date = date('Y/m/d');
@@ -15,7 +15,7 @@
 
     // Additional headers 
     // $headers = 'To: Eddie <ewg@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
-    $headers = 'To: Eddie <ewg@ark101.com>' . "\r\n";
+    $headers = 'To: Davi <dp@ark101.com>' . "\r\n";
     $headers = 'From: TESOL <ewg@ark101.com>' . "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
