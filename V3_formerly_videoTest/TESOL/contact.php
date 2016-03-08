@@ -12,11 +12,11 @@
     $dropdown = $_POST["dropdown"];
 
     #message to appear in email sent
-    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nSelection: $dropdown \nFrom: www.americandreamslc.com/tesol";
+    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nSelection: $dropdown \nFrom: tesol site";
 
     // Additional headers 
-    $headers = 'To: Davi <dp@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
-    // $headers = 'To: Davi <dp@ark101.com>' . "\r\n";
+    // $headers = 'To: Davi <dp@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
+    // $headers = 'To: Eddie <ewg@ark101.com>' . "\r\n";
     $headers = 'From: TESOL <info@americandreamslc.com>' . "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
@@ -32,4 +32,5 @@
         // var_dump($message);
         header("Location: index.html");
     }
+        
 ?>
