@@ -5,11 +5,10 @@
     // $to  = 'dp@ark101.com' . ', '; // note the comma
     // $to .= 'eg@ark101.com';
 
-
     $date = date('Y/m/d');
     $sender = $_POST["name"];
     $senderEmail = $_POST["email"];
-    $subject = "Submission from ' $senderEmail ' on $date -- from 'TESOL' ";
+    $subject = "Customer Inquiry -- from 'TESOL' ";
     $phone = $_POST["phone"];
     $dropdown = $_POST["dropdown"];
 
@@ -23,6 +22,7 @@
     $headers .= "Content-type: text/plain; charset=iso-8859-1". "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
+
     #mail function, sends the email to specified link
     // mail($to, $subject, $message);
 
@@ -32,7 +32,6 @@
         echo '<h3>Message Not Sent. Please <a href="index.html">Try Again.</a></h3>';
     }else{
          #put user back to the home page
-        // var_dump($message);
         header("Location: index.html");
     }
 
