@@ -4,6 +4,7 @@
     // $to ="ewg@ark101.com" ;
     // $to  = 'dp@ark101.com' . ', '; // note the comma
     // $to .= 'eg@ark101.com';
+    
 
     $date = date('Y/m/d');
     $sender = $_POST["name"];
@@ -18,7 +19,7 @@
     // Additional headers 
     $headers = 'To: Davi <dp@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
     // $headers = 'To: Eddie <ewg@ark101.com>' . "\r\n";
-    $headers = 'From: TESOL <info@americandreamslc.com>' . "\r\n";
+    $headers .= 'From: TESOL <info@americandreamslc.com>' . "\r\n";
     $headers .= "Content-type: text/plain; charset=iso-8859-1\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
