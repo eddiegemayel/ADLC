@@ -4,6 +4,7 @@
     // $to ="ewg@ark101.com" ;
     // $to  = 'dp@ark101.com' . ', '; // note the comma
     // $to .= 'eg@ark101.com';
+    
     $date = date('Y/m/d');
     $sender = $_POST["name"];
     $senderEmail = $_POST["email"];
