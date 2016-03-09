@@ -702,11 +702,18 @@ display: none;
 }
 a.button.full{
   /*padding: 21px 62px !important;*/
-  font-size: 15px;
+/*  font-size: 15px;
   padding-top: 15px !important;
   padding-bottom: 24px !important;
   padding-left: 62px;
   padding-right: 62px;
+  background-color: #FF9735;
+  transition-duration: 0.1s;
+  transition: all 0.2s, color 0.2s;
+  animation: all spinAround 2s linear infinite;
+  height: 24px;*/
+  padding: 21px 72px !important;
+  font-size: 17px;
   background-color: #FF9735;
   transition-duration: 0.1s;
   transition: all 0.2s, color 0.2s;
