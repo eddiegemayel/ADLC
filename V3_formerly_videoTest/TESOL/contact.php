@@ -22,11 +22,7 @@
     // $headers .= "Content-type: text/plain; charset=iso-8859-1". "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
-
-
     #mail function, sends the email to specified link
-    // mail($to, $subject, $message);
-
     #test if mail doesnt send
     if(!mail($to, $subject, $message)){
         // echo "Mailer Error: " . $mail->ErrorInfo;
