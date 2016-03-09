@@ -18,7 +18,7 @@
     // Additional headers 
     // $headers = 'To: Davi <dp@ark101.com>, Emilio <eg@ark101.com>' . "\r\n";
     // $headers = 'To: Eddie <ewg@ark101.com>' . "\r\n";
-    // $headers .= 'From: TESOL <info@americandreamslc.com>' . "\r\n";
+    // $headers .= 'From: TESOL <info@americandreamslc.com.do>' . "\r\n";
     // $headers .= "Content-type: text/plain; charset=iso-8859-1". "\r\n";
     // $headers .= 'Cc: eg@ark101.com' . "\r\n";
 
