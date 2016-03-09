@@ -36,38 +36,5 @@
         header("Location: index.html");
     }
 
-//     if(isset($_POST['submit']))
-// {
-//     /* ****Important!****
-//     replace name@your-web-site.com below 
-//     with an email address that belongs to 
-//     the website where the script is uploaded.
-//     For example, if you are uploading this script to
-//     www.my-web-site.com, then an email like
-//     form@my-web-site.com is good.
-//     */
-
-//     $from_add = "info@americandreamslc.com"; 
-
-//     $to_add = "ewg@ark101.com"; //<-- put your yahoo/gmail email address here
-
-//     $subject = "Test Subject";
-//     $message = "Test Message";
-    
-//     $headers = "From: $from_add \r\n";
-//     $headers .= "Reply-To: $from_add \r\n";
-//     $headers .= "Return-Path: $from_add\r\n";
-//     $headers .= "X-Mailer: PHP \r\n";
-    
-    
-//     if(mail($to_add,$subject,$message,$headers)) 
-//     {
-//         $msg = "Mail sent OK";
-//     } 
-//     else 
-//     {
-//        $msg = "Error sending email!";
-//     }
-// }
         
 ?>
