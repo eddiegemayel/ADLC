@@ -1,10 +1,11 @@
 <?php
 	#contact form
-    $to="dp@ark101.com, eg@ark101.com";
+    // $to="dp@ark101.com, eg@ark101.com";
+    $to="ewg@ark101.com";
     $date = date('Y/m/d');
     $sender = $_POST["name"];
     $senderEmail = $_POST["email"];
-    $subject = "Submission from ' $senderEmail ' on $date -- from 'Travel and Learn' ";
+    $subject = "Customer Inquiry from ' $senderEmail ' on $date -- 'Travel and Learn' ";
     $phone = $_POST["phone"];
     $dropdown = $_POST["dropdown"];
 

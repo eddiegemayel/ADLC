@@ -1,6 +1,7 @@
 <?php
 	#contact form
     $to="dp@ark101.com, rleslie@americandreamslc.com.do";
+    // $to = "ewg@ark101.com";
     $date = date('Y/m/d');
     $sender=$_POST["name"];
     $senderEmail=$_POST["email"];

@@ -8,7 +8,7 @@
     $date = date('Y/m/d');
     $sender = $_POST["name"];
     $senderEmail = $_POST["email"];
-    $subject = "Customer Inquiry -- from 'TESOL' ";
+    $subject = "Customer Inquiry from ' $senderEmail ' on $date -- 'TESOL' ";
     $phone = $_POST["phone"];
     $dropdown = $_POST["dropdown"];
 
@@ -24,13 +24,18 @@
 
     #mail function, sends the email to specified link
     #test if mail doesnt send
-    if(!mail($to, $subject, $message)){
-        // echo "Mailer Error: " . $mail->ErrorInfo;
-        echo '<h3>Message Not Sent. Please <a href="index.html">Try Again.</a></h3>';
-    }else{
-         #put user back to the home page
-        header("Location: index.html");
-    }
+    // if(!mail($to, $subject, $message)){
+    //     // echo "Mailer Error: " . $mail->ErrorInfo;
+    //     echo '<h3>Message Not Sent. Please <a href="index.html">Try Again.</a></h3>';
+    // }else{
+    //      #put user back to the home page
+    //     header("Location: index.html");
+    // }
+    
+    #mail function, sends the email to specified link
+    mail($to, $subject, $message);
 
+    #put user back to the home page
+    header("Location: index.html");
         
 ?>
