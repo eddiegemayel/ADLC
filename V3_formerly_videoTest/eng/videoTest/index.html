@@ -172,7 +172,13 @@ src="https://www.google.com/maps/embed/v1/place?q=169%20Market%20St%2C%20Newark%
                   <form id="contact" method="POST" action="contact.php">
                     <input class="input" type="text" name="name" placeholder="Name" required/>
                     <input class="input" type="email" name="email" placeholder="Email" required/>
-                    <input class="input" type="tel" name="phone" placeholder="Phone Number" required/>
+                    <input class="input" type="tel" name="phone" placeholder="Phone Number" required style="margin-bottom:20px;"/>
+                    <select class="input" name="dropdown" required>
+                      <!--  -->
+                        <option value="I want to Study">I want to Study</option>
+                        <option value="I want to work">I want to work</option>
+                        <!-- <option value="Other">Other...</option> -->
+                    </select>
                     <button type="submit" class="submit">Send</button>
                   </form>
               </div>
