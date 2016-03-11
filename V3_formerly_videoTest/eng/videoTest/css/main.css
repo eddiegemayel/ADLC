@@ -22,6 +22,7 @@ body {
 ol, ul {
   list-style: none;
   padding: 20px 0px;
+  /*width: 1400px;*/
 }
 blockquote, q {
   quotes: none;
@@ -161,12 +162,13 @@ form{
   color:#fff;
   transition: 0.5s ease-in-out;
   overflow: hidden;
+  font-size: 13px;
 }
 .hamburger_links{
   list-style-type:none;
   text-decoration: none;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   /*background-color:#37D9F5;*/
 }
 .hamburger_links:hover{
@@ -183,9 +185,13 @@ form{
   margin-left: 5px;
   margin-top: 10px;
 }
+#list_group_4{
+  margin-left: 200px;
+}
 .list_right{
-  float: right;
+  /*float: right;*/
   clear: none;
+  /*margin-left: 30px;*/
 }
 #flag{
   border-radius:10px;
