@@ -45,18 +45,6 @@ form{
   font-family: 'Open Sans', 'Raleway', sans-serif;
   width: 50%;
   float: right;
-   margin-top:-25px;
-}
-select{
-  /*-webkit-appearance: none;*/
-  border: 0; 
-  font-family: "Open Sans",sans-serif;
-  /*float: right;*/
-  height: 40px;
-  width: 106%;
-  margin-top: 5px;
-  display: block;
-  font-size: 15px; 
 }
 .features_section ul li i{
   /*color:#FF9735;*/

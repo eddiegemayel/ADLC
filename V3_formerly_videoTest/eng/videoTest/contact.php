@@ -7,7 +7,7 @@
     $senderEmail=$_POST["email"];
     $subject="Submission from ' $senderEmail ' on $date -- from 'ADLC ENG' ";
     $phone = $_POST["phone"];
-    $dropdown = $_POST["dropdown"];
+    // $dropdown = $_POST["dropdown"];
 
     // $headers = "From: $sender\r\n";
 	// $headers .= "Reply-To: myplace2@example.com\r\n";
@@ -15,7 +15,7 @@
 	// $headers .= "CC: ewg@ark101.com\r\n";date("Y/m/d");
 
     #message to appear in email sent
-    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nSelection: $dropdown \nFrom: www.americandreamslc.com";
+    $message="Name: $sender\nEmail: $senderEmail\n$message  \nPhone Number: $phone \nFrom: www.americandreamslc.com";
 
     #mail function, sends the email to specified link
     mail($to, $subject, $message);
