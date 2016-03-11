@@ -270,6 +270,7 @@ p.box-desc{
   bottom:-33px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 #svg_two{
   position: relative;
@@ -279,6 +280,7 @@ p.box-desc{
   bottom:-31px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 #svg_three{
   position: relative;
@@ -288,6 +290,7 @@ p.box-desc{
   bottom:-33px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 .features_section ul .list_one i{
   position: relative;
@@ -601,7 +604,7 @@ display: none;
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -612,7 +615,7 @@ display: none;
   left: 155px; 
   color: white; 
   font: 20px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-weight: 100;
   font-family: 'Open Sans', 'Raleway', sans-serif; 
@@ -711,7 +714,7 @@ a.button.full:hover {
 .banner1 span{
 	color: white; 
   font: bold 24px/45px Helvetica, Sans-Serif; 
-  letter-spacing: -1px;  
+  /*letter-spacing: -1px;  */
   padding: 10px;
   font-size: 45px;
   font-family: 'Open Sans', 'Raleway', sans-serif; 

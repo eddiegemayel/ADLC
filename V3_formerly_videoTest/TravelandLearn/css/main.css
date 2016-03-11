@@ -278,6 +278,7 @@ p.box-desc{
   bottom:-33px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 #svg_two{
   position: relative;
@@ -287,6 +288,7 @@ p.box-desc{
   bottom:-31px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 #svg_three{
   position: relative;
@@ -296,6 +298,7 @@ p.box-desc{
   bottom:-33px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 #svg_four{
   position: relative;
@@ -305,6 +308,7 @@ p.box-desc{
   bottom:-33px;
   margin: 0;
   padding: 0;
+  visibility: hidden;
 }
 .features_section ul .list_one i{
   position: relative;
