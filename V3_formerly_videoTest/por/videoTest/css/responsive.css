@@ -1072,6 +1072,9 @@
 	.banner1 img{
   		height:640px; 
 	}
+	#list_group_4{
+		margin-left: 120px;
+	}
 }
 @media (min-width:1400px) and (max-width:1500px){
 	.logo_menu{
@@ -1080,13 +1083,19 @@
 	.banner1 img{
   		height:630px; 
 	}
+	#list_group_4{
+		margin-left: 100px;
+	}
 }
 @media (min-width:1300px) and (max-width:1400px){
 	.logo_menu{
-		margin-left: -40px;
+		margin-left: -30px;
 	}
 	.banner1 img{
   		height:600px; 
+	}
+	#list_group_4{
+		margin-left: 80px;
 	}
 }
 @media (min-width:1200px) and (max-width:1300px){
@@ -1096,39 +1105,62 @@
 	.banner1 img{
   		height:590px; 
 	}
+	#list_group_4{
+		margin-left: 58px;
+	}
 }
 @media (min-width:1100px) and (max-width:1200px){
 	.logo_menu{
-		margin-left: 55px;
+		margin-left: 15px;
 	}
 	.banner1 img{
   		height:580px; 
 	}
+	#list_group_4{
+		margin-left: 20px;
+	}
 }
 @media (min-width:1000px) and (max-width:1100px){
 	.logo_menu{
-		margin-left: -50px;
+		margin-left: -30px;
 	}
 	.banner1 img{
   		height:520px; 
 	}
+	#list_group_4{
+  		margin-left: 15px;
+	}
 }
 @media (min-width:888px) and (max-width:1000px){
 	.logo_menu{
-		margin-left: -80px;
+		margin-left: -30px;
 	}
 	.banner1 img{
   		height:500px; 
+	}
+	#list_group_4{
+  		margin-left: 5px;
+	}
+	#flag{
+		visibility: hidden;
+		display: none;
 	}
 }
 @media (min-width:826px) and (max-width:888px){
 	.logo_menu{
 		margin-left: -50px;
 	}
+	#list_group_4{
+  		margin-left: 5px;
+	}
 }
 @media (min-width:768px) and (max-width:826px){
 	.logo_menu{
-		margin-left: -20px !important;
+		margin-left: -170px !important;
+	}
+	.list_right{
+		display: none !important;
+		visibility: hidden;
 	}
 }
 @media (min-width:700px) and (max-width:768px){

@@ -166,7 +166,7 @@ form{
   list-style-type:none;
   text-decoration: none;
   margin-left: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   /*background-color:#37D9F5;*/
 }
 .hamburger_links:hover{
@@ -183,8 +183,11 @@ form{
   margin-left: 5px;
   margin-top: 10px;
 }
+#list_group_4{
+   margin-left: 200px;
+}
 .list_right{
-  float: right;
+  /*float: right;*/
   clear: none;
 }
 #flag{
